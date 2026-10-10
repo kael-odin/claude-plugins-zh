@@ -1,0 +1,9 @@
+{
+  "e1ccefd5cfcc99f8": {
+    "zh": "DataHub 开发与交互工具包，涵盖连接器规划、PR 评审、目录搜索、元数据增强、血缘追踪、数据质量管理与连接配置等 skill",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

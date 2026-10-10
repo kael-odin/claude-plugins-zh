@@ -1,0 +1,9 @@
+{
+  "086755caefeb88a8": {
+    "zh": "预设 CLI skills，用于由 `sup` CLI（PyPI 包 `superset-sup`）驱动的显式 shell、脚本编写和 CI/CD 工作流。仅用于 CLI 工作流；请勿用于仅涉及 MCP 的工作，也不要在用户需要 HTTP/SDK 代码时替代直接 API 调用。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

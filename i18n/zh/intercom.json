@@ -1,0 +1,9 @@
+{
+  "bd2e2aaaf925bc01": {
+    "zh": "Claude Code 的 Intercom 集成。搜索对话、分析客户支持模式、查找联系人和公司，并安装 Intercom Messenger。连接你的 Intercom 工作区，从客户数据中获取实时洞察。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "e5b37f01ae0985e0": {
+    "zh": "将你的 Amazon Seller Central 账户连接到 Claude。询问销售、库存和 Listing 表现，获取基于你自身数据的建议，然后在每一项 Listing、库存或 FBA 操作执行前进行审查和批准。已内置 Amazon Selling Partner MCP server（首次使用时进行 Seller Central OAuth）。目前处于 beta 阶段。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

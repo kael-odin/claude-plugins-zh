@@ -1,0 +1,9 @@
+{
+  "f100e5d10810e73c": {
+    "zh": "直接在 Claude 中运行你的 HubSpot 销售工作流。所添加的 skills 覆盖完整销售日程：将联系人和交易导入 HubSpot，获取按优先级排序的晨间简报，借助完整 CRM 上下文为任意通话做准备，基于交易历史起草个性化跟进内容，通过描述通话情况记录通话并更新记录，以及审查销售管道以发现停滞的交易。所有内容都会写回 HubSpot。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

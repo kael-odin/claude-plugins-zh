@@ -1,0 +1,9 @@
+{
+  "c1ae6b04d8a6febf": {
+    "zh": "Vibe Prospecting 将 Claude 连接到实时的 B2B 公司和联系人数据，让用户能够大规模搜索、匹配、扩充、筛选和导出潜客。它把自然语言请求转化为结构化的 GTM 工作流，用于在 Claude Cowork 和 Claude Code 中完成线索生成、CRM 数据扩充、公司调研、高管挖掘以及多步骤潜客开发自动化。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

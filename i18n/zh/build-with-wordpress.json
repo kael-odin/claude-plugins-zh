@@ -1,0 +1,9 @@
+{
+  "e6c2a7bba9a0ccb1": {
+    "zh": "打造生产级 WordPress 站点和应用。涵盖从主题、插件到电商与部署的一切。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

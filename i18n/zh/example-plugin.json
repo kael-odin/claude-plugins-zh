@@ -1,0 +1,9 @@
+{
+  "0a6f147668f157a9": {
+    "zh": "一个全面的示例插件，演示 Claude Code 的所有扩展选项，包括命令、智能体、skill、hook 和 MCP 服务器",
+    "field": "pluginDescription",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

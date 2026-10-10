@@ -1,0 +1,9 @@
+{
+  "39d085b7b06cdab5": {
+    "zh": "Zoho Catalyst 官方 Claude Code 插件 —— 全栈无服务器云平台。其 Skills 覆盖所有服务、SDK、CLI、架构模式、定价、迁移指南，以及基于 Zoho MCP 工具的资源管理。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

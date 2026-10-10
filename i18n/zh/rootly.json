@@ -1,0 +1,9 @@
+{
+  "590d9e8475be3170": {
+    "zh": "全生命周期事故管理：部署安全、事故响应、on-call 管理和复盘。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "bdfc8613d999e29d": {
+    "zh": "通过预配置的 Datadog MCP server 在 Claude Code 中直接使用 Datadog。以自然对话方式查询日志、指标、trace、仪表盘等。此插件处于预览阶段。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

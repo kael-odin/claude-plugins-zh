@@ -1,0 +1,9 @@
+{
+  "069884031d134567": {
+    "zh": "Laravel 开发工具包 MCP 服务器。为 Laravel 应用提供智能辅助，包括 Artisan 命令、Eloquent 查询、路由、迁移和框架专属代码生成。",
+    "field": "pluginDescription",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

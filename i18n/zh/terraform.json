@@ -1,0 +1,9 @@
+{
+  "39ce2224fe2c10b9": {
+    "zh": "Terraform MCP Server 提供与 Terraform 生态系统的无缝集成，为基础设施即代码（IaC）开发带来高级自动化与交互能力。",
+    "field": "pluginDescription",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

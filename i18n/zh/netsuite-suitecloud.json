@@ -1,0 +1,9 @@
+{
+  "59487f779b7e2611": {
+    "zh": "使用 SuiteScript、SDF 和最佳实践开发 NetSuite SuiteCloud 解决方案：SuiteScript 记录与升级、SDF 对象、角色与权限、UIF 单页应用、OWASP 安全编码、项目文档以及 SAFE Guide。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

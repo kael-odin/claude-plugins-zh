@@ -1,0 +1,9 @@
+{
+  "18e00f809395cc48": {
+    "zh": "使用 AWS Amplify Gen 2 构建全栈应用，借助引导式工作流完成身份认证、数据模型、存储、GraphQL API 和 Lambda 函数。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

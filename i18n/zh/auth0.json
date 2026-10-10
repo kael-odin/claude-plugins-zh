@@ -1,0 +1,9 @@
+{
+  "abc3f601c4ce83da": {
+    "zh": "企业级认证，易于实现。借助框架感知的指引，为任意应用添加登录、SSO、MFA 和访问控制。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

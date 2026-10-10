@@ -1,0 +1,9 @@
+{
+  "d6a0df5cc541644c": {
+    "zh": "一份个人 Claude Code 成效报告，用于向管理者说明使用情况或进行自我复盘：你交付了什么、分别属于哪些项目，以及每个项目在你使用量中的占比。它会读取你的 ~/.claude/projects 会话记录，并在本地运行只读 git；生成报告时只发送计数和项目名称，报告本身保留在你的机器上。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

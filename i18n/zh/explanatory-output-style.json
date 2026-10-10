@@ -1,0 +1,9 @@
+{
+  "de84eff047945f82": {
+    "zh": "为实现选择和代码库模式添加教学性说明（模拟已弃用的 Explanatory 输出风格）",
+    "field": "pluginDescription",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

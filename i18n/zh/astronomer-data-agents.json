@@ -1,0 +1,9 @@
+{
+  "70689b2455c676e8": {
+    "zh": "面向 Apache Airflow 和 Astronomer 的数据工程。遵循最佳实践编写 DAG、调试流水线故障、追踪数据血缘、分析表数据、将 Airflow 2 迁移至 3，并管理本地与云端部署。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

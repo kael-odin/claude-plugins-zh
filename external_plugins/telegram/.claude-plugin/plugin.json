@@ -1,0 +1,11 @@
+{
+  "name": "telegram",
+  "description": "Claude Code 的 Telegram 频道——内置访问控制的消息桥接。可通过 /telegram:access 管理配对、允许列表和策略。",
+  "version": "0.0.7",
+  "keywords": [
+    "telegram",
+    "messaging",
+    "channel",
+    "mcp"
+  ]
+}

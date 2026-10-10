@@ -1,0 +1,9 @@
+{
+  "bf6d40bee2f8cad7": {
+    "zh": "完整的 UI5 现代化工具包，提供用于改造 SAPUI5/OpenUI5 应用的工作流与专用修复模式。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

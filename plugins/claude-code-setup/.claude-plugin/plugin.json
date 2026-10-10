@@ -1,0 +1,9 @@
+{
+  "name": "claude-code-setup",
+  "description": "分析代码库并推荐量身定制的 Claude Code 自动化方案，例如 hooks、skills、MCP servers 和 subagents。",
+  "version": "1.0.0",
+  "author": {
+    "name": "Anthropic",
+    "email": "support@anthropic.com"
+  }
+}

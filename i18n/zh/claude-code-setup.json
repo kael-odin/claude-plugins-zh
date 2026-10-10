@@ -1,0 +1,9 @@
+{
+  "48df31e1c37282b5": {
+    "zh": "分析代码库并推荐量身定制的 Claude Code 自动化方案，例如 hooks、skills、MCP servers 和 subagents。",
+    "field": "pluginDescription",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

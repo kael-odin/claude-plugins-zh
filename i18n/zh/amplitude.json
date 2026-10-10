@@ -1,0 +1,9 @@
+{
+  "892cb50f7485103a": {
+    "zh": "将 Amplitude 作为专业分析工具使用——埋点接入 Amplitude、发现产品机会、分析图表、创建仪表盘、管理实验，并洞察用户与账户。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

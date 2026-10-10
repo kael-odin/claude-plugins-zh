@@ -1,0 +1,9 @@
+{
+  "d728f09831dfb0eb": {
+    "zh": "为 Python 应用添加 Logfire 可观测性，支持 FastAPI、httpx、asyncpg、SQLAlchemy 等的自动埋点",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

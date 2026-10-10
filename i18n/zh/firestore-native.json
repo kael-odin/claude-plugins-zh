@@ -1,0 +1,9 @@
+{
+  "7aac21b945ed042c": {
+    "zh": "连接并操作 Firestore 数据库、集合和文档。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

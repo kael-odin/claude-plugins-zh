@@ -1,0 +1,9 @@
+{
+  "9e0a81a80aa2515a": {
+    "zh": "适用于 Cloudflare 开发者平台的 skills：Workers、Durable Objects、Agents SDK、MCP 服务器、Wrangler CLI 和 Web 性能。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

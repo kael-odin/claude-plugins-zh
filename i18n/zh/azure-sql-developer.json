@@ -1,0 +1,9 @@
+{
+  "552d9342b2dbf484": {
+    "zh": "面向 Azure SQL Developer（在容器中本地运行的 Azure SQL Database 引擎）的 agent skills。教你的 agent 启动引擎、连接、迁移、搭建脚手架、构建 RAG、接入 CI，并实现从本地到云的过渡，使用真实的 Private Preview 镜像而非 SQL Server 镜像。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

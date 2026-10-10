@@ -1,0 +1,48 @@
+name: sync-upstream
+
+on:
+  schedule:
+    - cron: '43 3 * * *' # daily 03:43 UTC = 11:43 Beijing
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Fetch upstream
+        run: git clone --depth 50 https://github.com/anthropics/claude-plugins-official.git .upstream
+
+      - name: Compute diff
+        run: node tools/sync.mjs
+
+      # Translations run locally (the API key is IP-whitelisted, unusable on
+      # GitHub runners) and are committed as i18n/zh ledger files. Untranslated
+      # entries simply keep their English text until the next local pass.
+
+      - name: Compose zh marketplace
+        run: node tools/compose.mjs
+
+      - name: Verify lossless (gate)
+        run: node tools/verify.mjs
+
+      - name: Commit and push
+        run: |
+          git config user.name "claude-plugins-zh-bot"
+          git config user.email "actions@users.noreply.github.com"
+          sha=$(node -p "require('./data/last-sha.json').sha.slice(0,9)")
+          git add -A
+          if git diff --cached --quiet; then
+            echo "no changes since last sync"
+          else
+            git commit -m "sync: upstream ${sha} (lossless verified)"
+            git push
+          fi

@@ -1,0 +1,9 @@
+{
+  "9038e8db1869caf7": {
+    "zh": "使用 Canva MCP server 创建、编辑、审阅、调整尺寸并对 Canva 设计进行品牌检查。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

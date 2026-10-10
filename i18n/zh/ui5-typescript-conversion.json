@@ -1,0 +1,9 @@
+{
+  "7ef1bd2877f9e1e6": {
+    "zh": "面向编码代理的 SAPUI5 / OpenUI5 插件。将基于 JavaScript 的 UI5 项目转换为 TypeScript。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

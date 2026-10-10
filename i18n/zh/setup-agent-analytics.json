@@ -1,0 +1,9 @@
+{
+  "ceabeccaf1329435": {
+    "zh": "检测代码库中的 AI agent，并通过最合适的路径为其接入 Pendo Agent Analytics：Python SDK、TypeScript SDK、客户端 trackAgent() 或 Conversations API。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

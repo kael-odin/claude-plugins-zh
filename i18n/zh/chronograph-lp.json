@@ -1,0 +1,9 @@
+{
+  "adbdf34a0d1eb61d": {
+    "zh": "面向私募资本 LP 团队的组合监控与分析，基于 Chronograph connector：现金流预测、承诺出资节奏规划、穿透式敞口扫描以及 GP 会议准备。需要 Chronograph 账户和 Chronograph connector。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

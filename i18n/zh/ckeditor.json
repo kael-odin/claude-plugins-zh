@@ -1,0 +1,9 @@
+{
+  "0560ae4c1d8c0ebf": {
+    "zh": "在任何 JavaScript 项目中安装、配置并集成 CKEditor 5（免费版与高级版）。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

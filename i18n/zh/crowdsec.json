@@ -1,0 +1,9 @@
+{
+  "2f24cdb51d543890": {
+    "zh": "用于在裸金属、Docker 和 Kubernetes 环境中安装、配置、运维和调试 CrowdSec（cscli、LAPI/CAPI、hub、bouncers、WAF/AppSec）的运维技能。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

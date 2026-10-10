@@ -1,0 +1,11 @@
+{
+  "name": "discord",
+  "description": "Claude Code 的 Discord 频道——内置访问控制的消息桥接。通过 /discord:access 管理配对、允许列表和策略。",
+  "version": "0.0.4",
+  "keywords": [
+    "discord",
+    "messaging",
+    "channel",
+    "mcp"
+  ]
+}

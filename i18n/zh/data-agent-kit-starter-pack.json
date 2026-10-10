@@ -1,0 +1,9 @@
+{
+  "4f9e64ac3f4de74b": {
+    "zh": "该插件为在 Google Cloud 上工作的数据工程师与数据库从业者提供一套专用 skill。它充当专家助手，让你在常用的编码 agent 中用自然语言提示来架构复杂数据管道、使用 dbt 转换数据、编写 Spark 与 BigQuery SQL notebook，并在 GCP 数据生态中编排端到端工作流。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

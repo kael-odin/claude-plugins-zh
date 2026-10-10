@@ -1,0 +1,9 @@
+{
+  "167ad75641f370b7": {
+    "zh": "轻松部署托管的 PostgreSQL（pg）、Kafka、OpenSearch、Clickhouse 及其他数据库、流式服务和应用。提供免费套餐，几分钟内即可启动运行。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

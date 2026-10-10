@@ -1,0 +1,16 @@
+{
+  "3f1afaa6b35e7ed8": {
+    "zh": "针对拉取请求的自动化代码审查，使用多个专用 agent 并基于置信度评分来过滤误报。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  },
+  "dbb24fcb22130dcb": {
+    "zh": "使用多个专业智能体对拉取请求进行自动化代码审查，并采用基于置信度的评分",
+    "field": "pluginDescription",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

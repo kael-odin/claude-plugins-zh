@@ -1,0 +1,9 @@
+{
+  "5c65df2a7710c803": {
+    "zh": "Sonatype Guide MCP server，用于软件供应链情报与依赖安全。分析依赖中的漏洞、获取安全版本建议，并检查组件质量指标。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

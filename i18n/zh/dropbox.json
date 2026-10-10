@@ -1,0 +1,9 @@
+{
+  "7d83623b89471326": {
+    "zh": "Claude 的 Dropbox 插件可将你的 Dropbox 文件直接连接到 Claude，让你无需切换工具即可搜索、整理、保存生成的内容并创建分享链接。它遵循你现有的 Dropbox 权限，Claude 仅会处理你已有权访问的文件。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

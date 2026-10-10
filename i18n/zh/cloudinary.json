@@ -1,0 +1,9 @@
+{
+  "c054118f25a56c26": {
+    "zh": "直接在 Claude 中使用 Cloudinary。通过自然对话管理资产、应用转换、优化媒体等。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

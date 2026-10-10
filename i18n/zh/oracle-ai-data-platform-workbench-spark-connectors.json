@@ -1,0 +1,9 @@
+{
+  "08ad95458ccd2ba5": {
+    "zh": "面向 Claude Code 的 Oracle AI Data Platform Workbench Spark connectors。18 个 connector skill，覆盖 workbench 客户常见所需的各类数据源：Oracle Autonomous DB 系列（ALH/ADW/ATP），通过 wallet/IAM-DB-Token/API-key 连接，ExaCS、Fusion ERP REST、Fusion BICC、EPM Cloud Planning、Essbase 21c、OCI Streaming (Kafka)、OCI Object Storage、Apache Iceberg，以及外部系统（PostgreSQL、MySQL/HeatWave、SQL Server、Snowflake、Azure ADLS Gen2、AWS S3、通用 REST、自定义 JDBC、Excel）。已在 workbench 的 `tpcds` 集群（Spark 3.5.0）上完成实时验证：21 条测试结果中 17 条 PASS / 4 条 ship-as-is。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "agent-sdk-dev",
+  "description": "Claude Agent SDK 开发插件",
+  "author": {
+    "name": "Anthropic",
+    "email": "support@anthropic.com"
+  }
+}

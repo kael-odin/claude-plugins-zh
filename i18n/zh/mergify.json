@@ -1,0 +1,9 @@
+{
+  "293a6bb73c60a6dd": {
+    "zh": "Mergify CLI 的 skills：直接在终端管理合并队列、堆叠 pull request、Test Insights（不稳定测试、隔离）、合并保护以及 Mergify 配置。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

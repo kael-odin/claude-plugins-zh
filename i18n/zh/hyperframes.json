@@ -1,0 +1,9 @@
+{
+  "028cf05c579cd689": {
+    "zh": "由 HeyGen 打造的 HyperFrames。编写 HTML，渲染视频。支持 HyperFrames 的 composition、GSAP 与运行时适配器动画、字幕、配音、音频响应式视觉，以及网站转视频录制。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

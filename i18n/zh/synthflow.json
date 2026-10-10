@@ -1,0 +1,9 @@
+{
+  "ef4251fda9bf09e0": {
+    "zh": "通过其托管的 MCP 服务器将 Claude Code 连接到 Synthflow AI 语音智能体平台，提供用于审查通话和审计 agent prompt 的 skill，以及一个文档搜索连接器。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

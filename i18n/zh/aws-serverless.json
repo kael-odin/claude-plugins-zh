@@ -1,0 +1,9 @@
+{
+  "10080e6d83ee18b0": {
+    "zh": "使用 AWS Serverless 服务设计、构建、部署、测试和调试无服务器应用程序。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

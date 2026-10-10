@@ -1,0 +1,9 @@
+{
+  "bc9a5a52d47ef18d": {
+    "zh": "QuickBooks 业务洞察与操作：覆盖损益表、现金流、资产负债表和应收账款的财务健康简报，行业基准对比，薪资成本分析，逾期发票提醒，基于邮件起草估算单/发票，薪资入职与基本薪资变更（需确认），以及 QuickBooks Capital 贷款指引。需要 Intuit QuickBooks connector。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

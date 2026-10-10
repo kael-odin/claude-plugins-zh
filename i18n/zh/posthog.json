@@ -1,0 +1,9 @@
+{
+  "c1d4f9a94a8c7e38": {
+    "zh": "直接从 Claude Code 访问 PostHog 分析、功能开关、实验、错误跟踪和洞察。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

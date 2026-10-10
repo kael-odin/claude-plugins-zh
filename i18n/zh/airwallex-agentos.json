@@ -1,0 +1,9 @@
+{
+  "cae6c45419ca0de2": {
+    "zh": "将 Airwallex 的全球金融基础设施接入 Claude。用自然语言编排账户中的各类操作，例如根据 PO 生成发票、从发票中完成供应商入驻、查询各币种的当前现金头寸。AgentOS 将预置的财务 Skills 与 MCP 服务器打包在一起。公共 CLI 可将你的 agent 连接到 Airwallex 的各项能力。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

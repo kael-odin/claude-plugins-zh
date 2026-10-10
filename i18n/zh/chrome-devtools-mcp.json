@@ -1,0 +1,9 @@
+{
+  "eaa32c4310352c82": {
+    "zh": "在你的编码 agent 中控制和检查实时 Chrome 浏览器。录制性能 trace、分析网络请求、查看带源码映射堆栈跟踪的控制台消息，并使用 Puppeteer 自动化浏览器操作。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

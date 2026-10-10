@@ -1,0 +1,9 @@
+{
+  "75c0f5b80fc44861": {
+    "zh": "用于 NightVision 的 skills。NightVision 是一个 DAST 与 API Discovery 平台，可发现 Web 应用和 REST API 中可被利用的漏洞",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

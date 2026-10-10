@@ -1,0 +1,9 @@
+{
+  "f9f472948bbaf023": {
+    "zh": "以对话方式管理 Carta CRM —— 通过 Carta CRM MCP Server 搜索、添加、更新和补全投资者、公司、联系人、交易、笔记和融资记录。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

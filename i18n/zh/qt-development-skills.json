@@ -1,0 +1,9 @@
+{
+  "f58294a0ea345d02": {
+    "zh": "面向 Qt 软件开发的智能体工程 skill —— Qt C++/QML 代码审查、QML 编码和 Qt C++/QML 代码文档。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

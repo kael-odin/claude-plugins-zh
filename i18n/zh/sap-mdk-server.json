@@ -1,0 +1,9 @@
+{
+  "6fe5b18b7931e6a4": {
+    "zh": "用于 SAP Mobile Development Kit (MDK) 的 MCP server。在 AI 辅助下构建和修改 MDK 应用——schema 查询、action 校验、rule 编辑和项目脚手架。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

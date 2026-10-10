@@ -1,0 +1,9 @@
+{
+  "4b15980fcb3069f0": {
+    "zh": "连接 Knowledge Catalog，以发现、管理、监控和治理数据平台中的数据与 AI 制品",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

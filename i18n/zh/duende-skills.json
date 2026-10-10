@@ -1,0 +1,9 @@
+{
+  "b2a27fc35e5d022c": {
+    "zh": "面向 Claude Code 的 Duende 开发 skill 与 agent——涵盖 OAuth/OIDC 协议、IdentityServer、令牌管理、ASP.NET Core 身份验证/授权、BFF 模式以及安全身份架构。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

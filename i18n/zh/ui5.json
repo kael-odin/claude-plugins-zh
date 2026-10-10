@@ -1,0 +1,9 @@
+{
+  "73bd99146f69a606": {
+    "zh": "面向编码代理的 SAPUI5 / OpenUI5 插件。创建并校验 UI5 项目、访问 API 文档、运行 UI5 linter、获取 UI5 开发的指南与最佳实践。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

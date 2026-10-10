@@ -1,0 +1,9 @@
+{
+  "14ac0d7d7ea6f863": {
+    "zh": "使用 Resend 收发邮件的 agent skills——邮件 API 集成、agent inbox、CLI、React Email 组件，以及送达率最佳实践。包含 Resend MCP server。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

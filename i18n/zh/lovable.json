@@ -1,0 +1,9 @@
+{
+  "62b5e29fea369be5": {
+    "zh": "在 Claude Code 中构建、迭代、部署和管理 Lovable 应用。集成官方 Lovable MCP server（远程，OAuth 2.1），并针对常见的构建/迭代/数据库工作流添加专用命令，附带额度与发布安全提示。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "7dc9a76a495c2ae2": {
+    "zh": "SumUp 终端与在线结账流程的支付集成。使用 SumUp 读卡器构建 Android 和 iOS POS 应用，通过服务端 SDK 和结账 widget 实现在线结账，并通过 Cloud API 远程控制读卡器。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

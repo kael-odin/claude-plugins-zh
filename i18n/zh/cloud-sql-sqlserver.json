@@ -1,0 +1,9 @@
+{
+  "5d30e03e444712e8": {
+    "zh": "连接到 Cloud SQL for SQL Server",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

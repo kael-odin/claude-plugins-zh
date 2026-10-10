@@ -1,0 +1,9 @@
+{
+  "c66004043530f00d": {
+    "zh": "连接、查询 Oracle Databases 及其数据，并与之交互。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

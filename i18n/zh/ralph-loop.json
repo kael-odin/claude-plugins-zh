@@ -1,0 +1,16 @@
+{
+  "7f9217794f767308": {
+    "zh": "用于迭代开发的可交互自引用 AI 循环，实现 Ralph Wiggum 技术。Claude 反复处理同一任务，并查看自己此前的成果，直到完成。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  },
+  "f7c7e5f99e721c36": {
+    "zh": "用于交互式迭代开发的持续自引用 AI 循环，实现 Ralph Wiggum 技巧。以相同的 prompt 在 while-true 循环中运行 Claude，直到任务完成。",
+    "field": "pluginDescription",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

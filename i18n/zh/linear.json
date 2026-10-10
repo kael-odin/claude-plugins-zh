@@ -1,0 +1,9 @@
+{
+  "67231301a2ee7f46": {
+    "zh": "Linear 议题跟踪集成。创建议题、管理项目、更新状态、跨工作区搜索，并借助 Linear 的现代议题跟踪器简化你的软件开发工作流。",
+    "field": "pluginDescription",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

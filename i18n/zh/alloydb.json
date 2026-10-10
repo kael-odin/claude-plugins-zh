@@ -1,0 +1,9 @@
+{
+  "adba6a42b79fb891": {
+    "zh": "创建、连接 AlloyDB for PostgreSQL 数据库与数据，并与之交互。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

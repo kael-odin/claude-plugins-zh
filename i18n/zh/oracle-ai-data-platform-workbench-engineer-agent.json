@@ -1,0 +1,9 @@
+{
+  "f0b6e7968d15db78": {
+    "zh": "面向 Claude Code 的 Oracle AI Data Platform (AIDP) Workbench 工程师 agent —— 一个包含 37 项 skill 的 agent，用自然语言操作完整的 Spark/Delta lakehouse。将你的 catalog 发现并写入 grounding 缓存，把纯英文转换为准确的 Spark SQL，并运行完整生命周期（CREATE/INSERT/UPDATE/DELETE/MERGE、OPTIMIZE/VACUUM、time-travel）。摄取文件、剖析数据并设置质量规则，编写和修复 pipeline，配置集群，并通过 Spark UI 进行调试。治理平台（roles、credential store、Delta Sharing、audit logs），并原生支持 Git、bundles 和 MLOps/MLflow。通过官方 Oracle aidp CLI 运行。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

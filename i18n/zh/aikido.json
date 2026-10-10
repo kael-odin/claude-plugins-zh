@@ -1,0 +1,9 @@
+{
+  "caa9e48e46e5e4d2": {
+    "zh": "面向 Claude Code 的 Aikido Security 扫描——由 Aikido MCP 服务器提供支持的 SAST、密钥和 IaC 漏洞检测。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "4428fb0d2cc4412a": {
+    "zh": "由 Zyte API 驱动的 Claude Code 网页抓取 skill——抓取网站、生成并运行 Scrapy spider、定义提取 schema，并部署到 Scrapy Cloud。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

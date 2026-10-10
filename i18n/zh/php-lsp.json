@@ -1,0 +1,9 @@
+{
+  "72d23021289119f2": {
+    "zh": "用于代码智能的 PHP 语言服务器（Intelephense）",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

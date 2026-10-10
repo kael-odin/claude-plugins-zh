@@ -1,0 +1,9 @@
+{
+  "15cd10a4af2ae868": {
+    "zh": "适用于 GitHub 和 GitLab 的 AI 代码审查 agent。可直接在 Claude Code 中查看并解决 Greptile 的 PR 审查评论、对当前工作分支运行审查，以及搜索组织的知识库和编码模式。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

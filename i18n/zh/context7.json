@@ -1,0 +1,16 @@
+{
+  "aa074f53ccbf060e": {
+    "zh": "用于查询最新文档的 Upstash Context7 MCP 服务器。连接 Context7 托管的远程 MCP 服务器（https://mcp.context7.com/mcp）——无需本地 Node.js 或 npx——即可将特定版本的文档和代码示例从源仓库直接拉取到你的 LLM 上下文中。开箱即用，支持匿名访问；设置 CONTEXT7_API_KEY 可获得更高的速率限制。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  },
+  "848f36db05182b50": {
+    "zh": "Upstash Context7 MCP server，用于查找最新文档。连接到 Context7 托管的远程 MCP server（https://mcp.context7.com/mcp）—— 无需本地 Node.js 或 npx —— 将特定版本的文档和代码示例直接从源仓库拉取到你的 LLM 上下文中。在提示时通过 Context7 进行身份验证。",
+    "field": "pluginDescription",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

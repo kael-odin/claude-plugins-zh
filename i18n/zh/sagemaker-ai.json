@@ -1,0 +1,9 @@
+{
+  "15536966bbef2d11": {
+    "zh": "构建、训练和部署 AI 模型，将深厚的 AWS AI/ML 专业知识直接带入你的编码助手，覆盖 Amazon SageMaker AI 的完整功能范围。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

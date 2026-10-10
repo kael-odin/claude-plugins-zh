@@ -1,0 +1,9 @@
+{
+  "55b82d31ca5c99c9": {
+    "zh": "直接从 Claude Code 访问 Confidence 功能标志、实验和迁移工具。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

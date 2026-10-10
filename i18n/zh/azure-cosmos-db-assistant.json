@@ -1,0 +1,9 @@
+{
+  "ffec22802093e37c": {
+    "zh": "Azure Cosmos DB 专家助手 — 数据建模、查询优化、性能调优和最佳实践。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "0bbf1e09d9a2f2ca": {
+    "zh": "可选的 Qodo 发现和管理工作流。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "23142df5615b9cdf": {
+    "zh": "面向 Claude Code 的 Appwrite 工具集，包括 SDK 技能、Appwrite MCP 服务器以及部署命令。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

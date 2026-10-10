@@ -1,0 +1,9 @@
+{
+  "e751edf07c7b45e0": {
+    "zh": "面向 Claude 的 Stripe 开发插件",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

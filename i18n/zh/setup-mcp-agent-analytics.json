@@ -1,0 +1,9 @@
+{
+  "b2114663ebaf3f1f": {
+    "zh": "检测 MCP server 使用的语言（Python、TypeScript 或 Go），并用匹配的 Pendo SDK 进行埋点，让 MCP 工具调用流入 Pendo Agent Analytics。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

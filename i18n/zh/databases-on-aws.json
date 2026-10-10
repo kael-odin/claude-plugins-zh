@@ -1,0 +1,9 @@
+{
+  "a25f037b7bbf1525": {
+    "zh": "面向 AWS 数据库产品组合的专家级数据库指导。设计 schema、执行查询、处理迁移，并为你的工作负载选择合适的数据库。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

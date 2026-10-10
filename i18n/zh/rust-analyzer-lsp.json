@@ -1,0 +1,9 @@
+{
+  "689d52999df7ddb0": {
+    "zh": "用于代码智能与分析的 Rust language server",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

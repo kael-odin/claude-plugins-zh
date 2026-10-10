@@ -1,0 +1,9 @@
+{
+  "977e3da7f3d31a8d": {
+    "zh": "用于 Claude Code 的 SAP Fiori 开发工具 MCP server。在 AI 辅助下构建和修改 SAP Fiori 应用。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

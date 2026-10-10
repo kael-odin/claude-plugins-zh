@@ -1,0 +1,9 @@
+{
+  "6ed5f4a34b898a64": {
+    "zh": "设置 endorctl 并使用 Endor Labs 扫描、优先级排序和修复软件供应链中的安全风险",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

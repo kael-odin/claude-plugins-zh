@@ -1,0 +1,9 @@
+{
+  "45330d0096295f56": {
+    "zh": "Zilliz Cloud 管理插件，包含 14 个 skill，覆盖集群生命周期、collection schema、向量搜索、索引调优、批量导入、RBAC、备份和监控。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

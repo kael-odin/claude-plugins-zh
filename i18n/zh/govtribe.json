@@ -1,0 +1,9 @@
+{
+  "adcc8345557eddfe": {
+    "zh": "在 Claude 中开展政府合同研究与捕获工作流：机会与管道简报、投标/不投标与竞争对手分析、制胜定价与提案准备，由 GovTribe 连接器提供支持。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

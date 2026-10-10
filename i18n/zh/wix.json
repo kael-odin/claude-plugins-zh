@@ -1,0 +1,9 @@
+{
+  "cb44d15d5be9a1c5": {
+    "zh": "构建、管理并部署 Wix 站点和应用。提供用于仪表盘扩展、后端 API、站点小组件和服务插件的 CLI 开发技能，搭配 Wix Design System，并提供用于站点管理的 MCP server。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

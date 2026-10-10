@@ -1,0 +1,9 @@
+{
+  "6ee6a0d579020f95": {
+    "zh": "将 Claude 连接到你的 ClickHouse Cloud 数据库。浏览组织、服务、数据库和表结构。对数据运行只读 SQL 查询，即时获得分析答案。监控服务备份、查看账单费用并检查 ClickPipe 配置——全部通过自然对话完成。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

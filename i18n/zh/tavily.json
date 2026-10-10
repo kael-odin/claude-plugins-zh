@@ -1,0 +1,9 @@
+{
+  "f404ddb1cbd08e76": {
+    "zh": "使用 Tavily 的搜索、提取、爬取和研究 API，基于实时网络数据构建 AI 应用。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

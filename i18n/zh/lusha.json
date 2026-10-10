@@ -1,0 +1,9 @@
+{
+  "f99fa2b9e3969f29": {
+    "zh": "使用 Lusha 的 B2B 情报平台挖掘、丰富并构建可直接致电的潜在客户名单——经过验证的电话号码、公司信号和相似人群定向。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

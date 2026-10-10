@@ -1,0 +1,9 @@
+{
+  "283a57e8e3adab35": {
+    "zh": "在 Superdesign 无限画布上设计或重新设计前端 UI 和营销图形。读取你的代码库以获取上下文，搭建设计系统，并生成可分支的设计草稿供你完善。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

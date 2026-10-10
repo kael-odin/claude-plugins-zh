@@ -1,0 +1,9 @@
+{
+  "b5e1a92d04f08712": {
+    "zh": "Slack 工作区集成。搜索消息、访问频道、阅读话题串，并在编码时随时掌握团队沟通动态。快速找到相关讨论与上下文。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

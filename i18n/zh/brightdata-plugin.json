@@ -1,0 +1,9 @@
+{
+  "e5ed6bf0ce1ddc4a": {
+    "zh": "由 Bright Data 提供支持的网页抓取、Google 搜索、结构化数据提取和 MCP server 集成。包含 7 项技能：将任意网页抓取为 markdown（支持绕过机器人检测/CAPTCHA）、以结构化 JSON 结果搜索 Google、从 40+ 网站（Amazon、LinkedIn、Instagram、TikTok、YouTube 等）提取数据、编排 Bright Data 的 60+ MCP 工具、内置 Web Unlocker、SERP API、Web Scraper API 和 Browser API 的最佳实践，以及 brightda... 的 Python SDK 最佳实践",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

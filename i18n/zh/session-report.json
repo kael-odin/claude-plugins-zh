@@ -1,0 +1,9 @@
+{
+  "b9b674f9db52cdb8": {
+    "zh": "从本地 ~/.claude/projects 记录中生成一份可探索的 HTML 报告，展示 Claude Code 会话使用情况 —— token、缓存效率、subagents、skills 以及开销最高的 prompts。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

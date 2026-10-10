@@ -1,0 +1,9 @@
+{
+  "5dd93b87c0df58b8": {
+    "zh": "官方 Carbone skill —— 完整的模板语言参考，涵盖标签、循环、条件、格式化器、聚合器，以及所有输出格式（DOCX、XLSX、PPTX、ODT、HTML、Markdown、PDF）",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

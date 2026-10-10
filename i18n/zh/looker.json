@@ -1,0 +1,9 @@
+{
+  "b96fdfeb3158230c": {
+    "zh": "连接 Looker，使用 LookML 与你的数据交互。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

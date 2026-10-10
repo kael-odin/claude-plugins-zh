@@ -1,0 +1,9 @@
+{
+  "cd55c3885184d071": {
+    "zh": "在 Claude 中使用 LinqAlpha 金融研究：LinqAlpha 连接器的引导式设置，按能力选择基本面、预估、电话会议记录、申报文件和市场数据的来源，以及可选的默认来源偏好（可随时移除）。需要 LinqAlpha 账户。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

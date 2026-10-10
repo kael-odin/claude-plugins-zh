@@ -1,0 +1,9 @@
+{
+  "a96653a1c75c0d5e": {
+    "zh": "CodSpeed 是一体化性能测试工具包。深入分析基准测试结果、火焰图和性能对比——通过 CodSpeed MCP server 为 Claude 提供细粒度的性能分析上下文，以精确定位瓶颈并自主迭代性能。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

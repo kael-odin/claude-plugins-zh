@@ -1,0 +1,9 @@
+{
+  "0bd0186042090269": {
+    "zh": "Notion workspace 集成。直接在 Claude Code 中搜索页面、创建和更新文档、管理数据库，并访问团队知识库，实现无缝的文档工作流。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

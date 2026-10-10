@@ -1,0 +1,9 @@
+{
+  "f0e03c1b79f8448e": {
+    "zh": "访问 Azure、.NET、Windows 等的 Microsoft 官方文档、API 参考和代码示例。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

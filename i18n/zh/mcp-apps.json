@@ -1,0 +1,9 @@
+{
+  "2a9008a3d4348252": {
+    "zh": "使用 MCP Apps SDK 创建 MCP Apps 的 skills",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

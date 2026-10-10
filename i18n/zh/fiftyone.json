@@ -1,0 +1,9 @@
+{
+  "ab2a1e9a308b83f9": {
+    "zh": "构建高质量数据集与计算机视觉模型。可视化数据集、分析模型、查找重复项、运行推理、评估预测结果，并开发自定义插件。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

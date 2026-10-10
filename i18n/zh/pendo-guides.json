@@ -1,0 +1,9 @@
+{
+  "6eb27bb68876bcbf": {
+    "zh": "通过简短的收集对话，使用 Pendo 的 Guide 组件创建生产就绪的 Pendo 应用内引导（导览、公告、警报、投票、促销），形式为 HTML/CSS/JS。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

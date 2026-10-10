@@ -1,0 +1,9 @@
+{
+  "90ebaab0683cbc51": {
+    "zh": "利用 Adobe 的创意 AI 驱动工具编辑图像、自动化设计工作流，并将创意愿景变为现实——从背景移除到矢量化，再到专业修图。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

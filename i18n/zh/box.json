@@ -1,0 +1,9 @@
+{
+  "8f63f1ec0d730baa": {
+    "zh": "直接在 Claude Code 中处理你的 Box 内容——搜索文件、整理文件夹、与团队协作，并使用 Box AI 回答问题、总结文档、提取数据，无需离开当前工作流。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

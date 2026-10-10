@@ -1,0 +1,9 @@
+{
+  "75104edc9abf9a21": {
+    "zh": "指导开发者使用 Amazon Location Service 添加地图、地点搜索、地理编码、路线规划等地理空间功能，涵盖身份验证配置、SDK 集成和最佳实践。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

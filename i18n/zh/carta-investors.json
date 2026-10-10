@@ -1,0 +1,9 @@
+{
+  "d7413715bc6cd522": {
+    "zh": "Carta Investors 插件 —— 通过 Carta MCP Server 查询投资者数据、业绩基准、合规报告、AGM 演示文稿生成、品牌提取等的 skills。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

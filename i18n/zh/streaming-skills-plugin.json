@@ -1,0 +1,9 @@
+{
+  "90b85b655b96c9c5": {
+    "zh": "面向流式应用开发者的 skill，涵盖 Kafka 和 Flink 客户端库以及 Schema Registry",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

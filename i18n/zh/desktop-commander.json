@@ -1,0 +1,9 @@
+{
+  "aeb6276e7f918ccd": {
+    "zh": "用于终端命令、进程管理以及跨文本、代码、PDF、DOCX、Excel、图像和结构化数据的文件操作的 MCP server。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

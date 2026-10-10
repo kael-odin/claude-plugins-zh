@@ -1,0 +1,9 @@
+{
+  "fcd0ad7f604588a3": {
+    "zh": "用自然语言运行你的 monday CRM。从零搭建销售管道，每天以按优先级排序的商机简报开启一天，快速创建预测仪表盘，审查 board 健康状况，批量清理杂乱数据，并把会议纪要转化为商机更新。每个 skill 都会以真实的更新、文档或仪表盘形式写回 monday。基于官方 monday MCP connector 构建。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "playground",
+  "description": "创建交互式 HTML playground——自包含的单文件探索工具，带可视化控件、实时预览，以及可一键复制的 prompt 输出",
+  "author": {
+    "name": "Anthropic",
+    "email": "support@anthropic.com"
+  }
+}

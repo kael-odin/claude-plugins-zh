@@ -1,0 +1,16 @@
+{
+  "44ddff25c0abf473": {
+    "zh": "Asana 项目管理集成。将 Claude Code 连接到 Asana 的 V2 MCP 服务器，用于创建和管理任务、搜索项目、更新任务分配并跟踪进度。需要一次性完成 Asana OAuth 应用配置——安装后运行 /asana-setup。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  },
+  "16a91bdc895a0a38": {
+    "zh": "Asana 项目管理集成。将 Claude Code 连接到 Asana 的 V2 MCP server（https://mcp.asana.com/v2/mcp），以创建和管理任务、搜索项目、更新分配并跟踪进度。需要一次性配置你自己的 Asana OAuth 应用 —— 安装后运行 /asana-setup。",
+    "field": "pluginDescription",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

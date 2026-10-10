@@ -1,0 +1,16 @@
+{
+  "d11179ac3ac073fb": {
+    "zh": "该 agent 简化和优化代码，以提高清晰度、一致性和可维护性，同时保持功能不变。专注于最近修改的代码。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  },
+  "94a8c75d868c30be": {
+    "zh": "简化并优化代码的智能体，在保持功能不变的前提下提升清晰度、一致性和可维护性",
+    "field": "pluginDescription",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

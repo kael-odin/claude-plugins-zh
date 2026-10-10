@@ -1,0 +1,9 @@
+{
+  "name": "learning-output-style",
+  "version": "1.0.0",
+  "description": "交互式学习模式，在关键决策点请求有实质意义的代码贡献（模拟尚未发布的 Learning 输出风格）",
+  "author": {
+    "name": "Anthropic",
+    "email": "support@anthropic.com"
+  }
+}

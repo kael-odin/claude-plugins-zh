@@ -1,0 +1,9 @@
+{
+  "b49ba8e9a6470d00": {
+    "zh": "使用自然语言管理 Spotify 广告活动。创建广告活动、广告组、广告，拉取报告并处理 OAuth —— 全部通过对话完成。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

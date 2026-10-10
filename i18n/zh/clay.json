@@ -1,0 +1,9 @@
+{
+  "6e152de4b1669dfa": {
+    "zh": "在 Claude Code 中使用 Clay：设置并登录 clay CLI，查询和分析 Clay 表格，在 Clay 的 GTM 数据库中搜索人员和公司，管理受众、信号、例程和工作流，并起草和审阅 Sequencer 营销活动。包含自动批准该插件自身 clay CLI 调用和 Clay skills 的 hooks；需要 Clay 账户。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

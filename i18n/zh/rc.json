@@ -1,0 +1,9 @@
+{
+  "5ebc2c303c37f395": {
+    "zh": "直接在 Claude Code 中配置 RevenueCat 项目、应用、产品、权益和 offering。无需离开开发工作流即可管理应用内购买后端。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

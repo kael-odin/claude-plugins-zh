@@ -1,0 +1,9 @@
+{
+  "221c3270cde23add": {
+    "zh": "为 Claude Code 会话提供 OpenTelemetry 可观测性。将工具调用、LLM 调用、token 用量和错误捕获为 OTel traces。可将遥测数据发送到 Dash0 或任何兼容 OpenTelemetry 的后端。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "de484139f88a546f": {
+    "zh": "借助 Leadfeeder 将网站访客信号转化为销售管道：每日访客简报、访客公司调研、买家与联系人发现、个性化外联草稿，以及通过 Leadfeeder connector 将公司添加至你的 Leadfeeder 列表。需要拥有 Leadfeeder 账户。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

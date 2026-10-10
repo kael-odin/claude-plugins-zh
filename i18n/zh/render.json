@@ -1,0 +1,9 @@
+{
+  "fdfb12261596b167": {
+    "zh": "在 Render 上部署、调试和监控应用。包含 skills、一个 agent、slash commands，以及 render.yaml 校验 hook。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

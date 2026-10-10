@@ -1,0 +1,9 @@
+{
+  "b743c597e5ef8717": {
+    "zh": "面向使用 UI theme designer 的编码代理的插件。内置两个 skill：关于 BTP 上 UI theme designer 的操作指南与概念解答，以及关于 SAP Design System 和 SAP Fiori 设计令牌的问题——UI5、UI5 Web Components 和 Fundamental Styles 中的主题参数与组件级参数用法。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "f78fda1721ea1c9b": {
+    "zh": "用于代码智能的 Swift 语言服务器（SourceKit-LSP）",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

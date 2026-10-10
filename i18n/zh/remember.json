@@ -1,0 +1,9 @@
+{
+  "3378f5c74eaacb3d": {
+    "zh": "为 Claude Code 提供持续记忆。将会话提取、总结并压缩为分层的每日日志。Claude 能记住你昨天做了什么。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

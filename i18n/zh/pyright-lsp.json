@@ -1,0 +1,9 @@
+{
+  "d4398ec417aa40ff": {
+    "zh": "Python 语言服务器（Pyright），用于类型检查和代码智能",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "64732446b4ad79a2": {
+    "zh": "将 8,000+ 个应用接入你的 AI 工作流。直接在客户端中发现、启用并执行 Zapier 动作。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "f46a6539bc249d25": {
+    "zh": "使用 Pixeltable 构建多模态 AI 应用——表、计算列、嵌入搜索、UDF、工具调用智能体以及 25+ 家 AI 提供商集成。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

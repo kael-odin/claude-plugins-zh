@@ -1,0 +1,16 @@
+{
+  "e5b54112e30b443b": {
+    "zh": "通过 Anthropic MCP tunnel 将 Claude 连接到私有 MCP 服务器。/create-docker-mcp-tunnel 命令端到端驱动 Docker Compose 快速入门：证书、代理配置、cloudflared 以及可验证的示例服务器。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  },
+  "60d823559ac0c92a": {
+    "zh": "通过 Anthropic MCP tunnel 将 Claude 连接到私有 MCP server。端到端跑通 Docker Compose 快速上手流程：证书、代理配置、cloudflared，以及一个可验证的示例 server。",
+    "field": "pluginDescription",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

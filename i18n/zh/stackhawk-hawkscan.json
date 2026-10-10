@@ -1,0 +1,9 @@
+{
+  "5772d194a1f9b2bb": {
+    "zh": "在 Claude Code 中配置、运行并解读 HawkScan DAST 结果。生成 stackhawk.yml 配置，通过 CLI 或 Docker 运行扫描，并将安全发现转化为按优先级排序的修复任务，交给你的编码 agent。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

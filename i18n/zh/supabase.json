@@ -1,0 +1,9 @@
+{
+  "9ec51ac64e498af1": {
+    "zh": "Supabase MCP 集成，用于数据库操作、身份验证、存储和实时订阅。管理你的 Supabase 项目、运行 SQL 查询，并直接与后端交互。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

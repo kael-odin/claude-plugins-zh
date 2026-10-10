@@ -1,0 +1,9 @@
+{
+  "12b9fcf603041ed2": {
+    "zh": "借助 CLI 项目管理和 JavaScript/TypeScript SDK 开发 skills 构建和部署 Base44 全栈应用",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

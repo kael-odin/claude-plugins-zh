@@ -1,0 +1,9 @@
+{
+  "d1518805fb320386": {
+    "zh": "Figma 设计平台集成。访问设计文件、提取组件信息、读取设计令牌，并将设计转化为代码。打通设计与开发工作流之间的鸿沟。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "cd804615021dbaac": {
+    "zh": "设计和构建可与 Claude 无缝协作的 MCP 服务器的 skills。带你了解部署模式（远程 HTTP、MCPB、本地）、工具设计模式、认证以及交互式 MCP apps。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  },
+  "a6813ba0bbf9a9d6": {
+    "zh": "用于设计和构建可与 Claude 无缝协作的 MCP server 的 skill——引导你完成部署模式（远程 HTTP、MCPB、本地）、工具设计模式、认证以及交互式 MCP 应用。",
+    "field": "pluginDescription",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

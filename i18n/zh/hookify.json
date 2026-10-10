@@ -1,0 +1,16 @@
+{
+  "b03e13065650f7ca": {
+    "zh": "轻松创建自定义 hook，通过分析对话模式或依据明确指令来阻止不希望出现的行为。使用简单的 markdown 文件定义规则。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  },
+  "f67ba859fedf7476": {
+    "zh": "通过分析对话模式，轻松创建 hook 以阻止不想要的行为",
+    "field": "pluginDescription",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

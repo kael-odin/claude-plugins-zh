@@ -1,0 +1,9 @@
+{
+  "3cd6aa44a05ff169": {
+    "zh": "仅通过 Atlas Managed MCP Server 连接 MongoDB Atlas 集群。使用你的 Atlas 账号登录即可探索数据、管理集合、优化查询、按照 MongoDB 最佳实践生成可靠代码，并管理 Atlas 资源，如集群、项目、数据库用户和网络访问。如果你运行的是其他 MongoDB 部署，或想运行本地 MongoDB MCP Server，请改为安装 MongoDB（Self-Managed MCP）插件。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

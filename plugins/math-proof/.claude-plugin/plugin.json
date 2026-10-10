@@ -1,0 +1,8 @@
+{
+  "name": "math-proof",
+  "description": "两个用于攻克高难度数学问题的 skill，最终都会产出一份自包含的 proof.md：/math-proof:solo 由当前会话分阶段自行解题，并维护一个笔记文件；/math-proof:siege 则以多轮裁判与执行子代理的方式持续数小时攻关，并如实说明哪些已证明、哪些未证明。",
+  "author": {
+    "name": "Anthropic",
+    "email": "support@anthropic.com"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "a8272021e6195bc3": {
+    "zh": "适用于 Claude Code 的 New Relic 可观测性智能。调查 APM 性能、分析云成本、调试 Kubernetes、编写 NRQL 查询、响应告警——全部在终端中基于 New Relic 遥测数据完成。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

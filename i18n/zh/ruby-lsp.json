@@ -1,0 +1,9 @@
+{
+  "8b4a0ac33a2cd1b1": {
+    "zh": "用于代码智能与分析的 Ruby language server",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

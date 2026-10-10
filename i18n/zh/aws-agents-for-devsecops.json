@@ -1,0 +1,9 @@
+{
+  "47b298de46aef6f1": {
+    "zh": "使用 AWS DevOps Agent 和 AWS Security Agent 调查事件、审查代码并执行 UAT 以确认发布就绪、扫描代码漏洞并运行渗透测试。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

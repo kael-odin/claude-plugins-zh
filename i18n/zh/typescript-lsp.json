@@ -1,0 +1,9 @@
+{
+  "2dca62968d40c3a3": {
+    "zh": "用于增强代码智能的 TypeScript/JavaScript 语言服务器",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

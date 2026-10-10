@@ -1,0 +1,9 @@
+{
+  "1c9c3ba6e2e526e9": {
+    "zh": "借助 Apollo.io 进行潜在客户挖掘、线索信息补全、加载外联序列，并查询销售分析数据——为 Claude Code 和 Cowork 提供一键式 MCP 服务器集成。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "2ed752e3489390bf": {
+    "zh": "在 agent 编码循环中自动执行 SonarQube 代码质量与安全管控 —— 7,000+ 条规则、密钥扫描、agentic 分析，以及覆盖 40 多种语言的质量门禁。PostToolUse hooks 在每次文件编辑后运行分析。工具调用前的密钥扫描可阻止 450+ 种模式送达 LLM。Slash commands 可按需查看质量门禁状态、覆盖率、重复率和依赖风险。包含 SonarQube CLI、MCP Server、skills、hooks 和 slash commands。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "3004067072ca1755": {
+    "zh": "Matt Pocock 的真实工程 agent skills —— grilling、spec/ticket 流程、TDD、代码审查、领域建模等。即插即用，而非 vibe coding。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

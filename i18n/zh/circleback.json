@@ -1,0 +1,9 @@
+{
+  "778780c5ec2f2af5": {
+    "zh": "Circleback 对话上下文集成。搜索并访问会议、邮件、日历事件等。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

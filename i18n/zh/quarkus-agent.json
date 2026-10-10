@@ -1,0 +1,9 @@
+{
+  "606dd4003eb5094a": {
+    "zh": "供 AI 编码智能体创建、管理和交互 Quarkus 应用的 MCP server。提供项目、dev mode 生命周期、扩展 skill、Dev MCP 代理和文档搜索等工具。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "59408f3c529b9c6d": {
+    "zh": "用于测试频道通知流程的 localhost Web 聊天。无需令牌、无访问控制、无第三方服务。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  },
+  "6a7c46114726ba27": {
+    "zh": "Claude Code 的本地 iMessage 风格网页聊天——支持文件上传和编辑的测试界面。无需令牌，无访问控制。",
+    "field": "pluginDescription",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

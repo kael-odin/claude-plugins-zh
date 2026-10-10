@@ -1,0 +1,9 @@
+{
+  "aefbe876c7153821": {
+    "zh": "借助 Claude AI，轻松使用 Fluent SDK 创建、编辑和部署 ServiceNow 应用。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

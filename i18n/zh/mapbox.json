@@ -1,0 +1,9 @@
+{
+  "26f63db740704e42": {
+    "zh": "用于借助 AI 构建位置感知应用的 Mapbox skills 与 MCP servers。包含地理空间工具、样式管理，以及适用于 Web、iOS、Android 和 AI agent 框架的模式。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

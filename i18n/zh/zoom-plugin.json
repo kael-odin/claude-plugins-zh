@@ -1,0 +1,9 @@
+{
+  "fb433e3609eb98c0": {
+    "zh": "用于规划、构建和调试 Zoom 集成的 Claude 插件，覆盖 REST API、SDK、webhook、bot 和 MCP 工作流。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

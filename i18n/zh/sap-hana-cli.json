@@ -1,0 +1,9 @@
+{
+  "7d73d58baf04b76e": {
+    "zh": "为 AI 助手提供 150+ 个 SAP HANA 数据库工具。查询表、导入/导出数据、分析数据质量、比较 schema、管理备份、监控性能等。可连接 SAP HANA Cloud 和本地部署数据库。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

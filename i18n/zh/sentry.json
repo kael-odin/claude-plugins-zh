@@ -1,0 +1,9 @@
+{
+  "23d119dd0038d1f0": {
+    "zh": "Sentry 错误监控集成。可直接在开发环境中查看错误报告、分析堆栈跟踪、按指纹搜索 issue，并调试生产环境错误。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

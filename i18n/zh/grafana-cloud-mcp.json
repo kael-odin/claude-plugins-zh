@@ -1,0 +1,9 @@
+{
+  "ff695b70b5459440": {
+    "zh": "托管的 MCP server，用于 AI 辅助的 Grafana Cloud 可观测性——无需本地安装。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

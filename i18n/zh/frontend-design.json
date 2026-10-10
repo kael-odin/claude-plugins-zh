@@ -1,0 +1,16 @@
+{
+  "ac12f0c96f772c91": {
+    "zh": "打造独具特色、达到生产级水准的高设计品质前端界面。生成富有创意、精雕细琢的代码，避免千篇一律的 AI 风格。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  },
+  "0db24e7cb453cbca": {
+    "zh": "用于 UI/UX 实现的前端设计 skill",
+    "field": "pluginDescription",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

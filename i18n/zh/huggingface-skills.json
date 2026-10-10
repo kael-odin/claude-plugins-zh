@@ -1,0 +1,9 @@
+{
+  "2c189555c815cf6a": {
+    "zh": "构建、训练、评估和使用开源 AI 模型、数据集和 Spaces。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

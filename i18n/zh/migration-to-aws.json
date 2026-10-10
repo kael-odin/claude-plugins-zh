@@ -1,0 +1,9 @@
+{
+  "3a7ad9e4d95008a1": {
+    "zh": "规划从 Google Cloud Platform（以及 OpenAI/Gemini AI 工作负载）迁移到 AWS。分析你的基础设施即代码（IaC）文件、应用代码和 GCP 账单数据，以发现资源、设计 AWS 架构、估算成本并生成迁移产物——包括将 AI 提供商映射到 Amazon Bedrock。处理在本地进行；你的数据始终留在你自己的环境中。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

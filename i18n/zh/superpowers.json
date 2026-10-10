@@ -1,0 +1,9 @@
+{
+  "1fabe2ed9c13877a": {
+    "zh": "Superpowers 教会 Claude 头脑风暴、由 subagent 驱动并内置代码审查的开发方式、系统化调试，以及红/绿 TDD。此外，它还教会 Claude 如何编写和测试新 skill。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

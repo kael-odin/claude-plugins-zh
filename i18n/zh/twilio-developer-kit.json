@@ -1,0 +1,9 @@
+{
+  "5c0054814cbefa9e": {
+    "zh": "Twilio Skills 为 AI 编码代理提供流程性知识——该用哪些 API、以何种顺序使用、应避免什么。覆盖 SMS、Voice、WhatsApp、Verify、SendGrid、Compliance 及 30 多个产品。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

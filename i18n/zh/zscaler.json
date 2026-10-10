@@ -1,0 +1,9 @@
+{
+  "5695de7a53b88f0d": {
+    "zh": "管理 Zscaler 云安全平台，包括 ZPA（私有访问）、ZIA（互联网访问）、ZDX（数字体验）、ZCC（客户端连接器）、EASM（攻击面）和 Z-Insights（分析）。创建和管理策略、排查连接问题、审计安全配置，并在整个 Zscaler 生态系统中调查事件。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

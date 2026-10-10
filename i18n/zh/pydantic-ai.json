@@ -1,0 +1,9 @@
+{
+  "7e41b460afeafa85": {
+    "zh": "从一开始就编写 Pydantic AI 代码。涵盖适用于 agents、结构化输出、流式传输和多 agent 应用的最新模式、决策树和常见陷阱。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

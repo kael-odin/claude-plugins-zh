@@ -1,0 +1,9 @@
+{
+  "057c539fa0bef0dd": {
+    "zh": "TDengine IDMP 插件，内置打包好的 skills，用于资产发现、schema 检查和安全的运维工作流。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

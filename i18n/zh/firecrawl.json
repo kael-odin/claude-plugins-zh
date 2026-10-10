@@ -1,0 +1,9 @@
+{
+  "a5be6703b3ac8f27": {
+    "zh": "由 Firecrawl 提供支持的网页抓取与爬取。将任意网站转换为干净、适配 LLM 的 Markdown 或结构化数据。抓取单个页面、爬取整个站点、搜索网络，并提取结构化信息。内置 AI agent 可自主进行多源数据采集——只需描述你的需求，它便会自动查找、导航并提取。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

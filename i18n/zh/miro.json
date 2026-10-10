@@ -1,0 +1,9 @@
+{
+  "26019b6b8c178573": {
+    "zh": "安全访问 Miro 白板。让 AI 能够读取白板上下文、创建图表，并在企业级安全保护下生成代码。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

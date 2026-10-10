@@ -1,0 +1,9 @@
+{
+  "ee183a4ede170552": {
+    "zh": "官方 Google Cloud Storage (GCS) 插件。管理 bucket 和 object、传输数据，并配置 MCP、FUSE、IAM、安全、生命周期规则、签名 URL、Terraform 和 CLI。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

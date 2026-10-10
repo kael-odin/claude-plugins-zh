@@ -1,0 +1,9 @@
+{
+  "26d7c1f98061d72f": {
+    "zh": "CrowdStrike Falcon Fusion 技能，用于编写、部署和执行 Fusion 工作流。涵盖实时操作发现、带 schema 校验的 YAML 编写、工作流导入与发布、执行监控，以及 Falcon Next-Gen SIEM 查找文件。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

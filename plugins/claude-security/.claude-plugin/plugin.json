@@ -1,0 +1,20 @@
+{
+  "name": "claude-security",
+  "version": "0.12.0",
+  "description": "对你自己的代码进行深度漏洞扫描，完全在你的 Claude Code 会话内按选定的强度层级运行；每个发现项在报告前都会先受到质疑，验证计数由代码计算。将存活的发现项转化为有针对性的补丁，每个补丁都由一组 agents 验证，由你自行决定何时应用。有关强度层级、报告格式和信任模型，请参阅该插件的 README。",
+  "author": {
+    "name": "Anthropic",
+    "email": "support@anthropic.com"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "keywords": [
+    "security",
+    "vulnerability",
+    "scan",
+    "audit",
+    "appsec",
+    "code-review",
+    "remediation",
+    "autofix"
+  ]
+}

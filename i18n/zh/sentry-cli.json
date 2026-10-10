@@ -1,0 +1,9 @@
+{
+  "49f5fdabe6c6fe4e": {
+    "zh": "使用 Sentry CLI 从命令行与 Sentry 交互的 skills",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

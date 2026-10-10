@@ -1,0 +1,9 @@
+{
+  "976a24038fdca270": {
+    "zh": "Carta Cap Table 插件 —— 用于查询股权结构表（cap table）、股权授予、SAFE、409A 估值、瀑布场景等的 skills 和 hooks",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

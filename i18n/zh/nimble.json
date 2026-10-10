@@ -1,0 +1,9 @@
+{
+  "834a06db931027b2": {
+    "zh": "Nimble Web 数据工具包 — 搜索、提取、映射、抓取网页，并与结构化数据 agents 协作",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

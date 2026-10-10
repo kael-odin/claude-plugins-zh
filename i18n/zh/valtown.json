@@ -1,0 +1,9 @@
+{
+  "5f6f5fc1adeb77d7": {
+    "zh": "在 Val Town 上构建和部署。内置 Val Town MCP 服务器和平台 skill（HTTP val、cron/interval、SQLite、邮件、OAuth、React UI、第三方集成、模板）。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

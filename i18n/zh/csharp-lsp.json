@@ -1,0 +1,9 @@
+{
+  "3fe0c1b4c083a7ec": {
+    "zh": "用于代码智能的 C# 语言服务器",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

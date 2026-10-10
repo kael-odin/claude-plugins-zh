@@ -1,0 +1,9 @@
+{
+  "d7a186f400c4f76c": {
+    "zh": "让 Claude 获取你真实的 Git 与项目上下文：你参与的所有仓库中的 commit、branch、pull request 和 issue。支持 GitHub、GitLab、Azure DevOps、Bitbucket 和 Jira。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

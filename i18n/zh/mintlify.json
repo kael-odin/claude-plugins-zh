@@ -1,0 +1,9 @@
+{
+  "c5f7ecc7bcc02288": {
+    "zh": "使用 Mintlify 构建精美的文档站点。将非 markdown 文件转换为格式规范的 MDX 页面，以正确的组件用法添加和修改内容，并自动化文档更新。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

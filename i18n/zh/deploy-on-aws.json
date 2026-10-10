@@ -1,0 +1,9 @@
+{
+  "c17943e310b73b2a": {
+    "zh": "将应用部署到 AWS，提供架构建议、成本估算和 IaC 部署。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

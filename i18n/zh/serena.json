@@ -1,0 +1,9 @@
+{
+  "2a0e3455aae6a898": {
+    "zh": "语义代码分析 MCP server，通过集成 language server protocol 提供智能代码理解、重构建议和代码库导航能力。",
+    "field": "pluginDescription",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

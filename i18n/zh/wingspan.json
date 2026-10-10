@@ -1,0 +1,9 @@
+{
+  "92e200c57297a72d": {
+    "zh": "向 Claude 询问你通过 Wingspan 付款的承包商、你欠他们的款项，以及是什么阻碍了某笔付款；然后入驻承包商并以草稿形式记录付款，在写入任何内容前均可预览。需要 Wingspan 账户；已内置 Wingspan MCP server（首次使用时进行 OAuth）。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

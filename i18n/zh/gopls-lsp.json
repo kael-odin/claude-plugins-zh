@@ -1,0 +1,9 @@
+{
+  "5feb73d8cb074e2e": {
+    "zh": "用于代码智能与重构的 Go 语言服务器",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

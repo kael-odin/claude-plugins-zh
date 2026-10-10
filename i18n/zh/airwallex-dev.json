@@ -1,0 +1,9 @@
+{
+  "defd349bd91d5ca3": {
+    "zh": "在你自己的代码库中构建 Airwallex 支付集成。为 Airwallex 集成生成结账、卡元素、入驻和订阅计费的代码，并接入你的项目：Hosted Payment Page、Drop-in 与 Split Card 元素、关联账户 KYC 入驻，以及用于订阅和卡保存的 Billing Hosted Checkout。还可为 AI 服务商规划卡存档的商户发起交易流程，例如充值和自动续费。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

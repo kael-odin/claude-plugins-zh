@@ -1,0 +1,9 @@
+{
+  "deb0c456ddcb6f5c": {
+    "zh": "在 Claude Code 中使用 Boltz 预测结构、筛选分子和蛋白质，并设计结合体。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

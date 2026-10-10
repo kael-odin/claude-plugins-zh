@@ -1,0 +1,9 @@
+{
+  "bb28312c5a99e4c0": {
+    "zh": "面向 Together AI 平台的 Agent Skills——推理、训练、嵌入、音频、视频、图像、函数调用和基础设施。覆盖无服务器聊天补全、图像/视频生成、微调、批量推理、评估、沙箱、专用端点和 GPU 集群。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "564045b333793088": {
+    "zh": "面向 Claude Code 的 Apollo GraphQL 智能体技能——涵盖 Apollo Client、Server、Federation、Connectors、Router、Rover CLI、iOS、Kotlin 以及 Apollo MCP 服务器。内容包括 schema 设计、查询优化和 GraphQL 最佳实践。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "25793a2a8231b0b2": {
+    "zh": "在 AWS 上构建、部署和运维 AI agent。提供使用 Amazon Bedrock AgentCore 搭建 agent 骨架，以及连接工具、记忆、策略、评估、调试和生产加固的 skill。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

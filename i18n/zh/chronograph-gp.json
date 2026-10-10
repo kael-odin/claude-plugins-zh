@@ -1,0 +1,9 @@
+{
+  "2a3f5c44f75be8fb": {
+    "zh": "面向私募资本 GP 团队的投资组合监控、估值与分析，基于 Chronograph connector：被投企业一页纸简报、基金季度回顾材料、估值上调/下调简报、TVPI 归因以及预算与实际对比。需要 Chronograph 账户和 Chronograph connector。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "fe19410b6ff9cc65": {
+    "zh": "大规模视频生成。使用 Runway 的 API 生成视频、图像和音频——批量广告投放、产品视频、多镜头故事和创意迭代。支持 seedance2、gen4.5、veo3、Nano、Banana Pro 等。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

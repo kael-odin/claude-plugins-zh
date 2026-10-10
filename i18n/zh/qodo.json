@@ -1,0 +1,9 @@
+{
+  "e9db92a7402ac74c": {
+    "zh": "将 Qodo 的代码库智能、编码标准和代码审查引入你的 coding agent。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

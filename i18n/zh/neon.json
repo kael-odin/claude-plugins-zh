@@ -1,0 +1,9 @@
+{
+  "5287244d8deb4a34": {
+    "zh": "使用 neon-postgres agent skill 和 Neon MCP Server 管理你的 Neon 项目和数据库。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

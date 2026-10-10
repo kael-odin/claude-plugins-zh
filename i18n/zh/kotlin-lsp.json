@@ -1,0 +1,9 @@
+{
+  "2e8fe319efac9470": {
+    "zh": "Kotlin 语言服务器，提供代码智能功能",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

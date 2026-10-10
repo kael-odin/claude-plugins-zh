@@ -1,0 +1,9 @@
+{
+  "a126ae9f527b8f50": {
+    "zh": "一个经过身份验证的托管 MCP server，可访问你的 PlanetScale 组织、数据库、分支、schema 和 Insights 数据。可对数据执行查询、发现慢查询，并获取组织与账户信息。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

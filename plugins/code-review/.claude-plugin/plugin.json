@@ -1,0 +1,8 @@
+{
+  "name": "code-review",
+  "description": "使用多个专业智能体对拉取请求进行自动化代码审查，并采用基于置信度的评分",
+  "author": {
+    "name": "Anthropic",
+    "email": "support@anthropic.com"
+  }
+}

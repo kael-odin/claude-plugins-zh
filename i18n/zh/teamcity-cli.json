@@ -1,0 +1,9 @@
+{
+  "d1c9a24505dd707a": {
+    "zh": "用于通过 teamcity CLI 与 TeamCity CI/CD 交互的 agent skill。让 Claude 能够探索构建、查看日志、启动作业、管理队列、agent 等。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

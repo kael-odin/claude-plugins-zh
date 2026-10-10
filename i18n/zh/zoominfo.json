@@ -1,0 +1,9 @@
+{
+  "bd9add63752e48d6": {
+    "zh": "搜索公司和联系人、丰富线索、查找相似客户，并获取 AI 排名的联系人推荐。预置 skill 将多个 ZoomInfo 工具串联为完整的 B2B 销售工作流。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

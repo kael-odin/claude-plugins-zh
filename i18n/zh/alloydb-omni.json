@@ -1,0 +1,9 @@
+{
+  "263cfd0998b1fe5a": {
+    "zh": "创建、连接 AlloyDB Omni 数据库与数据，并与之交互。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

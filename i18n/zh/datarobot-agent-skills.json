@@ -1,0 +1,9 @@
+{
+  "9e23c0a6b93511a9": {
+    "zh": "用于 AI/ML 工作流的 DataRobot skills — 模型训练、部署、预测、特征工程、监控、可解释性、数据准备、App Framework CI/CD 以及外部 agent 监控。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "9a9b1ec227e42c89": {
+    "zh": "在 AWS 上构建、部署和运维应用。提供编写基础设施即代码、使用核心服务以及完成常见任务的 skill。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "4b3295f6fa4e6a9f": {
+    "zh": "在你的 agent 中使用 Postman：为仓库引导配置 Postman 环境、在 API 实现前进行 mock、在 CI 中运行 collection 与治理检查、监控线上端点、部署和调试 Postman Flows，并发布生成的 API 文档。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

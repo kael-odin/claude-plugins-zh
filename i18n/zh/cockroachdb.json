@@ -1,0 +1,9 @@
+{
+  "0c8c73e4d4bc70c3": {
+    "zh": "将 Claude Code 直接连接到你的 CockroachDB 集群，进行实操数据库工作——探索 schema、编写优化的 SQL、调试查询，并管理分布式数据库集群。该插件提供 14 个工具，涵盖两个活跃的 MCP 后端（自托管 MCP Toolbox 和托管式 CockroachDB Cloud MCP Server）、三个专用 agent（DBA、Developer、Operator）、覆盖 6 个运维领域的 32 个 skill，以及内置安全 hook。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

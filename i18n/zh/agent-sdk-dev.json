@@ -1,0 +1,16 @@
+{
+  "7ee81fbf5ccc457d": {
+    "zh": "用于使用 Claude Agent SDK 的开发工具包",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  },
+  "57b5dee72057f01c": {
+    "zh": "Claude Agent SDK 开发插件",
+    "field": "pluginDescription",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

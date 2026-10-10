@@ -1,0 +1,9 @@
+{
+  "04a56f2f95b0bdf5": {
+    "zh": "管理 Dataproc 集群与作业。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

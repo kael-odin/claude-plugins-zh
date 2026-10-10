@@ -1,0 +1,9 @@
+{
+  "d757abba99de3f57": {
+    "zh": "面向 Claude Code 的 Output.ai 工作流开发工具包。新增 5 个专业 agent（planner、builder、debugger、prompt writer、quality reviewer）、40+ 个 slash-command skill，覆盖脚手架搭建、调试、评估和凭证管理，并配备 SessionStart hook，可自动加载 Output SDK 约定，让 Claude 在首次 prompt 前就理解该框架。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

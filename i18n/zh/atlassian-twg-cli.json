@@ -1,0 +1,9 @@
+{
+  "8a80da2eeab926f3": {
+    "zh": "Teamwork Graph CLI 是 Atlassian 面向 agent 的接口，连接你的全部工作上下文：Jira issue、Confluence 页面、Bitbucket PR，以及已接入的第三方数据源。专为 Claude Code（终端或桌面端）等编码 agent 打造，由 Atlassian 的上下文图谱驱动。试试：\"根据这个 PR 起草一个 Jira issue，并将其关联到 epic。\" 在浏览器中使用 Claude Code？请改为安装 Atlassian Rovo MCP 插件。安装后运行 /twg-setup，即可将 Atlassian Teamwork Graph CLI 连接到 Claude Code。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

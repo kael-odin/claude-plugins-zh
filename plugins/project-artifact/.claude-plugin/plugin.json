@@ -1,0 +1,8 @@
+{
+  "name": "project-artifact",
+  "description": "生成并发布项目状态 artifact —— 一个观点鲜明、采用标签页布局的状态页面（概览与成功标准、工作流序列、后续步骤，以及在值得独立成页时附上的背景 / 计划 / 风险与待解问题 / 决策-FAQ），通过内置的 Artifact 工具发布到默认私有的 claude.ai 页面，用户可与团队成员分享。每个 artifact 都由一份按项目区分的配置支撑，因此「刷新 artifact」会重新采集实时状态、重新部署同一 URL，并仅报告增量变化。与领域无关，并为工作流为 pull request 的项目提供软件领域特化。需要内置的 Artifact 工具（claude.ai 登录）。",
+  "author": {
+    "name": "Anthropic",
+    "email": "support@anthropic.com"
+  }
+}

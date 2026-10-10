@@ -1,0 +1,9 @@
+{
+  "17a2c50413c3abc5": {
+    "zh": "Google Firebase MCP 集成。管理 Firestore 数据库、身份验证、云函数、托管和存储。直接从你的开发工作流构建和管理 Firebase 后端。",
+    "field": "pluginDescription",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

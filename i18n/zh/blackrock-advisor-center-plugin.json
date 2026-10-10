@@ -1,0 +1,9 @@
+{
+  "d11516be6bdda6b6": {
+    "zh": "面向财务顾问的 BlackRock Advisor Center 360° 技能：投资组合审查、机会与基金健康检查、引导式基准选择、引导式投资组合构建、财富预测，以及跳转至 Advisor Center 网页工作流。需要 BlackRock Advisor Center connector 和 Advisor Center 账户。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

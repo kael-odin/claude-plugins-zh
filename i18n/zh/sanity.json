@@ -1,0 +1,9 @@
+{
+  "93bc08100ee6c5f6": {
+    "zh": "Sanity 内容平台集成，提供 MCP server、agent skills 和 slash commands。查询和创作内容、构建并优化 GROQ 查询、设计 schema，以及设置 Visual Editing。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

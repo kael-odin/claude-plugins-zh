@@ -1,0 +1,9 @@
+{
+  "ce66cfec031e60f0": {
+    "zh": "使用 S3 Tables、AWS Glue 和 Athena 的数据湖、分析与 ETL 工作流。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

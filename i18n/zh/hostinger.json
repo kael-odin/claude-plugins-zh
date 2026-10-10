@@ -1,0 +1,9 @@
+{
+  "0635ea8b6a8418ee": {
+    "zh": "直接在 Claude Code 中部署、管理和监控你的 Hostinger 服务。该 plugin 将 Claude 连接到 Hostinger 的远程 MCP server，让你无需离开编码环境即可发布网站和应用、管理域名和 DNS、运行 WordPress 以及运维 VPS 服务器。你的机器上无需安装任何东西：不需要 Node.js，不需要 npm，也不需要本地服务器。主要功能包括：一条 prompt 即可部署静态站点、Node.js 应用（基于 Hostinger 构建）、完整的 WordPress 站点导入，以及 WordPress 插件和主题，此外还支持 Agency Plan 上的静态站点和 PHP 站点。除部署外，Claude 还可以搜索和注册域名、编辑 DNS 记录与快照、查看构建日志，以及管理邮箱、在线商店、电子邮件营销联系人、订阅和订单。它还能控制 VPS 防火墙、快照和监控。首次使用时通过浏览器登录（OAuth），或从 hPanel 设置 `HOSTINGER_API_TOKEN`。使用方法：无需记住任何命令。描述你的需求，Claude 会选择正确的工具或部署 skill。试试“deploy my static site to Hostinger”、“deploy this Next.js app to example.com”、“create an A record pointing example.com to 1.2.3.4”，或“show VPS metrics for the last 24 hours”。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "8e5671042aea57bf": {
+    "zh": "在 Claude 中使用 incident.io：响应并调查事件，查看值班排班和升级流程，撰写 incident.io 调查所依赖的 runbook、skills 和架构文档。内置官方 incident.io MCP server（首次使用时进行 OAuth 授权）。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

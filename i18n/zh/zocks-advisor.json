@@ -1,0 +1,9 @@
+{
+  "d390e40d8ca4c25e": {
+    "zh": "面向财务顾问的七个 skill，基于 Zocks 会议智能构建：客户行为画像、流失风险排名、外部资产雷达、客户旅程档案、家庭审查包、最佳下一步行动分析和税务机会扫描。需要 Zocks connector 和 Zocks 账户。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "cb1bbdfd3537394f": {
+    "zh": "CrowdStrike Falcon Foundry 开发技能，用于在 Falcon 平台上构建网络安全应用。涵盖 UI 开发、collections、functions、workflows、API 集成、安全模式和调试工作流。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

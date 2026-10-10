@@ -1,0 +1,9 @@
+{
+  "d1e8859d4741a1c4": {
+    "zh": "Fastly 开发工具与平台 skill",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

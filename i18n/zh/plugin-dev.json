@@ -1,0 +1,16 @@
+{
+  "a979d7a48603e226": {
+    "zh": "用于开发 Claude Code 插件的综合工具包。包含 7 项专家 skill，涵盖 hook、MCP 集成、命令、agent 和最佳实践。支持 AI 辅助的插件创建与验证。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  },
+  "dfdae1220da4e7c0": {
+    "zh": "插件开发工具包，提供用于创建 agents、commands、hooks、MCP 集成的 skills，以及全面的插件结构指导",
+    "field": "pluginDescription",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

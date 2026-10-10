@@ -1,0 +1,9 @@
+{
+  "10d04fef68873cc5": {
+    "zh": "用于在 Rill 商业智能平台中开发和查询项目的 skills",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

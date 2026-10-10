@@ -1,0 +1,9 @@
+{
+  "34e6fc73f5807589": {
+    "zh": "通过 TTS 旁白、丰富的时间线、封面图片创作精良的音频剧集，并使用 save-to-spotify CLI 保存到 Spotify。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

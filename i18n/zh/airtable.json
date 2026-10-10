@@ -1,0 +1,9 @@
+{
+  "22ae76fd937788df": {
+    "zh": "Airtable 是为你的代理提供支持的数据库和运营层——无论你是在运营产品、营销、销售、运营、HR 还是自定义业务应用。它将结构化数据与人类和代理共享的多人可视化界面（网格、看板、日历、画廊、时间线）相结合——并支持与 Jira、Salesforce、Zendesk、Google Drive、Databricks 以及技术栈中其他工具的同步集成，一切均由企业级治理提供支持。此插件让 Claude 精通 Airtable：创建基表和架构、处理记录，以及共享 UI 以进行协作。内置官方 Airtable MCP 服务器。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "7b46b3945445d002": {
+    "zh": "将 Claude Code 连接到 LogRocket，使用自然语言查询会话回放、指标、issue 和用户行为。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

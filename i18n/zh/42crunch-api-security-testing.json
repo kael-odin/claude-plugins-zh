@@ -1,0 +1,9 @@
+{
+  "f9edd94bc5ac43f7": {
+    "zh": "使用 42Crunch 在 Claude Code 中直接实现 API 安全自动化——自动审计 OpenAPI 规范，检测与 OWASP API 安全风险（包括 BOLA/BFLA）对齐的漏洞，并应用 AI 驱动的修复。专为 AI 辅助开发工作流设计，通过审计->扫描->修复->验证循环提供持续防护，确保 API 在部署前满足企业安全标准。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

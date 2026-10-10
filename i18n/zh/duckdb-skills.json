@@ -1,0 +1,9 @@
+{
+  "610acccd2db42fe8": {
+    "zh": "基于 DuckDB 的 Claude Code skill：读取任意数据文件、附加并查询 DuckDB 数据库、搜索 DuckDB/DuckLake 文档、搜索过往会话日志，以及安装/更新 DuckDB 扩展。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

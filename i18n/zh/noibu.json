@@ -1,0 +1,9 @@
+{
+  "7cadf8b0880c7ac6": {
+    "zh": "Noibu 插件专为电商打造，通过 Noibu 将 Claude 直接连接到您店铺的会话、错误和转化数据，并连接营销、客服与商务平台，让洞察付诸行动，从而弥合客户体验与营收之间的差距。不止于分析：揭示正在造成营收损失的问题，在整个技术栈中采取行动，构建端到端自动化工作流。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

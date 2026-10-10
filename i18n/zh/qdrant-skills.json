@@ -1,0 +1,9 @@
+{
+  "dc08fa2d0727f7c2": {
+    "zh": "用于 Qdrant 向量搜索的 agent skills，涵盖扩展、性能优化、搜索质量、监控、部署、模型迁移、版本升级，以及在 Python、TypeScript、Rust、Go、.NET 和 Java 中的 SDK 用法。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

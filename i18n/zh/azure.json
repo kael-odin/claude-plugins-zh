@@ -1,0 +1,9 @@
+{
+  "22192de62694ca63": {
+    "zh": "将 Claude 打造成 Azure 专家。本插件集成了 Azure MCP server 和专业 Azure skills，助你摆脱泛泛而谈的建议。它让 Claude 能够执行实际任务：列出资源、验证部署、诊断基础设施问题，并优化 50+ 项 Azure 服务的成本。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

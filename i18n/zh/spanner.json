@@ -1,0 +1,9 @@
+{
+  "71c390e0c452c0b0": {
+    "zh": "使用自然语言连接并操作 Spanner 数据。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

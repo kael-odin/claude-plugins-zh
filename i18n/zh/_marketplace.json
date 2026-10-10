@@ -1,0 +1,9 @@
+{
+  "0a60ec1638b73acd": {
+    "zh": "热门 Claude Code 扩展目录，包括开发工具、生产力插件和 MCP 集成",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

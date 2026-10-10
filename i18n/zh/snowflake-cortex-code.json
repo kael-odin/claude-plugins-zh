@@ -1,0 +1,9 @@
+{
+  "83bcaaf29ca5e87f": {
+    "zh": "自动将 Claude Code 中的 Snowflake 提示路由到 Cortex Code 执行。提供用于代码审查和任务委派的 slash commands，以及 routing、run 和 setup 三个 skill。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

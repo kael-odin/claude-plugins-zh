@@ -1,0 +1,9 @@
+{
+  "b3270ca87ed7e082": {
+    "zh": "Vanta 插件通过 Vanta MCP 服务器将 Claude Code 连接到 Vanta 的安全与合规平台。它结合 Vanta 针对具体测试的修复智能与你的本地仓库上下文，帮助你更快地修复合规问题。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

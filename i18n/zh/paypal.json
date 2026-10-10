@@ -1,0 +1,9 @@
+{
+  "7c1be74132a819a2": {
+    "zh": "适用于 Claude 的 PayPal 开发插件——使用 PayPal 的 API 和 MCP 服务器集成支付、订阅、发票、争议等功能",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

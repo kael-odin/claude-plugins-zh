@@ -1,0 +1,9 @@
+{
+  "28bddaf76f232f3e": {
+    "zh": "全面的 PR 审查 agents，专注于评论、测试、错误处理、类型设计、代码质量和代码简化",
+    "field": "pluginDescription",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

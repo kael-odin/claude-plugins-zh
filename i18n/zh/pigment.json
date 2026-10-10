@@ -1,0 +1,9 @@
+{
+  "c6e390b858a1d20f": {
+    "zh": "通过自然语言分析业务数据并构建自定义 Pigment 模型、指标和看板。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

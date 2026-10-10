@@ -1,0 +1,9 @@
+{
+  "d3191a683444daf8": {
+    "zh": "开发和使​​用 Grafana Assistant 应用及 CLI 的 skills 和 rules。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

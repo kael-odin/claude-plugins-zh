@@ -1,0 +1,8 @@
+{
+  "name": "hookify",
+  "description": "通过分析对话模式，轻松创建 hook 以阻止不想要的行为",
+  "author": {
+    "name": "Anthropic",
+    "email": "support@anthropic.com"
+  }
+}

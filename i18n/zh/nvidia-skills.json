@@ -1,0 +1,9 @@
+{
+  "d506aea908cc1842": {
+    "zh": "为 GPU 加速、CUDA、AI agents、数据加载、训练、推理、机器人、Physical AI、Omniverse、仿真及其他 NVIDIA 驱动的工作流，找到合适的 NVIDIA skill。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "40685957218f26d3": {
+    "zh": "Claude Code 的 Netlify 平台 skills — functions、edge functions、blobs、database、image CDN、forms、config、CLI、frameworks、caching、AI gateway 与部署。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

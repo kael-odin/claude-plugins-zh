@@ -1,0 +1,13 @@
+{
+  "name": "fakechat",
+  "description": "Claude Code 的本地 iMessage 风格网页聊天——支持文件上传和编辑的测试界面。无需令牌，无访问控制。",
+  "version": "0.0.1",
+  "keywords": [
+    "fakechat",
+    "web",
+    "localhost",
+    "testing",
+    "channel",
+    "mcp"
+  ]
+}

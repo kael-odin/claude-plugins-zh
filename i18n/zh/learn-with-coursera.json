@@ -1,0 +1,9 @@
+{
+  "dd73322779afb51a": {
+    "zh": "将任何学习意图转化为个性化的 Coursera 体验。询问三个简短问题（主题、熟悉程度、偏好形式），搜索 Coursera 的课程目录，并给出合适的下一步——一门课程、动手项目、短视频或实时角色扮演——然后规划前进路径。需要 Coursera connector 以使用课程目录工具。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "73767df7d759c5fa": {
+    "zh": "在 Claude Code 中使用 JFrog Platform：Artifactory 仓库与制品、安全发现与暴露、Catalog 包安全与下载、跨 SDLC 的工作流，以及平台管理。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

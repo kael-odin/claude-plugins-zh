@@ -1,0 +1,9 @@
+{
+  "af87be2571b3fb79": {
+    "zh": "连接并查询 BigQuery 数据集和数据，生成数据洞察。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "61f15522f16900b3": {
+    "zh": "通过 Windsor.ai 将 Claude Code 连接到 325+ 个业务数据源。直接在终端中查询来自 Google Ads、Meta、HubSpot、Salesforce、Shopify、Stripe 等数百个平台的营销、销售、CRM、电商、财务和分析数据。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

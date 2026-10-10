@@ -1,0 +1,9 @@
+{
+  "718b770e5e69ec4d": {
+    "zh": "将 dbt 和数仓工作委派给 altimate-code —— 一个专用 CLI agent，内置 100 多个为数据场景量身打造的工具（SQL 分析、列级血缘、dbt build/test/run、数仓性能剖析、FinOps，以及连接 Snowflake、BigQuery、Redshift、Databricks、Postgres、MySQL、DuckDB）。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

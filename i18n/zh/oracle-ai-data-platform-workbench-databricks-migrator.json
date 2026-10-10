@@ -1,0 +1,9 @@
+{
+  "456fde5f0a019240": {
+    "zh": "用自然语言驱动 Oracle AI Data Platform (AIDP) Databricks Migration Toolkit。自动规划并执行 Databricks → AIDP 的 notebook、job、schedule 和 catalog DDL 迁移 —— 借助 Claude 在实时 AIDP 集群上完成 Pass-1 依赖重写 + Pass-2 逐单元格执行/校验/修复。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

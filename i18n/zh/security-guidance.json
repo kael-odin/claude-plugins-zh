@@ -1,0 +1,9 @@
+{
+  "74cf4d13f8bd8f73": {
+    "zh": "针对 Claude 生成代码的安全审查。编辑时基于模式的告警，Stop 时由 LLM 驱动的 diff 审查，以及一个 agentic commit 审查器，可捕获注入、XSS、SSRF、硬编码密钥以及其他 25+ 类漏洞。",
+    "field": "pluginDescription",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

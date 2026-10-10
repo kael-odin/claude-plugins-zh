@@ -1,0 +1,9 @@
+{
+  "38ed023ef3c788e9": {
+    "zh": "将 Claude 连接至 Fullstory，以查询行为分析、会话回放和客户体验洞察。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

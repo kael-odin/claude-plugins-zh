@@ -1,0 +1,9 @@
+{
+  "b9f1dc6e79ac530e": {
+    "zh": "官方 Expo skill，用于构建、部署、升级和调试使用 Expo 的 React Native 应用。涵盖使用 Expo Router 进行 UI 开发、SwiftUI 与 Jetpack Compose 组件、Tailwind CSS 设置、API 路由、数据获取、CI/CD 工作流、App Store 与 Play Store 部署、SDK 升级、DOM 组件以及 dev client 分发。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

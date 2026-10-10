@@ -1,0 +1,9 @@
+{
+  "c916720f19e33f19": {
+    "zh": "更快交付稳定币应用。面向 USDC 支付、跨链转账、钱包和智能合约的最佳实践 skills —— 外加 Circle 的 MCP server，提供实时的 SDK 与文档指引。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

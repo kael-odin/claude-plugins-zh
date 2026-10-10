@@ -1,0 +1,9 @@
+{
+  "c02e39dcb1616339": {
+    "zh": "You.com agent skill，用于网页搜索、带引用的调研以及内容提取。提供面向 Vercel AI SDK、Claude Agent SDK、OpenAI Agents SDK、crewAI、LangChain、Microsoft Teams.ai、直接 REST API 和 bash CLI 的引导式集成。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

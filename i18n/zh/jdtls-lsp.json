@@ -1,0 +1,9 @@
+{
+  "df036d2e12b23248": {
+    "zh": "Java 语言服务器（Eclipse JDT.LS），提供代码智能功能",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "01d0aa6682d382ec": {
+    "zh": "面向 Atlassian Forge 的 Forge 专用技能与 MCP 配置：搭建并部署应用（forge create、模板、开发空间）、为 Rovo Search/Rovo Chat 构建 Teamwork Graph 连接器、部署前审查、系统化调试，并通过 MCP 查询 Forge 文档和 Atlassian Design System。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

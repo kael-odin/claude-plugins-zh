@@ -1,0 +1,9 @@
+{
+  "406c9b392130a5f5": {
+    "zh": "通过 Shopify CLI 主题语言服务器为 Shopify Liquid 模板提供 LSP 集成。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

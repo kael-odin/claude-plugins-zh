@@ -1,0 +1,9 @@
+{
+  "3d16fa117196e4cd": {
+    "zh": "Semgrep 实时捕获安全漏洞，并引导 Claude 从一开始就编写安全的代码。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

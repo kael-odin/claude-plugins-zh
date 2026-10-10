@@ -1,0 +1,9 @@
+{
+  "ea7f17c8a35309cc": {
+    "zh": "面向 Informatica Intelligent Data Management Cloud (CDGC) 的受治理目录发现：在企业目录中查找表、列、文件、词汇表术语和策略，检查归属方、认证状态、敏感级别和适用策略，并在查询任何数据之前，基于目录元数据获取安全使用指引。需要 Informatica IDMC 租户以及 Informatica Catalog Discovery connector。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

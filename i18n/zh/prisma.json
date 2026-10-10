@@ -1,0 +1,9 @@
+{
+  "297977e0fc93a3ab": {
+    "zh": "Prisma MCP 集成，用于 Postgres 数据库管理、schema 迁移、SQL 查询和连接字符串管理。配置 Prisma Postgres 数据库、运行迁移，并直接与数据交互。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

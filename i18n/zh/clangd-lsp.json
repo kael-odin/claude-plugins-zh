@@ -1,0 +1,9 @@
+{
+  "45ed704f84ab010f": {
+    "zh": "用于代码智能的 C/C++ language server（clangd）",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

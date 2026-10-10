@@ -1,0 +1,9 @@
+{
+  "563c4e16a64ebebe": {
+    "zh": "基于 NetSuite 实时数据的总监级财务分析：财务报告、期末结账、差异分析、账龄与对账复核、现金报告，以及可直接提交董事会的阐述性报告和后续行动建议。需配合 NetSuite AI Connector Service 使用。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

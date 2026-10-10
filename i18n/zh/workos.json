@@ -1,0 +1,9 @@
+{
+  "833b6454a8fcd6ca": {
+    "zh": "面向 AuthKit、SSO、Directory Sync、RBAC、Vault、Audit Logs、迁移和 API 参考的 WorkOS 集成技能。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

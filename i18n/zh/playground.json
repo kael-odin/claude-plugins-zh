@@ -1,0 +1,16 @@
+{
+  "4f780f26c17506ef": {
+    "zh": "创建交互式 HTML playground——自包含的单文件浏览器，带可视化控件、实时预览，以及带复制按钮的 prompt 输出。包含设计 playground、数据浏览器、概念图和文档评审的模板。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  },
+  "04ba4ee03dfed0ee": {
+    "zh": "创建交互式 HTML playground——自包含的单文件探索工具，带可视化控件、实时预览，以及可一键复制的 prompt 输出",
+    "field": "pluginDescription",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

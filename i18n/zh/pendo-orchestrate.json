@@ -1,0 +1,9 @@
+{
+  "58e7e6e078a4ec98": {
+    "zh": "通过 Pendo 连接器创建、配置和编辑草稿状态的 Pendo Orchestrate 电子邮件旅程，包括多邮件和条件拆分流程。旅程保持草稿状态；激活在 Orchestrate UI 中进行。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

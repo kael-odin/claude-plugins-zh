@@ -1,0 +1,9 @@
+{
+  "1a86bdd7e2c50ac5": {
+    "zh": "用于集成 Scandit Data Capture SDK 的 AI agent skills —— 涵盖条码扫描、ID 采集和智能标签采集的产品选型、文档与实现指南。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

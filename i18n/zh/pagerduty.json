@@ -1,0 +1,9 @@
+{
+  "c447e1b0084e4c34": {
+    "zh": "通过 PagerDuty 风险评分和事件关联提升代码质量与安全性。依据历史事件数据对 pre-commit diff 进行评分，在发布前揭示部署风险。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

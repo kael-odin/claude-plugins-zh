@@ -1,0 +1,9 @@
+{
+  "bc5399a26a6d9e5f": {
+    "zh": "Mercado Pago 全产品集成工具包。一个 agent 会路由到四个编排 skills（mp-integrate 向导、mp-webhooks、mp-test-setup、mp-review），它们从官方 Mercado Pago MCP 服务器实时拉取所有 endpoint、payload 和代码片段。MCP 必须始终保持连接——没有离线模式。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

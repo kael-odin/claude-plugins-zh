@@ -1,0 +1,9 @@
+{
+  "9268f77dc0453ec4": {
+    "zh": "使用这些核心构建模块来构建 Salesforce 应用和代理：metadata、Apex、deploy/retrieve、security、reporting，以及生成的已安装与可用能力发现。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

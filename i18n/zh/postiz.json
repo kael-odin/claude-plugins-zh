@@ -1,0 +1,9 @@
+{
+  "c40574aa94da909d": {
+    "zh": "社交媒体自动化 CLI，可在 28+ 平台（包括 X、LinkedIn、Reddit、YouTube、TikTok、Instagram 等）上安排帖子发布、管理集成、上传媒体并跟踪分析数据",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

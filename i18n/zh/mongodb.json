@@ -1,0 +1,9 @@
+{
+  "44d22c7c7ed5e535": {
+    "zh": "MongoDB 官方 Claude 插件（MCP Server + Skills）。连接数据库、探索数据、管理集合、优化查询、生成可靠代码、落实最佳实践、开发高级功能等等。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

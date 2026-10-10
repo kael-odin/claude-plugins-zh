@@ -1,0 +1,9 @@
+{
+  "6e201b30b3f19dd4": {
+    "zh": "面向 Claude Code 的 Atlan 数据目录插件。通过自然语言搜索、探索、治理和管理你的数据资产。由 Atlan MCP 服务器提供支持，具备语义搜索、血缘遍历、术语表管理、数据质量规则等能力。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

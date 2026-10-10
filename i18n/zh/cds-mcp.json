@@ -1,0 +1,9 @@
+{
+  "1b50c52527edb900": {
+    "zh": "AI 辅助开发 SAP Cloud Application Programming Model（CAP）项目。搜索 CDS 模型和 CAP 文档。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

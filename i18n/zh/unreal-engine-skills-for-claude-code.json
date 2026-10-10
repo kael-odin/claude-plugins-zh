@@ -1,0 +1,9 @@
+{
+  "784b9502b6770f28": {
+    "zh": "通过 MCP 直接从 Claude Code 控制 Unreal Editor。借助 Unreal 的 ToolsetRegistry，在 30 多个工具集中暴露数百个工具：actor、蓝图、材质、Niagara、Control Rig、Sequencer、State Tree、控件、Gameplay Ability System、自动化测试等。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

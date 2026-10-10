@@ -1,0 +1,18 @@
+{
+  "development": "开发工具",
+  "productivity": "效率办公",
+  "database": "数据库",
+  "security": "安全",
+  "monitoring": "监控运维",
+  "deployment": "部署交付",
+  "design": "设计创作",
+  "automation": "自动化",
+  "learning": "学习教程",
+  "testing": "测试",
+  "math": "数学科学",
+  "location": "位置服务",
+  "migration": "迁移",
+  "finance": "金融财务",
+  "communication": "沟通协作",
+  "other": "其他"
+}

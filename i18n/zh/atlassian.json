@@ -1,0 +1,9 @@
+{
+  "5503c62da47fbda7": {
+    "zh": "连接 Atlassian 旗下产品，包括 Jira 和 Confluence。搜索和创建 issue、访问文档、管理 sprint，并将你的开发工作流与 Atlassian 的协作工具集成。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

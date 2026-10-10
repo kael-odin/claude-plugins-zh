@@ -1,0 +1,9 @@
+{
+  "f4b96bb929595567": {
+    "zh": "面向商务与个人需求的法律指导和法律工具。AI 驱动的文档审查可识别关键风险和重要条款，提示何时应聘请律师，并在需要专业支持时接入 LegalZoom 网络。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

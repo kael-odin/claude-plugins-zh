@@ -1,0 +1,9 @@
+{
+  "957e65903142a142": {
+    "zh": "用于 Honeycomb 可观测性的 skill、agent 和工作流——查询模式、生产环境排查、SLO、OpenTelemetry 埋点以及 Beeline 迁移。旨在与 Honeycomb MCP server 互补。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

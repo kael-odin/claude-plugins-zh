@@ -1,0 +1,9 @@
+{
+  "25b0338884e6c12c": {
+    "zh": "用于构建、分析和管理 Microsoft Dataverse 的 agent skills — 搭配 Dataverse MCP、PAC CLI 和 Python SDK。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "c0bd31c119cb8dee": {
+    "zh": "Shopify 的 AI Toolkit 提供 18 项开发 skill，用于在 Shopify 平台上构建应用，涵盖文档搜索、API schema 访问、GraphQL 和 Liquid 代码校验、Hydrogen 店面、Polaris UI 扩展、通过 CLI 管理店铺，以及面向开发者和商家的入门指导。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

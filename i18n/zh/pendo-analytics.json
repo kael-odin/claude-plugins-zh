@@ -1,0 +1,9 @@
+{
+  "e049043ddf815b45": {
+    "zh": "将 Pendo 产品分析引入 Claude Code：基于真实使用数据的账户健康、功能采用情况、会话回放查询与分诊、反馈分析以及数据驱动的规划。需要 Pendo 连接器和 Pendo 订阅。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "8a1fd0d1f18fbd98": {
+    "zh": "将代码库迁移、现代化并升级到 AWS。可将 .NET Framework 转换为 .NET 8/10，将大型机 COBOL 转换为 Java，将 VMware 虚拟机迁移到 EC2，将 SQL Server 迁移到 Aurora，并升级 Java/Python/Node.js 版本和 AWS SDK。AWS Transform - continuous modernization 会分析代码库中的技术债务、安全问题和升级机会，并进行修复。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

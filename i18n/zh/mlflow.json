@@ -1,0 +1,9 @@
+{
+  "4e3d18bfc581c59a": {
+    "zh": "使用 MLflow 追踪、评估和改进 AI agent 的 skills。支持完整的 agent 改进闭环：插桩 → 追踪 → 评估 → 迭代 → 验证。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

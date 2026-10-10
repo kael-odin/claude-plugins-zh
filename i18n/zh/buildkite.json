@@ -1,0 +1,9 @@
+{
+  "02ecde9029889575": {
+    "zh": "面向 Claude Code、Cursor 及其他 AI 编程代理的官方 Buildkite 技能——pipeline、迁移、预检、agent runtime、CLI 和 API",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "8615eeb2e1e0398d": {
+    "zh": "用于代码智能的 Lua 语言服务器",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

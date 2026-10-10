@@ -1,0 +1,9 @@
+{
+  "4a045f59467c99bf": {
+    "zh": "Bigdata.com 官方插件，提供由 Bigdata MCP 驱动的金融研究、分析和情报工具。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "a2851fe546779dfa": {
+    "zh": "基于 350,000+ 家初创公司的实践模式打造的个性化 AWS 指导。获取与你的发展阶段相匹配的架构、成本和安全建议，从第一天创建账户到生产就绪的基础设施全程覆盖。从 Azure、GCP 或 Heroku 迁移到 AWS，提供资源发现、成本估算和生成的 Terraform。将 OpenAI、Azure OpenAI 和 Gemini 代码迁移到 Amazon Bedrock，并在 AgentCore 及其他 AWS 运行时上规划和构建 AI agent 原型。包含 AWS Activate 抵用金资格、60+ 项初创公司专属优惠，以及多账户、多区域支持。由 AWS 初创公司解决方案架构师构建。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

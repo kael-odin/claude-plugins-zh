@@ -1,0 +1,9 @@
+{
+  "fd5180b356e52289": {
+    "zh": "在一个插件中汇集 AMD 官方验证的 Agent Skills：在 Ryzen AI 上通过本地 AI 处理图像/音频，使用 vLLM 在 AMD Instinct GPU 上部署 LLM 服务，借助 Hyperloom 优化推理吞吐量，并分析 GPU kernel 与 PyTorch trace 性能。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

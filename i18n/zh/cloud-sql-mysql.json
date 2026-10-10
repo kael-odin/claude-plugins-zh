@@ -1,0 +1,9 @@
+{
+  "b69399757b448d1a": {
+    "zh": "连接 Cloud SQL for MySQL 数据库及其数据并与之交互。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

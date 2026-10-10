@@ -1,0 +1,9 @@
+{
+  "7e0aa203286f6b5f": {
+    "zh": "28 条 ClickHouse 表结构设计、查询优化和数据摄取的最佳实践规则——按影响程度排序",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

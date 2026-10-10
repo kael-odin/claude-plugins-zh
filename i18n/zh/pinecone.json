@@ -1,0 +1,9 @@
+{
+  "df248b8d90473610": {
+    "zh": "Pinecone 向量数据库集成。借助强大的工具简化 Pinecone 开发，用于管理向量索引、查询数据和快速原型设计。使用 /quickstart 等斜杠命令生成 AGENTS.md 文件并初始化 Python 项目，使用 /query 快速探索索引。访问 Pinecone MCP 服务器，与 Claude 一起创建、描述、插入/更新和查询索引。非常适合使用 Pinecone 构建语义搜索、RAG 应用、推荐系统及其他基于向量的应用的开发者。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

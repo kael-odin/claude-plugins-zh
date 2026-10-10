@@ -1,0 +1,9 @@
+{
+  "ff9b46af9b5fa012": {
+    "zh": "查找并验证专业邮箱地址，按域名搜索联系人，丰富企业数据 -- 直接在 Claude 中完成。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

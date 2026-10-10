@@ -1,0 +1,9 @@
+{
+  "name": "claude-md-management",
+  "description": "用于维护和改进 CLAUDE.md 文件的工具——审查质量、沉淀会话经验，并让项目记忆保持最新。",
+  "version": "1.0.0",
+  "author": {
+    "name": "Anthropic",
+    "email": "support@anthropic.com"
+  }
+}

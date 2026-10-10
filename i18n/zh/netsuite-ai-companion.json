@@ -1,0 +1,9 @@
+{
+  "368ee7779904b547": {
+    "zh": "为使用 NetSuite AI Connector 的 AI 助手提供指导：工具选择顺序、输出格式、NetSuite 领域知识、多子公司与多币种处理，以及 SuiteQL 安全护栏。需配合 NetSuite AI Connector Service 使用。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

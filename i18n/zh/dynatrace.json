@@ -1,0 +1,9 @@
+{
+  "60f4209c67fc64c2": {
+    "zh": "Dynatrace 可观测性 skills：DQL 查询模式、应用与基础设施监控、日志分析、问题排查和事件响应工作流，并可通过 Dynatrace MCP server 实时访问平台。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

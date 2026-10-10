@@ -1,0 +1,9 @@
+{
+  "795bce3ce0d4b08a": {
+    "zh": "一套 agent skill，覆盖 GrowthBook 功能开关与实验的完整生命周期。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

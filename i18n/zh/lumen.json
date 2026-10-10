@@ -1,0 +1,9 @@
+{
+  "ba37b4f49e5c4f5a": {
+    "zh": "通过 MCP 进行精确的本地语义代码搜索。使用 Go AST 解析为代码库建立索引，通过 Ollama 或 LM Studio 生成嵌入，并通过 MCP server 向 Claude 提供向量搜索——无需云服务，无需 npm。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

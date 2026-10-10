@@ -1,0 +1,9 @@
+{
+  "1c375319703cb4da": {
+    "zh": "面向金融专业人士的 Vanguard Advisor 工具：使用 Claude 中的 Vanguard 顾问连接器，研究并比较业内基金和 ETF，为与客户的沟通做好准备。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "ad6522964e812a1b": {
+    "zh": "查询 StackHawk 平台 API，用于安全态势报告、发现项分析和应用管理。引导 agent 完成身份验证、数据检索与结果呈现。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

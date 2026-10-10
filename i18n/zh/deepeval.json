@@ -1,0 +1,9 @@
+{
+  "e10929d3c5f99485": {
+    "zh": "为 AI 应用添加 DeepEval 评估、追踪、数据集、Confident AI 报告和迭代改进循环的 skills。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

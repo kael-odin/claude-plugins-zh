@@ -1,0 +1,9 @@
+{
+  "84dfd96111323be0": {
+    "zh": "用于 Langfuse（开源 LLM 工程平台，支持 tracing、prompt 管理和评估）的 skill。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

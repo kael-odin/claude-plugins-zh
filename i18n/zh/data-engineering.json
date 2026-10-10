@@ -1,0 +1,9 @@
+{
+  "4cc0ead31b302f46": {
+    "zh": "数据工程插件——数仓探索、管道编写、Airflow 集成",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

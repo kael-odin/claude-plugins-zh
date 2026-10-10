@@ -1,0 +1,9 @@
+{
+  "8d7e17b258dbbfae": {
+    "zh": "由 ActiveCampaign 驱动的营销自动化、CRM 和电子邮件营销。管理联系人、营销活动、自动化流程、交易，并获取 AI 驱动的营销洞察——全部在 Claude 中完成。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

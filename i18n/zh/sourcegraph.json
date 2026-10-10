@@ -1,0 +1,9 @@
+{
+  "5c378f29a841de5c": {
+    "zh": "跨代码库的代码搜索与理解。在多个仓库中搜索、阅读并追踪引用；分析重构影响；通过 commit 和 diff 搜索排查事故；执行定向安全清扫。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

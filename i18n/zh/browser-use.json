@@ -1,0 +1,9 @@
+{
+  "7d523fce36ccd7e4": {
+    "zh": "为 Claude 提供真正的浏览器——你的 Chrome 或 Browser Use Cloud 浏览器。凡是任务涉及网站或 Web 应用时均可使用：浏览、抓取与数据提取、填写表单、测试站点、截图、自动化 Web 工作流。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

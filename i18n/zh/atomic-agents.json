@@ -1,0 +1,9 @@
+{
+  "cfc699998425fa3f": {
+    "zh": "使用 Atomic Agents 框架构建 AI agent 的完整开发工作流。包含用于 schema 设计、架构规划、代码审查和工具开发的专用 agent。提供引导式工作流、渐进式披露 skill 以及最佳实践校验。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

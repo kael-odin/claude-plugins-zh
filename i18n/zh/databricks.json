@@ -1,0 +1,9 @@
+{
+  "ecdd4b61e7ac03d9": {
+    "zh": "面向 CLI、Apps、Lakebase、Model Serving、Lakeflow Jobs、Spark Declarative Pipelines、Declarative Automation Bundles（DAB）以及经典版到无服务器迁移的 Databricks skill。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

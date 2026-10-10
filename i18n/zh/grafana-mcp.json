@@ -1,0 +1,9 @@
+{
+  "570d8646819cbfb1": {
+    "zh": "MCP server，用于 AI 辅助的 Grafana 仪表盘、数据源、告警和事件管理。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "da9d6456ab96a02f": {
+    "zh": "Vercel 部署平台集成。直接从 Claude Code 管理部署、查看构建状态、访问日志、配置域名，并掌控你的前端基础设施。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

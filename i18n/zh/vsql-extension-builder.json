@@ -1,0 +1,9 @@
+{
+  "e9ca67687d0e0ddc": {
+    "zh": "通过一个由 7 个阶段驱动、以角色为核心的流程，端到端地为 MySQL 构建 VillageSQL 扩展。常用于将 PostgreSQL 扩展移植到 MySQL。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

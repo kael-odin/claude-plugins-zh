@@ -1,0 +1,9 @@
+{
+  "ae50689b5b19e4ce": {
+    "zh": "适用于 Claude Code 的 Langfuse 可观测性插件——从 Claude Code 捕获并导出 traces、spans 和会话遥测数据至 Langfuse，用于 LLM 监控、调试与评估",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

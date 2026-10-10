@@ -1,0 +1,9 @@
+{
+  "b93ace6c21a48481": {
+    "zh": "在 Claude 中使用你的 GC AI 法律知识库：上传文档、运行审查 playbook，并基于你自己的文件提问，全部以你的身份完成。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

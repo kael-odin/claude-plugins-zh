@@ -1,0 +1,9 @@
+{
+  "79e56dbd9bdd10e3": {
+    "zh": "Exa AI 网页搜索、深度研究与内容提取。提供 MCP 工具与 research skill，用于全面的网页搜索、人物发现、公司调研、学术论文等。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}

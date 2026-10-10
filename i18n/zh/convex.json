@@ -1,0 +1,9 @@
+{
+  "41ce896abe1c1792": {
+    "zh": "官方 Convex 插件，面向 Claude Code，内置 Convex 技能、用于编写代码的 convex-expert 子代理、运行时错误监控器，以及用于后端开发、schema 设计、实时功能、认证、文件存储、定时任务和 AI 代理的 MCP 访问。",
+    "field": "description",
+    "source": "api",
+    "verified": true,
+    "model": "deepseek-flash"
+  }
+}
