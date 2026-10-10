@@ -1,8 +1,8 @@
 {
-  "from": null,
+  "from": "b8e53f1c05dff3b6d751297f6527990ffc81c2f4",
   "to": "b8e53f1c05dff3b6d751297f6527990ffc81c2f4",
-  "generatedAt": "2026-10-10T06:06:10.459Z",
-  "firstSync": true,
+  "generatedAt": "2026-10-10T06:22:01.137Z",
+  "firstSync": false,
   "plugins": {
     "added": [],
     "modified": [],
