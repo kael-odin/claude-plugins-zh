@@ -78,6 +78,12 @@ for (const root of PLUGIN_ROOTS) {
 console.log(`[compose] in-repo plugin manifests: ${checked} checked, ${applied} zh descriptions applied`);
 
 // 5) data/catalog.json (site-ready, EN from upstream / zh from ledger)
+const ICON_EXTS = ['png', 'jpg', 'jpeg', 'svg', 'webp', 'ico'];
+const iconsDir = path.join(ROOT, 'site', 'appicons');
+const iconFor = (name) => {
+  const hit = ICON_EXTS.map((e) => path.join(iconsDir, `${name}.${e}`)).find(fs.existsSync);
+  return hit ? `appicons/${name}${path.extname(hit)}` : null;
+};
 const catalog = mf.plugins.map((entry) => {
   const src = entry.source;
   const kind = typeof src === 'string' ? 'in-repo' : (src?.source ?? 'remote');
@@ -92,6 +98,7 @@ const catalog = mf.plugins.map((entry) => {
     homepage: entry.homepage ?? null,
     kind,
     repo: typeof src === 'object' ? (src.repo ?? null) : null,
+    icon: iconFor(entry.name),
   };
 });
 writeJson(path.join(DATA_DIR, 'catalog.json'), {

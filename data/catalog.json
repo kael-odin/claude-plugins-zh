@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T06:22:01.302Z",
+  "generatedAt": "2026-10-10T07:32:33.650Z",
   "upstream": {
     "repo": "https://github.com/anthropics/claude-plugins-official",
     "sha": "b8e53f1c05dff3b6d751297f6527990ffc81c2f4",
@@ -26,7 +26,8 @@
       "author": "42Crunch",
       "homepage": "https://42crunch.com",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/42crunch-api-security-testing.png"
     },
     {
       "name": "adobe-for-creativity",
@@ -37,7 +38,8 @@
       "author": "Adobe",
       "homepage": "https://github.com/adobe/skills/tree/main/plugins/creative-cloud/adobe-for-creativity",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/adobe-for-creativity.png"
     },
     {
       "name": "agent-sdk-dev",
@@ -48,7 +50,8 @@
       "author": "Anthropic",
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/agent-sdk-dev",
       "kind": "in-repo",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/agent-sdk-dev.png"
     },
     {
       "name": "agentforce-adlc",
@@ -59,7 +62,8 @@
       "author": null,
       "homepage": "https://github.com/SalesforceAIResearch/agentforce-adlc",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/agentforce-adlc.png"
     },
     {
       "name": "ai-plugins",
@@ -69,7 +73,8 @@
       "author": null,
       "homepage": "https://www.endorlabs.com",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/ai-plugins.png"
     },
     {
       "name": "aikido",
@@ -79,7 +84,8 @@
       "author": null,
       "homepage": "https://github.com/AikidoSec/aikido-claude-plugin",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/aikido.png"
     },
     {
       "name": "airtable",
@@ -90,7 +96,8 @@
       "author": "Airtable",
       "homepage": "https://www.airtable.com",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/airtable.png"
     },
     {
       "name": "airwallex-agentos",
@@ -101,7 +108,8 @@
       "author": "Airwallex",
       "homepage": "https://www.airwallex.com/docs",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/airwallex-agentos.png"
     },
     {
       "name": "airwallex-dev",
@@ -112,7 +120,8 @@
       "author": "Airwallex",
       "homepage": "https://www.airwallex.com/docs",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/airwallex-dev.png"
     },
     {
       "name": "aiven",
@@ -123,7 +132,8 @@
       "author": "Aiven",
       "homepage": "https://aiven.io",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/aiven.png"
     },
     {
       "name": "alloydb",
@@ -134,7 +144,8 @@
       "author": "Google LLC",
       "homepage": "https://cloud.google.com/alloydb",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/alloydb.png"
     },
     {
       "name": "alloydb-omni",
@@ -145,7 +156,8 @@
       "author": "Google LLC",
       "homepage": "https://github.com/gemini-cli-extensions/alloydb-omni",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/alloydb-omni.png"
     },
     {
       "name": "altimate-code",
@@ -156,7 +168,8 @@
       "author": "AltimateAI",
       "homepage": "https://www.altimate.ai",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/altimate-code.png"
     },
     {
       "name": "amazon-location-service",
@@ -167,7 +180,8 @@
       "author": null,
       "homepage": "https://github.com/awslabs/agent-plugins",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/amazon-location-service.png"
     },
     {
       "name": "amd-skills",
@@ -178,7 +192,8 @@
       "author": "AMD",
       "homepage": "https://developer.amd.com/",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/amd-skills.png"
     },
     {
       "name": "amplitude",
@@ -189,7 +204,8 @@
       "author": null,
       "homepage": "https://github.com/amplitude/mcp-marketplace",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/amplitude.png"
     },
     {
       "name": "apollo",
@@ -200,7 +216,8 @@
       "author": "Apollo.io",
       "homepage": "https://www.apollo.io/",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/apollo.png"
     },
     {
       "name": "apollo-skills",
@@ -211,7 +228,8 @@
       "author": "Apollo GraphQL",
       "homepage": "https://www.apollographql.com",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/apollo-skills.png"
     },
     {
       "name": "appwrite",
@@ -222,7 +240,8 @@
       "author": "Appwrite",
       "homepage": "https://appwrite.io",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/appwrite.png"
     },
     {
       "name": "asana",
@@ -233,7 +252,8 @@
       "author": null,
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/asana",
       "kind": "in-repo",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/asana.png"
     },
     {
       "name": "astronomer-data-agents",
@@ -244,7 +264,8 @@
       "author": null,
       "homepage": "https://github.com/astronomer/agents",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/astronomer-data-agents.png"
     },
     {
       "name": "atlan",
@@ -254,7 +275,8 @@
       "author": null,
       "homepage": "https://docs.atlan.com/",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/atlan.png"
     },
     {
       "name": "atlassian",
@@ -265,7 +287,8 @@
       "author": null,
       "homepage": "https://github.com/atlassian/atlassian-mcp-server",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/atlassian.png"
     },
     {
       "name": "atlassian-twg-cli",
@@ -276,7 +299,8 @@
       "author": "Atlassian",
       "homepage": "https://developer.atlassian.com/cloud/twg-cli/",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/atlassian-twg-cli.png"
     },
     {
       "name": "atomic-agents",
@@ -287,7 +311,8 @@
       "author": null,
       "homepage": "https://github.com/BrainBlend-AI/atomic-agents",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/atomic-agents.png"
     },
     {
       "name": "auth0",
@@ -298,7 +323,8 @@
       "author": "Auth0",
       "homepage": "https://auth0.com",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/auth0.png"
     },
     {
       "name": "aws-agents",
@@ -309,7 +335,8 @@
       "author": "Amazon Web Services",
       "homepage": "https://github.com/aws/agent-toolkit-for-aws",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/aws-agents.png"
     },
     {
       "name": "aws-agents-for-devsecops",
@@ -320,7 +347,8 @@
       "author": "Amazon Web Services",
       "homepage": "https://github.com/aws/agent-toolkit-for-aws",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/aws-agents-for-devsecops.png"
     },
     {
       "name": "aws-amplify",
@@ -331,7 +359,8 @@
       "author": null,
       "homepage": "https://github.com/awslabs/agent-plugins",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/aws-amplify.png"
     },
     {
       "name": "aws-core",
@@ -342,7 +371,8 @@
       "author": "Amazon Web Services",
       "homepage": "https://github.com/aws/agent-toolkit-for-aws",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/aws-core.png"
     },
     {
       "name": "aws-data-analytics",
@@ -353,7 +383,8 @@
       "author": "Amazon Web Services",
       "homepage": "https://github.com/aws/agent-toolkit-for-aws",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/aws-data-analytics.png"
     },
     {
       "name": "aws-serverless",
@@ -364,7 +395,8 @@
       "author": null,
       "homepage": "https://github.com/awslabs/agent-plugins",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/aws-serverless.png"
     },
     {
       "name": "aws-startup-advisor",
@@ -375,7 +407,8 @@
       "author": "Amazon Web Services",
       "homepage": "https://github.com/aws/agent-toolkit-for-aws",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/aws-startup-advisor.png"
     },
     {
       "name": "aws-transform",
@@ -386,7 +419,8 @@
       "author": "Amazon Web Services",
       "homepage": "https://github.com/awslabs/agent-plugins",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/aws-transform.png"
     },
     {
       "name": "azure",
@@ -397,7 +431,8 @@
       "author": null,
       "homepage": "https://github.com/microsoft/azure-skills",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/azure.png"
     },
     {
       "name": "azure-cosmos-db-assistant",
@@ -408,7 +443,8 @@
       "author": null,
       "homepage": "https://github.com/AzureCosmosDB/cosmosdb-claude-code-plugin",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/azure-cosmos-db-assistant.png"
     },
     {
       "name": "azure-sql-developer",
@@ -419,7 +455,8 @@
       "author": "Microsoft",
       "homepage": "https://github.com/microsoft/azure-sql-database-container",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/azure-sql-developer.png"
     },
     {
       "name": "base44",
@@ -430,7 +467,8 @@
       "author": null,
       "homepage": "https://docs.base44.com",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/base44.png"
     },
     {
       "name": "bigdata-com",
@@ -441,7 +479,8 @@
       "author": "RavenPack",
       "homepage": "https://docs.bigdata.com",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/bigdata-com.png"
     },
     {
       "name": "bigquery-data-analytics",
@@ -452,7 +491,8 @@
       "author": "Google LLC",
       "homepage": "https://github.com/gemini-cli-extensions/bigquery-data-analytics",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/bigquery-data-analytics.png"
     },
     {
       "name": "boltz",
@@ -463,7 +503,8 @@
       "author": "Boltz",
       "homepage": "https://boltz.bio",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/boltz.png"
     },
     {
       "name": "blackrock-advisor-center-plugin",
@@ -474,7 +515,8 @@
       "author": "BlackRock Advisor Center",
       "homepage": "https://github.com/blackrock/advisor-center-agent-skills",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/blackrock-advisor-center-plugin.png"
     },
     {
       "name": "box",
@@ -485,7 +527,8 @@
       "author": null,
       "homepage": "https://github.com/box/skills",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/box.png"
     },
     {
       "name": "brightdata-plugin",
@@ -495,7 +538,8 @@
       "author": null,
       "homepage": "https://docs.brightdata.com",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/brightdata-plugin.png"
     },
     {
       "name": "browser-use",
@@ -506,7 +550,8 @@
       "author": "Browser Use",
       "homepage": "https://browser-use.com",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/browser-use.png"
     },
     {
       "name": "buildkite",
@@ -517,7 +562,8 @@
       "author": "Buildkite",
       "homepage": "https://buildkite.com",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/buildkite.png"
     },
     {
       "name": "canva",
@@ -528,7 +574,8 @@
       "author": "Canva",
       "homepage": "https://www.canva.com",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/canva.png"
     },
     {
       "name": "carbone-skill",
@@ -539,7 +586,8 @@
       "author": "Carbone",
       "homepage": "https://carbone.io",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/carbone-skill.png"
     },
     {
       "name": "carta-cap-table",
@@ -550,7 +598,8 @@
       "author": "Carta Engineering",
       "homepage": "https://carta.com",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/carta-cap-table.png"
     },
     {
       "name": "carta-crm",
@@ -561,7 +610,8 @@
       "author": "Carta Engineering",
       "homepage": "https://carta.com",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/carta-crm.png"
     },
     {
       "name": "carta-investors",
@@ -572,7 +622,8 @@
       "author": "Carta Engineering",
       "homepage": "https://carta.com",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/carta-investors.png"
     },
     {
       "name": "catalyst-by-zoho",
@@ -583,7 +634,8 @@
       "author": "Catalyst by Zoho",
       "homepage": "https://catalyst.zoho.com/",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/catalyst-by-zoho.png"
     },
     {
       "name": "cds-mcp",
@@ -594,7 +646,8 @@
       "author": "SAP SE",
       "homepage": "https://cap.cloud.sap/",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/cds-mcp.png"
     },
     {
       "name": "chrome-devtools-mcp",
@@ -605,7 +658,8 @@
       "author": null,
       "homepage": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/chrome-devtools-mcp.png"
     },
     {
       "name": "chronograph-gp",
@@ -616,7 +670,8 @@
       "author": "Chronograph",
       "homepage": "https://www.chronograph.pe/",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/chronograph-gp.png"
     },
     {
       "name": "chronograph-lp",
@@ -627,7 +682,8 @@
       "author": "Chronograph",
       "homepage": "https://www.chronograph.pe/",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/chronograph-lp.png"
     },
     {
       "name": "circle-skills",
@@ -638,7 +694,8 @@
       "author": "Circle",
       "homepage": "https://www.circle.com",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/circle-skills.png"
     },
     {
       "name": "circleback",
@@ -649,7 +706,8 @@
       "author": null,
       "homepage": "https://github.com/circlebackai/claude-code-plugin.git",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/circleback.png"
     },
     {
       "name": "ckeditor",
@@ -660,7 +718,8 @@
       "author": "CKEditor (CKSource)",
       "homepage": "https://ckeditor.com",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/ckeditor.png"
     },
     {
       "name": "clangd-lsp",
@@ -671,7 +730,8 @@
       "author": "Anthropic",
       "homepage": null,
       "kind": "in-repo",
-      "repo": null
+      "repo": null,
+      "icon": null
     },
     {
       "name": "claude-code-setup",
@@ -682,7 +742,8 @@
       "author": "Anthropic",
       "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/claude-code-setup",
       "kind": "in-repo",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/claude-code-setup.png"
     },
     {
       "name": "claude-md-management",
@@ -693,7 +754,8 @@
       "author": "Anthropic",
       "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/claude-md-management",
       "kind": "in-repo",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/claude-md-management.png"
     },
     {
       "name": "claude-security",
@@ -704,7 +766,8 @@
       "author": "Anthropic",
       "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/claude-security",
       "kind": "in-repo",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/claude-security.png"
     },
     {
       "name": "clay",
@@ -715,7 +778,8 @@
       "author": "Clay",
       "homepage": "https://github.com/clay-run/agent-plugins/tree/main/clay",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/clay.png"
     },
     {
       "name": "clickhouse",
@@ -726,7 +790,8 @@
       "author": "ClickHouse",
       "homepage": "https://github.com/ClickHouse/clickhouse-claude-code-plugin",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/clickhouse.png"
     },
     {
       "name": "clickhouse-best-practices",
@@ -737,7 +802,8 @@
       "author": "ClickHouse Inc",
       "homepage": "https://clickhouse.com",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/clickhouse-best-practices.png"
     },
     {
       "name": "cloud-sql-mysql",
@@ -748,7 +814,8 @@
       "author": "Google LLC",
       "homepage": "https://github.com/gemini-cli-extensions/cloud-sql-mysql",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/cloud-sql-mysql.png"
     },
     {
       "name": "cloud-sql-postgresql",
@@ -759,7 +826,8 @@
       "author": "Google LLC",
       "homepage": "https://cloud.google.com/sql",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/cloud-sql-postgresql.png"
     },
     {
       "name": "cloud-sql-sqlserver",
@@ -770,7 +838,8 @@
       "author": "Google LLC",
       "homepage": "https://github.com/gemini-cli-extensions/cloud-sql-sqlserver",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/cloud-sql-sqlserver.png"
     },
     {
       "name": "cloudflare",
@@ -781,7 +850,8 @@
       "author": null,
       "homepage": "https://github.com/cloudflare/skills",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/cloudflare.png"
     },
     {
       "name": "cloudinary",
@@ -791,7 +861,8 @@
       "author": null,
       "homepage": "https://cloudinary.com/documentation",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/cloudinary.png"
     },
     {
       "name": "cockroachdb",
@@ -802,7 +873,8 @@
       "author": "Cockroach Labs",
       "homepage": "https://github.com/cockroachdb/claude-plugin",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/cockroachdb.png"
     },
     {
       "name": "code-modernization",
@@ -813,7 +885,8 @@
       "author": "Anthropic",
       "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-modernization",
       "kind": "in-repo",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/code-modernization.png"
     },
     {
       "name": "code-review",
@@ -824,7 +897,8 @@
       "author": "Anthropic",
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/code-review",
       "kind": "in-repo",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/code-review.png"
     },
     {
       "name": "code-simplifier",
@@ -835,7 +909,8 @@
       "author": "Anthropic",
       "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-simplifier",
       "kind": "in-repo",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/code-simplifier.png"
     },
     {
       "name": "coderabbit",
@@ -846,7 +921,8 @@
       "author": null,
       "homepage": "https://github.com/coderabbitai/skills",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/coderabbit.png"
     },
     {
       "name": "codspeed",
@@ -857,7 +933,8 @@
       "author": "CodSpeed",
       "homepage": "https://codspeed.io",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/codspeed.png"
     },
     {
       "name": "commit-commands",
@@ -868,7 +945,8 @@
       "author": "Anthropic",
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/commit-commands",
       "kind": "in-repo",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/commit-commands.png"
     },
     {
       "name": "confidence",
@@ -879,7 +957,8 @@
       "author": "Spotify Confidence",
       "homepage": "https://confidence.spotify.com",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/confidence.png"
     },
     {
       "name": "context7",
@@ -890,7 +969,8 @@
       "author": "Upstash",
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/context7",
       "kind": "in-repo",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/context7.png"
     },
     {
       "name": "convex",
@@ -901,7 +981,8 @@
       "author": "Convex",
       "homepage": "https://github.com/get-convex/convex-backend-skill",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/convex.png"
     },
     {
       "name": "crowdsec",
@@ -912,7 +993,8 @@
       "author": "CrowdSec",
       "homepage": "https://www.crowdsec.net",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/crowdsec.png"
     },
     {
       "name": "crowdstrike-falcon-foundry",
@@ -923,7 +1005,8 @@
       "author": "CrowdStrike",
       "homepage": "https://github.com/CrowdStrike/foundry-skills",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/crowdstrike-falcon-foundry.png"
     },
     {
       "name": "crowdstrike-falcon-fusion",
@@ -934,7 +1017,8 @@
       "author": "CrowdStrike",
       "homepage": "https://github.com/CrowdStrike/fusion-skills",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/crowdstrike-falcon-fusion.png"
     },
     {
       "name": "csharp-lsp",
@@ -945,7 +1029,8 @@
       "author": "Anthropic",
       "homepage": null,
       "kind": "in-repo",
-      "repo": null
+      "repo": null,
+      "icon": null
     },
     {
       "name": "cwc-makers",
@@ -956,7 +1041,8 @@
       "author": "Anthropic",
       "homepage": "https://claude.com/cwc-makers",
       "kind": "in-repo",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/cwc-makers.png"
     },
     {
       "name": "dash0",
@@ -967,7 +1053,8 @@
       "author": "Dash0",
       "homepage": "https://dash0.com/",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/dash0.png"
     },
     {
       "name": "data",
@@ -978,7 +1065,8 @@
       "author": null,
       "homepage": "https://github.com/astronomer/agents",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/data.png"
     },
     {
       "name": "data-agent-kit-starter-pack",
@@ -989,7 +1077,8 @@
       "author": "Google LLC",
       "homepage": "https://github.com/gemini-cli-extensions/data-agent-kit-starter-pack",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/data-agent-kit-starter-pack.png"
     },
     {
       "name": "data-engineering",
@@ -999,7 +1088,8 @@
       "author": null,
       "homepage": "https://github.com/astronomer/agents",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/data-engineering.png"
     },
     {
       "name": "databases-on-aws",
@@ -1010,7 +1100,8 @@
       "author": null,
       "homepage": "https://github.com/awslabs/agent-plugins",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/databases-on-aws.png"
     },
     {
       "name": "databricks",
@@ -1021,7 +1112,8 @@
       "author": "Databricks",
       "homepage": "https://developers.databricks.com/",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/databricks.png"
     },
     {
       "name": "datadog",
@@ -1032,7 +1124,8 @@
       "author": "Datadog",
       "homepage": "https://www.datadoghq.com/",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/datadog.png"
     },
     {
       "name": "datahub-skills",
@@ -1043,7 +1136,8 @@
       "author": "DataHub",
       "homepage": "https://datahub.com",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/datahub-skills.png"
     },
     {
       "name": "dataproc",
@@ -1054,7 +1148,8 @@
       "author": "Google LLC",
       "homepage": "https://github.com/gemini-cli-extensions/dataproc",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/dataproc.png"
     },
     {
       "name": "datarobot-agent-skills",
@@ -1065,7 +1160,8 @@
       "author": "DataRobot",
       "homepage": "https://datarobot.com",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/datarobot-agent-skills.png"
     },
     {
       "name": "dataverse",
@@ -1076,7 +1172,8 @@
       "author": null,
       "homepage": "https://github.com/microsoft/Dataverse-skills",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/dataverse.png"
     },
     {
       "name": "deepeval",
@@ -1087,7 +1184,8 @@
       "author": "Confident AI",
       "homepage": "https://github.com/confident-ai/deepeval",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/deepeval.png"
     },
     {
       "name": "deploy-on-aws",
@@ -1098,7 +1196,8 @@
       "author": null,
       "homepage": "https://github.com/awslabs/agent-plugins",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/deploy-on-aws.png"
     },
     {
       "name": "desktop-commander",
@@ -1109,7 +1208,8 @@
       "author": "Desktop Commander",
       "homepage": "https://desktopcommander.app",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/desktop-commander.png"
     },
     {
       "name": "discord",
@@ -1120,7 +1220,8 @@
       "author": null,
       "homepage": null,
       "kind": "in-repo",
-      "repo": null
+      "repo": null,
+      "icon": null
     },
     {
       "name": "dominodatalab",
@@ -1131,7 +1232,8 @@
       "author": "Domino Data Lab",
       "homepage": "https://www.domino.ai",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/dominodatalab.png"
     },
     {
       "name": "dropbox",
@@ -1142,7 +1244,8 @@
       "author": "Dropbox",
       "homepage": "https://www.dropbox.com",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/dropbox.png"
     },
     {
       "name": "duckdb-skills",
@@ -1153,7 +1256,8 @@
       "author": "DuckDB Foundation",
       "homepage": "https://duckdb.org",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/duckdb-skills.png"
     },
     {
       "name": "duende-skills",
@@ -1164,7 +1268,8 @@
       "author": "Duende Software",
       "homepage": "https://duendesoftware.com",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/duende-skills.png"
     },
     {
       "name": "exa",
@@ -1175,7 +1280,8 @@
       "author": "Exa",
       "homepage": "https://exa.ai/docs/reference/exa-mcp",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/exa.png"
     },
     {
       "name": "explanatory-output-style",
@@ -1186,7 +1292,8 @@
       "author": "Anthropic",
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/explanatory-output-style",
       "kind": "in-repo",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/explanatory-output-style.png"
     },
     {
       "name": "expo",
@@ -1197,7 +1304,8 @@
       "author": null,
       "homepage": "https://github.com/expo/skills/blob/main/plugins/expo/README.md",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/expo.png"
     },
     {
       "name": "fakechat",
@@ -1208,7 +1316,8 @@
       "author": null,
       "homepage": null,
       "kind": "in-repo",
-      "repo": null
+      "repo": null,
+      "icon": null
     },
     {
       "name": "fastly-agent-toolkit",
@@ -1218,7 +1327,8 @@
       "author": null,
       "homepage": "https://github.com/fastly/fastly-agent-toolkit/blob/main/README.md",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/fastly-agent-toolkit.png"
     },
     {
       "name": "feature-dev",
@@ -1229,7 +1339,8 @@
       "author": "Anthropic",
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/feature-dev",
       "kind": "in-repo",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/feature-dev.png"
     },
     {
       "name": "fiftyone",
@@ -1239,7 +1350,8 @@
       "author": null,
       "homepage": "https://docs.voxel51.com/",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/fiftyone.png"
     },
     {
       "name": "figma",
@@ -1250,7 +1362,8 @@
       "author": null,
       "homepage": "https://github.com/figma/mcp-server-guide",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/figma.png"
     },
     {
       "name": "firebase",
@@ -1261,7 +1374,8 @@
       "author": null,
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/firebase",
       "kind": "in-repo",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/firebase.png"
     },
     {
       "name": "firecrawl",
@@ -1272,7 +1386,8 @@
       "author": null,
       "homepage": "https://github.com/firecrawl/firecrawl-claude-plugin.git",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/firecrawl.png"
     },
     {
       "name": "firestore-native",
@@ -1283,7 +1398,8 @@
       "author": "Google LLC",
       "homepage": "https://github.com/gemini-cli-extensions/firestore-native",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/firestore-native.png"
     },
     {
       "name": "forge-skills",
@@ -1294,7 +1410,8 @@
       "author": "Atlassian",
       "homepage": "https://developer.atlassian.com/platform/forge/",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/forge-skills.png"
     },
     {
       "name": "frontend-design",
@@ -1305,7 +1422,8 @@
       "author": "Anthropic",
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/frontend-design",
       "kind": "in-repo",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/frontend-design.png"
     },
     {
       "name": "fullstory",
@@ -1316,7 +1434,8 @@
       "author": "Fullstory",
       "homepage": "https://www.fullstory.com",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/fullstory.png"
     },
     {
       "name": "gc-ai",
@@ -1327,7 +1446,8 @@
       "author": "GC AI",
       "homepage": "https://docs.gc.ai/api-reference/mcp/overview",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/gc-ai.png"
     },
     {
       "name": "github",
@@ -1338,7 +1458,8 @@
       "author": null,
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/github",
       "kind": "in-repo",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/github.png"
     },
     {
       "name": "gitkraken",
@@ -1349,7 +1470,8 @@
       "author": "GitKraken",
       "homepage": "https://www.gitkraken.com",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/gitkraken.png"
     },
     {
       "name": "gitlab",
@@ -1360,7 +1482,8 @@
       "author": null,
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/gitlab",
       "kind": "in-repo",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/gitlab.png"
     },
     {
       "name": "google-cloud-storage",
@@ -1371,7 +1494,8 @@
       "author": "Google LLC",
       "homepage": "https://cloud.google.com/storage",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/google-cloud-storage.png"
     },
     {
       "name": "gopls-lsp",
@@ -1382,7 +1506,8 @@
       "author": "Anthropic",
       "homepage": null,
       "kind": "in-repo",
-      "repo": null
+      "repo": null,
+      "icon": null
     },
     {
       "name": "govtribe",
@@ -1393,7 +1518,8 @@
       "author": "GovTribe",
       "homepage": "https://govtribe.com",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/govtribe.png"
     },
     {
       "name": "grafana-assistant",
@@ -1404,7 +1530,8 @@
       "author": "Grafana",
       "homepage": "https://grafana.com",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/grafana-assistant.png"
     },
     {
       "name": "grafana-cloud-mcp",
@@ -1415,7 +1542,8 @@
       "author": "Grafana",
       "homepage": "https://grafana.com",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/grafana-cloud-mcp.png"
     },
     {
       "name": "grafana-mcp",
@@ -1426,7 +1554,8 @@
       "author": "Grafana",
       "homepage": "https://grafana.com",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/grafana-mcp.png"
     },
     {
       "name": "greptile",
@@ -1437,7 +1566,8 @@
       "author": "Greptile",
       "homepage": "https://www.greptile.com/docs/mcp-v2/overview",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/greptile.png"
     },
     {
       "name": "growthbook",
@@ -1448,7 +1578,8 @@
       "author": "GrowthBook",
       "homepage": "https://growthbook.io",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/growthbook.png"
     },
     {
       "name": "honeycomb",
@@ -1459,7 +1590,8 @@
       "author": "Honeycomb",
       "homepage": "https://www.honeycomb.io",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/honeycomb.png"
     },
     {
       "name": "hookify",
@@ -1470,7 +1602,8 @@
       "author": "Anthropic",
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/hookify",
       "kind": "in-repo",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/hookify.png"
     },
     {
       "name": "hostinger",
@@ -1481,7 +1614,8 @@
       "author": "Hostinger",
       "homepage": "https://www.hostinger.com",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/hostinger.png"
     },
     {
       "name": "huggingface-skills",
@@ -1492,7 +1626,8 @@
       "author": null,
       "homepage": "https://github.com/huggingface/skills.git",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/huggingface-skills.png"
     },
     {
       "name": "hunter",
@@ -1503,7 +1638,8 @@
       "author": "Hunter.io",
       "homepage": "https://hunter.io",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/hunter.png"
     },
     {
       "name": "hyperframes",
@@ -1514,7 +1650,8 @@
       "author": "HeyGen",
       "homepage": "https://hyperframes.heygen.com",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/hyperframes.png"
     },
     {
       "name": "idmp-plugin",
@@ -1525,7 +1662,8 @@
       "author": "TaosData",
       "homepage": "https://github.com/taosdata/agent-skills",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/idmp-plugin.png"
     },
     {
       "name": "imessage",
@@ -1536,7 +1674,8 @@
       "author": null,
       "homepage": null,
       "kind": "in-repo",
-      "repo": null
+      "repo": null,
+      "icon": null
     },
     {
       "name": "incident-io",
@@ -1547,7 +1686,8 @@
       "author": "incident.io",
       "homepage": "https://incident.io",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/incident-io.png"
     },
     {
       "name": "informatica-for-claude-platform",
@@ -1558,7 +1698,8 @@
       "author": "Informatica",
       "homepage": "https://github.com/forcedotcom/informatica-claude-plugins/tree/main/informatica-for-claude-platform",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/informatica-for-claude-platform.png"
     },
     {
       "name": "intercom",
@@ -1569,7 +1710,8 @@
       "author": null,
       "homepage": "https://github.com/intercom/claude-plugin-external",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/intercom.png"
     },
     {
       "name": "intuit-quickbooks",
@@ -1580,7 +1722,8 @@
       "author": "Intuit QuickBooks",
       "homepage": "https://github.com/intuit/quickbooks-claude-plugin",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/intuit-quickbooks.png"
     },
     {
       "name": "jdtls-lsp",
@@ -1591,7 +1734,8 @@
       "author": "Anthropic",
       "homepage": null,
       "kind": "in-repo",
-      "repo": null
+      "repo": null,
+      "icon": null
     },
     {
       "name": "jfrog",
@@ -1602,7 +1746,8 @@
       "author": "JFrog Ltd.",
       "homepage": "https://jfrog.com",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/jfrog.png"
     },
     {
       "name": "knowledge-catalog",
@@ -1613,7 +1758,8 @@
       "author": "Google LLC",
       "homepage": "https://github.com/gemini-cli-extensions/knowledge-catalog",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/knowledge-catalog.png"
     },
     {
       "name": "kotlin-lsp",
@@ -1624,7 +1770,8 @@
       "author": "Anthropic",
       "homepage": null,
       "kind": "in-repo",
-      "repo": null
+      "repo": null,
+      "icon": null
     },
     {
       "name": "langfuse-observability",
@@ -1635,7 +1782,8 @@
       "author": "Langfuse",
       "homepage": "https://langfuse.com/integrations/other/claude-code",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/langfuse-observability.png"
     },
     {
       "name": "laravel-boost",
@@ -1646,7 +1794,8 @@
       "author": null,
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/laravel-boost",
       "kind": "in-repo",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/laravel-boost.png"
     },
     {
       "name": "leadfeeder",
@@ -1657,7 +1806,8 @@
       "author": "Leadfeeder",
       "homepage": "https://www.leadfeeder.com",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/leadfeeder.png"
     },
     {
       "name": "learn-with-coursera",
@@ -1668,7 +1818,8 @@
       "author": "Coursera",
       "homepage": "https://github.com/coursera/skills",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/learn-with-coursera.png"
     },
     {
       "name": "learning-output-style",
@@ -1679,7 +1830,8 @@
       "author": "Anthropic",
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/learning-output-style",
       "kind": "in-repo",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/learning-output-style.png"
     },
     {
       "name": "legalzoom",
@@ -1690,7 +1842,8 @@
       "author": null,
       "homepage": "https://www.legalzoom.com/",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/legalzoom.png"
     },
     {
       "name": "linear",
@@ -1701,7 +1854,8 @@
       "author": null,
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/linear",
       "kind": "in-repo",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/linear.png"
     },
     {
       "name": "linq-alpha",
@@ -1712,7 +1866,8 @@
       "author": "LinqAlpha",
       "homepage": "https://www.linqalpha.com",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/linq-alpha.png"
     },
     {
       "name": "liquid-lsp",
@@ -1723,7 +1878,8 @@
       "author": "Shopify",
       "homepage": "https://github.com/Shopify/liquid-skills/tree/main/plugins/liquid-lsp",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/liquid-lsp.png"
     },
     {
       "name": "liquid-skills",
@@ -1734,7 +1890,8 @@
       "author": "Shopify",
       "homepage": "https://github.com/Shopify/liquid-skills/tree/main/plugins/liquid-skills",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/liquid-skills.png"
     },
     {
       "name": "logfire",
@@ -1745,7 +1902,8 @@
       "author": "Pydantic",
       "homepage": "https://github.com/pydantic/skills/tree/main/plugins/logfire",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/logfire.png"
     },
     {
       "name": "logrocket",
@@ -1756,7 +1914,8 @@
       "author": "LogRocket",
       "homepage": "https://logrocket.com",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/logrocket.png"
     },
     {
       "name": "looker",
@@ -1767,7 +1926,8 @@
       "author": "Google LLC",
       "homepage": "https://github.com/gemini-cli-extensions/looker",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/looker.png"
     },
     {
       "name": "lovable",
@@ -1778,7 +1938,8 @@
       "author": "Lovable",
       "homepage": "https://lovable.dev",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/lovable.png"
     },
     {
       "name": "lua-lsp",
@@ -1789,7 +1950,8 @@
       "author": "Anthropic",
       "homepage": null,
       "kind": "in-repo",
-      "repo": null
+      "repo": null,
+      "icon": null
     },
     {
       "name": "lumen",
@@ -1800,7 +1962,8 @@
       "author": "Ory Corp",
       "homepage": "https://www.ory.sh",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/lumen.png"
     },
     {
       "name": "lusha",
@@ -1811,7 +1974,8 @@
       "author": "Lusha",
       "homepage": "https://www.lusha.com",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/lusha.png"
     },
     {
       "name": "mapbox",
@@ -1822,7 +1986,8 @@
       "author": "Mapbox",
       "homepage": "https://www.mapbox.com",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/mapbox.png"
     },
     {
       "name": "math-olympiad",
@@ -1833,7 +1998,8 @@
       "author": "Anthropic",
       "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/math-olympiad",
       "kind": "in-repo",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/math-olympiad.png"
     },
     {
       "name": "math-proof",
@@ -1844,7 +2010,8 @@
       "author": "Anthropic",
       "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/math-proof",
       "kind": "in-repo",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/math-proof.png"
     },
     {
       "name": "mattpocock-skills",
@@ -1855,7 +2022,8 @@
       "author": "Matt Pocock",
       "homepage": "https://github.com/mattpocock/skills",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/mattpocock-skills.png"
     },
     {
       "name": "mcp-apps",
@@ -1866,7 +2034,8 @@
       "author": "Anthropic / Model Context Protocol",
       "homepage": "https://modelcontextprotocol.io",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/mcp-apps.png"
     },
     {
       "name": "mcp-server-dev",
@@ -1877,7 +2046,8 @@
       "author": "Anthropic",
       "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/mcp-server-dev",
       "kind": "in-repo",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/mcp-server-dev.png"
     },
     {
       "name": "mcp-tunnels",
@@ -1888,7 +2058,8 @@
       "author": "Anthropic",
       "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/mcp-tunnels",
       "kind": "in-repo",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/mcp-tunnels.png"
     },
     {
       "name": "mercadopago",
@@ -1899,7 +2070,8 @@
       "author": "Mercado Pago Developer Experience",
       "homepage": "https://github.com/mercadopago/mercadopago-claude-marketplace/tree/main/plugins/mercadopago",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/mercadopago.png"
     },
     {
       "name": "mergify",
@@ -1910,7 +2082,8 @@
       "author": "Mergify",
       "homepage": "https://mergify.com",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/mergify.png"
     },
     {
       "name": "microsoft-docs",
@@ -1921,7 +2094,8 @@
       "author": null,
       "homepage": "https://github.com/microsoftdocs/mcp",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/microsoft-docs.png"
     },
     {
       "name": "migration-to-aws",
@@ -1932,7 +2106,8 @@
       "author": "Amazon Web Services",
       "homepage": "https://github.com/awslabs/startups",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/migration-to-aws.png"
     },
     {
       "name": "mintlify",
@@ -1943,7 +2118,8 @@
       "author": null,
       "homepage": "https://www.mintlify.com/",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/mintlify.png"
     },
     {
       "name": "miro",
@@ -1954,7 +2130,8 @@
       "author": "Miro",
       "homepage": "https://miro.com",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/miro.png"
     },
     {
       "name": "modern-web-guidance",
@@ -1965,7 +2142,8 @@
       "author": "Google Chrome",
       "homepage": "https://goo.gle/modern-web-guidance",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/modern-web-guidance.png"
     },
     {
       "name": "mlflow",
@@ -1976,7 +2154,8 @@
       "author": "MLflow Team",
       "homepage": "https://mlflow.org/",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/mlflow.png"
     },
     {
       "name": "monday-crm",
@@ -1987,7 +2166,8 @@
       "author": "monday.com",
       "homepage": "https://monday.com",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/monday-crm.png"
     },
     {
       "name": "mongodb",
@@ -1998,7 +2178,8 @@
       "author": null,
       "homepage": "https://www.mongodb.com/docs/mcp-server/overview/",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/mongodb.png"
     },
     {
       "name": "mongodb-atlas",
@@ -2009,7 +2190,8 @@
       "author": "MongoDB",
       "homepage": "https://www.mongodb.com/docs/mcp-server/get-started/",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/mongodb-atlas.png"
     },
     {
       "name": "neon",
@@ -2020,7 +2202,8 @@
       "author": null,
       "homepage": "https://github.com/neondatabase/agent-skills/tree/main/plugins/neon-postgres",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/neon.png"
     },
     {
       "name": "netlify-skills",
@@ -2031,7 +2214,8 @@
       "author": null,
       "homepage": "https://github.com/netlify/context-and-tools",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/netlify-skills.png"
     },
     {
       "name": "netsuite-ai-companion",
@@ -2042,7 +2226,8 @@
       "author": "Oracle NetSuite",
       "homepage": "https://github.com/oracle/netsuite-suitecloud-sdk/tree/ai-plugins-dist/anthropic/netsuite-ai-companion",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/netsuite-ai-companion.png"
     },
     {
       "name": "netsuite-finance-analyst",
@@ -2053,7 +2238,8 @@
       "author": "Oracle NetSuite",
       "homepage": "https://github.com/oracle/netsuite-suitecloud-sdk/tree/ai-plugins-dist/anthropic/netsuite-finance-analyst",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/netsuite-finance-analyst.png"
     },
     {
       "name": "netsuite-suitecloud",
@@ -2064,7 +2250,8 @@
       "author": "Oracle NetSuite",
       "homepage": "https://github.com/oracle/netsuite-suitecloud-sdk/tree/ai-plugins-dist/anthropic/netsuite-suitecloud",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/netsuite-suitecloud.png"
     },
     {
       "name": "newrelic",
@@ -2075,7 +2262,8 @@
       "author": "New Relic",
       "homepage": "https://newrelic.com",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/newrelic.png"
     },
     {
       "name": "nightvision",
@@ -2085,7 +2273,8 @@
       "author": null,
       "homepage": "https://github.com/nvsecurity/nightvision-skills",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/nightvision.png"
     },
     {
       "name": "nimble",
@@ -2095,7 +2284,8 @@
       "author": null,
       "homepage": "https://docs.nimbleway.com/integrations/agent-skills/plugin-installation",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/nimble.png"
     },
     {
       "name": "noibu",
@@ -2106,7 +2296,8 @@
       "author": "Noibu",
       "homepage": "https://help.noibu.com/articles/3918362002-overview-of-the-noibu-plugin-for-claude",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/noibu.png"
     },
     {
       "name": "notion",
@@ -2117,7 +2308,8 @@
       "author": null,
       "homepage": "https://github.com/makenotion/claude-code-notion-plugin",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/notion.png"
     },
     {
       "name": "nvidia-skills",
@@ -2128,7 +2320,8 @@
       "author": "NVIDIA",
       "homepage": "https://build.nvidia.com/skills/",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/nvidia-skills.png"
     },
     {
       "name": "oracle-ai-data-platform-workbench-databricks-migrator",
@@ -2139,7 +2332,8 @@
       "author": "Oracle",
       "homepage": "https://docs.oracle.com/en/cloud/paas/ai-data-platform/index.html",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/oracle-ai-data-platform-workbench-databricks-migrator.png"
     },
     {
       "name": "oracle-ai-data-platform-workbench-engineer-agent",
@@ -2150,7 +2344,8 @@
       "author": "Oracle",
       "homepage": "https://docs.oracle.com/en/cloud/paas/ai-data-platform/index.html",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/oracle-ai-data-platform-workbench-engineer-agent.png"
     },
     {
       "name": "oracle-ai-data-platform-workbench-spark-connectors",
@@ -2161,7 +2356,8 @@
       "author": "Oracle",
       "homepage": "https://docs.oracle.com/en/cloud/paas/ai-data-platform/index.html",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/oracle-ai-data-platform-workbench-spark-connectors.png"
     },
     {
       "name": "oracledb",
@@ -2172,7 +2368,8 @@
       "author": "Google LLC",
       "homepage": "https://github.com/gemini-cli-extensions/oracledb",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/oracledb.png"
     },
     {
       "name": "outputai",
@@ -2183,7 +2380,8 @@
       "author": "Output.ai",
       "homepage": "https://output.ai",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/outputai.png"
     },
     {
       "name": "pagerduty",
@@ -2194,7 +2392,8 @@
       "author": null,
       "homepage": "https://github.com/PagerDuty/claude-code-plugins",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/pagerduty.png"
     },
     {
       "name": "paypal",
@@ -2205,7 +2404,8 @@
       "author": "PayPal",
       "homepage": "https://developer.paypal.com/",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/paypal.png"
     },
     {
       "name": "pendo-analytics",
@@ -2216,7 +2416,8 @@
       "author": "Pendo",
       "homepage": "https://github.com/pendo-io/claude-pendo-plugin/tree/main/plugins/pendo-analytics",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/pendo-analytics.png"
     },
     {
       "name": "pendo-guides",
@@ -2227,7 +2428,8 @@
       "author": "Pendo",
       "homepage": "https://github.com/pendo-io/claude-pendo-plugin/tree/main/plugins/pendo-guides",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/pendo-guides.png"
     },
     {
       "name": "pendo-orchestrate",
@@ -2238,7 +2440,8 @@
       "author": "Pendo",
       "homepage": "https://github.com/pendo-io/claude-pendo-plugin/tree/main/plugins/pendo-orchestrate",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/pendo-orchestrate.png"
     },
     {
       "name": "php-lsp",
@@ -2249,7 +2452,8 @@
       "author": "Anthropic",
       "homepage": null,
       "kind": "in-repo",
-      "repo": null
+      "repo": null,
+      "icon": null
     },
     {
       "name": "pigment",
@@ -2260,7 +2464,8 @@
       "author": "Pigment",
       "homepage": "https://www.pigment.com",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/pigment.png"
     },
     {
       "name": "pinecone",
@@ -2271,7 +2476,8 @@
       "author": null,
       "homepage": "https://github.com/pinecone-io/pinecone-claude-code-plugin",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/pinecone.png"
     },
     {
       "name": "pixeltable",
@@ -2282,7 +2488,8 @@
       "author": "Pixeltable",
       "homepage": "https://docs.pixeltable.com",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/pixeltable.png"
     },
     {
       "name": "planetscale",
@@ -2293,7 +2500,8 @@
       "author": null,
       "homepage": "https://planetscale.com/",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/planetscale.png"
     },
     {
       "name": "playground",
@@ -2304,7 +2512,8 @@
       "author": "Anthropic",
       "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/playground",
       "kind": "in-repo",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/playground.png"
     },
     {
       "name": "playwright",
@@ -2315,7 +2524,8 @@
       "author": null,
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/playwright",
       "kind": "in-repo",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/playwright.png"
     },
     {
       "name": "plugin-dev",
@@ -2326,7 +2536,8 @@
       "author": "Anthropic",
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/plugin-dev",
       "kind": "in-repo",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/plugin-dev.png"
     },
     {
       "name": "posthog",
@@ -2337,7 +2548,8 @@
       "author": null,
       "homepage": "https://posthog.com/docs/model-context-protocol",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/posthog.png"
     },
     {
       "name": "postiz",
@@ -2347,7 +2559,8 @@
       "author": null,
       "homepage": "https://postiz.com/agent",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/postiz.png"
     },
     {
       "name": "postman",
@@ -2358,7 +2571,8 @@
       "author": null,
       "homepage": "https://github.com/postmanlabs/postman-plugin",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/postman.png"
     },
     {
       "name": "pr-review-toolkit",
@@ -2369,7 +2583,8 @@
       "author": "Anthropic",
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/pr-review-toolkit",
       "kind": "in-repo",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/pr-review-toolkit.png"
     },
     {
       "name": "preset-cli-skills",
@@ -2380,7 +2595,8 @@
       "author": "Preset",
       "homepage": "https://www.preset.io",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/preset-cli-skills.png"
     },
     {
       "name": "prisma",
@@ -2390,7 +2606,8 @@
       "author": null,
       "homepage": "https://prisma.io",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/prisma.png"
     },
     {
       "name": "project-artifact",
@@ -2401,7 +2618,8 @@
       "author": "Anthropic",
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/project-artifact",
       "kind": "in-repo",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/project-artifact.png"
     },
     {
       "name": "pydantic-ai",
@@ -2412,7 +2630,8 @@
       "author": null,
       "homepage": "https://github.com/pydantic/skills/tree/main/plugins/ai",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/pydantic-ai.png"
     },
     {
       "name": "pyright-lsp",
@@ -2423,7 +2642,8 @@
       "author": "Anthropic",
       "homepage": null,
       "kind": "in-repo",
-      "repo": null
+      "repo": null,
+      "icon": null
     },
     {
       "name": "qdrant-skills",
@@ -2434,7 +2654,8 @@
       "author": "Qdrant",
       "homepage": "https://skills.qdrant.tech",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/qdrant-skills.png"
     },
     {
       "name": "qodo",
@@ -2445,7 +2666,8 @@
       "author": "Qodo",
       "homepage": "https://github.com/qodo-ai/qodo-skills.git",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/qodo.png"
     },
     {
       "name": "qodo-standards",
@@ -2456,7 +2678,8 @@
       "author": "Qodo",
       "homepage": "https://github.com/qodo-ai/qodo-skills.git",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/qodo-standards.png"
     },
     {
       "name": "qt-development-skills",
@@ -2467,7 +2690,8 @@
       "author": "Qt Group",
       "homepage": "https://www.qt.io/",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/qt-development-skills.png"
     },
     {
       "name": "quarkus-agent",
@@ -2478,7 +2702,8 @@
       "author": "Quarkus",
       "homepage": "https://quarkus.io",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/quarkus-agent.png"
     },
     {
       "name": "railway",
@@ -2489,7 +2714,8 @@
       "author": null,
       "homepage": "https://docs.railway.com/ai/claude-code-plugin",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/railway.png"
     },
     {
       "name": "ralph-loop",
@@ -2500,7 +2726,8 @@
       "author": "Anthropic",
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/ralph-loop",
       "kind": "in-repo",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/ralph-loop.png"
     },
     {
       "name": "rc",
@@ -2511,7 +2738,8 @@
       "author": null,
       "homepage": "https://www.revenuecat.com",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/rc.png"
     },
     {
       "name": "receipts",
@@ -2522,7 +2750,8 @@
       "author": "Anthropic",
       "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/receipts",
       "kind": "in-repo",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/receipts.png"
     },
     {
       "name": "redis-development",
@@ -2533,7 +2762,8 @@
       "author": "Redis",
       "homepage": "https://redis.io",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/redis-development.png"
     },
     {
       "name": "remember",
@@ -2543,7 +2773,8 @@
       "author": null,
       "homepage": "https://github.com/Digital-Process-Tools/claude-remember",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/remember.png"
     },
     {
       "name": "render",
@@ -2554,7 +2785,8 @@
       "author": "Render",
       "homepage": "https://render.com",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/render.png"
     },
     {
       "name": "resend",
@@ -2565,7 +2797,8 @@
       "author": "Resend",
       "homepage": "https://resend.com",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/resend.png"
     },
     {
       "name": "revenuecat",
@@ -2576,7 +2809,8 @@
       "author": null,
       "homepage": "https://www.revenuecat.com",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/revenuecat.png"
     },
     {
       "name": "rill",
@@ -2587,7 +2821,8 @@
       "author": "Rill Data",
       "homepage": "https://docs.rilldata.com/developers/build/ai-configuration",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/rill.png"
     },
     {
       "name": "rootly",
@@ -2598,7 +2833,8 @@
       "author": "Rootly",
       "homepage": "https://rootly.com",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/rootly.png"
     },
     {
       "name": "ruby-lsp",
@@ -2609,7 +2845,8 @@
       "author": "Anthropic",
       "homepage": null,
       "kind": "in-repo",
-      "repo": null
+      "repo": null,
+      "icon": null
     },
     {
       "name": "runway-api",
@@ -2620,7 +2857,8 @@
       "author": "Runway",
       "homepage": "https://runwayml.com",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/runway-api.png"
     },
     {
       "name": "rust-analyzer-lsp",
@@ -2631,7 +2869,8 @@
       "author": "Anthropic",
       "homepage": null,
       "kind": "in-repo",
-      "repo": null
+      "repo": null,
+      "icon": null
     },
     {
       "name": "sagemaker-ai",
@@ -2642,7 +2881,8 @@
       "author": null,
       "homepage": "https://github.com/awslabs/agent-plugins",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/sagemaker-ai.png"
     },
     {
       "name": "salesforce-development",
@@ -2653,7 +2893,8 @@
       "author": "Salesforce",
       "homepage": "https://github.com/forcedotcom/sf-skills/tree/main/plugins/builder/salesforce-development",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/salesforce-development.png"
     },
     {
       "name": "sanity",
@@ -2664,7 +2905,8 @@
       "author": "Sanity",
       "homepage": "https://www.sanity.io",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/sanity.png"
     },
     {
       "name": "sap-cds-mcp",
@@ -2675,7 +2917,8 @@
       "author": "SAP SE",
       "homepage": "https://cap.cloud.sap/",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/sap-cds-mcp.png"
     },
     {
       "name": "sap-fiori-mcp-server",
@@ -2686,7 +2929,8 @@
       "author": "SAP SE",
       "homepage": "https://github.com/SAP/open-ux-tools/tree/main/packages/fiori-mcp-server",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/sap-fiori-mcp-server.png"
     },
     {
       "name": "sap-hana-cli",
@@ -2697,7 +2941,8 @@
       "author": "SAP SE",
       "homepage": "https://github.com/SAP-samples/hana-cli-claude-plugin",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/sap-hana-cli.png"
     },
     {
       "name": "sap-mdk-server",
@@ -2708,7 +2953,8 @@
       "author": "SAP SE",
       "homepage": "https://help.sap.com/docs/MDK",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/sap-mdk-server.png"
     },
     {
       "name": "save-to-spotify",
@@ -2719,7 +2965,8 @@
       "author": "Spotify",
       "homepage": "https://github.com/spotify/save-to-spotify",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/save-to-spotify.png"
     },
     {
       "name": "scandit-sdk",
@@ -2730,7 +2977,8 @@
       "author": "Scandit",
       "homepage": "https://www.scandit.com",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/scandit-sdk.png"
     },
     {
       "name": "security-guidance",
@@ -2741,7 +2989,8 @@
       "author": "Anthropic",
       "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/security-guidance",
       "kind": "in-repo",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/security-guidance.png"
     },
     {
       "name": "semgrep",
@@ -2752,7 +3001,8 @@
       "author": null,
       "homepage": "https://github.com/semgrep/mcp-marketplace.git",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/semgrep.png"
     },
     {
       "name": "sentry",
@@ -2763,7 +3013,8 @@
       "author": null,
       "homepage": "https://github.com/getsentry/plugin-claude",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/sentry.png"
     },
     {
       "name": "sentry-cli",
@@ -2774,7 +3025,8 @@
       "author": "Sentry",
       "homepage": "https://sentry.io",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/sentry-cli.png"
     },
     {
       "name": "serena",
@@ -2785,7 +3037,8 @@
       "author": null,
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/serena",
       "kind": "in-repo",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/serena.png"
     },
     {
       "name": "servicenow-sdk",
@@ -2796,7 +3049,8 @@
       "author": "ServiceNow",
       "homepage": "https://servicenow.github.io/sdk/",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/servicenow-sdk.png"
     },
     {
       "name": "session-report",
@@ -2807,7 +3061,8 @@
       "author": "Anthropic",
       "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/session-report",
       "kind": "in-repo",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/session-report.png"
     },
     {
       "name": "setup-agent-analytics",
@@ -2818,7 +3073,8 @@
       "author": "Pendo",
       "homepage": "https://github.com/pendo-io/claude-pendo-plugin/tree/main/plugins/setup-agent-analytics",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/setup-agent-analytics.png"
     },
     {
       "name": "setup-mcp-agent-analytics",
@@ -2829,7 +3085,8 @@
       "author": "Pendo",
       "homepage": "https://github.com/pendo-io/claude-pendo-plugin/tree/main/plugins/setup-mcp-agent-analytics",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/setup-mcp-agent-analytics.png"
     },
     {
       "name": "shippo",
@@ -2840,7 +3097,8 @@
       "author": "Shippo",
       "homepage": "https://docs.goshippo.com",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/shippo.png"
     },
     {
       "name": "shopify-ai-toolkit",
@@ -2851,7 +3109,8 @@
       "author": "Shopify",
       "homepage": "https://shopify.dev",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/shopify-ai-toolkit.png"
     },
     {
       "name": "skill-creator",
@@ -2862,7 +3121,8 @@
       "author": "Anthropic",
       "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/skill-creator",
       "kind": "in-repo",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/skill-creator.png"
     },
     {
       "name": "slack",
@@ -2873,7 +3133,8 @@
       "author": null,
       "homepage": "https://github.com/slackapi/slack-mcp-plugin/tree/main",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/slack.png"
     },
     {
       "name": "snowflake-cortex-code",
@@ -2884,7 +3145,8 @@
       "author": "Snowflake",
       "homepage": "https://docs.snowflake.com/en/user-guide/cortex-code",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/snowflake-cortex-code.png"
     },
     {
       "name": "sonarqube",
@@ -2895,7 +3157,8 @@
       "author": "SonarSource",
       "homepage": "https://www.sonarsource.com",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/sonarqube.png"
     },
     {
       "name": "sonatype-guide",
@@ -2906,7 +3169,8 @@
       "author": null,
       "homepage": "https://github.com/sonatype/sonatype-guide-claude-plugin.git",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/sonatype-guide.png"
     },
     {
       "name": "sourcegraph",
@@ -2917,7 +3181,8 @@
       "author": null,
       "homepage": "https://sourcegraph.com",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/sourcegraph.png"
     },
     {
       "name": "spanner",
@@ -2928,7 +3193,8 @@
       "author": "Google LLC",
       "homepage": "https://github.com/gemini-cli-extensions/spanner",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/spanner.png"
     },
     {
       "name": "spotify-ads-api",
@@ -2939,7 +3205,8 @@
       "author": null,
       "homepage": "https://github.com/spotify/ads-claude-plugin",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/spotify-ads-api.png"
     },
     {
       "name": "stackhawk-hawkscan",
@@ -2950,7 +3217,8 @@
       "author": "StackHawk",
       "homepage": "https://docs.stackhawk.com/ai-security/",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/stackhawk-hawkscan.png"
     },
     {
       "name": "stackhawk-api",
@@ -2961,7 +3229,8 @@
       "author": "StackHawk",
       "homepage": "https://docs.stackhawk.com/ai-security/",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/stackhawk-api.png"
     },
     {
       "name": "streaming-skills-plugin",
@@ -2972,7 +3241,8 @@
       "author": "Confluent",
       "homepage": "https://www.confluent.io",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/streaming-skills-plugin.png"
     },
     {
       "name": "stripe",
@@ -2983,7 +3253,8 @@
       "author": null,
       "homepage": "https://github.com/stripe/ai/tree/main/providers/claude/plugin",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/stripe.png"
     },
     {
       "name": "sumup",
@@ -2994,7 +3265,8 @@
       "author": null,
       "homepage": "https://www.sumup.com/",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/sumup.png"
     },
     {
       "name": "supabase",
@@ -3005,7 +3277,8 @@
       "author": null,
       "homepage": "https://github.com/supabase-community/supabase-plugin",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/supabase.png"
     },
     {
       "name": "superdesign",
@@ -3016,7 +3289,8 @@
       "author": "Superdesign dev, Inc.",
       "homepage": "https://superdesign.dev",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/superdesign.png"
     },
     {
       "name": "superpowers",
@@ -3027,7 +3301,8 @@
       "author": null,
       "homepage": "https://github.com/obra/superpowers.git",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/superpowers.png"
     },
     {
       "name": "swift-lsp",
@@ -3038,7 +3313,8 @@
       "author": "Anthropic",
       "homepage": null,
       "kind": "in-repo",
-      "repo": null
+      "repo": null,
+      "icon": null
     },
     {
       "name": "synthflow",
@@ -3049,7 +3325,8 @@
       "author": "Synthflow",
       "homepage": "https://synthflow.ai",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/synthflow.png"
     },
     {
       "name": "tavily",
@@ -3060,7 +3337,8 @@
       "author": "Tavily Team",
       "homepage": "https://www.tavily.com/",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/tavily.png"
     },
     {
       "name": "teamcity-cli",
@@ -3071,7 +3349,8 @@
       "author": "JetBrains",
       "homepage": "https://www.jetbrains.com/teamcity/",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/teamcity-cli.png"
     },
     {
       "name": "telegram",
@@ -3082,7 +3361,8 @@
       "author": null,
       "homepage": null,
       "kind": "in-repo",
-      "repo": null
+      "repo": null,
+      "icon": null
     },
     {
       "name": "terraform",
@@ -3093,7 +3373,8 @@
       "author": "HashiCorp",
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/terraform",
       "kind": "in-repo",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/terraform.png"
     },
     {
       "name": "togetherai-skills",
@@ -3104,7 +3385,8 @@
       "author": "Together AI",
       "homepage": "https://www.together.ai",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/togetherai-skills.png"
     },
     {
       "name": "twilio-developer-kit",
@@ -3115,7 +3397,8 @@
       "author": "Twilio",
       "homepage": "https://www.twilio.com",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/twilio-developer-kit.png"
     },
     {
       "name": "typescript-lsp",
@@ -3126,7 +3409,8 @@
       "author": "Anthropic",
       "homepage": null,
       "kind": "in-repo",
-      "repo": null
+      "repo": null,
+      "icon": null
     },
     {
       "name": "ui-theme-designer",
@@ -3137,7 +3421,8 @@
       "author": "SAP SE",
       "homepage": "https://github.com/SAP/ui-theme-designer-plugins-for-coding-agents",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/ui-theme-designer.png"
     },
     {
       "name": "ui5",
@@ -3148,7 +3433,8 @@
       "author": "SAP SE",
       "homepage": "https://github.com/UI5/plugins-coding-agents",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/ui5.png"
     },
     {
       "name": "ui5-modernization",
@@ -3159,7 +3445,8 @@
       "author": "SAP SE",
       "homepage": "https://github.com/UI5/plugins-coding-agents",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/ui5-modernization.png"
     },
     {
       "name": "ui5-typescript-conversion",
@@ -3170,7 +3457,8 @@
       "author": "SAP SE",
       "homepage": "https://github.com/UI5/plugins-coding-agents",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/ui5-typescript-conversion.png"
     },
     {
       "name": "unity",
@@ -3181,7 +3469,8 @@
       "author": "Unity Technologies",
       "homepage": "https://unity.com",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/unity.png"
     },
     {
       "name": "unreal-engine-skills-for-claude-code",
@@ -3192,7 +3481,8 @@
       "author": "Epic Games",
       "homepage": "https://dev.epicgames.com/documentation/unreal-engine/unreal-mcp-in-unreal-editor",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/unreal-engine-skills-for-claude-code.png"
     },
     {
       "name": "valtown",
@@ -3203,7 +3493,8 @@
       "author": "Val Town",
       "homepage": "https://val.town",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/valtown.png"
     },
     {
       "name": "vanguard-advisor-tools",
@@ -3214,7 +3505,8 @@
       "author": "Vanguard",
       "homepage": "https://advisors.vanguard.com",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/vanguard-advisor-tools.png"
     },
     {
       "name": "vanta",
@@ -3225,7 +3517,8 @@
       "author": "Vanta",
       "homepage": "https://help.vanta.com/en/articles/14094979-connecting-to-vanta-mcp#h_887ce3f337",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/vanta.png"
     },
     {
       "name": "vanta-mcp-plugin",
@@ -3236,7 +3529,8 @@
       "author": "Vanta",
       "homepage": "https://help.vanta.com/en/articles/14094979-connecting-to-vanta-mcp#h_887ce3f337",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/vanta-mcp-plugin.png"
     },
     {
       "name": "vercel",
@@ -3247,7 +3541,8 @@
       "author": null,
       "homepage": "https://github.com/vercel/vercel-plugin",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/vercel.png"
     },
     {
       "name": "vibe-prospecting",
@@ -3258,7 +3553,8 @@
       "author": "vibeprospecting.ai",
       "homepage": "https://www.vibeprospecting.ai/product/claude-plugin",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/vibe-prospecting.png"
     },
     {
       "name": "vsql-extension-builder",
@@ -3269,7 +3565,8 @@
       "author": "VillageSQL",
       "homepage": "https://villagesql.com",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/vsql-extension-builder.png"
     },
     {
       "name": "windsor-ai",
@@ -3280,7 +3577,8 @@
       "author": "Windsor.ai",
       "homepage": "https://windsor.ai",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/windsor-ai.png"
     },
     {
       "name": "wix",
@@ -3291,7 +3589,8 @@
       "author": null,
       "homepage": "https://dev.wix.com/docs/wix-cli/guides/development/about-wix-skills",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/wix.png"
     },
     {
       "name": "build-with-wordpress",
@@ -3301,7 +3600,8 @@
       "author": null,
       "homepage": "https://developer.wordpress.com/wordpress-com-claude-code-plugin/",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/build-with-wordpress.png"
     },
     {
       "name": "workos",
@@ -3312,7 +3612,8 @@
       "author": "WorkOS",
       "homepage": "https://workos.com",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/workos.png"
     },
     {
       "name": "youdotcom-agent-skills",
@@ -3323,7 +3624,8 @@
       "author": "You.com",
       "homepage": "https://you.com",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/youdotcom-agent-skills.png"
     },
     {
       "name": "zapier",
@@ -3334,7 +3636,8 @@
       "author": null,
       "homepage": "https://github.com/zapier/zapier-mcp/tree/main/plugins/zapier",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/zapier.png"
     },
     {
       "name": "zilliz",
@@ -3345,7 +3648,8 @@
       "author": "Zilliz",
       "homepage": "https://docs.zilliz.com",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/zilliz.png"
     },
     {
       "name": "zocks-advisor",
@@ -3356,7 +3660,8 @@
       "author": "Zocks",
       "homepage": "https://github.com/zocks-communications/zocks-agent-plugins",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/zocks-advisor.png"
     },
     {
       "name": "zoom-plugin",
@@ -3367,7 +3672,8 @@
       "author": null,
       "homepage": "https://developers.zoom.us/",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/zoom-plugin.png"
     },
     {
       "name": "zoominfo",
@@ -3378,7 +3684,8 @@
       "author": "ZoomInfo",
       "homepage": "https://www.zoominfo.com",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/zoominfo.png"
     },
     {
       "name": "zscaler",
@@ -3389,7 +3696,8 @@
       "author": "Zscaler",
       "homepage": "https://github.com/zscaler/zscaler-mcp-server",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/zscaler.png"
     },
     {
       "name": "langfuse",
@@ -3400,7 +3708,8 @@
       "author": "Langfuse",
       "homepage": "https://langfuse.com",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/langfuse.png"
     },
     {
       "name": "zyte-web-data",
@@ -3411,7 +3720,8 @@
       "author": "Zyte",
       "homepage": "https://www.zyte.com",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/zyte-web-data.png"
     },
     {
       "name": "activecampaign",
@@ -3422,7 +3732,8 @@
       "author": "ActiveCampaign",
       "homepage": "https://www.activecampaign.com",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/activecampaign.png"
     },
     {
       "name": "hubspot-sales",
@@ -3433,7 +3744,8 @@
       "author": "HubSpot",
       "homepage": "https://www.hubspot.com",
       "kind": "git-subdir",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/hubspot-sales.png"
     },
     {
       "name": "dynatrace",
@@ -3444,7 +3756,8 @@
       "author": "Dynatrace",
       "homepage": "https://www.dynatrace.com/hub/detail/claude-code-cli/",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/dynatrace.png"
     },
     {
       "name": "wingspan",
@@ -3455,7 +3768,8 @@
       "author": "Wingspan",
       "homepage": "https://github.com/wingspanHQ/mcp-claude-plugin",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/wingspan.png"
     },
     {
       "name": "amazon-selling-partner",
@@ -3466,7 +3780,8 @@
       "author": "Amazon",
       "homepage": "https://github.com/amzn/selling-partner-agentic-toolkit",
       "kind": "url",
-      "repo": null
+      "repo": null,
+      "icon": "appicons/amazon-selling-partner.png"
     }
   ]
 }

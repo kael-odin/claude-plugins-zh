@@ -10,4 +10,7 @@ for (const f of ['index.html', 'style.css', 'app.js']) {
   fs.copyFileSync(path.join(ROOT, 'site', f), path.join(dist, f));
 }
 fs.copyFileSync(path.join(DATA_DIR, 'catalog.json'), path.join(dist, 'catalog.json'));
+if (fs.existsSync(path.join(ROOT, 'site', 'appicons'))) {
+  fs.cpSync(path.join(ROOT, 'site', 'appicons'), path.join(dist, 'appicons'), { recursive: true });
+}
 console.log('[build-site] dist/ ready —', JSON.parse(fs.readFileSync(path.join(dist, 'catalog.json'), 'utf8')).total, 'plugins');

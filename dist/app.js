@@ -82,6 +82,7 @@ function buildItems() {
   ITEMS = CATALOG.plugins.map((p) => ({
     type: p.kind,
     key: p.name,
+    icon: p.icon ?? null,
     color: colorFor(p.name),
     initial: p.name[0].toUpperCase(),
     zh: p.name,
@@ -115,7 +116,12 @@ function sorted(list) {
 }
 
 function iconHTML(it, size) {
-  const s = size ? `style="width:${size}px;height:${size}px"` : '';
+  const s = `style="width:${size}px;height:${size}px;font-size:${Math.round(size * 0.38)}px;background:${esc(it.color)}"`;
+  if (it.icon) {
+    return `<img class="icon" loading="lazy" src="${esc(it.icon)}" alt="${esc(it.zh)}" ${s}
+      onerror="this.classList.add('hide');this.nextElementSibling.classList.remove('hide')">
+      <div class="tile hide" ${s}>${esc(it.initial)}</div>`;
+  }
   return `<div class="tile" ${s}>${esc(it.initial)}</div>`;
 }
 
