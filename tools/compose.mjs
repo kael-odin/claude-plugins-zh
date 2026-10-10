@@ -19,6 +19,7 @@ const cfg = readJson(path.join(ROOT, 'config', 'zh-marketplace.json'));
 const glossary = readJson(path.join(ROOT, 'config', 'glossary.json'), {});
 const diff = readJson(path.join(DATA_DIR, 'diff.json'));
 const mapCat = (c) => (c ? glossary[c] ?? c : '其他');
+const mapCatAlways = (c) => mapCat(c);
 
 // 1) prune what upstream deleted since last sync
 for (const rel of diff.files.removed ?? []) {
@@ -51,7 +52,7 @@ for (const entry of mf.plugins) {
   const side = readJson(path.join(I18N_DIR, `${entry.name}.json`), null);
   const hit = side?.[textKey(entry.description ?? '')]?.zh;
   if (hit) { entry.description = hit; zhDesc++; }
-  if (entry.category) entry.category = mapCat(entry.category);
+  entry.category = mapCat(entry.category);
 }
 writeJson(mfPath, mf);
 console.log(`[compose] manifest: ${mf.plugins.length} entries, ${zhDesc} zh descriptions`);

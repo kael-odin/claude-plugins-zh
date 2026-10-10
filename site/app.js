@@ -152,7 +152,12 @@ function renderRail() {
 
 function renderPills() {
   const T = t();
-  const defs = [['all', T.quick.all], ['inrepo', T.quick.inrepo], ['git', T.quick.git], ['url', T.quick.url]];
+  const defs = [
+    ['all', `${T.quick.all} ${fmt(ITEMS.length)}`],
+    ['in-repo', `${T.quick.inrepo} ${fmt(ITEMS.filter((i) => i.type === 'in-repo').length)}`],
+    ['git-subdir', `${T.quick.git} ${fmt(ITEMS.filter((i) => i.type === 'git-subdir').length)}`],
+    ['url', `${T.quick.url} ${fmt(ITEMS.filter((i) => i.type === 'url').length)}`],
+  ];
   $('#pills').innerHTML = defs
     .map(([k, label]) => `<button class="quick-btn ${state.quick === k ? 'active' : ''}" data-k="${k}">${esc(label)}</button>`)
     .join('');

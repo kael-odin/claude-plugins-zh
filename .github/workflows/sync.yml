@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: sync-upstream
+  cancel-in-progress: false
+
 jobs:
   sync:
     runs-on: ubuntu-latest
@@ -27,6 +31,9 @@ jobs:
       # Translations run locally (the API key is IP-whitelisted, unusable on
       # GitHub runners) and are committed as i18n/zh ledger files. Untranslated
       # entries simply keep their English text until the next local pass.
+
+      - name: Refresh icons (best-effort)
+        run: node tools/fetch-icons.mjs || echo "[warn] icon fetch failed, keeping committed icons"
 
       - name: Compose zh marketplace
         run: node tools/compose.mjs
