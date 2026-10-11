@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-10T07:32:33.650Z",
+  "generatedAt": "2026-10-11T10:19:49.474Z",
   "upstream": {
     "repo": "https://github.com/anthropics/claude-plugins-official",
-    "sha": "b8e53f1c05dff3b6d751297f6527990ffc81c2f4",
+    "sha": "f359d43b406057f1a8cdbc4ea93b827642c162e6",
     "license": "Apache-2.0"
   },
   "marketplace": {
@@ -10,7 +10,7 @@
     "description": "Claude Code 官方插件目录 · 中文版 — 自动同步 anthropics/claude-plugins-official，315 个插件的中文介绍与中文分类，插件源码保持逐字不动（Apache-2.0）。"
   },
   "total": 315,
-  "zhDescriptions": 315,
+  "zhDescriptions": 314,
   "byKind": {
     "git-subdir": 98,
     "in-repo": 53,
@@ -68,6 +68,7 @@
     {
       "name": "ai-plugins",
       "category": null,
+      "categoryZh": "其他",
       "descriptionZh": "设置 endorctl 并使用 Endor Labs 扫描、优先级排序和修复软件供应链中的安全风险",
       "descriptionEn": "Set up endorctl and use Endor Labs to scan, prioritize, and fix security risks across your software supply chain",
       "author": null,
@@ -79,6 +80,7 @@
     {
       "name": "aikido",
       "category": null,
+      "categoryZh": "其他",
       "descriptionZh": "面向 Claude Code 的 Aikido Security 扫描——由 Aikido MCP 服务器提供支持的 SAST、密钥和 IaC 漏洞检测。",
       "descriptionEn": "Aikido Security scanning for Claude Code — SAST, secrets, and IaC vulnerability detection powered by the Aikido MCP server.",
       "author": null,
@@ -270,6 +272,7 @@
     {
       "name": "atlan",
       "category": null,
+      "categoryZh": "其他",
       "descriptionZh": "面向 Claude Code 的 Atlan 数据目录插件。通过自然语言搜索、探索、治理和管理你的数据资产。由 Atlan MCP 服务器提供支持，具备语义搜索、血缘遍历、术语表管理、数据质量规则等能力。",
       "descriptionEn": "Atlan data catalog plugin for Claude Code. Search, explore, govern, and manage your data assets through natural language. Powered by the Atlan MCP server with semantic search, lineage traversal, glossary management, data quality rules, and more.",
       "author": null,
@@ -533,6 +536,7 @@
     {
       "name": "brightdata-plugin",
       "category": null,
+      "categoryZh": "其他",
       "descriptionZh": "由 Bright Data 提供支持的网页抓取、Google 搜索、结构化数据提取和 MCP server 集成。包含 7 项技能：将任意网页抓取为 markdown（支持绕过机器人检测/CAPTCHA）、以结构化 JSON 结果搜索 Google、从 40+ 网站（Amazon、LinkedIn、Instagram、TikTok、YouTube 等）提取数据、编排 Bright Data 的 60+ MCP 工具、内置 Web Unlocker、SERP API、Web Scraper API 和 Browser API 的最佳实践，以及 brightda... 的 Python SDK 最佳实践",
       "descriptionEn": "Web scraping, Google search, structured data extraction, and MCP server integration powered by Bright Data. Includes 7 skills: scrape any webpage as markdown (with bot detection/CAPTCHA bypass), search Google with structured JSON results, extract data from 40+ websites (Amazon, LinkedIn, Instagram, TikTok, YouTube, and more), orchestrate Bright Data's 60+ MCP tools, built-in best practices for Web Unlocker, SERP API, Web Scraper API, and Browser API, Python SDK best practices for the brightda...",
       "author": null,
@@ -856,6 +860,7 @@
     {
       "name": "cloudinary",
       "category": null,
+      "categoryZh": "其他",
       "descriptionZh": "直接在 Claude 中使用 Cloudinary。通过自然对话管理资产、应用转换、优化媒体等。",
       "descriptionEn": "Use Cloudinary directly in Claude. Manage assets, apply transformations, optimize media, and more through natural conversation.",
       "author": null,
@@ -1069,20 +1074,21 @@
       "icon": "appicons/data.png"
     },
     {
-      "name": "data-agent-kit-starter-pack",
+      "name": "data-agent-kit",
       "category": "development",
       "categoryZh": "开发工具",
-      "descriptionZh": "该插件为在 Google Cloud 上工作的数据工程师与数据库从业者提供一套专用 skill。它充当专家助手，让你在常用的编码 agent 中用自然语言提示来架构复杂数据管道、使用 dbt 转换数据、编写 Spark 与 BigQuery SQL notebook，并在 GCP 数据生态中编排端到端工作流。",
+      "descriptionZh": "This plugin provides a specialized suite of skills for data engineers and database practitioners working on Google Cloud. It acts as an expert assistant, allowing you to use natural language prompts in your preferred coding agent to architect complex data pipelines, transform data with dbt, write Spark and BigQuery SQL notebooks, and orchestrate end-to-end workflows across GCP's data ecosystem.",
       "descriptionEn": "This plugin provides a specialized suite of skills for data engineers and database practitioners working on Google Cloud. It acts as an expert assistant, allowing you to use natural language prompts in your preferred coding agent to architect complex data pipelines, transform data with dbt, write Spark and BigQuery SQL notebooks, and orchestrate end-to-end workflows across GCP's data ecosystem.",
       "author": "Google LLC",
-      "homepage": "https://github.com/gemini-cli-extensions/data-agent-kit-starter-pack",
+      "homepage": "https://cloud.google.com/products/data-agent-kit",
       "kind": "url",
       "repo": null,
-      "icon": "appicons/data-agent-kit-starter-pack.png"
+      "icon": "appicons/data-agent-kit.png"
     },
     {
       "name": "data-engineering",
       "category": null,
+      "categoryZh": "其他",
       "descriptionZh": "数据工程插件——数仓探索、管道编写、Airflow 集成",
       "descriptionEn": "Data engineering plugin - warehouse exploration, pipeline authoring, Airflow integration",
       "author": null,
@@ -1322,6 +1328,7 @@
     {
       "name": "fastly-agent-toolkit",
       "category": null,
+      "categoryZh": "其他",
       "descriptionZh": "Fastly 开发工具与平台 skill",
       "descriptionEn": "Fastly development tools and platform skills",
       "author": null,
@@ -1345,6 +1352,7 @@
     {
       "name": "fiftyone",
       "category": null,
+      "categoryZh": "其他",
       "descriptionZh": "构建高质量数据集与计算机视觉模型。可视化数据集、分析模型、查找重复项、运行推理、评估预测结果，并开发自定义插件。",
       "descriptionEn": "Build high-quality datasets and computer vision models. Visualize datasets, analyze models, find duplicates, run inference, evaluate predictions, and develop custom plugins.",
       "author": null,
@@ -2268,6 +2276,7 @@
     {
       "name": "nightvision",
       "category": null,
+      "categoryZh": "其他",
       "descriptionZh": "用于 NightVision 的 skills。NightVision 是一个 DAST 与 API Discovery 平台，可发现 Web 应用和 REST API 中可被利用的漏洞",
       "descriptionEn": "Skills for working with NightVision, a DAST and API Discovery platform that finds exploitable vulnerabilities in web applications and REST APIs",
       "author": null,
@@ -2279,6 +2288,7 @@
     {
       "name": "nimble",
       "category": null,
+      "categoryZh": "其他",
       "descriptionZh": "Nimble Web 数据工具包 — 搜索、提取、映射、抓取网页，并与结构化数据 agents 协作",
       "descriptionEn": "Nimble web data toolkit — search, extract, map, crawl the web and work with structured data agents",
       "author": null,
@@ -2554,6 +2564,7 @@
     {
       "name": "postiz",
       "category": null,
+      "categoryZh": "其他",
       "descriptionZh": "社交媒体自动化 CLI，可在 28+ 平台（包括 X、LinkedIn、Reddit、YouTube、TikTok、Instagram 等）上安排帖子发布、管理集成、上传媒体并跟踪分析数据",
       "descriptionEn": "Social media automation CLI for scheduling posts, managing integrations, uploading media, and tracking analytics across 28+ platforms including X, LinkedIn, Reddit, YouTube, TikTok, Instagram, and more",
       "author": null,
@@ -2601,6 +2612,7 @@
     {
       "name": "prisma",
       "category": null,
+      "categoryZh": "其他",
       "descriptionZh": "Prisma MCP 集成，用于 Postgres 数据库管理、schema 迁移、SQL 查询和连接字符串管理。配置 Prisma Postgres 数据库、运行迁移，并直接与数据交互。",
       "descriptionEn": "Prisma MCP integration for Postgres database management, schema migrations, SQL queries, and connection string management. Provision Prisma Postgres databases, run migrations, and interact with your data directly.",
       "author": null,
@@ -2768,6 +2780,7 @@
     {
       "name": "remember",
       "category": null,
+      "categoryZh": "其他",
       "descriptionZh": "为 Claude Code 提供持续记忆。将会话提取、总结并压缩为分层的每日日志。Claude 能记住你昨天做了什么。",
       "descriptionEn": "Continuous memory for Claude Code. Extracts, summarizes, and compresses conversations into tiered daily logs. Claude remembers what you did yesterday.",
       "author": null,
@@ -3595,6 +3608,7 @@
     {
       "name": "build-with-wordpress",
       "category": null,
+      "categoryZh": "其他",
       "descriptionZh": "打造生产级 WordPress 站点和应用。涵盖从主题、插件到电商与部署的一切。",
       "descriptionEn": "Craft production-grade WordPress sites and applications. Everything from themes and plugins to commerce and deployment.",
       "author": null,

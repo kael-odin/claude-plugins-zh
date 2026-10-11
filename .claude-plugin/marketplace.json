@@ -15,7 +15,8 @@
     "qodo-skills": "qodo",
     "atlassian-forge-skills": "forge-skills",
     "azure-skills": "azure",
-    "sonarqube-agent-plugins": "sonarqube"
+    "sonarqube-agent-plugins": "sonarqube",
+    "data-agent-kit-starter-pack": "data-agent-kit"
   },
   "plugins": [
     {
@@ -80,7 +81,8 @@
         "url": "https://github.com/endorlabs/ai-plugins.git",
         "sha": "2de00883bd2be8b8578b46ab09baf2c8731376de"
       },
-      "homepage": "https://www.endorlabs.com"
+      "homepage": "https://www.endorlabs.com",
+      "category": "其他"
     },
     {
       "name": "aikido",
@@ -90,7 +92,8 @@
         "url": "https://github.com/AikidoSec/aikido-claude-plugin.git",
         "sha": "02f018ad4da175a2a5ad6ca9451c3d309d105fab"
       },
-      "homepage": "https://github.com/AikidoSec/aikido-claude-plugin"
+      "homepage": "https://github.com/AikidoSec/aikido-claude-plugin",
+      "category": "其他"
     },
     {
       "name": "airtable",
@@ -317,7 +320,8 @@
         "url": "https://github.com/atlanhq/agent-toolkit.git",
         "sha": "86bb1ad27f80e189b328333d2271b360ae579f2b"
       },
-      "homepage": "https://docs.atlan.com/"
+      "homepage": "https://docs.atlan.com/",
+      "category": "其他"
     },
     {
       "name": "atlassian",
@@ -631,7 +635,8 @@
         "url": "https://github.com/brightdata/skills.git",
         "sha": "e825f02fbcd7a89087fd1053a57ddcd45113370f"
       },
-      "homepage": "https://docs.brightdata.com"
+      "homepage": "https://docs.brightdata.com",
+      "category": "其他"
     },
     {
       "name": "browser-use",
@@ -1020,7 +1025,8 @@
         "url": "https://github.com/cloudinary-devs/cloudinary-plugin.git",
         "sha": "86be53409e3fb1c465cd5ff4d1dc937a2860f45c"
       },
-      "homepage": "https://cloudinary.com/documentation"
+      "homepage": "https://cloudinary.com/documentation",
+      "category": "其他"
     },
     {
       "name": "cockroachdb",
@@ -1265,18 +1271,18 @@
       "homepage": "https://github.com/astronomer/agents"
     },
     {
-      "name": "data-agent-kit-starter-pack",
-      "description": "该插件为在 Google Cloud 上工作的数据工程师与数据库从业者提供一套专用 skill。它充当专家助手，让你在常用的编码 agent 中用自然语言提示来架构复杂数据管道、使用 dbt 转换数据、编写 Spark 与 BigQuery SQL notebook，并在 GCP 数据生态中编排端到端工作流。",
+      "name": "data-agent-kit",
+      "description": "This plugin provides a specialized suite of skills for data engineers and database practitioners working on Google Cloud. It acts as an expert assistant, allowing you to use natural language prompts in your preferred coding agent to architect complex data pipelines, transform data with dbt, write Spark and BigQuery SQL notebooks, and orchestrate end-to-end workflows across GCP's data ecosystem.",
       "author": {
         "name": "Google LLC"
       },
       "category": "开发工具",
       "source": {
         "source": "url",
-        "url": "https://github.com/gemini-cli-extensions/data-agent-kit-starter-pack.git",
-        "sha": "2df10e25bbf7dba2570dce1b2e2e77870143969e"
+        "url": "https://github.com/GoogleCloudPlatform/data-agent-kit-plugin.git",
+        "sha": "83c53b5f129cdeecabe149ff4ba82645d3e51745"
       },
-      "homepage": "https://github.com/gemini-cli-extensions/data-agent-kit-starter-pack"
+      "homepage": "https://cloud.google.com/products/data-agent-kit"
     },
     {
       "name": "data-engineering",
@@ -1286,7 +1292,8 @@
         "url": "https://github.com/astronomer/agents.git",
         "sha": "cbe1141f547bcf0506babb9778a7696bf15eff66"
       },
-      "homepage": "https://github.com/astronomer/agents"
+      "homepage": "https://github.com/astronomer/agents",
+      "category": "其他"
     },
     {
       "name": "databases-on-aws",
@@ -1546,7 +1553,8 @@
         "url": "https://github.com/fastly/fastly-agent-toolkit.git",
         "sha": "abb9d42a5318d67b52b39db9f5b88289ec1567c4"
       },
-      "homepage": "https://github.com/fastly/fastly-agent-toolkit/blob/main/README.md"
+      "homepage": "https://github.com/fastly/fastly-agent-toolkit/blob/main/README.md",
+      "category": "其他"
     },
     {
       "name": "feature-dev",
@@ -1567,7 +1575,8 @@
         "url": "https://github.com/voxel51/fiftyone-skills.git",
         "sha": "e28a9a3d453b15cbefa6ccc81c89fecf723c31b2"
       },
-      "homepage": "https://docs.voxel51.com/"
+      "homepage": "https://docs.voxel51.com/",
+      "category": "其他"
     },
     {
       "name": "figma",
@@ -2639,7 +2648,8 @@
         "url": "https://github.com/nvsecurity/nightvision-skills.git",
         "sha": "957db6bb934839275c0f643042101bbb675ddbf7"
       },
-      "homepage": "https://github.com/nvsecurity/nightvision-skills"
+      "homepage": "https://github.com/nvsecurity/nightvision-skills",
+      "category": "其他"
     },
     {
       "name": "nimble",
@@ -2649,7 +2659,8 @@
         "url": "https://github.com/Nimbleway/agent-skills.git",
         "sha": "2890fdf94f0adfae79bf05b4de3c91667701bafb"
       },
-      "homepage": "https://docs.nimbleway.com/integrations/agent-skills/plugin-installation"
+      "homepage": "https://docs.nimbleway.com/integrations/agent-skills/plugin-installation",
+      "category": "其他"
     },
     {
       "name": "noibu",
@@ -2966,7 +2977,8 @@
         "url": "https://github.com/gitroomhq/postiz-agent.git",
         "sha": "8d431747a895da7ed9b38df8b3d4de180dcf682e"
       },
-      "homepage": "https://postiz.com/agent"
+      "homepage": "https://postiz.com/agent",
+      "category": "其他"
     },
     {
       "name": "postman",
@@ -3014,7 +3026,8 @@
         "url": "https://github.com/prisma/claude-plugin.git",
         "sha": "815dbc4a045a29e3b81510ba0e3ab806f1baaf0e"
       },
-      "homepage": "https://prisma.io"
+      "homepage": "https://prisma.io",
+      "category": "其他"
     },
     {
       "name": "project-artifact",
@@ -3213,7 +3226,8 @@
         "url": "https://github.com/Digital-Process-Tools/claude-remember.git",
         "sha": "a5cc87c35567cff2ff603f598fc8a7134971a280"
       },
-      "homepage": "https://github.com/Digital-Process-Tools/claude-remember"
+      "homepage": "https://github.com/Digital-Process-Tools/claude-remember",
+      "category": "其他"
     },
     {
       "name": "render",
@@ -3484,7 +3498,7 @@
     {
       "name": "security-guidance",
       "description": "针对 Claude 生成代码的安全审查。编辑时基于模式的告警，Stop 时由 LLM 驱动的 diff 审查，以及一个 agentic commit 审查器，可捕获注入、XSS、SSRF、硬编码密钥以及其他 25+ 类漏洞。",
-      "version": "2.0.12",
+      "version": "2.0.13",
       "author": {
         "name": "Anthropic",
         "email": "support@anthropic.com"
@@ -4204,7 +4218,8 @@
         "url": "https://github.com/Automattic/claude-code-wordpress.com.git",
         "sha": "052ca970df2c577d7c651e784935186ff93e6779"
       },
-      "homepage": "https://developer.wordpress.com/wordpress-com-claude-code-plugin/"
+      "homepage": "https://developer.wordpress.com/wordpress-com-claude-code-plugin/",
+      "category": "其他"
     },
     {
       "name": "workos",
