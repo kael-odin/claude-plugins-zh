@@ -1,13 +1,11 @@
 {
-  "from": "b8e53f1c05dff3b6d751297f6527990ffc81c2f4",
+  "from": "f359d43b406057f1a8cdbc4ea93b827642c162e6",
   "to": "f359d43b406057f1a8cdbc4ea93b827642c162e6",
-  "generatedAt": "2026-10-11T10:19:49.080Z",
+  "generatedAt": "2026-10-12T11:20:41.640Z",
   "firstSync": false,
   "plugins": {
     "added": [],
-    "modified": [
-      "security-guidance"
-    ],
+    "modified": [],
     "removed": []
   },
   "files": {
