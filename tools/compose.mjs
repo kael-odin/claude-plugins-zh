@@ -46,7 +46,11 @@ const topSide = readJson(path.join(I18N_DIR, '_marketplace.json'), {});
 const mcfg = cfg.marketplace;
 const mf = JSON.parse(fs.readFileSync(mfPath, 'utf8'));
 mf.name = mcfg.name;
-mf.description = topSide[textKey(upMf.description)]?.zh ?? mcfg.description;
+// Publish our own Chinese-marketplace framing (names the mirror, the plugin
+// count and the lossless guarantee) rather than a translation of upstream's
+// generic one-liner; the ledger translation stays as the fallback for a config
+// that ships no description of its own.
+mf.description = mcfg.description ?? topSide[textKey(upMf.description)]?.zh;
 let zhDesc = 0;
 for (const entry of mf.plugins) {
   const side = readJson(path.join(I18N_DIR, `${entry.name}.json`), null);

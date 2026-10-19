@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T02:13:30.305Z",
+  "generatedAt": "2026-10-19T02:28:32.148Z",
   "upstream": {
     "repo": "https://github.com/anthropics/claude-plugins-official",
     "sha": "ea10b213686c90bb1984b2016937310e05336cf3",
@@ -10,7 +10,7 @@
     "description": "Claude Code 官方插件目录 · 中文版 — 自动同步 anthropics/claude-plugins-official，315 个插件的中文介绍与中文分类，插件源码保持逐字不动（Apache-2.0）。"
   },
   "total": 315,
-  "zhDescriptions": 314,
+  "zhDescriptions": 315,
   "byKind": {
     "git-subdir": 98,
     "in-repo": 53,
@@ -1077,7 +1077,7 @@
       "name": "data-agent-kit",
       "category": "development",
       "categoryZh": "开发工具",
-      "descriptionZh": "This plugin provides a specialized suite of skills for data engineers and database practitioners working on Google Cloud. It acts as an expert assistant, allowing you to use natural language prompts in your preferred coding agent to architect complex data pipelines, transform data with dbt, write Spark and BigQuery SQL notebooks, and orchestrate end-to-end workflows across GCP's data ecosystem.",
+      "descriptionZh": "本插件为在 Google Cloud 上工作的数据工程师与数据库从业者提供一套专用技能，相当于一位专家助手：在常用的编码代理里用自然语言描述需求，即可设计复杂的数据管道、用 dbt 转换数据、编写 Spark 与 BigQuery SQL 笔记本，并在 GCP 数据生态中编排端到端工作流。",
       "descriptionEn": "This plugin provides a specialized suite of skills for data engineers and database practitioners working on Google Cloud. It acts as an expert assistant, allowing you to use natural language prompts in your preferred coding agent to architect complex data pipelines, transform data with dbt, write Spark and BigQuery SQL notebooks, and orchestrate end-to-end workflows across GCP's data ecosystem.",
       "author": "Google LLC",
       "homepage": "https://cloud.google.com/products/data-agent-kit",

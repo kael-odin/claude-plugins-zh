@@ -1,11 +1,10 @@
 const MARKET_REPO = 'kael-odin/claude-plugins-zh';
 const MARKET_URL = `https://github.com/${MARKET_REPO}.git`;
-const GUIDE_URL = 'https://github.com/kael-odin/claude-plugins-zh';
 
 const I18N = {
   zh: {
     title: 'Claude Code 官方插件 · 中文市场',
-    subtitle: '315 个官方插件 · 全汉化 · 无损可证 · 每日更新',
+    subtitle: (n, z) => `${n} 个官方插件 · 中文介绍 ${z}/${n} · 无损可证 · 每日更新`,
     searchPh: '例如：代码审查、数据库、figma、安全扫描、PDF …',
     clear: '清空',
     cats: '快速分类',
@@ -33,7 +32,7 @@ const I18N = {
   },
   en: {
     title: 'Claude Code Official Plugins · Chinese Marketplace',
-    subtitle: '315 official plugins · fully localized · lossless · daily updates',
+    subtitle: (n, z) => `${n} official plugins · ${z}/${n} Chinese descriptions · lossless · daily updates`,
     searchPh: 'e.g. code review, database, figma, security, PDF …',
     clear: 'Clear',
     cats: 'Categories',
@@ -260,12 +259,20 @@ function bindCopy(root) {
 function applyI18nStatic() {
   const T = t();
   document.documentElement.lang = state.lang === 'zh' ? 'zh-CN' : 'en';
-  for (const el of document.querySelectorAll('[data-i18n]')) el.textContent = T[el.dataset.i18n] ?? el.textContent;
+  for (const el of document.querySelectorAll('[data-i18n]')) {
+    const v = T[el.dataset.i18n];
+    if (typeof v === 'string') el.textContent = v;
+  }
+  // Tagline and title state counts, so they are derived from the catalog rather
+  // than hard-coded: a sync that brings an untranslated plugin still tells the
+  // truth instead of claiming full coverage until the next local translate pass.
+  const sub = document.querySelector('[data-i18n="subtitle"]');
+  if (sub) sub.textContent = T.subtitle(fmt(CATALOG.total), fmt(CATALOG.zhDescriptions));
   $('#q').placeholder = T.searchPh;
   $('#lang').textContent = state.lang === 'zh' ? 'English' : '中文';
   document.title = state.lang === 'zh'
-    ? 'Claude Code 官方插件中文市场 · 315 插件导航'
-    : 'Claude Code Official Plugins, in Chinese · 315 Plugins';
+    ? `Claude Code 官方插件中文市场 · ${fmt(CATALOG.total)} 插件导航`
+    : `Claude Code Official Plugins, in Chinese · ${fmt(CATALOG.total)} Plugins`;
   const sort = $('#f-sort');
   sort.options[0].text = T.sortDefault;
 }
