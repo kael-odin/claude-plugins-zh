@@ -3,22 +3,33 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Claude Code 官方插件中文市场 · 315 插件导航</title>
-<meta name="description" content="自动同步 anthropics/claude-plugins-official 的 Claude Code 官方插件中文市场：315 个插件的中文介绍与中文分类、无损可证（Apache-2.0）、每日自动更新，一条命令加进 Claude Code。">
-<meta name="keywords" content="Claude Code, Claude 插件, claude plugins, 插件市场, 中文插件目录, MCP, skills, AI 工具导航">
+<title>Claude Code 官方插件中文版 · {{TOTAL}} 个插件的中文介绍与分类</title>
+<meta name="description" content="Claude Code 官方插件的中文版：自动同步 anthropics/claude-plugins-official 全部 {{TOTAL}} 个插件，介绍与分类均已汉化，插件源码与官方逐字节一致（机器对账，Apache-2.0），每日更新。一条命令加进 Claude Code 即用，内容与官方市场没有区别，只是中文。">
+<meta name="keywords" content="Claude Code 官方插件中文版, Claude Code 插件中文, Claude Code 插件市场, claude-plugins-official 中文, Claude 插件汉化, claude plugins 中文翻译, Claude Code 插件目录, MCP server, Agent Skills, AI 编程插件">
 <link rel="canonical" href="https://kael-odin.github.io/claude-plugins-zh/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<!--
+  {{TOTAL}} and {{VERIFY_NOTE}} are substituted by tools/build-site.mjs from
+  data/catalog.json and data/quality-report.json, so the crawlable text states
+  the real current counts instead of numbers that go stale on the next sync.
+-->
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%23d97757'/><text x='50' y='68' font-size='44' font-family='sans-serif' font-weight='800' text-anchor='middle' fill='white'>Cz</text></svg>">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="claude-plugins-zh">
-<meta property="og:title" content="Claude Code 官方插件 · 中文市场">
-<meta property="og:description" content="315 个官方插件的中文介绍与中文分类，无损可证，每日更新，/plugin marketplace add 一条命令即用。">
+<meta property="og:title" content="Claude Code 官方插件中文版 · 与官方逐字节一致">
+<meta property="og:description" content="官方 {{TOTAL}} 个插件的中文介绍与中文分类，插件源码与官方逐字节一致（机器对账），每日自动同步。一条命令加进 Claude Code，内容与官方市场没有区别，只是中文。">
 <meta property="og:url" content="https://kael-odin.github.io/claude-plugins-zh/">
 <meta property="og:image" content="https://kael-odin.github.io/claude-plugins-zh/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:locale:alternate" content="en_US">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Claude Code 官方插件 · 中文市场">
-<meta name="twitter:description" content="315 个官方插件的中文介绍与中文分类，无损可证，每日更新。">
+<meta name="twitter:title" content="Claude Code 官方插件中文版 · 与官方逐字节一致">
+<meta name="twitter:description" content="官方 {{TOTAL}} 个插件的中文介绍与中文分类，源码与官方逐字节一致，每日更新。">
 <meta name="twitter:image" content="https://kael-odin.github.io/claude-plugins-zh/og.png">
 <link rel="stylesheet" href="./style.css">
+<!--JSONLD-->
 </head>
 <body>
 <header class="top">
@@ -56,6 +67,7 @@
       </div>
       <div id="count" class="summary"></div>
     </div>
+    <noscript><p class="noscript">上方检索与卡片由 JavaScript 渲染。未运行脚本时可用安装命令直接接入 Claude Code：<code>/plugin marketplace add kael-odin/claude-plugins-zh</code>，插件清单与说明见页脚的<a href="#about">中文版说明</a>。</p></noscript>
     <div id="grid" class="grid"></div>
   </main>
 
@@ -64,6 +76,13 @@
 </div>
 
 <footer>
+  <section class="about" id="about">
+    <h2>Claude Code 官方插件的中文版 —— 与官方没有区别，只是中文</h2>
+    <p>本页是 <a href="https://github.com/anthropics/claude-plugins-official" target="_blank" rel="noopener">anthropics/claude-plugins-official</a>（Claude Code 官方插件目录，Apache-2.0）的中文版：<b>{{TOTAL}} 个插件</b>的介绍与分类已全部汉化；<b>插件源码、市场结构与 source 指向保持与官方逐字节一致</b>——由 <code>tools/verify.mjs</code> 在每次发布前机器对账{{VERIFY_NOTE}}。</p>
+    <p>因此把它加进 Claude Code 之后，<b>能装的插件、能用的命令与官方市场完全相同</b>，唯一区别是市场面板里的介绍与分类读起来是中文。两个市场可以并存，随上游每日自动跟进；需要刷新时执行 <code>claude plugin marketplace update kael-odin-plugins-zh</code>。</p>
+    <p>安装：<code>/plugin marketplace add kael-odin/claude-plugins-zh</code> —— 加入后 <code>/plugin</code> 面板中显示为「kael-odin-plugins-zh」。</p>
+    <p class="disclaimer">本项目为社区维护的<b>中文镜像</b>，与 Anthropic 无隶属关系，亦未获其背书；插件名称、商标与内容权利归 Anthropic 及各权利人所有（见 <a href="https://github.com/kael-odin/claude-plugins-zh/blob/main/NOTICE.md" target="_blank" rel="noopener">NOTICE</a>）。中文译文为机器辅助翻译，仅供参考，与英文原文冲突时以英文原文为准。</p>
+  </section>
   <span data-i18n="footerLegal">上游 anthropics/claude-plugins-official 以 Apache-2.0 发布；插件内容与商标归 Anthropic 及各自权利人所有，中文译文仅供参考，与英文原文冲突时以英文原文为准。</span>
   <a href="https://github.com/kael-odin/claude-plugins-zh">kael-odin/claude-plugins-zh</a> ·
   姊妹项目 <a href="https://github.com/kael-odin/codex-plugins-zh">codex-plugins-zh</a>

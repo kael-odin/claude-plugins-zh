@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T02:28:32.148Z",
+  "generatedAt": "2026-10-19T02:54:46.125Z",
   "upstream": {
     "repo": "https://github.com/anthropics/claude-plugins-official",
     "sha": "ea10b213686c90bb1984b2016937310e05336cf3",
@@ -735,7 +735,7 @@
       "homepage": null,
       "kind": "in-repo",
       "repo": null,
-      "icon": null
+      "icon": "appicons/clangd-lsp.svg"
     },
     {
       "name": "claude-code-setup",
@@ -1035,7 +1035,7 @@
       "homepage": null,
       "kind": "in-repo",
       "repo": null,
-      "icon": null
+      "icon": "appicons/csharp-lsp.svg"
     },
     {
       "name": "cwc-makers",
@@ -1227,7 +1227,7 @@
       "homepage": null,
       "kind": "in-repo",
       "repo": null,
-      "icon": null
+      "icon": "appicons/discord.svg"
     },
     {
       "name": "dominodatalab",
@@ -1323,7 +1323,7 @@
       "homepage": null,
       "kind": "in-repo",
       "repo": null,
-      "icon": null
+      "icon": "appicons/fakechat.png"
     },
     {
       "name": "fastly-agent-toolkit",
@@ -1515,7 +1515,7 @@
       "homepage": null,
       "kind": "in-repo",
       "repo": null,
-      "icon": null
+      "icon": "appicons/gopls-lsp.svg"
     },
     {
       "name": "govtribe",
@@ -1683,7 +1683,7 @@
       "homepage": null,
       "kind": "in-repo",
       "repo": null,
-      "icon": null
+      "icon": "appicons/imessage.svg"
     },
     {
       "name": "incident-io",
@@ -1743,7 +1743,7 @@
       "homepage": null,
       "kind": "in-repo",
       "repo": null,
-      "icon": null
+      "icon": "appicons/jdtls-lsp.svg"
     },
     {
       "name": "jfrog",
@@ -1779,7 +1779,7 @@
       "homepage": null,
       "kind": "in-repo",
       "repo": null,
-      "icon": null
+      "icon": "appicons/kotlin-lsp.svg"
     },
     {
       "name": "langfuse-observability",
@@ -1959,7 +1959,7 @@
       "homepage": null,
       "kind": "in-repo",
       "repo": null,
-      "icon": null
+      "icon": "appicons/lua-lsp.svg"
     },
     {
       "name": "lumen",
@@ -2463,7 +2463,7 @@
       "homepage": null,
       "kind": "in-repo",
       "repo": null,
-      "icon": null
+      "icon": "appicons/php-lsp.svg"
     },
     {
       "name": "pigment",
@@ -2655,7 +2655,7 @@
       "homepage": null,
       "kind": "in-repo",
       "repo": null,
-      "icon": null
+      "icon": "appicons/pyright-lsp.svg"
     },
     {
       "name": "qdrant-skills",
@@ -2859,7 +2859,7 @@
       "homepage": null,
       "kind": "in-repo",
       "repo": null,
-      "icon": null
+      "icon": "appicons/ruby-lsp.svg"
     },
     {
       "name": "runway-api",
@@ -2883,7 +2883,7 @@
       "homepage": null,
       "kind": "in-repo",
       "repo": null,
-      "icon": null
+      "icon": "appicons/rust-analyzer-lsp.svg"
     },
     {
       "name": "sagemaker-ai",
@@ -3327,7 +3327,7 @@
       "homepage": null,
       "kind": "in-repo",
       "repo": null,
-      "icon": null
+      "icon": "appicons/swift-lsp.svg"
     },
     {
       "name": "synthflow",
@@ -3375,7 +3375,7 @@
       "homepage": null,
       "kind": "in-repo",
       "repo": null,
-      "icon": null
+      "icon": "appicons/telegram.svg"
     },
     {
       "name": "terraform",
@@ -3423,7 +3423,7 @@
       "homepage": null,
       "kind": "in-repo",
       "repo": null,
-      "icon": null
+      "icon": "appicons/typescript-lsp.svg"
     },
     {
       "name": "ui-theme-designer",

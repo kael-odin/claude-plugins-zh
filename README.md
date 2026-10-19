@@ -29,6 +29,8 @@ claude plugin marketplace update kael-odin-plugins-zh   # 或在 /plugin 面板�
 
 > 官方英文原味市场：`/plugin marketplace add anthropics/claude-plugins-official`。两个市场可并存，中文版只是门面。
 
+> **仓库名 `claude-plugins-zh`，面板里为什么显示 `kael-odin-plugins-zh`？** Claude Code 会拒绝「名称与官方市场雷同」的市场（视为冒充官方），因此市场清单里的 `name` 必须换成自有名称；**仓库地址不变**，已添加过的人也不需要重新配置。
+
 ## 目录里有什么
 
 | 项 | 数量 | 说明 |

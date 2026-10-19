@@ -271,7 +271,7 @@ function applyI18nStatic() {
   $('#q').placeholder = T.searchPh;
   $('#lang').textContent = state.lang === 'zh' ? 'English' : '中文';
   document.title = state.lang === 'zh'
-    ? `Claude Code 官方插件中文市场 · ${fmt(CATALOG.total)} 插件导航`
+    ? `Claude Code 官方插件中文版 · ${fmt(CATALOG.total)} 个插件的中文介绍与分类`
     : `Claude Code Official Plugins, in Chinese · ${fmt(CATALOG.total)} Plugins`;
   const sort = $('#f-sort');
   sort.options[0].text = T.sortDefault;
