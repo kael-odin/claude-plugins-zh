@@ -22,8 +22,11 @@ jobs:
         with:
           node-version: 22
 
+      # Full clone, not --depth: sync.mjs must diff against the SHA recorded in
+      # data/last-sha.json, which a shallow window drops once upstream gains
+      # ~50+ commits between runs (that exact failure started 2026-10-16).
       - name: Fetch upstream
-        run: git clone --depth 50 https://github.com/anthropics/claude-plugins-official.git .upstream
+        run: git clone https://github.com/anthropics/claude-plugins-official.git .upstream
 
       - name: Compute diff
         run: node tools/sync.mjs

@@ -19,10 +19,10 @@
 claude plugin marketplace add kael-odin/claude-plugins-zh
 ```
 
-之后 `/plugin` 面板里出现「claude-plugins-official-zh」，315 个插件的介绍、分类均为中文；更新快照：
+之后 `/plugin` 面板里出现「kael-odin-plugins-zh」，315 个插件的介绍、分类均为中文；更新快照：
 
 ```bash
-claude plugin marketplace update claude-plugins-official-zh   # 或在 /plugin 面板里点更新
+claude plugin marketplace update kael-odin-plugins-zh   # 或在 /plugin 面板里点更新
 ```
 
 > 官方英文原味市场：`/plugin marketplace add anthropics/claude-plugins-official`。两个市场可并存，中文版只是门面。

@@ -1,0 +1,7 @@
+# Local sync workspace — must never be committed (the sync workflow clones
+# the upstream repo here; `git add -A` would otherwise stage it as a gitlink).
+.upstream/
+
+# Build output
+dist/
+node_modules/

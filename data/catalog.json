@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-15T08:36:13.789Z",
+  "generatedAt": "2026-10-19T02:03:49.863Z",
   "upstream": {
     "repo": "https://github.com/anthropics/claude-plugins-official",
-    "sha": "8f814f49002ff824e8a9ba43cf96112dc7f5948d",
+    "sha": "ea10b213686c90bb1984b2016937310e05336cf3",
     "license": "Apache-2.0"
   },
   "marketplace": {
-    "name": "claude-plugins-official-zh",
+    "name": "kael-odin-plugins-zh",
     "description": "Claude Code 官方插件目录 · 中文版 — 自动同步 anthropics/claude-plugins-official，315 个插件的中文介绍与中文分类，插件源码保持逐字不动（Apache-2.0）。"
   },
   "total": 315,

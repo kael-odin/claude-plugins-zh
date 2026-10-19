@@ -3,7 +3,7 @@
   "upstreamRepo": "https://github.com/anthropics/claude-plugins-official",
   "license": "Apache-2.0",
   "marketplace": {
-    "name": "claude-plugins-official-zh",
+    "name": "kael-odin-plugins-zh",
     "description": "Claude Code 官方插件目录 · 中文版 — 自动同步 anthropics/claude-plugins-official，315 个插件的中文介绍与中文分类，插件源码保持逐字不动（Apache-2.0）。"
   }
 }
