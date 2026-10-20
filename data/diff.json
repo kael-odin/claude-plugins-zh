@@ -1,11 +1,15 @@
 {
   "from": "ea10b213686c90bb1984b2016937310e05336cf3",
-  "to": "ea10b213686c90bb1984b2016937310e05336cf3",
-  "generatedAt": "2026-10-19T09:19:23.883Z",
+  "to": "a0b04d9ddccaabe1976645f68b0eda50f74e7022",
+  "generatedAt": "2026-10-20T08:53:24.013Z",
   "firstSync": false,
   "plugins": {
-    "added": [],
-    "modified": [],
+    "added": [
+      "security-guidance"
+    ],
+    "modified": [
+      "security-guidance"
+    ],
     "removed": []
   },
   "files": {
