@@ -482,7 +482,7 @@
         "url": "https://github.com/aws/agent-toolkit-for-aws.git",
         "path": "plugins/aws-startup-advisor",
         "ref": "main",
-        "sha": "613dc216a1cf0836b81a28d7f3a81f2b72034394"
+        "sha": "b310d1c46b4ced6423a737542c92a3a22cfe9e96"
       },
       "homepage": "https://github.com/aws/agent-toolkit-for-aws"
     },
@@ -3498,7 +3498,7 @@
     {
       "name": "security-guidance",
       "description": "针对 Claude 生成代码的安全审查。编辑时基于模式的告警，Stop 时由 LLM 驱动的 diff 审查，以及一个 agentic commit 审查器，可捕获注入、XSS、SSRF、硬编码密钥以及其他 25+ 类漏洞。",
-      "version": "2.0.14",
+      "version": "2.0.15",
       "author": {
         "name": "Anthropic",
         "email": "support@anthropic.com"
@@ -3799,7 +3799,7 @@
         "url": "https://github.com/stripe/ai.git",
         "path": "providers/claude/plugin",
         "ref": "main",
-        "sha": "97b2164821c378f246c3903852057b36a8bd0296"
+        "sha": "deae744bc0cbf6034b4b6f22f51c690b71a4e779"
       },
       "homepage": "https://github.com/stripe/ai/tree/main/providers/claude/plugin"
     },
