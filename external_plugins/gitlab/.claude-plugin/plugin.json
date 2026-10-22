@@ -3,5 +3,10 @@
   "description": "GitLab DevOps 平台集成。管理仓库、合并请求、CI/CD 流水线、议题和 wiki。完整访问 GitLab 全面的 DevOps 生命周期工具。",
   "author": {
     "name": "GitLab"
+  },
+  "interface": {
+    "shortDescription": "GitLab DevOps 平台集成。",
+    "longDescription": "GitLab DevOps 平台集成。管理仓库、合并请求、CI/CD 流水线、议题和 wiki。完整访问 GitLab 全面的 DevOps 生命周期工具。",
+    "category": "效率办公"
   }
 }

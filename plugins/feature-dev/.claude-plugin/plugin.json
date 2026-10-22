@@ -4,5 +4,10 @@
   "author": {
     "name": "Anthropic",
     "email": "support@anthropic.com"
+  },
+  "interface": {
+    "shortDescription": "全面的功能开发工作流，配备用于代码库探索、架构设计和质量审查的专业智能体",
+    "longDescription": "全面的功能开发工作流，配备用于代码库探索、架构设计和质量审查的专业智能体",
+    "category": "开发工具"
   }
 }

@@ -3,5 +3,10 @@
   "description": "官方 GitHub MCP 服务器，用于仓库管理。创建议题、管理拉取请求、审查代码、搜索仓库，并直接从 Claude Code 与 GitHub 的完整 API 交互。",
   "author": {
     "name": "GitHub"
+  },
+  "interface": {
+    "shortDescription": "官方 GitHub MCP 服务器，用于仓库管理。",
+    "longDescription": "官方 GitHub MCP 服务器，用于仓库管理。创建议题、管理拉取请求、审查代码、搜索仓库，并直接从 Claude Code 与 GitHub 的完整 API 交互。",
+    "category": "效率办公"
   }
 }

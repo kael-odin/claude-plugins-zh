@@ -4,5 +4,10 @@
   "author": {
     "name": "Anthropic",
     "email": "support@anthropic.com"
+  },
+  "interface": {
+    "shortDescription": "Claude Agent SDK 开发插件",
+    "longDescription": "Claude Agent SDK 开发插件",
+    "category": "开发工具"
   }
 }

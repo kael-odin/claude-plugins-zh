@@ -4,5 +4,10 @@
   "author": {
     "name": "Anthropic",
     "email": "support@anthropic.com"
+  },
+  "interface": {
+    "shortDescription": "使用多个专业智能体对拉取请求进行自动化代码审查，并采用基于置信度的评分",
+    "longDescription": "使用多个专业智能体对拉取请求进行自动化代码审查，并采用基于置信度的评分",
+    "category": "效率办公"
   }
 }

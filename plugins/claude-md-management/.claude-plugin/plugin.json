@@ -5,5 +5,10 @@
   "author": {
     "name": "Anthropic",
     "email": "support@anthropic.com"
+  },
+  "interface": {
+    "shortDescription": "用于维护和改进 CLAUDE.md 文件的工具——审查质量、沉淀会话经验，并让项目记忆保持最新。",
+    "longDescription": "用于维护和改进 CLAUDE.md 文件的工具——审查质量、沉淀会话经验，并让项目记忆保持最新。",
+    "category": "效率办公"
   }
 }

@@ -4,5 +4,10 @@
   "author": {
     "name": "Anthropic",
     "email": "support@anthropic.com"
+  },
+  "interface": {
+    "shortDescription": "用于 UI/UX 实现的前端设计 skill",
+    "longDescription": "用于 UI/UX 实现的前端设计 skill",
+    "category": "开发工具"
   }
 }

@@ -5,5 +5,10 @@
   "author": {
     "name": "Anthropic",
     "email": "support@anthropic.com"
+  },
+  "interface": {
+    "shortDescription": "为实现选择和代码库模式添加教学性说明（模拟已弃用的 Explanatory 输出风格）",
+    "longDescription": "为实现选择和代码库模式添加教学性说明（模拟已弃用的 Explanatory 输出风格）",
+    "category": "学习教程"
   }
 }

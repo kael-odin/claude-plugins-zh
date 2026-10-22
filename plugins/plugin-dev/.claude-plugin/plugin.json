@@ -4,5 +4,10 @@
   "author": {
     "name": "Anthropic",
     "email": "support@anthropic.com"
+  },
+  "interface": {
+    "shortDescription": "插件开发工具包，提供用于创建 agents、commands、hooks、MCP 集成的 skills",
+    "longDescription": "插件开发工具包，提供用于创建 agents、commands、hooks、MCP 集成的 skills，以及全面的插件结构指导",
+    "category": "开发工具"
   }
 }

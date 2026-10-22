@@ -4,5 +4,10 @@
   "author": {
     "name": "Anthropic",
     "email": "support@anthropic.com"
+  },
+  "interface": {
+    "shortDescription": "创建新 skills、改进现有 skills 并衡量 skill 表现。",
+    "longDescription": "创建新 skills、改进现有 skills 并衡量 skill 表现。适用于用户想从零创建一个 skill、更新或优化现有 skill、运行 evals 测试 skill，或通过方差分析对 skill 表现进行基准测试的场景。",
+    "category": "开发工具"
   }
 }

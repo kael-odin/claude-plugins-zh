@@ -4,5 +4,10 @@
   "author": {
     "name": "Anthropic",
     "email": "support@anthropic.com"
+  },
+  "interface": {
+    "shortDescription": "通过 Anthropic MCP tunnel 将 Claude 连接到私有 MCP server。",
+    "longDescription": "通过 Anthropic MCP tunnel 将 Claude 连接到私有 MCP server。端到端跑通 Docker Compose 快速上手流程：证书、代理配置、cloudflared，以及一个可验证的示例 server。",
+    "category": "开发工具"
   }
 }

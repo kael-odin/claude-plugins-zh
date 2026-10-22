@@ -4,5 +4,10 @@
   "author": {
     "name": "Anthropic",
     "email": "support@anthropic.com"
+  },
+  "interface": {
+    "shortDescription": "用于设计和构建可与 Claude 无缝协作的 MCP server 的 skill",
+    "longDescription": "用于设计和构建可与 Claude 无缝协作的 MCP server 的 skill——引导你完成部署模式（远程 HTTP、MCPB、本地）、工具设计模式、认证以及交互式 MCP 应用。",
+    "category": "开发工具"
   }
 }

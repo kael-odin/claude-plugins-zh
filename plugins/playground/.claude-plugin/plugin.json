@@ -4,5 +4,10 @@
   "author": {
     "name": "Anthropic",
     "email": "support@anthropic.com"
+  },
+  "interface": {
+    "shortDescription": "创建交互式 HTML playground——自包含的单文件探索工具，带可视化控件、实时预览",
+    "longDescription": "创建交互式 HTML playground——自包含的单文件探索工具，带可视化控件、实时预览，以及可一键复制的 prompt 输出",
+    "category": "开发工具"
   }
 }

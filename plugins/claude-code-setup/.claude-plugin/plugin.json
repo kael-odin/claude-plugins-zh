@@ -5,5 +5,10 @@
   "author": {
     "name": "Anthropic",
     "email": "support@anthropic.com"
+  },
+  "interface": {
+    "shortDescription": "分析代码库并推荐量身定制的 Claude Code 自动化方案",
+    "longDescription": "分析代码库并推荐量身定制的 Claude Code 自动化方案，例如 hooks、skills、MCP servers 和 subagents。",
+    "category": "效率办公"
   }
 }

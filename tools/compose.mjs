@@ -6,6 +6,8 @@
 // Intentional divergence (whitelist):
 //   - .claude-plugin/marketplace.json → name/description + entry description/category
 //   - **/.claude-plugin/plugin.json    → description only
+// Plus one generated, owned file with no upstream counterpart:
+//   - .agents/plugins/marketplace.json → Codex-native marketplace (same catalog)
 // Everything else stays byte-identical to upstream (tools/verify.mjs enforces).
 import fs from 'node:fs';
 import path from 'node:path';
@@ -20,6 +22,24 @@ const glossary = readJson(path.join(ROOT, 'config', 'glossary.json'), {});
 const diff = readJson(path.join(DATA_DIR, 'diff.json'));
 const mapCat = (c) => (c ? glossary[c] ?? c : '其他');
 const mapCatAlways = (c) => mapCat(c);
+
+// Codex renders interface.shortDescription as the card subtitle and
+// interface.longDescription on the details page, but the ledger holds one zh
+// string per plugin. The subtitle is therefore the description's first natural
+// clause (Chinese punctuation-aware, ≤56 chars), and the full text stays as the
+// long description; never invent text that is not in the translation.
+function subtitle(desc) {
+  const s = (desc ?? '').trim();
+  if (!s) return '';
+  let out = '';
+  for (const part of s.split(/(?<=[。！？；])|(?<=——)|(?<=，)/)) {
+    if (out && out.length + part.length > 56) break;
+    out += part;
+    if (/[。！？]$/.test(out)) break;
+  }
+  out = (out || s).replace(/[，、；：—]+$/, '').trim();
+  return out.length > 56 ? `${out.slice(0, 54)}…` : out;
+}
 
 // 1) prune what upstream deleted since last sync
 for (const rel of diff.files.removed ?? []) {
@@ -51,6 +71,10 @@ mf.name = mcfg.name;
 // generic one-liner; the ledger translation stays as the fallback for a config
 // that ships no description of its own.
 mf.description = mcfg.description ?? topSide[textKey(upMf.description)]?.zh;
+// Upstream's `owner` names Anthropic (support@anthropic.com); this mirror is
+// published by this repo, so carrying that field over would misattribute the
+// marketplace in Claude Code's UI. Same reasoning as the `name` override above.
+if (cfg.owner) mf.owner = cfg.owner;
 let zhDesc = 0;
 for (const entry of mf.plugins) {
   const side = readJson(path.join(I18N_DIR, `${entry.name}.json`), null);
@@ -65,6 +89,8 @@ console.log(`[compose] manifest: ${mf.plugins.length} entries, ${zhDesc} zh desc
 const PLUGIN_ROOTS = ['plugins', 'external_plugins'];
 let applied = 0;
 let checked = 0;
+let ifaces = 0;
+const entryByName = new Map(mf.plugins.map((e) => [e.name, e]));
 for (const root of PLUGIN_ROOTS) {
   const rdir = path.join(ROOT, root);
   if (!fs.existsSync(rdir)) continue;
@@ -73,14 +99,59 @@ for (const root of PLUGIN_ROOTS) {
     if (!fs.existsSync(mf2)) continue;
     checked++;
     const side = readJson(path.join(I18N_DIR, `${name}.json`), null);
-    if (!side) continue;
     const m = JSON.parse(fs.readFileSync(mf2, 'utf8'));
     if (typeof m.description !== 'string') continue;
-    const hit = side[textKey(m.description)]?.zh;
-    if (hit) { m.description = hit; applied++; writeJson(mf2, m); }
+    const hit = side?.[textKey(m.description)]?.zh;
+    if (hit) { m.description = hit; applied++; }
+    // Codex renders interface.shortDescription (card subtitle) and
+    // interface.longDescription (details page) from the plugin manifest, and
+    // reads interface.category; Claude Code ignores the key at load time
+    // ("Unknown field 'interface'" is a validation warning only). Same zh text
+    // as the marketplace entry, so tools/verify.mjs can drift-check the files
+    // against each other. Upstream interface keys, if any, are preserved.
+    if (m.description.trim() && entryByName.has(name)) {
+      const cat = entryByName.get(name)?.category;
+      m.interface = {
+        ...(m.interface ?? {}),
+        shortDescription: subtitle(m.description),
+        longDescription: m.description,
+        ...(cat ? { category: cat } : {}),
+      };
+      ifaces++;
+    }
+    if (hit || m.interface) writeJson(mf2, m);
   }
 }
-console.log(`[compose] in-repo plugin manifests: ${checked} checked, ${applied} zh descriptions applied`);
+console.log(
+  `[compose] in-repo plugin manifests: ${checked} checked, ${applied} zh descriptions applied, ` +
+    `${ifaces} codex interfaces written`,
+);
+
+// 4b) Codex-native marketplace (generated, owned — no upstream counterpart).
+//
+// Claude Code reads .claude-plugin/marketplace.json; Codex only reads that file
+// as a compatibility fallback, and there the per-entry `description` is not a
+// field it models (its entry schema is name/source/policy/category + an
+// `interface` block — see core-plugins/src/marketplace.rs upstream). So the
+// Chinese text has to be repeated in the shape Codex renders, in a file only
+// Codex reads, leaving the Claude manifest untouched.
+const codex = {
+  name: mcfg.name,
+  interface: { displayName: cfg.codex?.displayName ?? mcfg.name },
+  plugins: mf.plugins.map((e) => ({
+    name: e.name,
+    source: e.source,
+    policy: cfg.codex?.policy ?? { installation: 'AVAILABLE', authentication: 'ON_INSTALL' },
+    category: e.category,
+    interface: {
+      shortDescription: subtitle(e.description),
+      longDescription: e.description,
+      category: e.category,
+    },
+  })),
+};
+writeJson(path.join(ROOT, '.agents', 'plugins', 'marketplace.json'), codex);
+console.log(`[compose] codex manifest: ${codex.plugins.length} entries -> .agents/plugins/marketplace.json`);
 
 // 5) data/catalog.json (site-ready, EN from upstream / zh from ledger)
 const ICON_EXTS = ['png', 'jpg', 'jpeg', 'svg', 'webp', 'ico'];

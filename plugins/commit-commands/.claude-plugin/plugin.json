@@ -4,5 +4,10 @@
   "author": {
     "name": "Anthropic",
     "email": "support@anthropic.com"
+  },
+  "interface": {
+    "shortDescription": "用简单命令简化 git 工作流：提交、推送和创建拉取请求",
+    "longDescription": "用简单命令简化 git 工作流：提交、推送和创建拉取请求",
+    "category": "效率办公"
   }
 }

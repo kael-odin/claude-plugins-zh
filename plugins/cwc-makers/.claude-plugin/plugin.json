@@ -17,5 +17,10 @@
     "maker",
     "onboarding",
     "cwc"
-  ]
+  ],
+  "interface": {
+    "shortDescription": "为 Code-with-Claude Makers Cardputer 提供无缝入门体验：一条 /maker…",
+    "longDescription": "为 Code-with-Claude Makers Cardputer 提供无缝入门体验：一条 /maker-setup 命令即可克隆 build-with-claude 仓库、烧录 UIFlow 固件，并将 Claude Buddy 应用包安装到刚插入的 M5Stack Cardputer-Adv 上。",
+    "category": "效率办公"
+  }
 }

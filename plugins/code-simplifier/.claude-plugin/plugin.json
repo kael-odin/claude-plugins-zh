@@ -5,5 +5,10 @@
   "author": {
     "name": "Anthropic",
     "email": "support@anthropic.com"
+  },
+  "interface": {
+    "shortDescription": "简化并优化代码的智能体，在保持功能不变的前提下提升清晰度、一致性和可维护性",
+    "longDescription": "简化并优化代码的智能体，在保持功能不变的前提下提升清晰度、一致性和可维护性",
+    "category": "效率办公"
   }
 }

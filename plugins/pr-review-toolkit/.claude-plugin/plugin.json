@@ -4,5 +4,10 @@
   "author": {
     "name": "Anthropic",
     "email": "support@anthropic.com"
+  },
+  "interface": {
+    "shortDescription": "全面的 PR 审查 agents，专注于评论、测试、错误处理、类型设计、代码质量和代码简化",
+    "longDescription": "全面的 PR 审查 agents，专注于评论、测试、错误处理、类型设计、代码质量和代码简化",
+    "category": "效率办公"
   }
 }

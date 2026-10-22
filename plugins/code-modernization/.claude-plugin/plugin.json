@@ -60,5 +60,10 @@
       "description": "Send usage counts through Claude Code's own telemetry setting: whole numbers only, such as which command ran, how many rules were found, what kind of machine and python the plugin runs on, and which kind of error occurred. Never code, names, paths, prompts or error text. Nothing is sent when Claude Code telemetry is off. See exactly what would be sent with: python3 scripts/telemetry.py show",
       "default": true
     }
+  },
+  "interface": {
+    "shortDescription": "面向任何遗留代码库的引导式现代化：从 /modernize 开始",
+    "longDescription": "面向任何遗留代码库的引导式现代化：从 /modernize 开始，获得评估、交互式地图、从代码中挖掘出的业务规则，以及一份由你审批的计划，然后进行升级、重写或重建，并附带独立验证，证明新代码的行为与旧代码一致。包含安全加固、一页纸报告、专家智能体，以及可选的实时进度面板（早期访问）。",
+    "category": "开发工具"
   }
 }

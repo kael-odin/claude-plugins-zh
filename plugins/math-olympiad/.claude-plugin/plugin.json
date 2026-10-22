@@ -4,5 +4,10 @@
   "author": {
     "name": "Anthropic",
     "email": "support@anthropic.com"
+  },
+  "interface": {
+    "shortDescription": "以对抗式验证求解竞赛数学题（IMO、Putnam、USAMO），捕捉自我验证容易遗漏的问题。",
+    "longDescription": "以对抗式验证求解竞赛数学题（IMO、Putnam、USAMO），捕捉自我验证容易遗漏的问题。全新的上下文验证者会针对具体失败模式攻击证明过程。宁可校准后弃答，也不虚张声势。",
+    "category": "数学科学"
   }
 }
