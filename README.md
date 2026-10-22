@@ -9,6 +9,8 @@
 
 本仓库与 [codex-plugins-zh](https://github.com/kael-odin/codex-plugins-zh)（Codex 官方插件中文市场）是姊妹项目，共用同一套「同步 → 汉化 → 无损校验」管线。
 
+> 本文里的每个数字（插件数、文件数、对账结果）都由 `tools/check-docs.mjs` 对着 `data/catalog.json`、`data/quality-report.json` 与两份清单校验，CI 里对不上就红——手写数字漂了会被当场抓住。
+
 ## 两步用上
 
 ### Claude Code
@@ -95,6 +97,7 @@ node tools/sync.mjs        # 拉上游 + diff
 GLM_API_KEY=… GLM_BASE_URL=… GLM_MODEL=… node tools/translate.mjs --execute  # 补翻（可断点续跑）
 node tools/compose.mjs     # 合成 zh 市场清单（Claude + Codex 两份）+ plugin.json 汉化与 interface
 node tools/verify.mjs      # 无损对账（必须 PASS）
+node tools/check-docs.mjs  # README 里的数字对账（CI 门禁）
 node tools/build-site.mjs  # 本地预览站点：dist/ 里的 index.html
 ```
 

@@ -44,6 +44,13 @@ jobs:
       - name: Verify lossless (gate)
         run: node tools/verify.mjs
 
+      # Every number README.md prints is checked against data/ before the commit
+      # step: a sync that changes a count but leaves the prose behind fails the
+      # job here, instead of shipping a README that says 315 while the manifest
+      # holds 316.
+      - name: Check documented numbers (gate)
+        run: node tools/check-docs.mjs
+
       - name: Commit and push
         run: |
           git config user.name "claude-plugins-zh-bot"
