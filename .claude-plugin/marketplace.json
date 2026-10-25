@@ -25,7 +25,7 @@
       "author": {
         "name": "42Crunch"
       },
-      "category": "安全",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/42Crunch-AI/claude-plugins.git",
@@ -33,7 +33,8 @@
         "ref": "v1.5.5",
         "sha": "faf5305385de8afed9468904e8639be737aff39e"
       },
-      "homepage": "https://42crunch.com"
+      "homepage": "https://42crunch.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/42crunch-api-security-testing.png"
     },
     {
       "name": "adobe-for-creativity",
@@ -49,7 +50,8 @@
         "ref": "main",
         "sha": "0f487c9b1b98d8e62dfc80ee4d28b29f5471261f"
       },
-      "homepage": "https://github.com/adobe/skills/tree/main/plugins/creative-cloud/adobe-for-creativity"
+      "homepage": "https://github.com/adobe/skills/tree/main/plugins/creative-cloud/adobe-for-creativity",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/adobe-for-creativity.png"
     },
     {
       "name": "agent-sdk-dev",
@@ -59,19 +61,21 @@
         "email": "support@anthropic.com"
       },
       "source": "./plugins/agent-sdk-dev",
-      "category": "开发工具",
-      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/agent-sdk-dev"
+      "category": "developer-tools",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/agent-sdk-dev",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/agent-sdk-dev.png"
     },
     {
       "name": "agentforce-adlc",
       "description": "Agentforce 代理开发生命周期——编写、发现、搭建脚手架、部署、测试和优化 .agent 文件",
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/SalesforceAIResearch/agentforce-adlc.git",
         "sha": "09bf1539d41f9ff355ba3eb5d05d4a75813423bb"
       },
-      "homepage": "https://github.com/SalesforceAIResearch/agentforce-adlc"
+      "homepage": "https://github.com/SalesforceAIResearch/agentforce-adlc",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/agentforce-adlc.png"
     },
     {
       "name": "ai-plugins",
@@ -82,7 +86,8 @@
         "sha": "2de00883bd2be8b8578b46ab09baf2c8731376de"
       },
       "homepage": "https://www.endorlabs.com",
-      "category": "其他"
+      "category": "other",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/ai-plugins.png"
     },
     {
       "name": "aikido",
@@ -93,7 +98,8 @@
         "sha": "8fdc995a44102a30ad54164e0bdd249d158c725c"
       },
       "homepage": "https://github.com/AikidoSec/aikido-claude-plugin",
-      "category": "其他"
+      "category": "other",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/aikido.png"
     },
     {
       "name": "airtable",
@@ -101,7 +107,7 @@
       "author": {
         "name": "Airtable"
       },
-      "category": "效率办公",
+      "category": "productivity",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/Airtable/skills.git",
@@ -109,7 +115,8 @@
         "ref": "main",
         "sha": "812ee67f1fd3d76fb45ff8df40afaa0448602ba8"
       },
-      "homepage": "https://www.airtable.com"
+      "homepage": "https://www.airtable.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/airtable.png"
     },
     {
       "name": "airwallex-agentos",
@@ -118,7 +125,7 @@
       "author": {
         "name": "Airwallex"
       },
-      "category": "效率办公",
+      "category": "productivity",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/airwallex/airwallex-marketplace.git",
@@ -126,7 +133,8 @@
         "ref": "master",
         "sha": "877551077786664d1cbeb32013443291c66e69e6"
       },
-      "homepage": "https://www.airwallex.com/docs"
+      "homepage": "https://www.airwallex.com/docs",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/airwallex-agentos.png"
     },
     {
       "name": "airwallex-dev",
@@ -134,7 +142,7 @@
       "author": {
         "name": "Airwallex"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/airwallex/airwallex-marketplace.git",
@@ -142,7 +150,8 @@
         "ref": "master",
         "sha": "877551077786664d1cbeb32013443291c66e69e6"
       },
-      "homepage": "https://www.airwallex.com/docs"
+      "homepage": "https://www.airwallex.com/docs",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/airwallex-dev.png"
     },
     {
       "name": "aiven",
@@ -150,13 +159,14 @@
       "author": {
         "name": "Aiven"
       },
-      "category": "数据库",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/aiven/aiven-ai-plugins.git",
         "sha": "634f41d6852957cb9280e9245f2ea6f74645b4f1"
       },
-      "homepage": "https://aiven.io"
+      "homepage": "https://aiven.io",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/aiven.png"
     },
     {
       "name": "alloydb",
@@ -164,13 +174,14 @@
       "author": {
         "name": "Google LLC"
       },
-      "category": "数据库",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/gemini-cli-extensions/alloydb.git",
         "sha": "2954566c7f791d0cef47cabeae76f7a75dd42f2b"
       },
-      "homepage": "https://cloud.google.com/alloydb"
+      "homepage": "https://cloud.google.com/alloydb",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/alloydb.png"
     },
     {
       "name": "alloydb-omni",
@@ -178,13 +189,14 @@
       "author": {
         "name": "Google LLC"
       },
-      "category": "数据库",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/gemini-cli-extensions/alloydb-omni.git",
         "sha": "37101e3f9aaf0bd4d0acaeee540a0da2fd773d00"
       },
-      "homepage": "https://github.com/gemini-cli-extensions/alloydb-omni"
+      "homepage": "https://github.com/gemini-cli-extensions/alloydb-omni",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/alloydb-omni.png"
     },
     {
       "name": "altimate-code",
@@ -192,7 +204,7 @@
       "author": {
         "name": "AltimateAI"
       },
-      "category": "数据库",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/AltimateAI/altimate-claude-plugin.git",
@@ -200,12 +212,13 @@
         "ref": "main",
         "sha": "b7c8f68b3dfd303ab3ccf2f43934098811dfe2aa"
       },
-      "homepage": "https://www.altimate.ai"
+      "homepage": "https://www.altimate.ai",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/altimate-code.png"
     },
     {
       "name": "amazon-location-service",
       "description": "指导开发者使用 Amazon Location Service 添加地图、地点搜索、地理编码、路线规划等地理空间功能，涵盖身份验证配置、SDK 集成和最佳实践。",
-      "category": "位置服务",
+      "category": "utilities",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/awslabs/agent-plugins.git",
@@ -213,7 +226,8 @@
         "ref": "main",
         "sha": "097fe8ad56d8a1d5e2c81d7880adf145553cf244"
       },
-      "homepage": "https://github.com/awslabs/agent-plugins"
+      "homepage": "https://github.com/awslabs/agent-plugins",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/amazon-location-service.png"
     },
     {
       "name": "amd-skills",
@@ -221,7 +235,7 @@
       "author": {
         "name": "AMD"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/amd/skills.git",
@@ -237,7 +251,8 @@
         "./tracelens-analysis-orchestrator",
         "./hyperloom-workload-optimizer"
       ],
-      "homepage": "https://developer.amd.com/"
+      "homepage": "https://developer.amd.com/",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/amd-skills.png"
     },
     {
       "name": "amplitude",
@@ -249,8 +264,9 @@
         "sha": "c4bcb5feff54cf3332290ee0071a2def2b1f149d"
       },
       "description": "将 Amplitude 作为专业分析工具使用——埋点接入 Amplitude、发现产品机会、分析图表、创建仪表盘、管理实验，并洞察用户与账户。",
-      "category": "监控运维",
-      "homepage": "https://github.com/amplitude/mcp-marketplace"
+      "category": "developer-tools",
+      "homepage": "https://github.com/amplitude/mcp-marketplace",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/amplitude.png"
     },
     {
       "name": "apollo",
@@ -258,13 +274,14 @@
       "author": {
         "name": "Apollo.io"
       },
-      "category": "效率办公",
+      "category": "productivity",
       "source": {
         "source": "url",
         "url": "https://github.com/apolloio/apollo-mcp-plugin.git",
         "sha": "bd0513c961f02105492fcff0d7d29c9cccf1ed23"
       },
-      "homepage": "https://www.apollo.io/"
+      "homepage": "https://www.apollo.io/",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/apollo.png"
     },
     {
       "name": "apollo-skills",
@@ -272,13 +289,14 @@
       "author": {
         "name": "Apollo GraphQL"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/apollographql/skills.git",
         "sha": "c288eb80629dd2309eed81f23d693f66a452d043"
       },
-      "homepage": "https://www.apollographql.com"
+      "homepage": "https://www.apollographql.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/apollo-skills.png"
     },
     {
       "name": "appwrite",
@@ -286,31 +304,34 @@
       "author": {
         "name": "Appwrite"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/appwrite/claude-plugin.git",
         "sha": "ab3c90b37c95b7068f0c064dc562cf21958e8e19"
       },
-      "homepage": "https://appwrite.io"
+      "homepage": "https://appwrite.io",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/appwrite.png"
     },
     {
       "name": "asana",
       "description": "Asana 项目管理集成。将 Claude Code 连接到 Asana 的 V2 MCP 服务器，用于创建和管理任务、搜索项目、更新任务分配并跟踪进度。需要一次性完成 Asana OAuth 应用配置——安装后运行 /asana-setup。",
-      "category": "效率办公",
+      "category": "productivity",
       "source": "./external_plugins/asana",
-      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/asana"
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/asana",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/asana.png"
     },
     {
       "name": "astronomer-data-agents",
       "description": "面向 Apache Airflow 和 Astronomer 的数据工程。遵循最佳实践编写 DAG、调试流水线故障、追踪数据血缘、分析表数据、将 Airflow 2 迁移至 3，并管理本地与云端部署。",
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/astronomer/agents.git",
         "sha": "486ee63d01f8126c52fbc92c36cd36ec31708dcd"
       },
-      "homepage": "https://github.com/astronomer/agents"
+      "homepage": "https://github.com/astronomer/agents",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/astronomer-data-agents.png"
     },
     {
       "name": "atlan",
@@ -321,18 +342,20 @@
         "sha": "17b7ae3b4852a24a9271a55eb339dea0b38f1f60"
       },
       "homepage": "https://docs.atlan.com/",
-      "category": "其他"
+      "category": "other",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/atlan.png"
     },
     {
       "name": "atlassian",
       "description": "连接 Atlassian 旗下产品，包括 Jira 和 Confluence。搜索和创建 issue、访问文档、管理 sprint，并将你的开发工作流与 Atlassian 的协作工具集成。",
-      "category": "效率办公",
+      "category": "productivity",
       "source": {
         "source": "url",
         "url": "https://github.com/atlassian/atlassian-mcp-server.git",
         "sha": "b74220d41142fae52b4f680c805b2ab81050991a"
       },
-      "homepage": "https://github.com/atlassian/atlassian-mcp-server"
+      "homepage": "https://github.com/atlassian/atlassian-mcp-server",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/atlassian.png"
     },
     {
       "name": "atlassian-twg-cli",
@@ -340,18 +363,19 @@
       "author": {
         "name": "Atlassian"
       },
-      "category": "效率办公",
+      "category": "productivity",
       "source": {
         "source": "url",
         "url": "https://github.com/atlassian-labs/twg-plugins.git",
         "sha": "b3336ef63d45e2636ff411a922ed602244e0f3db"
       },
-      "homepage": "https://developer.atlassian.com/cloud/twg-cli/"
+      "homepage": "https://developer.atlassian.com/cloud/twg-cli/",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/atlassian-twg-cli.png"
     },
     {
       "name": "atomic-agents",
       "description": "使用 Atomic Agents 框架构建 AI agent 的完整开发工作流。包含用于 schema 设计、架构规划、代码审查和工具开发的专用 agent。提供引导式工作流、渐进式披露 skill 以及最佳实践校验。",
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/BrainBlend-AI/atomic-agents.git",
@@ -361,7 +385,8 @@
       "homepage": "https://github.com/BrainBlend-AI/atomic-agents",
       "tags": [
         "community-managed"
-      ]
+      ],
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/atomic-agents.png"
     },
     {
       "name": "auth0",
@@ -370,7 +395,7 @@
         "name": "Auth0",
         "url": "https://auth0.com"
       },
-      "category": "安全",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/auth0/agent-skills.git",
@@ -378,7 +403,8 @@
         "ref": "main",
         "sha": "7b3821d533430eef35fd7406a87b7b8d02302bdf"
       },
-      "homepage": "https://auth0.com"
+      "homepage": "https://auth0.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/auth0.png"
     },
     {
       "name": "aws-agents",
@@ -386,7 +412,7 @@
       "author": {
         "name": "Amazon Web Services"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/aws/agent-toolkit-for-aws.git",
@@ -394,7 +420,8 @@
         "ref": "main",
         "sha": "0d6167ad2e6dfb858098c4162fe74d04c975532f"
       },
-      "homepage": "https://github.com/aws/agent-toolkit-for-aws"
+      "homepage": "https://github.com/aws/agent-toolkit-for-aws",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/aws-agents.png"
     },
     {
       "name": "aws-agents-for-devsecops",
@@ -402,7 +429,7 @@
       "author": {
         "name": "Amazon Web Services"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/aws/agent-toolkit-for-aws.git",
@@ -410,12 +437,13 @@
         "ref": "main",
         "sha": "7bde20faede49dd5764c02b54f5e306849f7e3ca"
       },
-      "homepage": "https://github.com/aws/agent-toolkit-for-aws"
+      "homepage": "https://github.com/aws/agent-toolkit-for-aws",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/aws-agents-for-devsecops.png"
     },
     {
       "name": "aws-amplify",
       "description": "使用 AWS Amplify Gen 2 构建全栈应用，借助引导式工作流完成身份认证、数据模型、存储、GraphQL API 和 Lambda 函数。",
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/awslabs/agent-plugins.git",
@@ -423,7 +451,8 @@
         "ref": "main",
         "sha": "097fe8ad56d8a1d5e2c81d7880adf145553cf244"
       },
-      "homepage": "https://github.com/awslabs/agent-plugins"
+      "homepage": "https://github.com/awslabs/agent-plugins",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/aws-amplify.png"
     },
     {
       "name": "aws-core",
@@ -431,7 +460,7 @@
       "author": {
         "name": "Amazon Web Services"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/aws/agent-toolkit-for-aws.git",
@@ -439,7 +468,8 @@
         "ref": "main",
         "sha": "34b3eccfd8b619ea0cb4ba04a9be9dfefebd94e7"
       },
-      "homepage": "https://github.com/aws/agent-toolkit-for-aws"
+      "homepage": "https://github.com/aws/agent-toolkit-for-aws",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/aws-core.png"
     },
     {
       "name": "aws-data-analytics",
@@ -447,7 +477,7 @@
       "author": {
         "name": "Amazon Web Services"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/aws/agent-toolkit-for-aws.git",
@@ -455,12 +485,13 @@
         "ref": "main",
         "sha": "0d6167ad2e6dfb858098c4162fe74d04c975532f"
       },
-      "homepage": "https://github.com/aws/agent-toolkit-for-aws"
+      "homepage": "https://github.com/aws/agent-toolkit-for-aws",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/aws-data-analytics.png"
     },
     {
       "name": "aws-serverless",
       "description": "使用 AWS Serverless 服务设计、构建、部署、测试和调试无服务器应用程序。",
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/awslabs/agent-plugins.git",
@@ -468,7 +499,8 @@
         "ref": "main",
         "sha": "097fe8ad56d8a1d5e2c81d7880adf145553cf244"
       },
-      "homepage": "https://github.com/awslabs/agent-plugins"
+      "homepage": "https://github.com/awslabs/agent-plugins",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/aws-serverless.png"
     },
     {
       "name": "aws-startup-advisor",
@@ -476,7 +508,7 @@
       "author": {
         "name": "Amazon Web Services"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/aws/agent-toolkit-for-aws.git",
@@ -484,7 +516,8 @@
         "ref": "main",
         "sha": "b310d1c46b4ced6423a737542c92a3a22cfe9e96"
       },
-      "homepage": "https://github.com/aws/agent-toolkit-for-aws"
+      "homepage": "https://github.com/aws/agent-toolkit-for-aws",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/aws-startup-advisor.png"
     },
     {
       "name": "aws-transform",
@@ -492,7 +525,7 @@
       "author": {
         "name": "Amazon Web Services"
       },
-      "category": "迁移",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/awslabs/agent-plugins.git",
@@ -500,18 +533,20 @@
         "ref": "main",
         "sha": "097fe8ad56d8a1d5e2c81d7880adf145553cf244"
       },
-      "homepage": "https://github.com/awslabs/agent-plugins"
+      "homepage": "https://github.com/awslabs/agent-plugins",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/aws-transform.png"
     },
     {
       "name": "azure",
       "description": "将 Claude 打造成 Azure 专家。本插件集成了 Azure MCP server 和专业 Azure skills，助你摆脱泛泛而谈的建议。它让 Claude 能够执行实际任务：列出资源、验证部署、诊断基础设施问题，并优化 50+ 项 Azure 服务的成本。",
-      "category": "部署交付",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/microsoft/azure-skills.git",
         "sha": "5b4f0c0778079a2f568581107f23349ce9a0a9b2"
       },
-      "homepage": "https://github.com/microsoft/azure-skills"
+      "homepage": "https://github.com/microsoft/azure-skills",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/azure.png"
     },
     {
       "name": "azure-cosmos-db-assistant",
@@ -521,8 +556,9 @@
         "sha": "f1e0498579a9251e5f3179b92d25d6ce3409bae5"
       },
       "description": "Azure Cosmos DB 专家助手 — 数据建模、查询优化、性能调优和最佳实践。",
-      "category": "数据库",
-      "homepage": "https://github.com/AzureCosmosDB/cosmosdb-claude-code-plugin"
+      "category": "developer-tools",
+      "homepage": "https://github.com/AzureCosmosDB/cosmosdb-claude-code-plugin",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/azure-cosmos-db-assistant.png"
     },
     {
       "name": "azure-sql-developer",
@@ -530,24 +566,26 @@
       "author": {
         "name": "Microsoft"
       },
-      "category": "数据库",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/microsoft/azure-sql-database-container.git",
         "sha": "c1e8167e4c1d5979d7fc4a6ea11a6ce885a9398b"
       },
-      "homepage": "https://github.com/microsoft/azure-sql-database-container"
+      "homepage": "https://github.com/microsoft/azure-sql-database-container",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/azure-sql-developer.png"
     },
     {
       "name": "base44",
       "description": "借助 CLI 项目管理和 JavaScript/TypeScript SDK 开发 skills 构建和部署 Base44 全栈应用",
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/base44/skills.git",
         "sha": "8548a482f606751c55dcdb1365398fbec2fcb64d"
       },
-      "homepage": "https://docs.base44.com"
+      "homepage": "https://docs.base44.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/base44.png"
     },
     {
       "name": "bigdata-com",
@@ -555,7 +593,7 @@
       "author": {
         "name": "RavenPack"
       },
-      "category": "数据库",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/Bigdata-com/bigdata-plugins-marketplace.git",
@@ -563,7 +601,8 @@
         "ref": "main",
         "sha": "43777fbdb9298ea8f5cbc001d18144e95346df93"
       },
-      "homepage": "https://docs.bigdata.com"
+      "homepage": "https://docs.bigdata.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/bigdata-com.png"
     },
     {
       "name": "bigquery-data-analytics",
@@ -571,13 +610,14 @@
       "author": {
         "name": "Google LLC"
       },
-      "category": "数据库",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/gemini-cli-extensions/bigquery-data-analytics.git",
         "sha": "6f9b35627d208b03e840271f6522a28f76e7f8df"
       },
-      "homepage": "https://github.com/gemini-cli-extensions/bigquery-data-analytics"
+      "homepage": "https://github.com/gemini-cli-extensions/bigquery-data-analytics",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/bigquery-data-analytics.png"
     },
     {
       "name": "boltz",
@@ -585,7 +625,7 @@
       "author": {
         "name": "Boltz"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/boltz-bio/boltz-api-skills.git",
@@ -593,7 +633,8 @@
         "ref": "main",
         "sha": "beafb3c16236347ab10fb54f78a5da49cbf7c7bb"
       },
-      "homepage": "https://boltz.bio"
+      "homepage": "https://boltz.bio",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/boltz.png"
     },
     {
       "name": "blackrock-advisor-center-plugin",
@@ -601,18 +642,19 @@
       "author": {
         "name": "BlackRock Advisor Center"
       },
-      "category": "效率办公",
+      "category": "productivity",
       "source": {
         "source": "url",
         "url": "https://github.com/blackrock/advisor-center-agent-skills.git",
         "sha": "591c758960c18c26fe8342ddb8ad3ba4dcfac6fe"
       },
-      "homepage": "https://github.com/blackrock/advisor-center-agent-skills"
+      "homepage": "https://github.com/blackrock/advisor-center-agent-skills",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/blackrock-advisor-center-plugin.png"
     },
     {
       "name": "box",
       "description": "直接在 Claude Code 中处理你的 Box 内容——搜索文件、整理文件夹、与团队协作，并使用 Box AI 回答问题、总结文档、提取数据，无需离开当前工作流。",
-      "category": "效率办公",
+      "category": "productivity",
       "source": {
         "source": "url",
         "url": "https://github.com/box/skills.git",
@@ -625,7 +667,8 @@
         "./skills/box-legal-workflows-intake",
         "./skills/box-legal-workflows-ma"
       ],
-      "homepage": "https://github.com/box/skills"
+      "homepage": "https://github.com/box/skills",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/box.png"
     },
     {
       "name": "brightdata-plugin",
@@ -636,7 +679,8 @@
         "sha": "37503c1ba31056370323a9d5ba88dd003a280008"
       },
       "homepage": "https://docs.brightdata.com",
-      "category": "其他"
+      "category": "other",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/brightdata-plugin.png"
     },
     {
       "name": "browser-use",
@@ -644,7 +688,7 @@
       "author": {
         "name": "Browser Use"
       },
-      "category": "自动化",
+      "category": "productivity",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/browser-use/plugins.git",
@@ -652,7 +696,8 @@
         "ref": "main",
         "sha": "4749bcbfe456e5384b98281a8a66119352197f59"
       },
-      "homepage": "https://browser-use.com"
+      "homepage": "https://browser-use.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/browser-use.png"
     },
     {
       "name": "buildkite",
@@ -660,13 +705,14 @@
       "author": {
         "name": "Buildkite"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/buildkite/skills.git",
         "sha": "d29b846ecbb64817642fd3bd62c3cf53c703423e"
       },
-      "homepage": "https://buildkite.com"
+      "homepage": "https://buildkite.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/buildkite.png"
     },
     {
       "name": "canva",
@@ -682,7 +728,8 @@
         "ref": "main",
         "sha": "bfcbc681560f6031e9949ea52f81e20beb87e39e"
       },
-      "homepage": "https://www.canva.com"
+      "homepage": "https://www.canva.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/canva.png"
     },
     {
       "name": "carbone-skill",
@@ -690,13 +737,14 @@
       "author": {
         "name": "Carbone"
       },
-      "category": "效率办公",
+      "category": "productivity",
       "source": {
         "source": "url",
         "url": "https://github.com/carboneio/carbone-skill.git",
         "sha": "25207b3f52b97872312eab997ee5c62cc5c9542d"
       },
-      "homepage": "https://carbone.io"
+      "homepage": "https://carbone.io",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/carbone-skill.png"
     },
     {
       "name": "carta-cap-table",
@@ -704,7 +752,7 @@
       "author": {
         "name": "Carta Engineering"
       },
-      "category": "效率办公",
+      "category": "productivity",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/carta/plugins.git",
@@ -712,7 +760,8 @@
         "ref": "main",
         "sha": "ea7fe1d4db0f0f273799ec4b40070c3c6b00fdcc"
       },
-      "homepage": "https://carta.com"
+      "homepage": "https://carta.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/carta-cap-table.png"
     },
     {
       "name": "carta-crm",
@@ -720,7 +769,7 @@
       "author": {
         "name": "Carta Engineering"
       },
-      "category": "效率办公",
+      "category": "productivity",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/carta/plugins.git",
@@ -728,7 +777,8 @@
         "ref": "main",
         "sha": "ea7fe1d4db0f0f273799ec4b40070c3c6b00fdcc"
       },
-      "homepage": "https://carta.com"
+      "homepage": "https://carta.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/carta-crm.png"
     },
     {
       "name": "carta-investors",
@@ -736,7 +786,7 @@
       "author": {
         "name": "Carta Engineering"
       },
-      "category": "效率办公",
+      "category": "productivity",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/carta/plugins.git",
@@ -744,7 +794,8 @@
         "ref": "main",
         "sha": "ea7fe1d4db0f0f273799ec4b40070c3c6b00fdcc"
       },
-      "homepage": "https://carta.com"
+      "homepage": "https://carta.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/carta-investors.png"
     },
     {
       "name": "catalyst-by-zoho",
@@ -752,13 +803,14 @@
       "author": {
         "name": "Catalyst by Zoho"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/catalystbyzoho/claude-plugin.git",
         "sha": "9670b79d72fe4923cc845ca0414d009ef3684ccb"
       },
-      "homepage": "https://catalyst.zoho.com/"
+      "homepage": "https://catalyst.zoho.com/",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/catalyst-by-zoho.png"
     },
     {
       "name": "cds-mcp",
@@ -768,24 +820,26 @@
         "email": "ospo@sap.com",
         "url": "https://www.sap.com"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/cap-js/mcp-server.git",
         "sha": "52ca3304342db99c27a3f2a0cd765af42980b955"
       },
-      "homepage": "https://cap.cloud.sap/"
+      "homepage": "https://cap.cloud.sap/",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/cds-mcp.png"
     },
     {
       "name": "chrome-devtools-mcp",
       "description": "在你的编码 agent 中控制和检查实时 Chrome 浏览器。录制性能 trace、分析网络请求、查看带源码映射堆栈跟踪的控制台消息，并使用 Puppeteer 自动化浏览器操作。",
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp.git",
         "sha": "a878bcad39584337e055778353246820deafa7c0"
       },
-      "homepage": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
+      "homepage": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/chrome-devtools-mcp.png"
     },
     {
       "name": "chronograph-gp",
@@ -793,13 +847,14 @@
       "author": {
         "name": "Chronograph"
       },
-      "category": "效率办公",
+      "category": "productivity",
       "source": {
         "source": "url",
         "url": "https://github.com/chronograph-pe/chronograph-gp-claude-plugin.git",
         "sha": "35cb3d12cf4e24823c0efca4abe6f13c2fd0e5f5"
       },
-      "homepage": "https://www.chronograph.pe/"
+      "homepage": "https://www.chronograph.pe/",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/chronograph-gp.png"
     },
     {
       "name": "chronograph-lp",
@@ -807,13 +862,14 @@
       "author": {
         "name": "Chronograph"
       },
-      "category": "效率办公",
+      "category": "productivity",
       "source": {
         "source": "url",
         "url": "https://github.com/chronograph-pe/chronograph-lp-claude-plugin.git",
         "sha": "322b2d3fbd4db0a2eeed117e3b3c31522408ae6f"
       },
-      "homepage": "https://www.chronograph.pe/"
+      "homepage": "https://www.chronograph.pe/",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/chronograph-lp.png"
     },
     {
       "name": "circle-skills",
@@ -821,7 +877,7 @@
       "author": {
         "name": "Circle"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/circlefin/skills.git",
@@ -829,18 +885,20 @@
         "ref": "master",
         "sha": "58ab8648bb1ae9d037a3bf5197ad3bb01262f5b1"
       },
-      "homepage": "https://www.circle.com"
+      "homepage": "https://www.circle.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/circle-skills.png"
     },
     {
       "name": "circleback",
       "description": "Circleback 对话上下文集成。搜索并访问会议、邮件、日历事件等。",
-      "category": "效率办公",
+      "category": "productivity",
       "source": {
         "source": "url",
         "url": "https://github.com/circlebackai/claude-code-plugin.git",
         "sha": "a610634c95ab310accf20a0cabdf0fa7ab784fa3"
       },
-      "homepage": "https://github.com/circlebackai/claude-code-plugin.git"
+      "homepage": "https://github.com/circlebackai/claude-code-plugin.git",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/circleback.png"
     },
     {
       "name": "ckeditor",
@@ -848,13 +906,14 @@
       "author": {
         "name": "CKEditor (CKSource)"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/ckeditor/skills.git",
         "sha": "261766a0d70fe88c34d34336acbd293c69048a62"
       },
-      "homepage": "https://ckeditor.com"
+      "homepage": "https://ckeditor.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/ckeditor.png"
     },
     {
       "name": "clangd-lsp",
@@ -865,7 +924,7 @@
         "email": "support@anthropic.com"
       },
       "source": "./plugins/clangd-lsp",
-      "category": "开发工具",
+      "category": "developer-tools",
       "strict": false,
       "lspServers": {
         "clangd": {
@@ -885,7 +944,8 @@
             ".H": "cpp"
           }
         }
-      }
+      },
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/clangd-lsp.svg"
     },
     {
       "name": "claude-code-setup",
@@ -895,8 +955,9 @@
         "email": "support@anthropic.com"
       },
       "source": "./plugins/claude-code-setup",
-      "category": "效率办公",
-      "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/claude-code-setup"
+      "category": "productivity",
+      "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/claude-code-setup",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/claude-code-setup.png"
     },
     {
       "name": "claude-md-management",
@@ -906,8 +967,9 @@
         "email": "support@anthropic.com"
       },
       "source": "./plugins/claude-md-management",
-      "category": "效率办公",
-      "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/claude-md-management"
+      "category": "productivity",
+      "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/claude-md-management",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/claude-md-management.png"
     },
     {
       "name": "claude-security",
@@ -917,8 +979,9 @@
         "email": "support@anthropic.com"
       },
       "source": "./plugins/claude-security",
-      "category": "安全",
-      "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/claude-security"
+      "category": "developer-tools",
+      "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/claude-security",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/claude-security.png"
     },
     {
       "name": "clay",
@@ -926,7 +989,7 @@
       "author": {
         "name": "Clay"
       },
-      "category": "效率办公",
+      "category": "productivity",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/clay-run/agent-plugins.git",
@@ -934,7 +997,8 @@
         "ref": "main",
         "sha": "769514a3a23683fcc7cbbf32067538d17e465381"
       },
-      "homepage": "https://github.com/clay-run/agent-plugins/tree/main/clay"
+      "homepage": "https://github.com/clay-run/agent-plugins/tree/main/clay",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/clay.png"
     },
     {
       "name": "clickhouse",
@@ -942,13 +1006,14 @@
       "author": {
         "name": "ClickHouse"
       },
-      "category": "数据库",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/ClickHouse/clickhouse-claude-code-plugin.git",
         "sha": "652664c8924c5a9454d9a7a5f6191944b4adfb11"
       },
-      "homepage": "https://github.com/ClickHouse/clickhouse-claude-code-plugin"
+      "homepage": "https://github.com/ClickHouse/clickhouse-claude-code-plugin",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/clickhouse.png"
     },
     {
       "name": "clickhouse-best-practices",
@@ -956,13 +1021,14 @@
       "author": {
         "name": "ClickHouse Inc"
       },
-      "category": "数据库",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/ClickHouse/agent-skills.git",
         "sha": "356a8c1b9a7392adb389a132f5ad3fec38532a03"
       },
-      "homepage": "https://clickhouse.com"
+      "homepage": "https://clickhouse.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/clickhouse-best-practices.png"
     },
     {
       "name": "cloud-sql-mysql",
@@ -970,13 +1036,14 @@
       "author": {
         "name": "Google LLC"
       },
-      "category": "数据库",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/gemini-cli-extensions/cloud-sql-mysql.git",
         "sha": "51aa269094a89b5eca705792705a3b507486b2d7"
       },
-      "homepage": "https://github.com/gemini-cli-extensions/cloud-sql-mysql"
+      "homepage": "https://github.com/gemini-cli-extensions/cloud-sql-mysql",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/cloud-sql-mysql.png"
     },
     {
       "name": "cloud-sql-postgresql",
@@ -984,13 +1051,14 @@
       "author": {
         "name": "Google LLC"
       },
-      "category": "数据库",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/gemini-cli-extensions/cloud-sql-postgresql.git",
         "sha": "1d758bb34795a37a29f543e78910eb7414927ac8"
       },
-      "homepage": "https://cloud.google.com/sql"
+      "homepage": "https://cloud.google.com/sql",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/cloud-sql-postgresql.png"
     },
     {
       "name": "cloud-sql-sqlserver",
@@ -998,13 +1066,14 @@
       "author": {
         "name": "Google LLC"
       },
-      "category": "数据库",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/gemini-cli-extensions/cloud-sql-sqlserver.git",
         "sha": "7efeaaf026b3ad8cabb973eded693428dae81179"
       },
-      "homepage": "https://github.com/gemini-cli-extensions/cloud-sql-sqlserver"
+      "homepage": "https://github.com/gemini-cli-extensions/cloud-sql-sqlserver",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/cloud-sql-sqlserver.png"
     },
     {
       "name": "cloudflare",
@@ -1014,8 +1083,9 @@
         "sha": "b052c32bab7dd493513260228a36c88294f343f1"
       },
       "description": "适用于 Cloudflare 开发者平台的 skills：Workers、Durable Objects、Agents SDK、MCP 服务器、Wrangler CLI 和 Web 性能。",
-      "category": "部署交付",
-      "homepage": "https://github.com/cloudflare/skills"
+      "category": "developer-tools",
+      "homepage": "https://github.com/cloudflare/skills",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/cloudflare.png"
     },
     {
       "name": "cloudinary",
@@ -1026,7 +1096,8 @@
         "sha": "86be53409e3fb1c465cd5ff4d1dc937a2860f45c"
       },
       "homepage": "https://cloudinary.com/documentation",
-      "category": "其他"
+      "category": "other",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/cloudinary.png"
     },
     {
       "name": "cockroachdb",
@@ -1034,13 +1105,14 @@
       "author": {
         "name": "Cockroach Labs"
       },
-      "category": "数据库",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/cockroachdb/claude-plugin.git",
         "sha": "6c96c6394a61f366e8ec1b7cec2281e97507cbff"
       },
-      "homepage": "https://github.com/cockroachdb/claude-plugin"
+      "homepage": "https://github.com/cockroachdb/claude-plugin",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/cockroachdb.png"
     },
     {
       "name": "code-modernization",
@@ -1050,8 +1122,9 @@
         "email": "support@anthropic.com"
       },
       "source": "./plugins/code-modernization",
-      "category": "开发工具",
-      "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-modernization"
+      "category": "developer-tools",
+      "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-modernization",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/code-modernization.png"
     },
     {
       "name": "code-review",
@@ -1061,8 +1134,9 @@
         "email": "support@anthropic.com"
       },
       "source": "./plugins/code-review",
-      "category": "效率办公",
-      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/code-review"
+      "category": "productivity",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/code-review",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/code-review.png"
     },
     {
       "name": "code-simplifier",
@@ -1072,19 +1146,21 @@
         "email": "support@anthropic.com"
       },
       "source": "./plugins/code-simplifier",
-      "category": "效率办公",
-      "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-simplifier"
+      "category": "productivity",
+      "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-simplifier",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/code-simplifier.png"
     },
     {
       "name": "coderabbit",
       "description": "你的代码审查伙伴。CodeRabbit 使用专用 AI 架构和 40 多个集成的静态分析器提供外部验证——提供不同视角，捕捉 bug、安全漏洞、逻辑错误和边缘情况。通过 AST 解析和 codegraph 关系进行上下文感知分析。自动将 CLAUDE.md 和项目编码指南纳入审查。在编写或修改代码后、提交前、实现复杂或安全敏感的逻辑时，或当第二意见能增强对更改的信心时，非常有用。返回具体发现及可立即应用的修复建议。免费使用。",
-      "category": "效率办公",
+      "category": "productivity",
       "source": {
         "source": "url",
         "url": "https://github.com/coderabbitai/skills.git",
         "sha": "3e8763d24d543b48615b82535d02288de3ddae40"
       },
-      "homepage": "https://github.com/coderabbitai/skills"
+      "homepage": "https://github.com/coderabbitai/skills",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/coderabbit.png"
     },
     {
       "name": "codspeed",
@@ -1092,13 +1168,14 @@
       "author": {
         "name": "CodSpeed"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/CodSpeedHQ/codspeed.git",
         "sha": "59cfc90540bb3717d8acf4ad03f7b5531c8e1a3d"
       },
-      "homepage": "https://codspeed.io"
+      "homepage": "https://codspeed.io",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/codspeed.png"
     },
     {
       "name": "commit-commands",
@@ -1108,8 +1185,9 @@
         "email": "support@anthropic.com"
       },
       "source": "./plugins/commit-commands",
-      "category": "效率办公",
-      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/commit-commands"
+      "category": "productivity",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/commit-commands",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/commit-commands.png"
     },
     {
       "name": "confidence",
@@ -1117,13 +1195,14 @@
       "author": {
         "name": "Spotify Confidence"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/spotify/confidence-ai-plugins.git",
         "sha": "f416826fde819978ab90f1d7ae27513667aa5d0f"
       },
-      "homepage": "https://confidence.spotify.com"
+      "homepage": "https://confidence.spotify.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/confidence.png"
     },
     {
       "name": "context7",
@@ -1131,12 +1210,13 @@
       "author": {
         "name": "Upstash"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": "./external_plugins/context7",
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/context7",
       "tags": [
         "community-managed"
-      ]
+      ],
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/context7.png"
     },
     {
       "name": "convex",
@@ -1146,7 +1226,7 @@
         "name": "Convex",
         "url": "https://convex.dev"
       },
-      "category": "数据库",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/get-convex/convex-backend-skill.git",
@@ -1169,7 +1249,8 @@
         "mobile",
         "typescript",
         "mcp"
-      ]
+      ],
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/convex.png"
     },
     {
       "name": "crowdsec",
@@ -1177,13 +1258,14 @@
       "author": {
         "name": "CrowdSec"
       },
-      "category": "安全",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/crowdsecurity/crowdsec-skill.git",
         "sha": "8802dbe68a0552fe55dc605b6278f57e57578526"
       },
-      "homepage": "https://www.crowdsec.net"
+      "homepage": "https://www.crowdsec.net",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/crowdsec.png"
     },
     {
       "name": "crowdstrike-falcon-foundry",
@@ -1191,13 +1273,14 @@
       "author": {
         "name": "CrowdStrike"
       },
-      "category": "安全",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/CrowdStrike/foundry-skills.git",
         "sha": "61572f38592d47c747e2595182459781bf0bc679"
       },
-      "homepage": "https://github.com/CrowdStrike/foundry-skills"
+      "homepage": "https://github.com/CrowdStrike/foundry-skills",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/crowdstrike-falcon-foundry.png"
     },
     {
       "name": "crowdstrike-falcon-fusion",
@@ -1205,13 +1288,14 @@
       "author": {
         "name": "CrowdStrike"
       },
-      "category": "安全",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/CrowdStrike/fusion-skills.git",
         "sha": "38527dc5afa970543859c31ca5dbf69352bfaa28"
       },
-      "homepage": "https://github.com/CrowdStrike/fusion-skills"
+      "homepage": "https://github.com/CrowdStrike/fusion-skills",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/crowdstrike-falcon-fusion.png"
     },
     {
       "name": "csharp-lsp",
@@ -1222,7 +1306,7 @@
         "email": "support@anthropic.com"
       },
       "source": "./plugins/csharp-lsp",
-      "category": "开发工具",
+      "category": "developer-tools",
       "strict": false,
       "lspServers": {
         "csharp-ls": {
@@ -1231,7 +1315,8 @@
             ".cs": "csharp"
           }
         }
-      }
+      },
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/csharp-lsp.svg"
     },
     {
       "name": "cwc-makers",
@@ -1242,8 +1327,9 @@
         "email": "support@anthropic.com"
       },
       "source": "./plugins/cwc-makers",
-      "category": "效率办公",
-      "homepage": "https://claude.com/cwc-makers"
+      "category": "productivity",
+      "homepage": "https://claude.com/cwc-makers",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/cwc-makers.png"
     },
     {
       "name": "dash0",
@@ -1251,24 +1337,26 @@
       "author": {
         "name": "Dash0"
       },
-      "category": "监控运维",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/dash0hq/dash0-agent-plugin.git",
         "sha": "72a84179e6c64871ad5b6fceb09e00f502de415a"
       },
-      "homepage": "https://dash0.com/"
+      "homepage": "https://dash0.com/",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/dash0.png"
     },
     {
       "name": "data",
       "description": "面向 Apache Airflow 与 Astronomer 的数据工程。以最佳实践编写 DAG、调试管道故障、追踪数据血缘、分析表画像、将 Airflow 2 迁移至 3，并管理本地与云端部署。",
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/astronomer/agents.git",
         "sha": "486ee63d01f8126c52fbc92c36cd36ec31708dcd"
       },
-      "homepage": "https://github.com/astronomer/agents"
+      "homepage": "https://github.com/astronomer/agents",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/data.png"
     },
     {
       "name": "data-agent-kit",
@@ -1276,13 +1364,14 @@
       "author": {
         "name": "Google LLC"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/GoogleCloudPlatform/data-agent-kit-plugin.git",
         "sha": "83c53b5f129cdeecabe149ff4ba82645d3e51745"
       },
-      "homepage": "https://cloud.google.com/products/data-agent-kit"
+      "homepage": "https://cloud.google.com/products/data-agent-kit",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/data-agent-kit.png"
     },
     {
       "name": "data-engineering",
@@ -1293,12 +1382,13 @@
         "sha": "486ee63d01f8126c52fbc92c36cd36ec31708dcd"
       },
       "homepage": "https://github.com/astronomer/agents",
-      "category": "其他"
+      "category": "other",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/data-engineering.png"
     },
     {
       "name": "databases-on-aws",
       "description": "面向 AWS 数据库产品组合的专家级数据库指导。设计 schema、执行查询、处理迁移，并为你的工作负载选择合适的数据库。",
-      "category": "数据库",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/awslabs/agent-plugins.git",
@@ -1306,7 +1396,8 @@
         "ref": "main",
         "sha": "fbefb3764e67558fe10ac834dd85db49734aa9b6"
       },
-      "homepage": "https://github.com/awslabs/agent-plugins"
+      "homepage": "https://github.com/awslabs/agent-plugins",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/databases-on-aws.png"
     },
     {
       "name": "databricks",
@@ -1314,7 +1405,7 @@
       "author": {
         "name": "Databricks"
       },
-      "category": "数据库",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/databricks/databricks-agent-skills.git",
@@ -1322,7 +1413,8 @@
         "ref": "main",
         "sha": "c1964266c7aa6063d89036691d0594420ffa0129"
       },
-      "homepage": "https://developers.databricks.com/"
+      "homepage": "https://developers.databricks.com/",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/databricks.png"
     },
     {
       "name": "datadog",
@@ -1330,13 +1422,14 @@
       "author": {
         "name": "Datadog"
       },
-      "category": "监控运维",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/datadog-labs/claude-code-plugin.git",
         "sha": "195f570c002beab3d7bd342739034d0019aa4863"
       },
-      "homepage": "https://www.datadoghq.com/"
+      "homepage": "https://www.datadoghq.com/",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/datadog.png"
     },
     {
       "name": "datahub-skills",
@@ -1344,13 +1437,14 @@
       "author": {
         "name": "DataHub"
       },
-      "category": "数据库",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/datahub-project/datahub-skills.git",
         "sha": "a27f8e7bb514591a3ccecd7598e4056989c0db9b"
       },
-      "homepage": "https://datahub.com"
+      "homepage": "https://datahub.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/datahub-skills.png"
     },
     {
       "name": "dataproc",
@@ -1358,13 +1452,14 @@
       "author": {
         "name": "Google LLC"
       },
-      "category": "数据库",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/gemini-cli-extensions/dataproc.git",
         "sha": "18534a9bfe0d03801643d5b7d28c0cec08bb7ba5"
       },
-      "homepage": "https://github.com/gemini-cli-extensions/dataproc"
+      "homepage": "https://github.com/gemini-cli-extensions/dataproc",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/dataproc.png"
     },
     {
       "name": "datarobot-agent-skills",
@@ -1372,18 +1467,19 @@
       "author": {
         "name": "DataRobot"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/datarobot-oss/datarobot-agent-skills.git",
         "sha": "53a4dacc6b55f4fe3ab4840829ebf2d1ea1477dc"
       },
-      "homepage": "https://datarobot.com"
+      "homepage": "https://datarobot.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/datarobot-agent-skills.png"
     },
     {
       "name": "dataverse",
       "description": "用于构建、分析和管理 Microsoft Dataverse 的 agent skills — 搭配 Dataverse MCP、PAC CLI 和 Python SDK。",
-      "category": "数据库",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/microsoft/Dataverse-skills.git",
@@ -1391,7 +1487,8 @@
         "ref": "main",
         "sha": "669e71519886d4602753c34bff3db787d616d761"
       },
-      "homepage": "https://github.com/microsoft/Dataverse-skills"
+      "homepage": "https://github.com/microsoft/Dataverse-skills",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/dataverse.png"
     },
     {
       "name": "deepeval",
@@ -1400,18 +1497,19 @@
         "name": "Confident AI",
         "email": "open-source@confident-ai.com"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/confident-ai/deepeval.git",
         "sha": "da9b2c969f8a15e8aa4ef67c372157ce060cd63e"
       },
-      "homepage": "https://github.com/confident-ai/deepeval"
+      "homepage": "https://github.com/confident-ai/deepeval",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/deepeval.png"
     },
     {
       "name": "deploy-on-aws",
       "description": "将应用部署到 AWS，提供架构建议、成本估算和 IaC 部署。",
-      "category": "部署交付",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/awslabs/agent-plugins.git",
@@ -1419,7 +1517,8 @@
         "ref": "main",
         "sha": "fbefb3764e67558fe10ac834dd85db49734aa9b6"
       },
-      "homepage": "https://github.com/awslabs/agent-plugins"
+      "homepage": "https://github.com/awslabs/agent-plugins",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/deploy-on-aws.png"
     },
     {
       "name": "desktop-commander",
@@ -1427,7 +1526,7 @@
       "author": {
         "name": "Desktop Commander"
       },
-      "category": "效率办公",
+      "category": "productivity",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP.git",
@@ -1435,13 +1534,15 @@
         "ref": "main",
         "sha": "75048278f4866f0d8bde26f6f9aa3b8d39dca870"
       },
-      "homepage": "https://desktopcommander.app"
+      "homepage": "https://desktopcommander.app",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/desktop-commander.png"
     },
     {
       "name": "discord",
       "description": "内置访问控制的 Discord 消息桥接。通过 /discord:access 管理配对、允许列表和策略。",
-      "category": "效率办公",
-      "source": "./external_plugins/discord"
+      "category": "productivity",
+      "source": "./external_plugins/discord",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/discord.svg"
     },
     {
       "name": "dominodatalab",
@@ -1449,13 +1550,14 @@
       "author": {
         "name": "Domino Data Lab"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/dominodatalab/domino-claude-plugin.git",
         "sha": "7949e3ac470cf2f3b1c97a790c571032c844a5a3"
       },
-      "homepage": "https://www.domino.ai"
+      "homepage": "https://www.domino.ai",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/dominodatalab.png"
     },
     {
       "name": "dropbox",
@@ -1463,7 +1565,7 @@
       "author": {
         "name": "Dropbox"
       },
-      "category": "效率办公",
+      "category": "productivity",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/dropbox/dropbox-ai-plugins.git",
@@ -1471,7 +1573,8 @@
         "ref": "main",
         "sha": "60cea151b269e9ab47266279d80839c471e0d8c6"
       },
-      "homepage": "https://www.dropbox.com"
+      "homepage": "https://www.dropbox.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/dropbox.png"
     },
     {
       "name": "duckdb-skills",
@@ -1479,13 +1582,14 @@
       "author": {
         "name": "DuckDB Foundation"
       },
-      "category": "数据库",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/duckdb/duckdb-skills.git",
         "sha": "7feda8e01e22bc0886c86123f3884947e36d8c69"
       },
-      "homepage": "https://duckdb.org"
+      "homepage": "https://duckdb.org",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/duckdb-skills.png"
     },
     {
       "name": "duende-skills",
@@ -1493,13 +1597,14 @@
       "author": {
         "name": "Duende Software"
       },
-      "category": "安全",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/DuendeSoftware/duende-skills.git",
         "sha": "fb32edc51982bf1c600e21ba91df32c903098a9c"
       },
-      "homepage": "https://duendesoftware.com"
+      "homepage": "https://duendesoftware.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/duende-skills.png"
     },
     {
       "name": "exa",
@@ -1507,13 +1612,14 @@
       "author": {
         "name": "Exa"
       },
-      "category": "效率办公",
+      "category": "productivity",
       "source": {
         "source": "url",
         "url": "https://github.com/exa-labs/exa-mcp-server.git",
         "sha": "15ffb50519e719dc791cdc750ce5ed1934c0a1ed"
       },
-      "homepage": "https://exa.ai/docs/reference/exa-mcp"
+      "homepage": "https://exa.ai/docs/reference/exa-mcp",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/exa.png"
     },
     {
       "name": "explanatory-output-style",
@@ -1523,13 +1629,14 @@
         "email": "support@anthropic.com"
       },
       "source": "./plugins/explanatory-output-style",
-      "category": "学习教程",
-      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/explanatory-output-style"
+      "category": "productivity",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/explanatory-output-style",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/explanatory-output-style.png"
     },
     {
       "name": "expo",
       "description": "官方 Expo skill，用于构建、部署、升级和调试使用 Expo 的 React Native 应用。涵盖使用 Expo Router 进行 UI 开发、SwiftUI 与 Jetpack Compose 组件、Tailwind CSS 设置、API 路由、数据获取、CI/CD 工作流、App Store 与 Play Store 部署、SDK 升级、DOM 组件以及 dev client 分发。",
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/expo/skills.git",
@@ -1537,13 +1644,15 @@
         "ref": "main",
         "sha": "d4f484024fec15196bfd3c272e953e3f983972cf"
       },
-      "homepage": "https://github.com/expo/skills/blob/main/plugins/expo/README.md"
+      "homepage": "https://github.com/expo/skills/blob/main/plugins/expo/README.md",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/expo.png"
     },
     {
       "name": "fakechat",
       "description": "用于测试频道通知流程的 localhost Web 聊天。无需令牌、无访问控制、无第三方服务。",
-      "category": "开发工具",
-      "source": "./external_plugins/fakechat"
+      "category": "developer-tools",
+      "source": "./external_plugins/fakechat",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/fakechat.png"
     },
     {
       "name": "fastly-agent-toolkit",
@@ -1554,7 +1663,8 @@
         "sha": "6db70eaf54ba885d56091861224987d6cf06c429"
       },
       "homepage": "https://github.com/fastly/fastly-agent-toolkit/blob/main/README.md",
-      "category": "其他"
+      "category": "other",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/fastly-agent-toolkit.png"
     },
     {
       "name": "feature-dev",
@@ -1564,8 +1674,9 @@
         "email": "support@anthropic.com"
       },
       "source": "./plugins/feature-dev",
-      "category": "开发工具",
-      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/feature-dev"
+      "category": "developer-tools",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/feature-dev",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/feature-dev.png"
     },
     {
       "name": "fiftyone",
@@ -1576,7 +1687,8 @@
         "sha": "8b87befcce6cfb86e73b4ccc1f692a0a2b6a4218"
       },
       "homepage": "https://docs.voxel51.com/",
-      "category": "其他"
+      "category": "other",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/fiftyone.png"
     },
     {
       "name": "figma",
@@ -1587,25 +1699,28 @@
         "url": "https://github.com/figma/mcp-server-guide.git",
         "sha": "f2789420e7e8b4e2465dfeb1e12e1fc6a31397e5"
       },
-      "homepage": "https://github.com/figma/mcp-server-guide"
+      "homepage": "https://github.com/figma/mcp-server-guide",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/figma.png"
     },
     {
       "name": "firebase",
       "description": "Google Firebase MCP 集成。管理 Firestore 数据库、身份验证、云函数、托管和存储。直接从你的开发工作流构建和管理 Firebase 后端。",
-      "category": "数据库",
+      "category": "developer-tools",
       "source": "./external_plugins/firebase",
-      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/firebase"
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/firebase",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/firebase.png"
     },
     {
       "name": "firecrawl",
       "description": "由 Firecrawl 提供支持的网页抓取与爬取。将任意网站转换为干净、适配 LLM 的 Markdown 或结构化数据。抓取单个页面、爬取整个站点、搜索网络，并提取结构化信息。内置 AI agent 可自主进行多源数据采集——只需描述你的需求，它便会自动查找、导航并提取。",
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/firecrawl/firecrawl-claude-plugin.git",
         "sha": "3e1fb0c319d71b067906b8b602208dded3932cdb"
       },
-      "homepage": "https://github.com/firecrawl/firecrawl-claude-plugin.git"
+      "homepage": "https://github.com/firecrawl/firecrawl-claude-plugin.git",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/firecrawl.png"
     },
     {
       "name": "firestore-native",
@@ -1613,13 +1728,14 @@
       "author": {
         "name": "Google LLC"
       },
-      "category": "数据库",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/gemini-cli-extensions/firestore-native.git",
         "sha": "6e6a841c2173b1fa1f95a9743f589bdbaa275caf"
       },
-      "homepage": "https://github.com/gemini-cli-extensions/firestore-native"
+      "homepage": "https://github.com/gemini-cli-extensions/firestore-native",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/firestore-native.png"
     },
     {
       "name": "forge-skills",
@@ -1627,13 +1743,14 @@
       "author": {
         "name": "Atlassian"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/atlassian/forge-skills.git",
         "sha": "4f04ae02879435f23808a4798da28f75d3ab74c3"
       },
-      "homepage": "https://developer.atlassian.com/platform/forge/"
+      "homepage": "https://developer.atlassian.com/platform/forge/",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/forge-skills.png"
     },
     {
       "name": "frontend-design",
@@ -1643,8 +1760,9 @@
         "email": "support@anthropic.com"
       },
       "source": "./plugins/frontend-design",
-      "category": "开发工具",
-      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/frontend-design"
+      "category": "developer-tools",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/frontend-design",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/frontend-design.png"
     },
     {
       "name": "fullstory",
@@ -1652,13 +1770,14 @@
       "author": {
         "name": "Fullstory"
       },
-      "category": "监控运维",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/fullstorydev/fullstory-skills.git",
         "sha": "ca872d97f5c35dc41ee2eecfc6e392a5895ac171"
       },
-      "homepage": "https://www.fullstory.com"
+      "homepage": "https://www.fullstory.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/fullstory.png"
     },
     {
       "name": "gc-ai",
@@ -1667,20 +1786,22 @@
       "author": {
         "name": "GC AI"
       },
-      "category": "效率办公",
+      "category": "productivity",
       "source": {
         "source": "url",
         "url": "https://github.com/GC-AI-Inc/gc-ai-claude-plugin.git",
         "sha": "efda779972c7b7162e79234e164bc2f359a8a518"
       },
-      "homepage": "https://docs.gc.ai/api-reference/mcp/overview"
+      "homepage": "https://docs.gc.ai/api-reference/mcp/overview",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/gc-ai.png"
     },
     {
       "name": "github",
       "description": "官方 GitHub MCP 服务器，用于仓库管理。创建议题、管理拉取请求、审查代码、搜索仓库，并直接从 Claude Code 与 GitHub 的完整 API 交互。",
-      "category": "效率办公",
+      "category": "productivity",
       "source": "./external_plugins/github",
-      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/github"
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/github",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/github.png"
     },
     {
       "name": "gitkraken",
@@ -1688,20 +1809,22 @@
       "author": {
         "name": "GitKraken"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/gitkraken/claude-plugin.git",
         "sha": "f7a53b2cd138c22eccb977b9d93494ea6d423d12"
       },
-      "homepage": "https://www.gitkraken.com"
+      "homepage": "https://www.gitkraken.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/gitkraken.png"
     },
     {
       "name": "gitlab",
       "description": "GitLab DevOps 平台集成。管理仓库、合并请求、CI/CD 流水线、议题和 wiki。完整访问 GitLab 全面的 DevOps 生命周期工具。",
-      "category": "效率办公",
+      "category": "productivity",
       "source": "./external_plugins/gitlab",
-      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/gitlab"
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/gitlab",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/gitlab.png"
     },
     {
       "name": "google-cloud-storage",
@@ -1709,13 +1832,14 @@
       "author": {
         "name": "Google LLC"
       },
-      "category": "部署交付",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/gemini-cli-extensions/google-cloud-storage.git",
         "sha": "c7e3eeefa14ac0492a024458061d662e8b04c891"
       },
-      "homepage": "https://cloud.google.com/storage"
+      "homepage": "https://cloud.google.com/storage",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/google-cloud-storage.png"
     },
     {
       "name": "gopls-lsp",
@@ -1726,7 +1850,7 @@
         "email": "support@anthropic.com"
       },
       "source": "./plugins/gopls-lsp",
-      "category": "开发工具",
+      "category": "developer-tools",
       "strict": false,
       "lspServers": {
         "gopls": {
@@ -1735,7 +1859,8 @@
             ".go": "go"
           }
         }
-      }
+      },
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/gopls-lsp.svg"
     },
     {
       "name": "govtribe",
@@ -1743,13 +1868,14 @@
       "author": {
         "name": "GovTribe"
       },
-      "category": "效率办公",
+      "category": "productivity",
       "source": {
         "source": "url",
         "url": "https://github.com/GovTribe/claude-plugin.git",
         "sha": "41cb943db7f96e33f0255f46c882742cb92cb909"
       },
-      "homepage": "https://govtribe.com"
+      "homepage": "https://govtribe.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/govtribe.png"
     },
     {
       "name": "grafana-assistant",
@@ -1757,7 +1883,7 @@
       "author": {
         "name": "Grafana"
       },
-      "category": "监控运维",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/grafana/ai-marketplace.git",
@@ -1765,7 +1891,8 @@
         "ref": "main",
         "sha": "12be5634a492f73c189d466c5449d09b853ad7a4"
       },
-      "homepage": "https://grafana.com"
+      "homepage": "https://grafana.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/grafana-assistant.png"
     },
     {
       "name": "grafana-cloud-mcp",
@@ -1773,7 +1900,7 @@
       "author": {
         "name": "Grafana"
       },
-      "category": "监控运维",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/grafana/ai-marketplace.git",
@@ -1781,7 +1908,8 @@
         "ref": "main",
         "sha": "6c28ba1961d502d82301cbd64d2322e6e960477c"
       },
-      "homepage": "https://grafana.com"
+      "homepage": "https://grafana.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/grafana-cloud-mcp.png"
     },
     {
       "name": "grafana-mcp",
@@ -1789,7 +1917,7 @@
       "author": {
         "name": "Grafana"
       },
-      "category": "监控运维",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/grafana/ai-marketplace.git",
@@ -1797,7 +1925,8 @@
         "ref": "main",
         "sha": "6c28ba1961d502d82301cbd64d2322e6e960477c"
       },
-      "homepage": "https://grafana.com"
+      "homepage": "https://grafana.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/grafana-mcp.png"
     },
     {
       "name": "greptile",
@@ -1806,7 +1935,7 @@
         "name": "Greptile",
         "url": "https://greptile.com"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/greptileai/claude-plugin.git",
@@ -1814,7 +1943,8 @@
         "ref": "greptile--v1.2.3",
         "sha": "f0b7379ca06e40896fdae93fe166e851d1c9db67"
       },
-      "homepage": "https://www.greptile.com/docs/mcp-v2/overview"
+      "homepage": "https://www.greptile.com/docs/mcp-v2/overview",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/greptile.png"
     },
     {
       "name": "growthbook",
@@ -1822,13 +1952,14 @@
       "author": {
         "name": "GrowthBook"
       },
-      "category": "测试",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/growthbook/skills.git",
         "sha": "7a84f338fe217b20641cdc5c01b5b37f0b950527"
       },
-      "homepage": "https://growthbook.io"
+      "homepage": "https://growthbook.io",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/growthbook.png"
     },
     {
       "name": "honeycomb",
@@ -1836,7 +1967,7 @@
       "author": {
         "name": "Honeycomb"
       },
-      "category": "监控运维",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/honeycombio/agent-skill.git",
@@ -1844,7 +1975,8 @@
         "ref": "main",
         "sha": "6bb09279fc3fb69abf113228be939dbb929e34f1"
       },
-      "homepage": "https://www.honeycomb.io"
+      "homepage": "https://www.honeycomb.io",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/honeycomb.png"
     },
     {
       "name": "hookify",
@@ -1854,8 +1986,9 @@
         "email": "support@anthropic.com"
       },
       "source": "./plugins/hookify",
-      "category": "效率办公",
-      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/hookify"
+      "category": "productivity",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/hookify",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/hookify.png"
     },
     {
       "name": "hostinger",
@@ -1864,24 +1997,26 @@
       "author": {
         "name": "Hostinger"
       },
-      "category": "部署交付",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/hostinger/claude-plugin.git",
         "sha": "569880c60681a7068b3ca8ca84e2fe7ab6cfa7ff"
       },
-      "homepage": "https://www.hostinger.com"
+      "homepage": "https://www.hostinger.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/hostinger.png"
     },
     {
       "name": "huggingface-skills",
       "description": "构建、训练、评估和使用开源 AI 模型、数据集和 Spaces。",
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/huggingface/skills.git",
         "sha": "c3ff942be3e07116b475253f0a8fc4f54682c1a8"
       },
-      "homepage": "https://github.com/huggingface/skills.git"
+      "homepage": "https://github.com/huggingface/skills.git",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/huggingface-skills.png"
     },
     {
       "name": "hunter",
@@ -1889,13 +2024,14 @@
       "author": {
         "name": "Hunter.io"
       },
-      "category": "效率办公",
+      "category": "productivity",
       "source": {
         "source": "url",
         "url": "https://github.com/hunter-io/claude-plugin.git",
         "sha": "44f0f5689d2d5cc2de2470550225a16447cb9a80"
       },
-      "homepage": "https://hunter.io"
+      "homepage": "https://hunter.io",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/hunter.png"
     },
     {
       "name": "hyperframes",
@@ -1909,7 +2045,8 @@
         "url": "https://github.com/heygen-com/hyperframes.git",
         "sha": "8d2b6e7bdc1c2c26d1abf64ef075c00a1bb230a2"
       },
-      "homepage": "https://hyperframes.heygen.com"
+      "homepage": "https://hyperframes.heygen.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/hyperframes.png"
     },
     {
       "name": "idmp-plugin",
@@ -1918,7 +2055,7 @@
         "name": "TaosData",
         "email": "it@taosdata.com"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/taosdata/agent-skills.git",
@@ -1926,13 +2063,15 @@
         "ref": "main",
         "sha": "bf5197716bacc38908cf8025e594d15be9e00b8c"
       },
-      "homepage": "https://github.com/taosdata/agent-skills"
+      "homepage": "https://github.com/taosdata/agent-skills",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/idmp-plugin.png"
     },
     {
       "name": "imessage",
       "description": "带内置访问控制的 iMessage 消息桥接。直接读取 chat.db，通过 AppleScript 发送。使用 /imessage:access 管理配对、允许列表和策略。",
-      "category": "效率办公",
-      "source": "./external_plugins/imessage"
+      "category": "productivity",
+      "source": "./external_plugins/imessage",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/imessage.svg"
     },
     {
       "name": "incident-io",
@@ -1940,7 +2079,7 @@
       "author": {
         "name": "incident.io"
       },
-      "category": "监控运维",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/incident-io/skills.git",
@@ -1948,7 +2087,8 @@
         "ref": "main",
         "sha": "00f7d1dc80892deb1656f1cf577dd073a4a2de10"
       },
-      "homepage": "https://incident.io"
+      "homepage": "https://incident.io",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/incident-io.png"
     },
     {
       "name": "informatica-for-claude-platform",
@@ -1956,7 +2096,7 @@
       "author": {
         "name": "Informatica"
       },
-      "category": "数据库",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/forcedotcom/informatica-claude-plugins.git",
@@ -1964,18 +2104,20 @@
         "ref": "main",
         "sha": "554d02e0f7f2adafeaeeedbde04435b7bd310a47"
       },
-      "homepage": "https://github.com/forcedotcom/informatica-claude-plugins/tree/main/informatica-for-claude-platform"
+      "homepage": "https://github.com/forcedotcom/informatica-claude-plugins/tree/main/informatica-for-claude-platform",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/informatica-for-claude-platform.png"
     },
     {
       "name": "intercom",
       "description": "Claude Code 的 Intercom 集成。搜索对话、分析客户支持模式、查找联系人和公司，并安装 Intercom Messenger。连接你的 Intercom 工作区，从客户数据中获取实时洞察。",
-      "category": "效率办公",
+      "category": "productivity",
       "source": {
         "source": "url",
         "url": "https://github.com/intercom/claude-plugin-external.git",
         "sha": "62773a7d4b8aac31545d6888fe6479be3bc53804"
       },
-      "homepage": "https://github.com/intercom/claude-plugin-external"
+      "homepage": "https://github.com/intercom/claude-plugin-external",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/intercom.png"
     },
     {
       "name": "intuit-quickbooks",
@@ -1983,13 +2125,14 @@
       "author": {
         "name": "Intuit QuickBooks"
       },
-      "category": "效率办公",
+      "category": "productivity",
       "source": {
         "source": "url",
         "url": "https://github.com/intuit/quickbooks-claude-plugin.git",
         "sha": "c8daa17a64d4d0fdeabdf0516524f72549b6ad19"
       },
-      "homepage": "https://github.com/intuit/quickbooks-claude-plugin"
+      "homepage": "https://github.com/intuit/quickbooks-claude-plugin",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/intuit-quickbooks.png"
     },
     {
       "name": "jdtls-lsp",
@@ -2000,7 +2143,7 @@
         "email": "support@anthropic.com"
       },
       "source": "./plugins/jdtls-lsp",
-      "category": "开发工具",
+      "category": "developer-tools",
       "strict": false,
       "lspServers": {
         "jdtls": {
@@ -2010,7 +2153,8 @@
           },
           "startupTimeout": 120000
         }
-      }
+      },
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/jdtls-lsp.svg"
     },
     {
       "name": "jfrog",
@@ -2019,13 +2163,14 @@
         "name": "JFrog Ltd.",
         "url": "https://jfrog.com"
       },
-      "category": "安全",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/jfrog/claude-plugin.git",
         "sha": "9b1f8f6c883522a87502e5155abd593a8befe3c5"
       },
-      "homepage": "https://jfrog.com"
+      "homepage": "https://jfrog.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/jfrog.png"
     },
     {
       "name": "knowledge-catalog",
@@ -2033,13 +2178,14 @@
       "author": {
         "name": "Google LLC"
       },
-      "category": "数据库",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/gemini-cli-extensions/knowledge-catalog.git",
         "sha": "630397520359ca4594d9133c147c6e25f8b52125"
       },
-      "homepage": "https://github.com/gemini-cli-extensions/knowledge-catalog"
+      "homepage": "https://github.com/gemini-cli-extensions/knowledge-catalog",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/knowledge-catalog.png"
     },
     {
       "name": "kotlin-lsp",
@@ -2050,7 +2196,7 @@
         "email": "support@anthropic.com"
       },
       "source": "./plugins/kotlin-lsp",
-      "category": "开发工具",
+      "category": "developer-tools",
       "strict": false,
       "lspServers": {
         "kotlin-lsp": {
@@ -2064,7 +2210,8 @@
           },
           "startupTimeout": 120000
         }
-      }
+      },
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/kotlin-lsp.svg"
     },
     {
       "name": "langfuse-observability",
@@ -2072,20 +2219,22 @@
       "author": {
         "name": "Langfuse"
       },
-      "category": "监控运维",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/langfuse/claude-observability-plugin.git",
         "sha": "b5211009698fdfe79c6bbe90d6901ad255ea65d3"
       },
-      "homepage": "https://langfuse.com/integrations/other/claude-code"
+      "homepage": "https://langfuse.com/integrations/other/claude-code",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/langfuse-observability.png"
     },
     {
       "name": "laravel-boost",
       "description": "Laravel 开发工具包 MCP 服务器。为 Laravel 应用提供智能辅助，包括 Artisan 命令、Eloquent 查询、路由、迁移和框架专属代码生成。",
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": "./external_plugins/laravel-boost",
-      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/laravel-boost"
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/laravel-boost",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/laravel-boost.png"
     },
     {
       "name": "leadfeeder",
@@ -2093,13 +2242,14 @@
       "author": {
         "name": "Leadfeeder"
       },
-      "category": "效率办公",
+      "category": "productivity",
       "source": {
         "source": "url",
         "url": "https://github.com/Leadfeeder/leadfeeder-mcp-plugin.git",
         "sha": "cddf27f0771393b01a9a91335b8972e44f48cf45"
       },
-      "homepage": "https://www.leadfeeder.com"
+      "homepage": "https://www.leadfeeder.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/leadfeeder.png"
     },
     {
       "name": "learn-with-coursera",
@@ -2107,7 +2257,7 @@
       "author": {
         "name": "Coursera"
       },
-      "category": "学习教程",
+      "category": "productivity",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/coursera/skills.git",
@@ -2119,7 +2269,8 @@
       "skills": [
         "./learn-with-coursera"
       ],
-      "homepage": "https://github.com/coursera/skills"
+      "homepage": "https://github.com/coursera/skills",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/learn-with-coursera.png"
     },
     {
       "name": "learning-output-style",
@@ -2129,13 +2280,14 @@
         "email": "support@anthropic.com"
       },
       "source": "./plugins/learning-output-style",
-      "category": "学习教程",
-      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/learning-output-style"
+      "category": "productivity",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/learning-output-style",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/learning-output-style.png"
     },
     {
       "name": "legalzoom",
       "description": "面向商务与个人需求的法律指导和法律工具。AI 驱动的文档审查可识别关键风险和重要条款，提示何时应聘请律师，并在需要专业支持时接入 LegalZoom 网络。",
-      "category": "效率办公",
+      "category": "productivity",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/legalzoom/claude-plugins.git",
@@ -2143,14 +2295,16 @@
         "ref": "main",
         "sha": "f9fd8a0ca6e1421bc1aacb113a109663a7a6f6d8"
       },
-      "homepage": "https://www.legalzoom.com/"
+      "homepage": "https://www.legalzoom.com/",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/legalzoom.png"
     },
     {
       "name": "linear",
       "description": "Linear 议题跟踪集成。创建议题、管理项目、更新状态、跨工作区搜索，并借助 Linear 的现代议题跟踪器简化你的软件开发工作流。",
-      "category": "效率办公",
+      "category": "productivity",
       "source": "./external_plugins/linear",
-      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/linear"
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/linear",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/linear.png"
     },
     {
       "name": "linq-alpha",
@@ -2158,7 +2312,7 @@
       "author": {
         "name": "LinqAlpha"
       },
-      "category": "效率办公",
+      "category": "productivity",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/linq-lab/linq-alpha-plugin.git",
@@ -2166,7 +2320,8 @@
         "ref": "main",
         "sha": "bfb594b7ccca28dfdcbdb0a64673dfe2e819fd87"
       },
-      "homepage": "https://www.linqalpha.com"
+      "homepage": "https://www.linqalpha.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/linq-alpha.png"
     },
     {
       "name": "liquid-lsp",
@@ -2174,7 +2329,7 @@
       "author": {
         "name": "Shopify"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/Shopify/liquid-skills.git",
@@ -2182,7 +2337,8 @@
         "ref": "main",
         "sha": "ae3e4cc3f454923e388bbd841fd931f0c7bf5be4"
       },
-      "homepage": "https://github.com/Shopify/liquid-skills/tree/main/plugins/liquid-lsp"
+      "homepage": "https://github.com/Shopify/liquid-skills/tree/main/plugins/liquid-lsp",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/liquid-lsp.png"
     },
     {
       "name": "liquid-skills",
@@ -2190,7 +2346,7 @@
       "author": {
         "name": "Shopify"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/Shopify/liquid-skills.git",
@@ -2198,7 +2354,8 @@
         "ref": "main",
         "sha": "ae3e4cc3f454923e388bbd841fd931f0c7bf5be4"
       },
-      "homepage": "https://github.com/Shopify/liquid-skills/tree/main/plugins/liquid-skills"
+      "homepage": "https://github.com/Shopify/liquid-skills/tree/main/plugins/liquid-skills",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/liquid-skills.png"
     },
     {
       "name": "logfire",
@@ -2206,7 +2363,7 @@
       "author": {
         "name": "Pydantic"
       },
-      "category": "监控运维",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/pydantic/skills.git",
@@ -2214,7 +2371,8 @@
         "ref": "main",
         "sha": "238d97102650c1caa51f35027aee13c469c59542"
       },
-      "homepage": "https://github.com/pydantic/skills/tree/main/plugins/logfire"
+      "homepage": "https://github.com/pydantic/skills/tree/main/plugins/logfire",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/logfire.png"
     },
     {
       "name": "logrocket",
@@ -2222,7 +2380,7 @@
       "author": {
         "name": "LogRocket"
       },
-      "category": "监控运维",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/LogRocket/logrocket-claude-plugin.git",
@@ -2230,7 +2388,8 @@
         "ref": "main",
         "sha": "2e44dbb47faf9bb54e3405a8ae2714e7c5ce9791"
       },
-      "homepage": "https://logrocket.com"
+      "homepage": "https://logrocket.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/logrocket.png"
     },
     {
       "name": "looker",
@@ -2238,13 +2397,14 @@
       "author": {
         "name": "Google LLC"
       },
-      "category": "数据库",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/gemini-cli-extensions/looker.git",
         "sha": "13ed738a97a13efae7a408439dea3d43cff6f224"
       },
-      "homepage": "https://github.com/gemini-cli-extensions/looker"
+      "homepage": "https://github.com/gemini-cli-extensions/looker",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/looker.png"
     },
     {
       "name": "lovable",
@@ -2252,13 +2412,14 @@
       "author": {
         "name": "Lovable"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/lovablelabs/mcp.git",
         "sha": "0336e6db8026b0f02cb89d1451cc48ea3f469791"
       },
-      "homepage": "https://lovable.dev"
+      "homepage": "https://lovable.dev",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/lovable.png"
     },
     {
       "name": "lua-lsp",
@@ -2269,7 +2430,7 @@
         "email": "support@anthropic.com"
       },
       "source": "./plugins/lua-lsp",
-      "category": "开发工具",
+      "category": "developer-tools",
       "strict": false,
       "lspServers": {
         "lua": {
@@ -2278,7 +2439,8 @@
             ".lua": "lua"
           }
         }
-      }
+      },
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/lua-lsp.svg"
     },
     {
       "name": "lumen",
@@ -2286,13 +2448,14 @@
       "author": {
         "name": "Ory Corp"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/ory/lumen.git",
         "sha": "f60f9ecee41723b42f3758e9a9409141881ac7d5"
       },
-      "homepage": "https://www.ory.sh"
+      "homepage": "https://www.ory.sh",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/lumen.png"
     },
     {
       "name": "lusha",
@@ -2300,13 +2463,14 @@
       "author": {
         "name": "Lusha"
       },
-      "category": "效率办公",
+      "category": "productivity",
       "source": {
         "source": "url",
         "url": "https://github.com/lusha-oss/lusha-mcp-plugin.git",
         "sha": "c3017a3d6831e444b781044337f0394e76b12d89"
       },
-      "homepage": "https://www.lusha.com"
+      "homepage": "https://www.lusha.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/lusha.png"
     },
     {
       "name": "mapbox",
@@ -2314,13 +2478,14 @@
       "author": {
         "name": "Mapbox"
       },
-      "category": "位置服务",
+      "category": "utilities",
       "source": {
         "source": "url",
         "url": "https://github.com/mapbox/mapbox-agent-skills.git",
         "sha": "f71cd72b8d8937b06db440538bd65559eb792c49"
       },
-      "homepage": "https://www.mapbox.com"
+      "homepage": "https://www.mapbox.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/mapbox.png"
     },
     {
       "name": "math-olympiad",
@@ -2331,7 +2496,8 @@
       },
       "source": "./plugins/math-olympiad",
       "category": "数学科学",
-      "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/math-olympiad"
+      "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/math-olympiad",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/math-olympiad.png"
     },
     {
       "name": "math-proof",
@@ -2342,7 +2508,8 @@
       },
       "source": "./plugins/math-proof",
       "category": "数学科学",
-      "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/math-proof"
+      "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/math-proof",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/math-proof.png"
     },
     {
       "name": "mattpocock-skills",
@@ -2350,13 +2517,14 @@
       "author": {
         "name": "Matt Pocock"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/mattpocock/skills.git",
         "sha": "49dd158d1076134a641b33efb035946536778336"
       },
-      "homepage": "https://github.com/mattpocock/skills"
+      "homepage": "https://github.com/mattpocock/skills",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/mattpocock-skills.png"
     },
     {
       "name": "mcp-apps",
@@ -2364,7 +2532,7 @@
       "author": {
         "name": "Anthropic / Model Context Protocol"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/modelcontextprotocol/ext-apps.git",
@@ -2372,7 +2540,8 @@
         "ref": "main",
         "sha": "6d9bdc7babf275b759225aa722cbf5510c4c6021"
       },
-      "homepage": "https://modelcontextprotocol.io"
+      "homepage": "https://modelcontextprotocol.io",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/mcp-apps.png"
     },
     {
       "name": "mcp-server-dev",
@@ -2382,8 +2551,9 @@
         "email": "support@anthropic.com"
       },
       "source": "./plugins/mcp-server-dev",
-      "category": "开发工具",
-      "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/mcp-server-dev"
+      "category": "developer-tools",
+      "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/mcp-server-dev",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/mcp-server-dev.png"
     },
     {
       "name": "mcp-tunnels",
@@ -2393,8 +2563,9 @@
         "email": "support@anthropic.com"
       },
       "source": "./plugins/mcp-tunnels",
-      "category": "开发工具",
-      "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/mcp-tunnels"
+      "category": "developer-tools",
+      "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/mcp-tunnels",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/mcp-tunnels.png"
     },
     {
       "name": "mercadopago",
@@ -2402,7 +2573,7 @@
       "author": {
         "name": "Mercado Pago Developer Experience"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/mercadopago/mercadopago-claude-marketplace.git",
@@ -2410,7 +2581,8 @@
         "ref": "main",
         "sha": "755d33740af23351b4ca7043c51077ce67ebf4d1"
       },
-      "homepage": "https://github.com/mercadopago/mercadopago-claude-marketplace/tree/main/plugins/mercadopago"
+      "homepage": "https://github.com/mercadopago/mercadopago-claude-marketplace/tree/main/plugins/mercadopago",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/mercadopago.png"
     },
     {
       "name": "mergify",
@@ -2418,24 +2590,26 @@
       "author": {
         "name": "Mergify"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/mergifyio/mergify-cli.git",
         "sha": "6307ed10e8628c6fefe408e398ea48af16c94cfd"
       },
-      "homepage": "https://mergify.com"
+      "homepage": "https://mergify.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/mergify.png"
     },
     {
       "name": "microsoft-docs",
       "description": "访问 Azure、.NET、Windows 等的 Microsoft 官方文档、API 参考和代码示例。",
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/MicrosoftDocs/mcp.git",
         "sha": "f8ffde185dfd232dbf5d187c22ce299eadc3d583"
       },
-      "homepage": "https://github.com/microsoftdocs/mcp"
+      "homepage": "https://github.com/microsoftdocs/mcp",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/microsoft-docs.png"
     },
     {
       "name": "migration-to-aws",
@@ -2443,7 +2617,7 @@
       "author": {
         "name": "Amazon Web Services"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/awslabs/startups.git",
@@ -2451,18 +2625,20 @@
         "ref": "main",
         "sha": "ec681ba5d49b039dbf1ef9d87d3304205b824f3d"
       },
-      "homepage": "https://github.com/awslabs/startups"
+      "homepage": "https://github.com/awslabs/startups",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/migration-to-aws.png"
     },
     {
       "name": "mintlify",
       "description": "使用 Mintlify 构建精美的文档站点。将非 markdown 文件转换为格式规范的 MDX 页面，以正确的组件用法添加和修改内容，并自动化文档更新。",
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/mintlify/mintlify-claude-plugin.git",
         "sha": "acd6d2e0128c4f235d55cfb8d8c91ecbdd5df8cc"
       },
-      "homepage": "https://www.mintlify.com/"
+      "homepage": "https://www.mintlify.com/",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/mintlify.png"
     },
     {
       "name": "miro",
@@ -2478,7 +2654,8 @@
         "ref": "main",
         "sha": "b6408e1bdfe0c842f209d40b52e92caf118a4d39"
       },
-      "homepage": "https://miro.com"
+      "homepage": "https://miro.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/miro.png"
     },
     {
       "name": "modern-web-guidance",
@@ -2486,13 +2663,14 @@
       "author": {
         "name": "Google Chrome"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/GoogleChrome/modern-web-guidance.git",
         "sha": "b31dc0a43ff5d19bcf386a3476a216f3b39a6f55"
       },
-      "homepage": "https://goo.gle/modern-web-guidance"
+      "homepage": "https://goo.gle/modern-web-guidance",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/modern-web-guidance.png"
     },
     {
       "name": "mlflow",
@@ -2500,13 +2678,14 @@
       "author": {
         "name": "MLflow Team"
       },
-      "category": "监控运维",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/mlflow/skills.git",
         "sha": "51a42ea2b07fadb45fb34c7cecf0c87edbe05686"
       },
-      "homepage": "https://mlflow.org/"
+      "homepage": "https://mlflow.org/",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/mlflow.png"
     },
     {
       "name": "monday-crm",
@@ -2514,7 +2693,7 @@
       "author": {
         "name": "monday.com"
       },
-      "category": "效率办公",
+      "category": "productivity",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/mondaycom/mcp.git",
@@ -2522,12 +2701,13 @@
         "ref": "master",
         "sha": "8fdc0b4af07a4b7e1059ca3f8320d64968737b8e"
       },
-      "homepage": "https://monday.com"
+      "homepage": "https://monday.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/monday-crm.png"
     },
     {
       "name": "mongodb",
       "description": "MongoDB 官方 Claude 插件（MCP Server + Skills）。连接数据库、探索数据、管理集合、优化查询、生成可靠代码、落实最佳实践、开发高级功能等等。",
-      "category": "数据库",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/mongodb/agent-skills.git",
@@ -2535,7 +2715,8 @@
         "ref": "main",
         "sha": "c370a63b27075008a92134686b24af3817edeb00"
       },
-      "homepage": "https://www.mongodb.com/docs/mcp-server/overview/"
+      "homepage": "https://www.mongodb.com/docs/mcp-server/overview/",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/mongodb.png"
     },
     {
       "name": "mongodb-atlas",
@@ -2543,7 +2724,7 @@
       "author": {
         "name": "MongoDB"
       },
-      "category": "数据库",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/mongodb/agent-skills.git",
@@ -2551,12 +2732,13 @@
         "ref": "main",
         "sha": "c370a63b27075008a92134686b24af3817edeb00"
       },
-      "homepage": "https://www.mongodb.com/docs/mcp-server/get-started/"
+      "homepage": "https://www.mongodb.com/docs/mcp-server/get-started/",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/mongodb-atlas.png"
     },
     {
       "name": "neon",
       "description": "使用 neon-postgres agent skill 和 Neon MCP Server 管理你的 Neon 项目和数据库。",
-      "category": "数据库",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/neondatabase/agent-skills.git",
@@ -2564,18 +2746,20 @@
         "ref": "main",
         "sha": "827249744ed96416d799b68fb6bf033f4068b18a"
       },
-      "homepage": "https://github.com/neondatabase/agent-skills/tree/main/plugins/neon-postgres"
+      "homepage": "https://github.com/neondatabase/agent-skills/tree/main/plugins/neon-postgres",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/neon.png"
     },
     {
       "name": "netlify-skills",
       "description": "Claude Code 的 Netlify 平台 skills — functions、edge functions、blobs、database、image CDN、forms、config、CLI、frameworks、caching、AI gateway 与部署。",
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/netlify/context-and-tools.git",
         "sha": "dc9ebf1b994420a4791e9d5d7cd68f62e07a0a41"
       },
-      "homepage": "https://github.com/netlify/context-and-tools"
+      "homepage": "https://github.com/netlify/context-and-tools",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/netlify-skills.png"
     },
     {
       "name": "netsuite-ai-companion",
@@ -2583,7 +2767,7 @@
       "author": {
         "name": "Oracle NetSuite"
       },
-      "category": "效率办公",
+      "category": "productivity",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/oracle/netsuite-suitecloud-sdk.git",
@@ -2591,7 +2775,8 @@
         "ref": "ai-plugins-dist",
         "sha": "23793a10a9bb557c684c5cb8a97f926eb3463f12"
       },
-      "homepage": "https://github.com/oracle/netsuite-suitecloud-sdk/tree/ai-plugins-dist/anthropic/netsuite-ai-companion"
+      "homepage": "https://github.com/oracle/netsuite-suitecloud-sdk/tree/ai-plugins-dist/anthropic/netsuite-ai-companion",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/netsuite-ai-companion.png"
     },
     {
       "name": "netsuite-finance-analyst",
@@ -2599,7 +2784,7 @@
       "author": {
         "name": "Oracle NetSuite"
       },
-      "category": "效率办公",
+      "category": "productivity",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/oracle/netsuite-suitecloud-sdk.git",
@@ -2607,7 +2792,8 @@
         "ref": "ai-plugins-dist",
         "sha": "23793a10a9bb557c684c5cb8a97f926eb3463f12"
       },
-      "homepage": "https://github.com/oracle/netsuite-suitecloud-sdk/tree/ai-plugins-dist/anthropic/netsuite-finance-analyst"
+      "homepage": "https://github.com/oracle/netsuite-suitecloud-sdk/tree/ai-plugins-dist/anthropic/netsuite-finance-analyst",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/netsuite-finance-analyst.png"
     },
     {
       "name": "netsuite-suitecloud",
@@ -2615,7 +2801,7 @@
       "author": {
         "name": "Oracle NetSuite"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/oracle/netsuite-suitecloud-sdk.git",
@@ -2623,7 +2809,8 @@
         "ref": "ai-plugins-dist",
         "sha": "23793a10a9bb557c684c5cb8a97f926eb3463f12"
       },
-      "homepage": "https://github.com/oracle/netsuite-suitecloud-sdk/tree/ai-plugins-dist/anthropic/netsuite-suitecloud"
+      "homepage": "https://github.com/oracle/netsuite-suitecloud-sdk/tree/ai-plugins-dist/anthropic/netsuite-suitecloud",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/netsuite-suitecloud.png"
     },
     {
       "name": "newrelic",
@@ -2632,13 +2819,14 @@
       "author": {
         "name": "New Relic"
       },
-      "category": "监控运维",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/newrelic/claude-code-plugin.git",
         "sha": "f8e5f8b62139072a22153ec92de1c0cc1af2f56a"
       },
-      "homepage": "https://newrelic.com"
+      "homepage": "https://newrelic.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/newrelic.png"
     },
     {
       "name": "nightvision",
@@ -2649,7 +2837,8 @@
         "sha": "957db6bb934839275c0f643042101bbb675ddbf7"
       },
       "homepage": "https://github.com/nvsecurity/nightvision-skills",
-      "category": "其他"
+      "category": "other",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/nightvision.png"
     },
     {
       "name": "nimble",
@@ -2660,7 +2849,8 @@
         "sha": "fdb077c7220ae19bddfc2a35cf6eb70cbf4577ef"
       },
       "homepage": "https://docs.nimbleway.com/integrations/agent-skills/plugin-installation",
-      "category": "其他"
+      "category": "other",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/nimble.png"
     },
     {
       "name": "noibu",
@@ -2668,7 +2858,7 @@
       "author": {
         "name": "Noibu"
       },
-      "category": "监控运维",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/Noibu/ai-plugin.git",
@@ -2676,18 +2866,20 @@
         "ref": "main",
         "sha": "9fa2eddc3a86937b7956dedfaab32fac6cabf868"
       },
-      "homepage": "https://help.noibu.com/articles/3918362002-overview-of-the-noibu-plugin-for-claude"
+      "homepage": "https://help.noibu.com/articles/3918362002-overview-of-the-noibu-plugin-for-claude",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/noibu.png"
     },
     {
       "name": "notion",
       "description": "Notion workspace 集成。直接在 Claude Code 中搜索页面、创建和更新文档、管理数据库，并访问团队知识库，实现无缝的文档工作流。",
-      "category": "效率办公",
+      "category": "productivity",
       "source": {
         "source": "url",
         "url": "https://github.com/makenotion/claude-code-notion-plugin.git",
         "sha": "9847f2aa1a15f25df35ed1fb7b4557dbb60cd651"
       },
-      "homepage": "https://github.com/makenotion/claude-code-notion-plugin"
+      "homepage": "https://github.com/makenotion/claude-code-notion-plugin",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/notion.png"
     },
     {
       "name": "nvidia-skills",
@@ -2695,7 +2887,7 @@
       "author": {
         "name": "NVIDIA"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/NVIDIA/skills.git",
@@ -2703,7 +2895,8 @@
         "ref": "main",
         "sha": "029363a2023c0b24b1a75ddbeac11cd286d74afb"
       },
-      "homepage": "https://build.nvidia.com/skills/"
+      "homepage": "https://build.nvidia.com/skills/",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/nvidia-skills.png"
     },
     {
       "name": "oracle-ai-data-platform-workbench-databricks-migrator",
@@ -2711,7 +2904,7 @@
       "author": {
         "name": "Oracle"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/oracle-samples/oracle-aidp-samples.git",
@@ -2719,7 +2912,8 @@
         "ref": "main",
         "sha": "a7225cbdd935ad47ed9a17ee8f1533e324f42623"
       },
-      "homepage": "https://docs.oracle.com/en/cloud/paas/ai-data-platform/index.html"
+      "homepage": "https://docs.oracle.com/en/cloud/paas/ai-data-platform/index.html",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/oracle-ai-data-platform-workbench-databricks-migrator.png"
     },
     {
       "name": "oracle-ai-data-platform-workbench-engineer-agent",
@@ -2727,7 +2921,7 @@
       "author": {
         "name": "Oracle"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/oracle-samples/oracle-aidp-samples.git",
@@ -2735,7 +2929,8 @@
         "ref": "main",
         "sha": "a7225cbdd935ad47ed9a17ee8f1533e324f42623"
       },
-      "homepage": "https://docs.oracle.com/en/cloud/paas/ai-data-platform/index.html"
+      "homepage": "https://docs.oracle.com/en/cloud/paas/ai-data-platform/index.html",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/oracle-ai-data-platform-workbench-engineer-agent.png"
     },
     {
       "name": "oracle-ai-data-platform-workbench-spark-connectors",
@@ -2743,7 +2938,7 @@
       "author": {
         "name": "Oracle"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/oracle-samples/oracle-aidp-samples.git",
@@ -2751,7 +2946,8 @@
         "ref": "main",
         "sha": "a7225cbdd935ad47ed9a17ee8f1533e324f42623"
       },
-      "homepage": "https://docs.oracle.com/en/cloud/paas/ai-data-platform/index.html"
+      "homepage": "https://docs.oracle.com/en/cloud/paas/ai-data-platform/index.html",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/oracle-ai-data-platform-workbench-spark-connectors.png"
     },
     {
       "name": "oracledb",
@@ -2759,13 +2955,14 @@
       "author": {
         "name": "Google LLC"
       },
-      "category": "数据库",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/gemini-cli-extensions/oracledb.git",
         "sha": "8d24bdc3185c1bc8e0d81bb9fb2618e6e124c060"
       },
-      "homepage": "https://github.com/gemini-cli-extensions/oracledb"
+      "homepage": "https://github.com/gemini-cli-extensions/oracledb",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/oracledb.png"
     },
     {
       "name": "outputai",
@@ -2773,7 +2970,7 @@
       "author": {
         "name": "Output.ai"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/growthxai/output.git",
@@ -2781,18 +2978,20 @@
         "ref": "main",
         "sha": "2032ff617a62840ae786f0721ebb2941c5e2bd00"
       },
-      "homepage": "https://output.ai"
+      "homepage": "https://output.ai",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/outputai.png"
     },
     {
       "name": "pagerduty",
       "description": "通过 PagerDuty 风险评分和事件关联提升代码质量与安全性。依据历史事件数据对 pre-commit diff 进行评分，在发布前揭示部署风险。",
-      "category": "监控运维",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/PagerDuty/claude-code-plugins.git",
         "sha": "761cba75bd50fd561405c3b173ecf36084432089"
       },
-      "homepage": "https://github.com/PagerDuty/claude-code-plugins"
+      "homepage": "https://github.com/PagerDuty/claude-code-plugins",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/pagerduty.png"
     },
     {
       "name": "paypal",
@@ -2800,13 +2999,14 @@
       "author": {
         "name": "PayPal"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/paypal/AI-Toolkit.git",
         "sha": "5dce83d8243f87eb37ac7cbd6711bc090fe042f8"
       },
-      "homepage": "https://developer.paypal.com/"
+      "homepage": "https://developer.paypal.com/",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/paypal.png"
     },
     {
       "name": "pendo-analytics",
@@ -2814,7 +3014,7 @@
       "author": {
         "name": "Pendo"
       },
-      "category": "效率办公",
+      "category": "productivity",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/pendo-io/claude-pendo-plugin.git",
@@ -2822,7 +3022,8 @@
         "ref": "main",
         "sha": "a0f85260c61b93c4511f59545612323a41c3f845"
       },
-      "homepage": "https://github.com/pendo-io/claude-pendo-plugin/tree/main/plugins/pendo-analytics"
+      "homepage": "https://github.com/pendo-io/claude-pendo-plugin/tree/main/plugins/pendo-analytics",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/pendo-analytics.png"
     },
     {
       "name": "pendo-guides",
@@ -2830,7 +3031,7 @@
       "author": {
         "name": "Pendo"
       },
-      "category": "效率办公",
+      "category": "productivity",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/pendo-io/claude-pendo-plugin.git",
@@ -2838,7 +3039,8 @@
         "ref": "main",
         "sha": "340d503c23eed487be83693aa4c1837df4a7dcd4"
       },
-      "homepage": "https://github.com/pendo-io/claude-pendo-plugin/tree/main/plugins/pendo-guides"
+      "homepage": "https://github.com/pendo-io/claude-pendo-plugin/tree/main/plugins/pendo-guides",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/pendo-guides.png"
     },
     {
       "name": "pendo-orchestrate",
@@ -2846,7 +3048,7 @@
       "author": {
         "name": "Pendo"
       },
-      "category": "效率办公",
+      "category": "productivity",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/pendo-io/claude-pendo-plugin.git",
@@ -2854,7 +3056,8 @@
         "ref": "main",
         "sha": "a0f85260c61b93c4511f59545612323a41c3f845"
       },
-      "homepage": "https://github.com/pendo-io/claude-pendo-plugin/tree/main/plugins/pendo-orchestrate"
+      "homepage": "https://github.com/pendo-io/claude-pendo-plugin/tree/main/plugins/pendo-orchestrate",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/pendo-orchestrate.png"
     },
     {
       "name": "php-lsp",
@@ -2865,7 +3068,7 @@
         "email": "support@anthropic.com"
       },
       "source": "./plugins/php-lsp",
-      "category": "开发工具",
+      "category": "developer-tools",
       "strict": false,
       "lspServers": {
         "intelephense": {
@@ -2877,7 +3080,8 @@
             ".php": "php"
           }
         }
-      }
+      },
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/php-lsp.svg"
     },
     {
       "name": "pigment",
@@ -2885,24 +3089,26 @@
       "author": {
         "name": "Pigment"
       },
-      "category": "效率办公",
+      "category": "productivity",
       "source": {
         "source": "url",
         "url": "https://github.com/gopigment/ai-plugins.git",
         "sha": "8a2c2d734f945c8450521c55dafd7f83f033fe53"
       },
-      "homepage": "https://www.pigment.com"
+      "homepage": "https://www.pigment.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/pigment.png"
     },
     {
       "name": "pinecone",
       "description": "Pinecone 向量数据库集成。借助强大的工具简化 Pinecone 开发，用于管理向量索引、查询数据和快速原型设计。使用 /quickstart 等斜杠命令生成 AGENTS.md 文件并初始化 Python 项目，使用 /query 快速探索索引。访问 Pinecone MCP 服务器，与 Claude 一起创建、描述、插入/更新和查询索引。非常适合使用 Pinecone 构建语义搜索、RAG 应用、推荐系统及其他基于向量的应用的开发者。",
-      "category": "数据库",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/pinecone-io/pinecone-claude-code-plugin.git",
         "sha": "c383d38b5cc3c5ec219f2e68026e47ffbf46524a"
       },
-      "homepage": "https://github.com/pinecone-io/pinecone-claude-code-plugin"
+      "homepage": "https://github.com/pinecone-io/pinecone-claude-code-plugin",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/pinecone.png"
     },
     {
       "name": "pixeltable",
@@ -2910,24 +3116,26 @@
       "author": {
         "name": "Pixeltable"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/pixeltable/pixeltable-skill.git",
         "sha": "c471dbb262b6bc135e903fefd36c6f354101c6b8"
       },
-      "homepage": "https://docs.pixeltable.com"
+      "homepage": "https://docs.pixeltable.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/pixeltable.png"
     },
     {
       "name": "planetscale",
       "description": "一个经过身份验证的托管 MCP server，可访问你的 PlanetScale 组织、数据库、分支、schema 和 Insights 数据。可对数据执行查询、发现慢查询，并获取组织与账户信息。",
-      "category": "数据库",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/planetscale/claude-plugin.git",
         "sha": "95c80f9f391be9b1b6172bf82d4191e1ec11b637"
       },
-      "homepage": "https://planetscale.com/"
+      "homepage": "https://planetscale.com/",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/planetscale.png"
     },
     {
       "name": "playground",
@@ -2937,15 +3145,17 @@
         "email": "support@anthropic.com"
       },
       "source": "./plugins/playground",
-      "category": "开发工具",
-      "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/playground"
+      "category": "developer-tools",
+      "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/playground",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/playground.png"
     },
     {
       "name": "playwright",
       "description": "由 Microsoft 提供的浏览器自动化与端到端测试 MCP server。使 Claude 能够与网页交互、截取屏幕截图、填写表单、点击元素，并执行自动化浏览器测试工作流。",
-      "category": "测试",
+      "category": "developer-tools",
       "source": "./external_plugins/playwright",
-      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/playwright"
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/playwright",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/playwright.png"
     },
     {
       "name": "plugin-dev",
@@ -2955,19 +3165,21 @@
         "email": "support@anthropic.com"
       },
       "source": "./plugins/plugin-dev",
-      "category": "开发工具",
-      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/plugin-dev"
+      "category": "developer-tools",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/plugin-dev",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/plugin-dev.png"
     },
     {
       "name": "posthog",
       "description": "直接从 Claude Code 访问 PostHog 分析、功能开关、实验、错误跟踪和洞察。",
-      "category": "监控运维",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/PostHog/ai-plugin.git",
         "sha": "e0fbf5e742fb4242c4ea509b395b2e343642f0b7"
       },
-      "homepage": "https://posthog.com/docs/model-context-protocol"
+      "homepage": "https://posthog.com/docs/model-context-protocol",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/posthog.png"
     },
     {
       "name": "postiz",
@@ -2978,18 +3190,20 @@
         "sha": "86e02524377cc60a6cd6ef67fd10a3caeade8d2c"
       },
       "homepage": "https://postiz.com/agent",
-      "category": "其他"
+      "category": "other",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/postiz.png"
     },
     {
       "name": "postman",
       "description": "在你的 agent 中使用 Postman：为仓库引导配置 Postman 环境、在 API 实现前进行 mock、在 CI 中运行 collection 与治理检查、监控线上端点、部署和调试 Postman Flows，并发布生成的 API 文档。",
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/postmanlabs/postman-plugin.git",
         "sha": "c6352ef5605cd46d3f817e15c601eeb9a56c08f7"
       },
-      "homepage": "https://github.com/postmanlabs/postman-plugin"
+      "homepage": "https://github.com/postmanlabs/postman-plugin",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/postman.png"
     },
     {
       "name": "pr-review-toolkit",
@@ -2999,8 +3213,9 @@
         "email": "support@anthropic.com"
       },
       "source": "./plugins/pr-review-toolkit",
-      "category": "效率办公",
-      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/pr-review-toolkit"
+      "category": "productivity",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/pr-review-toolkit",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/pr-review-toolkit.png"
     },
     {
       "name": "preset-cli-skills",
@@ -3008,7 +3223,7 @@
       "author": {
         "name": "Preset"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/preset-io/agent-skills.git",
@@ -3016,7 +3231,8 @@
         "ref": "master",
         "sha": "838f0a408dc1a50adc94175b387550c81371554e"
       },
-      "homepage": "https://www.preset.io"
+      "homepage": "https://www.preset.io",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/preset-cli-skills.png"
     },
     {
       "name": "prisma",
@@ -3027,7 +3243,8 @@
         "sha": "815dbc4a045a29e3b81510ba0e3ab806f1baaf0e"
       },
       "homepage": "https://prisma.io",
-      "category": "其他"
+      "category": "other",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/prisma.png"
     },
     {
       "name": "project-artifact",
@@ -3037,13 +3254,14 @@
         "email": "support@anthropic.com"
       },
       "source": "./plugins/project-artifact",
-      "category": "效率办公",
-      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/project-artifact"
+      "category": "productivity",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/project-artifact",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/project-artifact.png"
     },
     {
       "name": "pydantic-ai",
       "description": "从一开始就编写 Pydantic AI 代码。涵盖适用于 agents、结构化输出、流式传输和多 agent 应用的最新模式、决策树和常见陷阱。",
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/pydantic/skills.git",
@@ -3051,7 +3269,8 @@
         "ref": "main",
         "sha": "238d97102650c1caa51f35027aee13c469c59542"
       },
-      "homepage": "https://github.com/pydantic/skills/tree/main/plugins/ai"
+      "homepage": "https://github.com/pydantic/skills/tree/main/plugins/ai",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/pydantic-ai.png"
     },
     {
       "name": "pyright-lsp",
@@ -3062,7 +3281,7 @@
         "email": "support@anthropic.com"
       },
       "source": "./plugins/pyright-lsp",
-      "category": "开发工具",
+      "category": "developer-tools",
       "strict": false,
       "lspServers": {
         "pyright": {
@@ -3075,7 +3294,8 @@
             ".pyi": "python"
           }
         }
-      }
+      },
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/pyright-lsp.svg"
     },
     {
       "name": "qdrant-skills",
@@ -3083,13 +3303,14 @@
       "author": {
         "name": "Qdrant"
       },
-      "category": "数据库",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/qdrant/skills.git",
         "sha": "d2127f6e1b9c6611fff10fe939c6fb17761aaec2"
       },
-      "homepage": "https://skills.qdrant.tech"
+      "homepage": "https://skills.qdrant.tech",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/qdrant-skills.png"
     },
     {
       "name": "qodo",
@@ -3099,7 +3320,7 @@
         "name": "Qodo",
         "email": "support@qodo.ai"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/qodo-ai/qodo-skills.git",
@@ -3107,7 +3328,8 @@
         "ref": "main",
         "sha": "b8c21854199c538b1c35c981c12a93bab4839ef2"
       },
-      "homepage": "https://github.com/qodo-ai/qodo-skills.git"
+      "homepage": "https://github.com/qodo-ai/qodo-skills.git",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/qodo.png"
     },
     {
       "name": "qodo-standards",
@@ -3117,7 +3339,7 @@
         "name": "Qodo",
         "email": "support@qodo.ai"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/qodo-ai/qodo-skills.git",
@@ -3125,7 +3347,8 @@
         "ref": "main",
         "sha": "b8c21854199c538b1c35c981c12a93bab4839ef2"
       },
-      "homepage": "https://github.com/qodo-ai/qodo-skills.git"
+      "homepage": "https://github.com/qodo-ai/qodo-skills.git",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/qodo-standards.png"
     },
     {
       "name": "qt-development-skills",
@@ -3133,13 +3356,14 @@
       "author": {
         "name": "Qt Group"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/TheQtCompanyRnD/agent-skills.git",
         "sha": "a784c48445e34f126760f17ba0600a25f2d19968"
       },
-      "homepage": "https://www.qt.io/"
+      "homepage": "https://www.qt.io/",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/qt-development-skills.png"
     },
     {
       "name": "quarkus-agent",
@@ -3147,18 +3371,19 @@
       "author": {
         "name": "Quarkus"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/quarkusio/quarkus-agent-mcp.git",
         "sha": "73cef3b2564d8debf787c3c05bee28b8539ae657"
       },
-      "homepage": "https://quarkus.io"
+      "homepage": "https://quarkus.io",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/quarkus-agent.png"
     },
     {
       "name": "railway",
       "description": "在 Railway 上部署和管理应用、数据库及基础设施。涵盖项目搭建、部署、环境配置、网络、故障排查和监控。",
-      "category": "部署交付",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/railwayapp/railway-skills.git",
@@ -3166,7 +3391,8 @@
         "ref": "main",
         "sha": "a100f93e482c5153774fed74d0b3fb8f8ca63342"
       },
-      "homepage": "https://docs.railway.com/ai/claude-code-plugin"
+      "homepage": "https://docs.railway.com/ai/claude-code-plugin",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/railway.png"
     },
     {
       "name": "ralph-loop",
@@ -3176,20 +3402,22 @@
         "email": "support@anthropic.com"
       },
       "source": "./plugins/ralph-loop",
-      "category": "开发工具",
-      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/ralph-loop"
+      "category": "developer-tools",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/ralph-loop",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/ralph-loop.png"
     },
     {
       "name": "rc",
       "description": "直接在 Claude Code 中配置 RevenueCat 项目、应用、产品、权益和 offering。无需离开开发工作流即可管理应用内购买后端。",
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/RevenueCat/rc-claude-code-plugin.git",
         "path": "revenuecat",
         "sha": "ccfc038185ec457b2ac9077f3bbf1ba947a44dbb"
       },
-      "homepage": "https://www.revenuecat.com"
+      "homepage": "https://www.revenuecat.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/rc.png"
     },
     {
       "name": "receipts",
@@ -3199,8 +3427,9 @@
         "email": "support@anthropic.com"
       },
       "source": "./plugins/receipts",
-      "category": "效率办公",
-      "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/receipts"
+      "category": "productivity",
+      "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/receipts",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/receipts.png"
     },
     {
       "name": "redis-development",
@@ -3208,7 +3437,7 @@
       "author": {
         "name": "Redis"
       },
-      "category": "数据库",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/redis/agent-skills.git",
@@ -3216,7 +3445,8 @@
         "ref": "main",
         "sha": "a84871d065f398fed55e1633f66b66f731eb4e2b"
       },
-      "homepage": "https://redis.io"
+      "homepage": "https://redis.io",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/redis-development.png"
     },
     {
       "name": "remember",
@@ -3227,7 +3457,8 @@
         "sha": "ccd45061ee4b0dcf0a8245ca1d344ab61d4e110b"
       },
       "homepage": "https://github.com/Digital-Process-Tools/claude-remember",
-      "category": "其他"
+      "category": "other",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/remember.png"
     },
     {
       "name": "render",
@@ -3235,13 +3466,14 @@
       "author": {
         "name": "Render"
       },
-      "category": "部署交付",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/render-oss/render-plugin-claude-code.git",
         "sha": "d7ecf826c5971eb7dfdb5aed79fa838a8d67ff46"
       },
-      "homepage": "https://render.com"
+      "homepage": "https://render.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/render.png"
     },
     {
       "name": "resend",
@@ -3249,25 +3481,27 @@
       "author": {
         "name": "Resend"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/resend/resend-skills.git",
         "sha": "fd14937dba5a99de5dba902808f70fa575513cc5"
       },
-      "homepage": "https://resend.com"
+      "homepage": "https://resend.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/resend.png"
     },
     {
       "name": "revenuecat",
       "description": "直接在 Claude Code 中配置 RevenueCat 项目、应用、产品、权益和 offering。无需离开开发工作流即可管理应用内购买后端。",
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/RevenueCat/rc-claude-code-plugin.git",
         "path": "revenuecat",
         "sha": "ccfc038185ec457b2ac9077f3bbf1ba947a44dbb"
       },
-      "homepage": "https://www.revenuecat.com"
+      "homepage": "https://www.revenuecat.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/revenuecat.png"
     },
     {
       "name": "rill",
@@ -3275,13 +3509,14 @@
       "author": {
         "name": "Rill Data"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/rilldata/agent-skills.git",
         "sha": "adfce5762be435c026f4731f72e388520cb133cc"
       },
-      "homepage": "https://docs.rilldata.com/developers/build/ai-configuration"
+      "homepage": "https://docs.rilldata.com/developers/build/ai-configuration",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/rill.png"
     },
     {
       "name": "rootly",
@@ -3289,13 +3524,14 @@
       "author": {
         "name": "Rootly"
       },
-      "category": "监控运维",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/Rootly-AI-Labs/rootly-claude-plugin.git",
         "sha": "65832aa6ff7a7b39c6bd64899a7a64646e3948ed"
       },
-      "homepage": "https://rootly.com"
+      "homepage": "https://rootly.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/rootly.png"
     },
     {
       "name": "ruby-lsp",
@@ -3306,7 +3542,7 @@
         "email": "support@anthropic.com"
       },
       "source": "./plugins/ruby-lsp",
-      "category": "开发工具",
+      "category": "developer-tools",
       "strict": false,
       "lspServers": {
         "ruby-lsp": {
@@ -3319,7 +3555,8 @@
             ".erb": "erb"
           }
         }
-      }
+      },
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/ruby-lsp.svg"
     },
     {
       "name": "runway-api",
@@ -3333,7 +3570,8 @@
         "url": "https://github.com/runwayml/skills.git",
         "sha": "e3dffc15498e9588e7815f37b9ecf10e8bc2c902"
       },
-      "homepage": "https://runwayml.com"
+      "homepage": "https://runwayml.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/runway-api.png"
     },
     {
       "name": "rust-analyzer-lsp",
@@ -3344,7 +3582,7 @@
         "email": "support@anthropic.com"
       },
       "source": "./plugins/rust-analyzer-lsp",
-      "category": "开发工具",
+      "category": "developer-tools",
       "strict": false,
       "lspServers": {
         "rust-analyzer": {
@@ -3353,12 +3591,13 @@
             ".rs": "rust"
           }
         }
-      }
+      },
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/rust-analyzer-lsp.svg"
     },
     {
       "name": "sagemaker-ai",
       "description": "构建、训练和部署 AI 模型，将深厚的 AWS AI/ML 专业知识直接带入你的编码助手，覆盖 Amazon SageMaker AI 的完整功能范围。",
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/awslabs/agent-plugins.git",
@@ -3366,7 +3605,8 @@
         "ref": "main",
         "sha": "097fe8ad56d8a1d5e2c81d7880adf145553cf244"
       },
-      "homepage": "https://github.com/awslabs/agent-plugins"
+      "homepage": "https://github.com/awslabs/agent-plugins",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/sagemaker-ai.png"
     },
     {
       "name": "salesforce-development",
@@ -3374,7 +3614,7 @@
       "author": {
         "name": "Salesforce"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/forcedotcom/sf-skills.git",
@@ -3382,12 +3622,13 @@
         "ref": "main",
         "sha": "d3088edf8776a3c23f55aadead587eb3903be2d3"
       },
-      "homepage": "https://github.com/forcedotcom/sf-skills/tree/main/plugins/builder/salesforce-development"
+      "homepage": "https://github.com/forcedotcom/sf-skills/tree/main/plugins/builder/salesforce-development",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/salesforce-development.png"
     },
     {
       "name": "sanity",
       "description": "Sanity 内容平台集成，提供 MCP server、agent skills 和 slash commands。查询和创作内容、构建并优化 GROQ 查询、设计 schema，以及设置 Visual Editing。",
-      "category": "开发工具",
+      "category": "developer-tools",
       "author": {
         "name": "Sanity"
       },
@@ -3396,7 +3637,8 @@
         "url": "https://github.com/sanity-io/agent-toolkit.git",
         "sha": "88d6cdfa7cb06c99edd5f376efa4dac21ae3f877"
       },
-      "homepage": "https://www.sanity.io"
+      "homepage": "https://www.sanity.io",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/sanity.png"
     },
     {
       "name": "sap-cds-mcp",
@@ -3406,13 +3648,14 @@
         "email": "ospo@sap.com",
         "url": "https://www.sap.com"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/cap-js/mcp-server.git",
         "sha": "52ca3304342db99c27a3f2a0cd765af42980b955"
       },
-      "homepage": "https://cap.cloud.sap/"
+      "homepage": "https://cap.cloud.sap/",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/sap-cds-mcp.png"
     },
     {
       "name": "sap-fiori-mcp-server",
@@ -3422,7 +3665,7 @@
         "email": "ospo@sap.com",
         "url": "https://www.sap.com"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/SAP/open-ux-tools.git",
@@ -3430,7 +3673,8 @@
         "ref": "main",
         "sha": "69e2c50833f10e6892d7c8f42b98b13133d8fdc3"
       },
-      "homepage": "https://github.com/SAP/open-ux-tools/tree/main/packages/fiori-mcp-server"
+      "homepage": "https://github.com/SAP/open-ux-tools/tree/main/packages/fiori-mcp-server",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/sap-fiori-mcp-server.png"
     },
     {
       "name": "sap-hana-cli",
@@ -3440,13 +3684,14 @@
         "email": "ospo@sap.com",
         "url": "https://www.sap.com"
       },
-      "category": "数据库",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/SAP-samples/hana-cli-claude-plugin.git",
         "sha": "abadd0aba32792b6378ed784e9f6d3e5b25dfc2a"
       },
-      "homepage": "https://github.com/SAP-samples/hana-cli-claude-plugin"
+      "homepage": "https://github.com/SAP-samples/hana-cli-claude-plugin",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/sap-hana-cli.png"
     },
     {
       "name": "sap-mdk-server",
@@ -3456,13 +3701,14 @@
         "email": "ospo@sap.com",
         "url": "https://www.sap.com"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/SAP/mdk-mcp-server.git",
         "sha": "ce65cbf22089787599370938f43ca4b9f4567027"
       },
-      "homepage": "https://help.sap.com/docs/MDK"
+      "homepage": "https://help.sap.com/docs/MDK",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/sap-mdk-server.png"
     },
     {
       "name": "save-to-spotify",
@@ -3470,7 +3716,7 @@
       "author": {
         "name": "Spotify"
       },
-      "category": "效率办公",
+      "category": "productivity",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/spotify/save-to-spotify.git",
@@ -3478,7 +3724,8 @@
         "ref": "main",
         "sha": "9d05c8cd8c8559552f84e27fe30f46b7693ce69a"
       },
-      "homepage": "https://github.com/spotify/save-to-spotify"
+      "homepage": "https://github.com/spotify/save-to-spotify",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/save-to-spotify.png"
     },
     {
       "name": "scandit-sdk",
@@ -3487,13 +3734,14 @@
       "author": {
         "name": "Scandit"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/Scandit/skills.git",
         "sha": "2f0731a090eb9c23a64b6dcd9559cf113df3313f"
       },
-      "homepage": "https://www.scandit.com"
+      "homepage": "https://www.scandit.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/scandit-sdk.png"
     },
     {
       "name": "security-guidance",
@@ -3504,31 +3752,34 @@
         "email": "support@anthropic.com"
       },
       "source": "./plugins/security-guidance",
-      "category": "安全",
-      "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/security-guidance"
+      "category": "developer-tools",
+      "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/security-guidance",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/security-guidance.png"
     },
     {
       "name": "semgrep",
       "description": "Semgrep 实时捕获安全漏洞，并引导 Claude 从一开始就编写安全的代码。",
-      "category": "安全",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/semgrep/mcp-marketplace.git",
         "path": "plugin",
         "sha": "b58f407c6ac0f5fe47dee8301602f2e290a8ecfb"
       },
-      "homepage": "https://github.com/semgrep/mcp-marketplace.git"
+      "homepage": "https://github.com/semgrep/mcp-marketplace.git",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/semgrep.png"
     },
     {
       "name": "sentry",
       "description": "Sentry 错误监控集成。可直接在开发环境中查看错误报告、分析堆栈跟踪、按指纹搜索 issue，并调试生产环境错误。",
-      "category": "监控运维",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/getsentry/plugin-claude.git",
         "sha": "73e53541d7af21672e27428c7067f4264b8a3d65"
       },
-      "homepage": "https://github.com/getsentry/plugin-claude"
+      "homepage": "https://github.com/getsentry/plugin-claude",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/sentry.png"
     },
     {
       "name": "sentry-cli",
@@ -3536,7 +3787,7 @@
       "author": {
         "name": "Sentry"
       },
-      "category": "监控运维",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/getsentry/cli.git",
@@ -3544,17 +3795,19 @@
         "ref": "main",
         "sha": "3567c3c937b5cc06667d5b023bda0b2d3f472c54"
       },
-      "homepage": "https://sentry.io"
+      "homepage": "https://sentry.io",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/sentry-cli.png"
     },
     {
       "name": "serena",
       "description": "语义代码分析 MCP server，通过集成 language server protocol 提供智能代码理解、重构建议和代码库导航能力。",
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": "./external_plugins/serena",
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/serena",
       "tags": [
         "community-managed"
-      ]
+      ],
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/serena.png"
     },
     {
       "name": "servicenow-sdk",
@@ -3562,7 +3815,7 @@
       "author": {
         "name": "ServiceNow"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/ServiceNow/sdk.git",
@@ -3570,7 +3823,8 @@
         "ref": "master",
         "sha": "6f01c0e26cbe597b8a129de0bd2706ec1c0e327c"
       },
-      "homepage": "https://servicenow.github.io/sdk/"
+      "homepage": "https://servicenow.github.io/sdk/",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/servicenow-sdk.png"
     },
     {
       "name": "session-report",
@@ -3580,8 +3834,9 @@
         "email": "support@anthropic.com"
       },
       "source": "./plugins/session-report",
-      "category": "效率办公",
-      "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/session-report"
+      "category": "productivity",
+      "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/session-report",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/session-report.png"
     },
     {
       "name": "setup-agent-analytics",
@@ -3589,7 +3844,7 @@
       "author": {
         "name": "Pendo"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/pendo-io/claude-pendo-plugin.git",
@@ -3597,7 +3852,8 @@
         "ref": "main",
         "sha": "340d503c23eed487be83693aa4c1837df4a7dcd4"
       },
-      "homepage": "https://github.com/pendo-io/claude-pendo-plugin/tree/main/plugins/setup-agent-analytics"
+      "homepage": "https://github.com/pendo-io/claude-pendo-plugin/tree/main/plugins/setup-agent-analytics",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/setup-agent-analytics.png"
     },
     {
       "name": "setup-mcp-agent-analytics",
@@ -3605,7 +3861,7 @@
       "author": {
         "name": "Pendo"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/pendo-io/claude-pendo-plugin.git",
@@ -3613,7 +3869,8 @@
         "ref": "main",
         "sha": "a0f85260c61b93c4511f59545612323a41c3f845"
       },
-      "homepage": "https://github.com/pendo-io/claude-pendo-plugin/tree/main/plugins/setup-mcp-agent-analytics"
+      "homepage": "https://github.com/pendo-io/claude-pendo-plugin/tree/main/plugins/setup-mcp-agent-analytics",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/setup-mcp-agent-analytics.png"
     },
     {
       "name": "shippo",
@@ -3621,7 +3878,7 @@
       "author": {
         "name": "Shippo"
       },
-      "category": "效率办公",
+      "category": "productivity",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/goshippo/ai.git",
@@ -3629,7 +3886,8 @@
         "ref": "main",
         "sha": "cf8e96532f243883ff84f6d4035e72884b46d132"
       },
-      "homepage": "https://docs.goshippo.com"
+      "homepage": "https://docs.goshippo.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/shippo.png"
     },
     {
       "name": "shopify-ai-toolkit",
@@ -3637,13 +3895,14 @@
       "author": {
         "name": "Shopify"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/Shopify/Shopify-AI-Toolkit.git",
         "sha": "3c32168c6e4cb73f0b46243c82586176ca58bb48"
       },
-      "homepage": "https://shopify.dev"
+      "homepage": "https://shopify.dev",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/shopify-ai-toolkit.png"
     },
     {
       "name": "skill-creator",
@@ -3653,19 +3912,21 @@
         "email": "support@anthropic.com"
       },
       "source": "./plugins/skill-creator",
-      "category": "开发工具",
-      "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/skill-creator"
+      "category": "developer-tools",
+      "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/skill-creator",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/skill-creator.png"
     },
     {
       "name": "slack",
       "description": "Slack 工作区集成。搜索消息、访问频道、阅读话题串，并在编码时随时掌握团队沟通动态。快速找到相关讨论与上下文。",
-      "category": "效率办公",
+      "category": "productivity",
       "source": {
         "source": "url",
         "url": "https://github.com/slackapi/slack-mcp-plugin.git",
         "sha": "ad6be88096678812c448b0279390b4d25bce0164"
       },
-      "homepage": "https://github.com/slackapi/slack-mcp-plugin/tree/main"
+      "homepage": "https://github.com/slackapi/slack-mcp-plugin/tree/main",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/slack.png"
     },
     {
       "name": "snowflake-cortex-code",
@@ -3673,7 +3934,7 @@
       "author": {
         "name": "Snowflake"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/Snowflake-Labs/snowflake-ai-kit.git",
@@ -3681,7 +3942,8 @@
         "ref": "main",
         "sha": "e2a3cbb45a9a62b5648266c5777c1b2edb3f8579"
       },
-      "homepage": "https://docs.snowflake.com/en/user-guide/cortex-code"
+      "homepage": "https://docs.snowflake.com/en/user-guide/cortex-code",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/snowflake-cortex-code.png"
     },
     {
       "name": "sonarqube",
@@ -3689,35 +3951,38 @@
       "author": {
         "name": "SonarSource"
       },
-      "category": "安全",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/SonarSource/sonarqube-agent-plugins.git",
         "sha": "5a9356d957db063e4d2cf87511b44cc1ba88dc99"
       },
-      "homepage": "https://www.sonarsource.com"
+      "homepage": "https://www.sonarsource.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/sonarqube.png"
     },
     {
       "name": "sonatype-guide",
       "description": "Sonatype Guide MCP server，用于软件供应链情报与依赖安全。分析依赖中的漏洞、获取安全版本建议，并检查组件质量指标。",
-      "category": "安全",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/sonatype/sonatype-guide-claude-plugin.git",
         "sha": "1dae73980f591d3196f5532ac72186513563d028"
       },
-      "homepage": "https://github.com/sonatype/sonatype-guide-claude-plugin.git"
+      "homepage": "https://github.com/sonatype/sonatype-guide-claude-plugin.git",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/sonatype-guide.png"
     },
     {
       "name": "sourcegraph",
       "description": "跨代码库的代码搜索与理解。在多个仓库中搜索、阅读并追踪引用；分析重构影响；通过 commit 和 diff 搜索排查事故；执行定向安全清扫。",
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/sourcegraph-community/sourcegraph-claudecode-plugin.git",
         "sha": "674a05e2e28677fc3fdce7491063459455ded573"
       },
-      "homepage": "https://sourcegraph.com"
+      "homepage": "https://sourcegraph.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/sourcegraph.png"
     },
     {
       "name": "spanner",
@@ -3725,24 +3990,26 @@
       "author": {
         "name": "Google LLC"
       },
-      "category": "数据库",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/gemini-cli-extensions/spanner.git",
         "sha": "d4db42a2708045d66e70f52610a6d27889e457bc"
       },
-      "homepage": "https://github.com/gemini-cli-extensions/spanner"
+      "homepage": "https://github.com/gemini-cli-extensions/spanner",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/spanner.png"
     },
     {
       "name": "spotify-ads-api",
       "description": "使用自然语言管理 Spotify 广告活动。创建广告活动、广告组、广告，拉取报告并处理 OAuth —— 全部通过对话完成。",
-      "category": "效率办公",
+      "category": "productivity",
       "source": {
         "source": "url",
         "url": "https://github.com/spotify/ads-claude-plugin.git",
         "sha": "532b47af3d2eb10708b38733d07a5b1433c17e82"
       },
-      "homepage": "https://github.com/spotify/ads-claude-plugin"
+      "homepage": "https://github.com/spotify/ads-claude-plugin",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/spotify-ads-api.png"
     },
     {
       "name": "stackhawk-hawkscan",
@@ -3750,7 +4017,7 @@
       "author": {
         "name": "StackHawk"
       },
-      "category": "安全",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/stackhawk/agent-skills.git",
@@ -3758,7 +4025,8 @@
         "ref": "main",
         "sha": "66cac9baa5883a1007575faf1b22855a1124834a"
       },
-      "homepage": "https://docs.stackhawk.com/ai-security/"
+      "homepage": "https://docs.stackhawk.com/ai-security/",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/stackhawk-hawkscan.png"
     },
     {
       "name": "stackhawk-api",
@@ -3766,7 +4034,7 @@
       "author": {
         "name": "StackHawk"
       },
-      "category": "安全",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/stackhawk/agent-skills.git",
@@ -3774,7 +4042,8 @@
         "ref": "main",
         "sha": "d0eea864c42f7c2e872334bb3df424daa1fbaadc"
       },
-      "homepage": "https://docs.stackhawk.com/ai-security/"
+      "homepage": "https://docs.stackhawk.com/ai-security/",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/stackhawk-api.png"
     },
     {
       "name": "streaming-skills-plugin",
@@ -3782,18 +4051,19 @@
       "author": {
         "name": "Confluent"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/confluentinc/agent-skills.git",
         "sha": "f3d95b7e6855b690b7670ecee033404e082ab169"
       },
-      "homepage": "https://www.confluent.io"
+      "homepage": "https://www.confluent.io",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/streaming-skills-plugin.png"
     },
     {
       "name": "stripe",
       "description": "面向 Claude 的 Stripe 开发插件",
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/stripe/ai.git",
@@ -3801,29 +4071,32 @@
         "ref": "main",
         "sha": "deae744bc0cbf6034b4b6f22f51c690b71a4e779"
       },
-      "homepage": "https://github.com/stripe/ai/tree/main/providers/claude/plugin"
+      "homepage": "https://github.com/stripe/ai/tree/main/providers/claude/plugin",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/stripe.png"
     },
     {
       "name": "sumup",
       "description": "SumUp 终端与在线结账流程的支付集成。使用 SumUp 读卡器构建 Android 和 iOS POS 应用，通过服务端 SDK 和结账 widget 实现在线结账，并通过 Cloud API 远程控制读卡器。",
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/sumup/sumup-skills.git",
         "sha": "6922c7052ae9d0be834f27361b785bd80e0829cc"
       },
-      "homepage": "https://www.sumup.com/"
+      "homepage": "https://www.sumup.com/",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/sumup.png"
     },
     {
       "name": "supabase",
       "description": "Supabase MCP 集成，用于数据库操作、身份验证、存储和实时订阅。管理你的 Supabase 项目、运行 SQL 查询，并直接与后端交互。",
-      "category": "数据库",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/supabase-community/supabase-plugin.git",
         "sha": "2c6d02d4565babe784103ee4d446a93ae9b24151"
       },
-      "homepage": "https://github.com/supabase-community/supabase-plugin"
+      "homepage": "https://github.com/supabase-community/supabase-plugin",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/supabase.png"
     },
     {
       "name": "superdesign",
@@ -3837,18 +4110,20 @@
         "url": "https://github.com/superdesigndev/superdesign-skill.git",
         "sha": "f9f05cd988c247dce6c072eaf9ac6b162f2ffc4b"
       },
-      "homepage": "https://superdesign.dev"
+      "homepage": "https://superdesign.dev",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/superdesign.png"
     },
     {
       "name": "superpowers",
       "description": "Superpowers 教会 Claude 头脑风暴、由 subagent 驱动并内置代码审查的开发方式、系统化调试，以及红/绿 TDD。此外，它还教会 Claude 如何编写和测试新 skill。",
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/obra/superpowers.git",
         "sha": "bb92a77741419a4ab5f06e711a283343f1ada0c3"
       },
-      "homepage": "https://github.com/obra/superpowers.git"
+      "homepage": "https://github.com/obra/superpowers.git",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/superpowers.png"
     },
     {
       "name": "swift-lsp",
@@ -3859,7 +4134,7 @@
         "email": "support@anthropic.com"
       },
       "source": "./plugins/swift-lsp",
-      "category": "开发工具",
+      "category": "developer-tools",
       "strict": false,
       "lspServers": {
         "sourcekit-lsp": {
@@ -3868,7 +4143,8 @@
             ".swift": "swift"
           }
         }
-      }
+      },
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/swift-lsp.svg"
     },
     {
       "name": "synthflow",
@@ -3876,7 +4152,7 @@
       "author": {
         "name": "Synthflow"
       },
-      "category": "自动化",
+      "category": "productivity",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/SynthFlowAI/AnthropicPlugin.git",
@@ -3884,7 +4160,8 @@
         "ref": "main",
         "sha": "205871ee83508502d2c982ee1bb7e65a2a29190b"
       },
-      "homepage": "https://synthflow.ai"
+      "homepage": "https://synthflow.ai",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/synthflow.png"
     },
     {
       "name": "tavily",
@@ -3892,13 +4169,14 @@
       "author": {
         "name": "Tavily Team"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/tavily-ai/skills.git",
         "sha": "778122e5f9c680f541eeceda5a5b36405eb7980c"
       },
-      "homepage": "https://www.tavily.com/"
+      "homepage": "https://www.tavily.com/",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/tavily.png"
     },
     {
       "name": "teamcity-cli",
@@ -3906,19 +4184,21 @@
       "author": {
         "name": "JetBrains"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/JetBrains/teamcity-cli.git",
         "sha": "ac6c1fd83300b2e42df48fcfff365ba03f73bb92"
       },
-      "homepage": "https://www.jetbrains.com/teamcity/"
+      "homepage": "https://www.jetbrains.com/teamcity/",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/teamcity-cli.png"
     },
     {
       "name": "telegram",
       "description": "内置访问控制的 Telegram 消息桥接。通过 /telegram:access 管理配对、允许列表和策略。",
-      "category": "效率办公",
-      "source": "./external_plugins/telegram"
+      "category": "productivity",
+      "source": "./external_plugins/telegram",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/telegram.svg"
     },
     {
       "name": "terraform",
@@ -3927,9 +4207,10 @@
         "name": "HashiCorp",
         "email": "support@hashicorp.com"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": "./external_plugins/terraform",
-      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/terraform"
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/terraform",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/terraform.png"
     },
     {
       "name": "togetherai-skills",
@@ -3937,13 +4218,14 @@
       "author": {
         "name": "Together AI"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/togethercomputer/skills.git",
         "sha": "644d38225bbdef0318462fe222f6f9883c8addcd"
       },
-      "homepage": "https://www.together.ai"
+      "homepage": "https://www.together.ai",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/togetherai-skills.png"
     },
     {
       "name": "twilio-developer-kit",
@@ -3951,13 +4233,14 @@
       "author": {
         "name": "Twilio"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/twilio/ai.git",
         "sha": "8aba46fb65dc8d9a20f4b301a68352064b4159a5"
       },
-      "homepage": "https://www.twilio.com"
+      "homepage": "https://www.twilio.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/twilio-developer-kit.png"
     },
     {
       "name": "typescript-lsp",
@@ -3968,7 +4251,7 @@
         "email": "support@anthropic.com"
       },
       "source": "./plugins/typescript-lsp",
-      "category": "开发工具",
+      "category": "developer-tools",
       "strict": false,
       "lspServers": {
         "typescript": {
@@ -3987,7 +4270,8 @@
             ".cjs": "javascript"
           }
         }
-      }
+      },
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/typescript-lsp.svg"
     },
     {
       "name": "ui-theme-designer",
@@ -4003,7 +4287,8 @@
         "ref": "main",
         "sha": "3eff5832700d85e550b28a3ae58c1763382e405a"
       },
-      "homepage": "https://github.com/SAP/ui-theme-designer-plugins-for-coding-agents"
+      "homepage": "https://github.com/SAP/ui-theme-designer-plugins-for-coding-agents",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/ui-theme-designer.png"
     },
     {
       "name": "ui5",
@@ -4013,7 +4298,7 @@
         "email": "openui5@sap.com",
         "url": "https://www.sap.com"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/UI5/plugins-coding-agents.git",
@@ -4021,7 +4306,8 @@
         "ref": "main",
         "sha": "a99b882ce364ef4b9f52fb4054f5f410c1636563"
       },
-      "homepage": "https://github.com/UI5/plugins-coding-agents"
+      "homepage": "https://github.com/UI5/plugins-coding-agents",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/ui5.png"
     },
     {
       "name": "ui5-modernization",
@@ -4031,7 +4317,7 @@
         "email": "openui5@sap.com",
         "url": "https://www.sap.com"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/UI5/plugins-coding-agents.git",
@@ -4039,7 +4325,8 @@
         "ref": "main",
         "sha": "2b8c4a944e39609214bce7aef3b05260985f0e91"
       },
-      "homepage": "https://github.com/UI5/plugins-coding-agents"
+      "homepage": "https://github.com/UI5/plugins-coding-agents",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/ui5-modernization.png"
     },
     {
       "name": "ui5-typescript-conversion",
@@ -4049,7 +4336,7 @@
         "email": "openui5@sap.com",
         "url": "https://www.sap.com"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/UI5/plugins-coding-agents.git",
@@ -4057,7 +4344,8 @@
         "ref": "main",
         "sha": "2b8c4a944e39609214bce7aef3b05260985f0e91"
       },
-      "homepage": "https://github.com/UI5/plugins-coding-agents"
+      "homepage": "https://github.com/UI5/plugins-coding-agents",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/ui5-typescript-conversion.png"
     },
     {
       "name": "unity",
@@ -4066,13 +4354,14 @@
       "author": {
         "name": "Unity Technologies"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/Unity-Technologies/unity-agent-plugin.git",
         "sha": "ba48956ae8bee4ef8a3ef3d75dec03c16aa5cc89"
       },
-      "homepage": "https://unity.com"
+      "homepage": "https://unity.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/unity.png"
     },
     {
       "name": "unreal-engine-skills-for-claude-code",
@@ -4080,13 +4369,14 @@
       "author": {
         "name": "Epic Games"
       },
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/EpicGames/unreal-engine-skills-for-claude-code-plugin.git",
         "sha": "a6aa73ada02a9fb1f5415bec491f9942c519b297"
       },
-      "homepage": "https://dev.epicgames.com/documentation/unreal-engine/unreal-mcp-in-unreal-editor"
+      "homepage": "https://dev.epicgames.com/documentation/unreal-engine/unreal-mcp-in-unreal-editor",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/unreal-engine-skills-for-claude-code.png"
     },
     {
       "name": "valtown",
@@ -4094,7 +4384,7 @@
       "author": {
         "name": "Val Town"
       },
-      "category": "部署交付",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/val-town/plugins.git",
@@ -4102,7 +4392,8 @@
         "ref": "main",
         "sha": "555ff7492c9c70ada2c4e9b66d7dea9367d7ce71"
       },
-      "homepage": "https://val.town"
+      "homepage": "https://val.town",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/valtown.png"
     },
     {
       "name": "vanguard-advisor-tools",
@@ -4110,13 +4401,14 @@
       "author": {
         "name": "Vanguard"
       },
-      "category": "效率办公",
+      "category": "productivity",
       "source": {
         "source": "url",
         "url": "https://github.com/Vanguard-oss/vanguard-advisor-tools.git",
         "sha": "328fe9f61fe7a375b87a6492e265b4a5a955b0ce"
       },
-      "homepage": "https://advisors.vanguard.com"
+      "homepage": "https://advisors.vanguard.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/vanguard-advisor-tools.png"
     },
     {
       "name": "vanta",
@@ -4124,13 +4416,14 @@
       "author": {
         "name": "Vanta"
       },
-      "category": "安全",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/VantaInc/vanta-mcp-plugin.git",
         "sha": "345d86b55faa649e955b7ea5569cf52d8425c2d5"
       },
-      "homepage": "https://help.vanta.com/en/articles/14094979-connecting-to-vanta-mcp#h_887ce3f337"
+      "homepage": "https://help.vanta.com/en/articles/14094979-connecting-to-vanta-mcp#h_887ce3f337",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/vanta.png"
     },
     {
       "name": "vanta-mcp-plugin",
@@ -4138,24 +4431,26 @@
       "author": {
         "name": "Vanta"
       },
-      "category": "安全",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/VantaInc/vanta-mcp-plugin.git",
         "sha": "345d86b55faa649e955b7ea5569cf52d8425c2d5"
       },
-      "homepage": "https://help.vanta.com/en/articles/14094979-connecting-to-vanta-mcp#h_887ce3f337"
+      "homepage": "https://help.vanta.com/en/articles/14094979-connecting-to-vanta-mcp#h_887ce3f337",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/vanta-mcp-plugin.png"
     },
     {
       "name": "vercel",
       "description": "Vercel 部署平台集成。直接从 Claude Code 管理部署、查看构建状态、访问日志、配置域名，并掌控你的前端基础设施。",
-      "category": "部署交付",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/vercel/vercel-plugin.git",
         "sha": "882e66c2698689324c341b7bb8fd8beb92c27bf6"
       },
-      "homepage": "https://github.com/vercel/vercel-plugin"
+      "homepage": "https://github.com/vercel/vercel-plugin",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/vercel.png"
     },
     {
       "name": "vibe-prospecting",
@@ -4163,13 +4458,14 @@
       "author": {
         "name": "vibeprospecting.ai"
       },
-      "category": "效率办公",
+      "category": "productivity",
       "source": {
         "source": "url",
         "url": "https://github.com/explorium-ai/vibeprospecting-plugin.git",
         "sha": "ca43f6d92395462d8915dc31364bbce6a83e4006"
       },
-      "homepage": "https://www.vibeprospecting.ai/product/claude-plugin"
+      "homepage": "https://www.vibeprospecting.ai/product/claude-plugin",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/vibe-prospecting.png"
     },
     {
       "name": "vsql-extension-builder",
@@ -4177,13 +4473,14 @@
       "author": {
         "name": "VillageSQL"
       },
-      "category": "数据库",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/villagesql/villagesql-skills.git",
         "sha": "18f7d68673e2bd5d400b4ee91298e5a4b9e8d24e"
       },
-      "homepage": "https://villagesql.com"
+      "homepage": "https://villagesql.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/vsql-extension-builder.png"
     },
     {
       "name": "windsor-ai",
@@ -4191,24 +4488,26 @@
       "author": {
         "name": "Windsor.ai"
       },
-      "category": "效率办公",
+      "category": "productivity",
       "source": {
         "source": "url",
         "url": "https://github.com/windsor-ai/claude-windsor-ai-plugin.git",
         "sha": "d7ba1cb036c7ca765536355fb85f13a3237ea3f9"
       },
-      "homepage": "https://windsor.ai"
+      "homepage": "https://windsor.ai",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/windsor-ai.png"
     },
     {
       "name": "wix",
       "description": "构建、管理并部署 Wix 站点和应用。提供用于仪表盘扩展、后端 API、站点小组件和服务插件的 CLI 开发技能，搭配 Wix Design System，并提供用于站点管理的 MCP server。",
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/wix/skills.git",
         "sha": "8fc544d319c4a4dfc7ccf3ba4adf328e1fa9866f"
       },
-      "homepage": "https://dev.wix.com/docs/wix-cli/guides/development/about-wix-skills"
+      "homepage": "https://dev.wix.com/docs/wix-cli/guides/development/about-wix-skills",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/wix.png"
     },
     {
       "name": "build-with-wordpress",
@@ -4219,7 +4518,8 @@
         "sha": "052ca970df2c577d7c651e784935186ff93e6779"
       },
       "homepage": "https://developer.wordpress.com/wordpress-com-claude-code-plugin/",
-      "category": "其他"
+      "category": "other",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/build-with-wordpress.png"
     },
     {
       "name": "workos",
@@ -4227,7 +4527,7 @@
       "author": {
         "name": "WorkOS"
       },
-      "category": "安全",
+      "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/workos/skills.git",
@@ -4235,7 +4535,8 @@
         "ref": "main",
         "sha": "e25141bae047a7c837d93817347f95977598720f"
       },
-      "homepage": "https://workos.com"
+      "homepage": "https://workos.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/workos.png"
     },
     {
       "name": "youdotcom-agent-skills",
@@ -4243,18 +4544,19 @@
       "author": {
         "name": "You.com"
       },
-      "category": "效率办公",
+      "category": "productivity",
       "source": {
         "source": "url",
         "url": "https://github.com/youdotcom-oss/agent-skills.git",
         "sha": "a692b6f34fac566c72bc7fcc6cafbd7c0f7889c1"
       },
-      "homepage": "https://you.com"
+      "homepage": "https://you.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/youdotcom-agent-skills.png"
     },
     {
       "name": "zapier",
       "description": "将 8,000+ 个应用接入你的 AI 工作流。直接在客户端中发现、启用并执行 Zapier 动作。",
-      "category": "效率办公",
+      "category": "productivity",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/zapier/zapier-mcp.git",
@@ -4262,7 +4564,8 @@
         "ref": "main",
         "sha": "5360f152b96735712e5f925ad728732cb86888df"
       },
-      "homepage": "https://github.com/zapier/zapier-mcp/tree/main/plugins/zapier"
+      "homepage": "https://github.com/zapier/zapier-mcp/tree/main/plugins/zapier",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/zapier.png"
     },
     {
       "name": "zilliz",
@@ -4270,14 +4573,15 @@
       "author": {
         "name": "Zilliz"
       },
-      "category": "数据库",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/zilliztech/zilliz-plugin.git",
         "path": "plugins/zilliz",
         "sha": "35c86c000c91abb35f3eeed5cca15ebd69cba4d5"
       },
-      "homepage": "https://docs.zilliz.com"
+      "homepage": "https://docs.zilliz.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/zilliz.png"
     },
     {
       "name": "zocks-advisor",
@@ -4285,24 +4589,26 @@
       "author": {
         "name": "Zocks"
       },
-      "category": "效率办公",
+      "category": "productivity",
       "source": {
         "source": "url",
         "url": "https://github.com/zocks-communications/zocks-agent-plugins.git",
         "sha": "a3e445c139665055c2f22f25c9a9f8721a7c6355"
       },
-      "homepage": "https://github.com/zocks-communications/zocks-agent-plugins"
+      "homepage": "https://github.com/zocks-communications/zocks-agent-plugins",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/zocks-advisor.png"
     },
     {
       "name": "zoom-plugin",
       "description": "用于规划、构建和调试 Zoom 集成的 Claude 插件，覆盖 REST API、SDK、webhook、bot 和 MCP 工作流。",
-      "category": "开发工具",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/zoom/zoom-plugin.git",
         "sha": "86e2592334f5fb563ed273e26035844004e66165"
       },
-      "homepage": "https://developers.zoom.us/"
+      "homepage": "https://developers.zoom.us/",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/zoom-plugin.png"
     },
     {
       "name": "zoominfo",
@@ -4310,13 +4616,14 @@
       "author": {
         "name": "ZoomInfo"
       },
-      "category": "效率办公",
+      "category": "productivity",
       "source": {
         "source": "url",
         "url": "https://github.com/Zoominfo/zoominfo-mcp-plugin.git",
         "sha": "31a1ec506078e0aaf4e14e098e39865f32777d8a"
       },
-      "homepage": "https://www.zoominfo.com"
+      "homepage": "https://www.zoominfo.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/zoominfo.png"
     },
     {
       "name": "zscaler",
@@ -4324,13 +4631,14 @@
       "author": {
         "name": "Zscaler"
       },
-      "category": "安全",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/zscaler/zscaler-mcp-server.git",
         "sha": "809f68d6c921e0829fb2e07e9b797e7e70cf720b"
       },
-      "homepage": "https://github.com/zscaler/zscaler-mcp-server"
+      "homepage": "https://github.com/zscaler/zscaler-mcp-server",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/zscaler.png"
     },
     {
       "name": "langfuse",
@@ -4338,13 +4646,14 @@
       "author": {
         "name": "Langfuse"
       },
-      "category": "监控运维",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/langfuse/skills.git",
         "sha": "b86532b77f16f1e27c7cffa32bb632aa3cd9a352"
       },
-      "homepage": "https://langfuse.com"
+      "homepage": "https://langfuse.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/langfuse.png"
     },
     {
       "name": "zyte-web-data",
@@ -4352,13 +4661,14 @@
       "author": {
         "name": "Zyte"
       },
-      "category": "自动化",
+      "category": "productivity",
       "source": {
         "source": "url",
         "url": "https://github.com/zytedata/claude-skills.git",
         "sha": "d03e241729ebc3bf397e4303d654e8189b9e8185"
       },
-      "homepage": "https://www.zyte.com"
+      "homepage": "https://www.zyte.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/zyte-web-data.png"
     },
     {
       "name": "activecampaign",
@@ -4367,13 +4677,14 @@
       "author": {
         "name": "ActiveCampaign"
       },
-      "category": "效率办公",
+      "category": "productivity",
       "source": {
         "source": "url",
         "url": "https://github.com/ActiveCampaign/activecampaign-plugin.git",
         "sha": "0ff858728bc52aee335d5475b0d4eb5f3a9589b0"
       },
-      "homepage": "https://www.activecampaign.com"
+      "homepage": "https://www.activecampaign.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/activecampaign.png"
     },
     {
       "name": "hubspot-sales",
@@ -4382,7 +4693,7 @@
       "author": {
         "name": "HubSpot"
       },
-      "category": "效率办公",
+      "category": "productivity",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/HubSpot/hubspot-mcp-plugins.git",
@@ -4390,7 +4701,8 @@
         "ref": "main",
         "sha": "a0c59600fc1ddcf03ceca71aebf0c28aa55f49e3"
       },
-      "homepage": "https://www.hubspot.com"
+      "homepage": "https://www.hubspot.com",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/hubspot-sales.png"
     },
     {
       "name": "dynatrace",
@@ -4399,13 +4711,14 @@
       "author": {
         "name": "Dynatrace"
       },
-      "category": "监控运维",
+      "category": "developer-tools",
       "source": {
         "source": "url",
         "url": "https://github.com/Dynatrace/dynatrace-for-ai.git",
         "sha": "4f9aa71f9802aa6db0a4069ae5619eb3392ff411"
       },
-      "homepage": "https://www.dynatrace.com/hub/detail/claude-code-cli/"
+      "homepage": "https://www.dynatrace.com/hub/detail/claude-code-cli/",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/dynatrace.png"
     },
     {
       "name": "wingspan",
@@ -4414,13 +4727,14 @@
       "author": {
         "name": "Wingspan"
       },
-      "category": "效率办公",
+      "category": "productivity",
       "source": {
         "source": "url",
         "url": "https://github.com/wingspanHQ/mcp-claude-plugin.git",
         "sha": "7f99cb3d1789a91390fa7abf1571328736b5e0a6"
       },
-      "homepage": "https://github.com/wingspanHQ/mcp-claude-plugin"
+      "homepage": "https://github.com/wingspanHQ/mcp-claude-plugin",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/wingspan.png"
     },
     {
       "name": "amazon-selling-partner",
@@ -4429,13 +4743,14 @@
       "author": {
         "name": "Amazon"
       },
-      "category": "效率办公",
+      "category": "productivity",
       "source": {
         "source": "url",
         "url": "https://github.com/amzn/selling-partner-agentic-toolkit.git",
         "sha": "10573bac239b7062a476667eaa574d400335c70e"
       },
-      "homepage": "https://github.com/amzn/selling-partner-agentic-toolkit"
+      "homepage": "https://github.com/amzn/selling-partner-agentic-toolkit",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/amazon-selling-partner.png"
     }
   ]
 }

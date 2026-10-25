@@ -8,9 +8,14 @@
 //     the Claude manifest for drift (it has no upstream counterpart)
 import fs from 'node:fs';
 import path from 'node:path';
-import { ROOT, UPSTREAM_DIR, DATA_DIR, readJson, writeJson, walkFiles, git } from './lib.mjs';
+import { ROOT, UPSTREAM_DIR, DATA_DIR, readJson, writeJson, walkFiles, git, sourceDate } from './lib.mjs';
 
 const MANIFEST = '.claude-plugin/marketplace.json';
+const cfg = readJson(path.join(ROOT, 'config', 'zh-marketplace.json'));
+const glossary = readJson(path.join(ROOT, 'config', 'glossary.json'), {});
+const zcodeCategory = cfg.zcodeCategory ?? {};
+const mapCat = (c) => (c ? glossary[c] ?? c : '其他');
+const mapStoreCat = (zh) => zcodeCategory[zh] ?? zh;
 
 function stable(v) {
   if (Array.isArray(v)) return v.map(stable);
@@ -44,6 +49,7 @@ const stripFree = (e) => {
   const c = { ...e };
   delete c.description;
   delete c.category;
+  delete c.icon; // ours: absolute Pages URL into site/appicons
   return c;
 };
 
@@ -72,6 +78,20 @@ for (const rel of union) {
       if (!up) { divergences.push({ rel, kind: 'manifest-unknown-entry', extra: entry.name }); continue; }
       if (!sameJson(stripFree(entry), stripFree(up))) {
         divergences.push({ rel, kind: 'manifest-entry-changed-outside-whitelist', extra: entry.name });
+      }
+      // category must be the deterministic remap of upstream's (zh glossary,
+      // then the ZCode store enum where one exists) — free, but not arbitrary
+      const wantCat = mapStoreCat(mapCat(up.category));
+      if (entry.category !== wantCat) {
+        divergences.push({ rel, kind: 'manifest-category-drift', extra: `${entry.name}: ${entry.category} != ${wantCat}` });
+      }
+      // icon, when present, must point at the committed appicons file
+      if (entry.icon !== undefined) {
+        const m = entry.icon.match(/appicons\/([^./]+)\.([a-z0-9]+)$/);
+        const rel = m ? path.join(ROOT, 'site', 'appicons', `${m[1]}.${m[2]}`) : null;
+        if (!m || m[1] !== entry.name || !fs.existsSync(rel)) {
+          divergences.push({ rel, kind: 'manifest-icon-unresolved', extra: entry.name });
+        }
       }
     }
     for (const name of upEntries.keys()) {
@@ -138,7 +158,11 @@ if (!fs.existsSync(codexPath)) {
     const c = cxEntries.get(entry.name);
     if (!c) { divergences.push({ rel: CODEX_MANIFEST, kind: 'owned-entry-dropped', extra: entry.name }); continue; }
     if (!sameJson(c.source, entry.source)) divergences.push({ rel: CODEX_MANIFEST, kind: 'owned-source-drift', extra: entry.name });
-    if (c.category !== entry.category) divergences.push({ rel: CODEX_MANIFEST, kind: 'owned-category-drift', extra: entry.name });
+    // the Codex manifest keeps the zh label; the Claude manifest may carry the
+    // ZCode store enum — both must trace back to the same upstream category
+    if (c.category !== mapStoreCat(entry.category) && entry.category !== mapStoreCat(c.category)) {
+      divergences.push({ rel: CODEX_MANIFEST, kind: 'owned-category-drift', extra: entry.name });
+    }
     if (c.interface?.longDescription !== entry.description) {
       divergences.push({ rel: CODEX_MANIFEST, kind: 'owned-long-description-drift', extra: entry.name });
     }
@@ -157,7 +181,9 @@ if (!fs.existsSync(codexPath)) {
 }
 
 const report = {
-  generatedAt: new Date().toISOString(),
+  // data date, not generation time — the report is a function of the tree it
+  // checked, so re-running it locally never dirties the working copy.
+  generatedAt: sourceDate(UPSTREAM_DIR),
   upstreamSha: git(UPSTREAM_DIR, 'rev-parse', 'HEAD'),
   filesChecked: union.length,
   byteIdentical,

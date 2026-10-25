@@ -37,6 +37,14 @@ export function toPosix(p) {
   return p.replace(/\\/g, '/');
 }
 
+// The date every generated artifact is stamped with: the committer date of the
+// source commit we built from — never the wall clock. A no-op sync must
+// rewrite byte-identical files, otherwise the daily job commits timestamp-only
+// churn and "no changes since last sync" is unreachable.
+export function sourceDate(cwd) {
+  return git(cwd, 'log', '-1', '--format=%cI');
+}
+
 export function hasCJK(s) {
   return /[\u4e00-\u9fff]/.test(s);
 }
