@@ -3,7 +3,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { execFileSync } from 'node:child_process';
-import { ROOT, UPSTREAM_DIR, DATA_DIR, readJson, writeJson, git } from './lib.mjs';
+import { ROOT, UPSTREAM_DIR, DATA_DIR, readJson, writeJson, git, sourceDate } from './lib.mjs';
 
 const cfg = readJson(path.join(ROOT, 'config', 'zh-marketplace.json'));
 
@@ -24,7 +24,10 @@ const from = last?.sha ?? null;
 const diff = {
   from,
   to: sha,
-  generatedAt: new Date().toISOString(),
+  // Upstream's commit date, never the wall clock: a run with nothing new must
+  // rewrite this file byte-identically, or the workflow's "no changes since
+  // last sync" branch is unreachable and every run commits a timestamp.
+  generatedAt: sourceDate(UPSTREAM_DIR),
   firstSync: from === null,
   plugins: { added: [], modified: [], removed: [] },
   files: { removed: [] },
