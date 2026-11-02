@@ -83,6 +83,7 @@ const verifyNote =
 const shell = fs
   .readFileSync(path.join(ROOT, 'site', 'index.html'), 'utf8')
   .replaceAll('{{TOTAL}}', String(total))
+  .replaceAll('{{ZH_COVERAGE}}', `${catalog.zhDescriptions ?? total}/${total}`)
   .replaceAll('{{VERIFY_NOTE}}', verifyNote)
   .replace('<!--JSONLD-->', `<script type="application/ld+json">${JSON.stringify(jsonld)}<\/script>`);
 if (/\{\{[A-Z_]+\}\}/.test(shell)) {

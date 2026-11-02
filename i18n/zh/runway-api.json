@@ -5,5 +5,11 @@
     "source": "api",
     "verified": true,
     "model": "deepseek-flash"
+  },
+  "889cabdae8ebb354": {
+    "zh": "获取使用 Runway API 与官方 SDK 集成视频、图像和音频生成的指南。连接你的 Runway 开发者账号，查看可用模型与任务错误，管理 Model Router 与现有实时数字人，并检查已记录的路由决策。",
+    "field": "description",
+    "source": "manual",
+    "verified": true
   }
 }

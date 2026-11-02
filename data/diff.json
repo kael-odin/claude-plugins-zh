@@ -1,11 +1,26 @@
 {
   "from": "58267944f92187b7d6a1c822165c96c81c864806",
-  "to": "58267944f92187b7d6a1c822165c96c81c864806",
-  "generatedAt": "2026-10-26T09:22:51.198Z",
+  "to": "a7ba5b93db0c7c8d17f3f1d25853adca79598a1a",
+  "generatedAt": "2026-11-02T02:33:11.370Z",
   "firstSync": false,
   "plugins": {
-    "added": [],
-    "modified": [],
+    "added": [
+      "security-guidance"
+    ],
+    "modified": [
+      "agent-sdk-dev",
+      "code-review",
+      "commit-commands",
+      "explanatory-output-style",
+      "feature-dev",
+      "frontend-design",
+      "hookify",
+      "learning-output-style",
+      "plugin-dev",
+      "pr-review-toolkit",
+      "ralph-loop",
+      "security-guidance"
+    ],
     "removed": []
   },
   "files": {

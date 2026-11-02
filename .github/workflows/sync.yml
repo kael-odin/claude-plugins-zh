@@ -45,9 +45,12 @@ jobs:
         run: node tools/verify.mjs
 
       # Every number README.md prints is checked against data/ before the commit
-      # step: a sync that changes a count but leaves the prose behind fails the
-      # job here, instead of shipping a README that says 315 while the manifest
-      # holds 316.
+      # step. The bot has no human to retype them, so it rewrites the counts it
+      # can derive first; the gate below still fails when a sentence was
+      # reworded out from under its pattern, which is work for a person.
+      - name: Refresh documented numbers
+        run: node tools/check-docs.mjs --fix
+
       - name: Check documented numbers (gate)
         run: node tools/check-docs.mjs
 

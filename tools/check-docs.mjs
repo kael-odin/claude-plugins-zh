@@ -50,7 +50,6 @@ const identity = [
   ['in-repo = plugins/ + external_plugins/', facts.inRepo, facts.pluginsDir + facts.externalPluginsDir],
   ['remote = git-subdir + url', facts.remote, facts.gitSubdir + facts.url],
   ['codex manifest mirrors the claude one', facts.codexEntries, facts.entries],
-  ['every entry carries a zh description', facts.zhDescriptions, facts.entries],
   ['files = byte-identical + whitelisted + divergences', facts.files, facts.byteIdentical + facts.whitelisted + facts.divergences],
 ];
 const failures = [];
@@ -58,13 +57,24 @@ for (const [what, got, want] of identity) {
   if (got !== want) failures.push(`data: ${what} — ${got} vs ${want}`);
 }
 
+// Translation lag is expected, not a broken build: when upstream rewords a
+// description its hash key stops matching and the entry falls back to English
+// until the next local `translate.mjs --execute` (the API key is IP-whitelisted,
+// so CI cannot fill it). The README states coverage as zh/entries, so the only
+// hard invariant here is that the ledger never claims more than it has.
+const pendingTranslations = facts.entries - facts.zhDescriptions;
+if (pendingTranslations < 0) {
+  failures.push(`data: more translated descriptions than entries — ${facts.zhDescriptions} vs ${facts.entries}`);
+}
+
 // A doc that says one number where the data says another is the bug this file
 // exists for; a doc whose phrase vanished is the bug that hides the first one.
 const DOCS = [
   ['README.md', [
     [/\*\*([\d,]+) 个插件\*\*，Apache-2\.0/, [facts.entries]],
-    [/」，([\d,]+) 个插件的介绍、分类均为中文/, [facts.entries]],
-    [/」，([\d,]+) 个条目的副标题与详情页都是中文/, [facts.entries]],
+    [/插件介绍与分类已汉化（中文介绍 \*\*([\d,]+)\/([\d,]+)\*\*/, [facts.zhDescriptions, facts.entries]],
+    [/([\d,]+) 个插件的介绍与分类为中文（中文介绍 \*\*([\d,]+)\/([\d,]+)\*\*）/, [facts.entries, facts.zhDescriptions, facts.entries]],
+    [/([\d,]+) 个条目的副标题与详情页为中文（中文介绍 \*\*([\d,]+)\/([\d,]+)\*\*）/, [facts.entries, facts.zhDescriptions, facts.entries]],
     [/\| 插件清单 \| \*\*([\d,]+)\*\* \|/, [facts.entries]],
     [/\| 仓内插件 \| ([\d,]+)（`plugins\/` ([\d,]+) \+ `external_plugins\/` ([\d,]+)） \|/,
       [facts.inRepo, facts.pluginsDir, facts.externalPluginsDir]],
@@ -78,30 +88,80 @@ const DOCS = [
   ]],
 ];
 
-const num = (s) => Number(s.replace(/,/g, ''));
-let checked = 0;
-for (const [file, checks] of DOCS) {
-  const text = fs.readFileSync(path.join(ROOT, file), 'utf8');
-  for (const [re, want] of checks) {
-    const g = new RegExp(re.source, re.flags.includes('g') ? re.flags : `${re.flags}g`);
-    const found = [...text.matchAll(g)];
-    if (!found.length) {
-      failures.push(`${file}: no line matches ${re} — the sentence was reworded; update the pattern, don't drop the check`);
-      continue;
-    }
-    for (const m of found) {
-      const got = m.slice(1).map(num);
-      if (got.length !== want.length || got.some((v, i) => v !== want[i])) {
-        failures.push(`${file}: "${m[0].trim()}" says ${got.join('+')}, data says ${want.join('+')}`);
-      } else checked++;
+const num = (s) => Number(String(s).replace(/,/g, ''));
+const fmt = (v) => (v >= 1000 ? v.toLocaleString('en-US') : String(v));
+
+function collectDocFailures() {
+  const out = [];
+  let ok = 0;
+  for (const [file, checks] of DOCS) {
+    const text = fs.readFileSync(path.join(ROOT, file), 'utf8');
+    for (const [re, want] of checks) {
+      const g = new RegExp(re.source, [...new Set(re.flags + 'dg')].join(''));
+      const found = [...text.matchAll(g)];
+      if (!found.length) {
+        out.push(`${file}: no line matches ${re} — the sentence was reworded; update the pattern, don't drop the check`);
+        continue;
+      }
+      for (const m of found) {
+        const got = m.slice(1).map((v) => (v == null ? NaN : num(v)));
+        if (got.length !== want.length || got.some((v, i) => v !== want[i])) {
+          out.push(`${file}: "${m[0].trim()}" says ${got.join('+')}, data says ${want.join('+')}`);
+        } else ok++;
+      }
     }
   }
+  return { failures: out, checked: ok };
 }
 
-// The site never hand-types a count: dist/index.html substitutes {{TOTAL}} and
-// {{VERIFY_NOTE}} (tools/build-site.mjs) and app.js reads the datasets. A count
-// written as a literal in either source file is a number nothing keeps true,
-// and the checks above cannot see it — they read the README only.
+// Rewrite every captured number that drifted from its dataset. Only the
+// numbers move: the sentence around them must still match, so a reworded
+// claim is still reported instead of silently retired.
+function fixDocNumbers() {
+  let fixed = 0;
+  for (const [file, checks] of DOCS) {
+    const p = path.join(ROOT, file);
+    const before = fs.readFileSync(p, 'utf8');
+    let text = before;
+    for (const [re, want] of checks) {
+      const g = new RegExp(re.source, [...new Set(re.flags + 'dg')].join(''));
+      const found = [...text.matchAll(g)];
+      for (let i = found.length - 1; i >= 0; i--) {
+        const m = found[i];
+        if (m.length - 1 !== want.length) continue;
+        const got = m.slice(1).map((v) => (v == null ? NaN : num(v)));
+        if (got.every((v, j) => v === want[j])) continue;
+        let rebuilt = '';
+        let cursor = m.index;
+        for (let gi = 1; gi < m.length; gi++) {
+          const [gs, ge] = m.indices[gi];
+          rebuilt += text.slice(cursor, gs) + fmt(want[gi - 1]);
+          cursor = ge;
+        }
+        rebuilt += text.slice(cursor, m.index + m[0].length);
+        text = text.slice(0, m.index) + rebuilt + text.slice(m.index + m[0].length);
+        fixed++;
+      }
+    }
+    if (text !== before) fs.writeFileSync(p, text);
+  }
+  return fixed;
+}
+
+if (process.argv.includes('--fix')) {
+  const fixed = fixDocNumbers();
+  if (fixed) console.log(`[check-docs] --fix rewrote ${fixed} documented number(s)`);
+}
+
+const docResult = collectDocFailures();
+failures.push(...docResult.failures);
+const checked = docResult.checked;
+
+// The site never hand-types a count: dist/index.html substitutes {{TOTAL}},
+// {{ZH_COVERAGE}} and {{VERIFY_NOTE}} (tools/build-site.mjs) and app.js reads
+// the datasets. A count written as a literal in either source file is a number
+// nothing keeps true, and the checks above cannot see it — they read the README
+// only.
 //
 // Two-digit numbers are exempt on purpose (the pattern needs three digits): the
 // counts that matter here are catalog and file sizes, while a two-digit count
@@ -114,6 +174,14 @@ for (const file of ['site/index.html', 'site/app.js']) {
     if (EXEMPT.some((re) => re.test(m[0]))) continue;
     failures.push(`${file}: hand-typed "${m[0]}" — counts come from {{TOKEN}} (build-site) or the loaded datasets, never from a literal`);
   }
+}
+
+if (pendingTranslations > 0) {
+  console.log(
+    `[check-docs] note: ${pendingTranslations} description(s) awaiting translation ` +
+      `(${facts.zhDescriptions}/${facts.entries}) — upstream reworded them; run ` +
+      `\`node tools/translate.mjs --execute\` locally to refill`,
+  );
 }
 
 if (failures.length) {
