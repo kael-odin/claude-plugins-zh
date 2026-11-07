@@ -1,32 +1,11 @@
 {
-  "from": "fa4eb54397ee2faccb6940512a19c017cb1337f3",
+  "from": "0412be76f50ab4f4f8abff3753efa9269fbbca5b",
   "to": "0412be76f50ab4f4f8abff3753efa9269fbbca5b",
   "generatedAt": "2026-11-06T15:51:04-08:00",
   "firstSync": false,
   "plugins": {
-    "added": [
-      "champion-kit",
-      "clangd-lsp",
-      "csharp-lsp",
-      "gopls-lsp",
-      "jdtls-lsp",
-      "kotlin-lsp",
-      "lua-lsp",
-      "php-lsp",
-      "pyright-lsp",
-      "receipts",
-      "ruby-lsp",
-      "rust-analyzer-lsp",
-      "security-guidance",
-      "session-report",
-      "swift-lsp",
-      "typescript-lsp"
-    ],
-    "modified": [
-      "kotlin-lsp",
-      "php-lsp",
-      "security-guidance"
-    ],
+    "added": [],
+    "modified": [],
     "removed": []
   },
   "files": {
