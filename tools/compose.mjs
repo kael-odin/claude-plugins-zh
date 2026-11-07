@@ -1,8 +1,9 @@
 // Compose the publish tree (repo root) for claude-plugins-zh.
 //
-// Upstream: anthropics/claude-plugins-official (Apache-2.0) — 315-entry
-// marketplace manifest; 53 plugins live in-repo (plugins/ + external_plugins/),
-// 262 are remote references (git-subdir / url) kept verbatim.
+// Upstream: anthropics/claude-plugins-official (Apache-2.0) — marketplace
+// manifest mirrored verbatim: path sources live in-repo (plugins/ +
+// external_plugins/), object sources (git-subdir / url / command) stay
+// references to the original location.
 // Intentional divergence (whitelist):
 //   - .claude-plugin/marketplace.json → name/description + entry description/category
 //   - **/.claude-plugin/plugin.json    → description only

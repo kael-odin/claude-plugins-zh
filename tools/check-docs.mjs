@@ -34,6 +34,7 @@ const facts = {
   externalPluginsDir: underRoot('./external_plugins'),
   gitSubdir: catalog.byKind['git-subdir'] ?? 0,
   url: catalog.byKind.url ?? 0,
+  command: catalog.byKind.command ?? 0,
   files: report.filesChecked,
   byteIdentical: report.byteIdentical,
   whitelisted: report.whitelistedChecked,
@@ -46,7 +47,7 @@ facts.remote = facts.gitSubdir + facts.url;
 // "262（98 + 164）"), so the printed parts must add up to the printed total,
 // not just each match its own dataset.
 const identity = [
-  ['entries = in-repo + remote', facts.entries, facts.inRepo + facts.remote],
+  ['entries = in-repo + remote + command', facts.entries, facts.inRepo + facts.remote + facts.command],
   ['in-repo = plugins/ + external_plugins/', facts.inRepo, facts.pluginsDir + facts.externalPluginsDir],
   ['remote = git-subdir + url', facts.remote, facts.gitSubdir + facts.url],
   ['codex manifest mirrors the claude one', facts.codexEntries, facts.entries],
@@ -55,6 +56,15 @@ const identity = [
 const failures = [];
 for (const [what, got, want] of identity) {
   if (got !== want) failures.push(`data: ${what} — ${got} vs ${want}`);
+}
+
+// Upstream invents source shapes (2026-11 added the first `command` entry: a
+// local shell command that resolves the plugin path). A kind missing from the
+// identity above would only surface as an off-by-N sum, so name it instead.
+const KNOWN_KINDS = new Set(['in-repo', 'git-subdir', 'url', 'command']);
+const unknownKinds = Object.keys(catalog.byKind).filter((k) => !KNOWN_KINDS.has(k));
+if (unknownKinds.length) {
+  failures.push(`data: unrecognized source kind(s) ${unknownKinds.join(', ')} — add them to the README table and this file`);
 }
 
 // Translation lag is expected, not a broken build: when upstream rewords a
@@ -73,12 +83,13 @@ const DOCS = [
   ['README.md', [
     [/\*\*([\d,]+) 个插件\*\*，Apache-2\.0/, [facts.entries]],
     [/插件介绍与分类已汉化（中文介绍 \*\*([\d,]+)\/([\d,]+)\*\*/, [facts.zhDescriptions, facts.entries]],
-    [/([\d,]+) 个插件的介绍与分类为中文（中文介绍 \*\*([\d,]+)\/([\d,]+)\*\*）/, [facts.entries, facts.zhDescriptions, facts.entries]],
-    [/([\d,]+) 个条目的副标题与详情页为中文（中文介绍 \*\*([\d,]+)\/([\d,]+)\*\*）/, [facts.entries, facts.zhDescriptions, facts.entries]],
+    [/([\d,]+) 个插件的介绍与分类为中文（中文介绍 \*\*([\d,]+)\/([\d,]+)\*\*）/, [facts.zhDescriptions, facts.zhDescriptions, facts.entries]],
+    [/([\d,]+) 个条目的副标题与详情页为中文（中文介绍 \*\*([\d,]+)\/([\d,]+)\*\*）/, [facts.zhDescriptions, facts.zhDescriptions, facts.entries]],
     [/\| 插件清单 \| \*\*([\d,]+)\*\* \|/, [facts.entries]],
     [/\| 仓内插件 \| ([\d,]+)（`plugins\/` ([\d,]+) \+ `external_plugins\/` ([\d,]+)） \|/,
       [facts.inRepo, facts.pluginsDir, facts.externalPluginsDir]],
     [/\| 远程引用 \| ([\d,]+)（git-subdir ([\d,]+) · url ([\d,]+)） \|/, [facts.remote, facts.gitSubdir, facts.url]],
+    [/\| 本机命令 \| ([\d,]+)（command） \|/, [facts.command]],
     [/([\d,]+) 个文件中，除白名单/, [facts.files]],
     [/\*\*([\d,]+) 个文件与上游逐字节一致\*\*/, [facts.byteIdentical]],
     [/（余下 ([\d,]+) 个即白名单字段所在文件）/, [facts.whitelisted]],

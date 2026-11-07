@@ -9,7 +9,7 @@ const I18N = {
     clear: '清空',
     cats: '快速分类',
     all: '全部',
-    quick: { all: '全部', inrepo: '仓内插件', git: 'git 引用', url: 'URL 引用' },
+    quick: { all: '全部', inrepo: '仓内插件', git: 'git 引用', url: 'URL 引用', command: '本机命令' },
     summary: (n, y, z) => `显示 ${n} / ${y} 个插件 · 中文介绍 ${z}/${y} · 数据每日自动同步`,
     intro: '简介',
     enOriginal: '英文原文',
@@ -37,7 +37,7 @@ const I18N = {
     clear: 'Clear',
     cats: 'Categories',
     all: 'All',
-    quick: { all: 'All', inrepo: 'In-repo', git: 'git ref', url: 'URL ref' },
+    quick: { all: 'All', inrepo: 'In-repo', git: 'git ref', url: 'URL ref', command: 'Local cmd' },
     summary: (n, y, z) => `Showing ${n} of ${y} plugins · ${z}/${y} Chinese descriptions · synced daily`,
     intro: 'Intro',
     enOriginal: 'English original',
@@ -156,6 +156,7 @@ function renderPills() {
     ['in-repo', `${T.quick.inrepo} ${fmt(ITEMS.filter((i) => i.type === 'in-repo').length)}`],
     ['git-subdir', `${T.quick.git} ${fmt(ITEMS.filter((i) => i.type === 'git-subdir').length)}`],
     ['url', `${T.quick.url} ${fmt(ITEMS.filter((i) => i.type === 'url').length)}`],
+    ['command', `${T.quick.command} ${fmt(ITEMS.filter((i) => i.type === 'command').length)}`],
   ];
   $('#pills').innerHTML = defs
     .map(([k, label]) => `<button class="quick-btn ${state.quick === k ? 'active' : ''}" data-k="${k}">${esc(label)}</button>`)

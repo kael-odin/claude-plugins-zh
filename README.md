@@ -60,6 +60,7 @@ codex plugin marketplace add https://github.com/kael-odin/claude-plugins-zh.git
 | 插件清单 | **315** | 全部条目：中文介绍 + 中文分类；同时产出 Codex 原生清单 `.agents/plugins/marketplace.json` |
 | 仓内插件 | 53（`plugins/` 39 + `external_plugins/` 14） | 逐字转载；plugin.json 只汉化 `description`，另补 Codex 展示用的 `interface` 字段（Claude Code 明确忽略该键） |
 | 远程引用 | 262（git-subdir 99 · url 163） | 插件体原样保留、指向官方/原仓库；Codex 里的中文介绍随清单条目下发 |
+| 本机命令 | 0（command） | 客户端在本机执行命令来定位插件路径（如 Xcode 的 `xcrun agent plugin path`）；不复制插件体，条目原样保留 |
 
 （上游 `plugins/example-plugin` 是示例目录，不在清单内，同样原样转载。）
 
