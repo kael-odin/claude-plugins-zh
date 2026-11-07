@@ -830,6 +830,18 @@
       "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/cds-mcp.png"
     },
     {
+      "name": "champion-kit",
+      "description": "Help Claude Code champions run hackathons and office hours, find patterns worth sharing, help teammates climb the steps of AI adoption, and write a shareable AI maturity report.",
+      "author": {
+        "name": "Anthropic",
+        "email": "support@anthropic.com"
+      },
+      "source": "./plugins/champion-kit",
+      "category": "productivity",
+      "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/champion-kit",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/champion-kit.png"
+    },
+    {
       "name": "chrome-devtools-mcp",
       "description": "在你的编码 agent 中控制和检查实时 Chrome 浏览器。录制性能 trace、分析网络请求、查看带源码映射堆栈跟踪的控制台消息，并使用 Puppeteer 自动化浏览器操作。",
       "category": "developer-tools",
@@ -1938,10 +1950,10 @@
       "category": "developer-tools",
       "source": {
         "source": "git-subdir",
-        "url": "https://github.com/greptileai/claude-plugin.git",
+        "url": "https://github.com/greptileai/skills.git",
         "path": "plugins/greptile",
-        "ref": "greptile--v1.2.3",
-        "sha": "f0b7379ca06e40896fdae93fe166e851d1c9db67"
+        "ref": "greptile--v1.3.1",
+        "sha": "4a13eb124ab175d018869fe7cc4d203e374571dc"
       },
       "homepage": "https://www.greptile.com/docs/mcp-v2/overview",
       "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/greptile.png"
@@ -2635,7 +2647,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/mintlify/mintlify-claude-plugin.git",
-        "sha": "acd6d2e0128c4f235d55cfb8d8c91ecbdd5df8cc"
+        "sha": "c1c1700d405dc375c2d90a1d4f8b283e6422b7ec"
       },
       "homepage": "https://www.mintlify.com/",
       "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/mintlify.png"
@@ -3200,7 +3212,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/postmanlabs/postman-plugin.git",
-        "sha": "c6352ef5605cd46d3f817e15c601eeb9a56c08f7"
+        "sha": "1fdd3f1e2736c7cb83780a221cb9f83641215ab7"
       },
       "homepage": "https://github.com/postmanlabs/postman-plugin",
       "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/postman.png"
@@ -3749,7 +3761,7 @@
     {
       "name": "security-guidance",
       "description": "针对 Claude 生成代码的安全审查。编辑时基于模式的告警，Stop 时由 LLM 驱动的 diff 审查，以及一个 agentic commit 审查器，可捕获注入、XSS、SSRF、硬编码密钥以及其他 25+ 类漏洞。",
-      "version": "2.0.17",
+      "version": "2.0.18",
       "author": {
         "name": "Anthropic",
         "email": "support@anthropic.com"
@@ -4361,7 +4373,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Unity-Technologies/unity-agent-plugin.git",
-        "sha": "ba48956ae8bee4ef8a3ef3d75dec03c16aa5cc89"
+        "sha": "81b6079e465246dbca42987469e80b71c2cca9d2"
       },
       "homepage": "https://unity.com",
       "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/unity.png"
@@ -4540,6 +4552,22 @@
       },
       "homepage": "https://workos.com",
       "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/workos.png"
+    },
+    {
+      "name": "xcode",
+      "displayName": "Xcode",
+      "description": "Work with Xcode projects from Claude Code: build, run, and test schemes, render SwiftUI previews, drive simulators and devices, read build logs and diagnostics, and search Apple developer documentation.",
+      "author": {
+        "name": "Apple Inc."
+      },
+      "category": "developer-tools",
+      "source": {
+        "source": "command",
+        "command": "xcrun agent plugin path --plugin-format claude",
+        "mode": "link"
+      },
+      "homepage": "https://developer.apple.com/xcode/",
+      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/xcode.png"
     },
     {
       "name": "youdotcom-agent-skills",

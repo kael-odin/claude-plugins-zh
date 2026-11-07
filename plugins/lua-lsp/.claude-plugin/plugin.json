@@ -1,0 +1,22 @@
+{
+  "name": "lua-lsp",
+  "description": "用于代码智能的 Lua 语言服务器",
+  "version": "1.0.0",
+  "author": {
+    "name": "Anthropic",
+    "email": "support@anthropic.com"
+  },
+  "lspServers": {
+    "lua": {
+      "command": "lua-language-server",
+      "extensionToLanguage": {
+        ".lua": "lua"
+      }
+    }
+  },
+  "interface": {
+    "shortDescription": "用于代码智能的 Lua 语言服务器",
+    "longDescription": "用于代码智能的 Lua 语言服务器",
+    "category": "开发工具"
+  }
+}

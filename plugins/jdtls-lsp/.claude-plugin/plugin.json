@@ -1,0 +1,23 @@
+{
+  "name": "jdtls-lsp",
+  "description": "Java 语言服务器（Eclipse JDT.LS），提供代码智能功能",
+  "version": "1.0.0",
+  "author": {
+    "name": "Anthropic",
+    "email": "support@anthropic.com"
+  },
+  "lspServers": {
+    "jdtls": {
+      "command": "jdtls",
+      "extensionToLanguage": {
+        ".java": "java"
+      },
+      "startupTimeout": 120000
+    }
+  },
+  "interface": {
+    "shortDescription": "Java 语言服务器（Eclipse JDT.LS），提供代码智能功能",
+    "longDescription": "Java 语言服务器（Eclipse JDT.LS），提供代码智能功能",
+    "category": "开发工具"
+  }
+}

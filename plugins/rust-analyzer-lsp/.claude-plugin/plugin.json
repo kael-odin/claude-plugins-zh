@@ -1,0 +1,22 @@
+{
+  "name": "rust-analyzer-lsp",
+  "description": "用于代码智能与分析的 Rust language server",
+  "version": "1.0.0",
+  "author": {
+    "name": "Anthropic",
+    "email": "support@anthropic.com"
+  },
+  "lspServers": {
+    "rust-analyzer": {
+      "command": "rust-analyzer",
+      "extensionToLanguage": {
+        ".rs": "rust"
+      }
+    }
+  },
+  "interface": {
+    "shortDescription": "用于代码智能与分析的 Rust language server",
+    "longDescription": "用于代码智能与分析的 Rust language server",
+    "category": "开发工具"
+  }
+}

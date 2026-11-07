@@ -1002,6 +1002,20 @@
       }
     },
     {
+      "name": "champion-kit",
+      "source": "./plugins/champion-kit",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "效率办公",
+      "interface": {
+        "shortDescription": "Help Claude Code champions run hackathons and office h…",
+        "longDescription": "Help Claude Code champions run hackathons and office hours, find patterns worth sharing, help teammates climb the steps of AI adoption, and write a shareable AI maturity report.",
+        "category": "效率办公"
+      }
+    },
+    {
       "name": "chrome-devtools-mcp",
       "source": {
         "source": "url",
@@ -2317,10 +2331,10 @@
       "name": "greptile",
       "source": {
         "source": "git-subdir",
-        "url": "https://github.com/greptileai/claude-plugin.git",
+        "url": "https://github.com/greptileai/skills.git",
         "path": "plugins/greptile",
-        "ref": "greptile--v1.2.3",
-        "sha": "f0b7379ca06e40896fdae93fe166e851d1c9db67"
+        "ref": "greptile--v1.3.1",
+        "sha": "4a13eb124ab175d018869fe7cc4d203e374571dc"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -3128,7 +3142,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/mintlify/mintlify-claude-plugin.git",
-        "sha": "acd6d2e0128c4f235d55cfb8d8c91ecbdd5df8cc"
+        "sha": "c1c1700d405dc375c2d90a1d4f8b283e6422b7ec"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -3830,7 +3844,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/postmanlabs/postman-plugin.git",
-        "sha": "c6352ef5605cd46d3f817e15c601eeb9a56c08f7"
+        "sha": "1fdd3f1e2736c7cb83780a221cb9f83641215ab7"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -5173,7 +5187,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Unity-Technologies/unity-agent-plugin.git",
-        "sha": "ba48956ae8bee4ef8a3ef3d75dec03c16aa5cc89"
+        "sha": "81b6079e465246dbca42987469e80b71c2cca9d2"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -5404,6 +5418,24 @@
         "shortDescription": "面向 AuthKit、SSO、Directory Sync、RBAC、Vault、Audit Logs、迁移…",
         "longDescription": "面向 AuthKit、SSO、Directory Sync、RBAC、Vault、Audit Logs、迁移和 API 参考的 WorkOS 集成技能。",
         "category": "安全"
+      }
+    },
+    {
+      "name": "xcode",
+      "source": {
+        "source": "command",
+        "command": "xcrun agent plugin path --plugin-format claude",
+        "mode": "link"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "开发工具",
+      "interface": {
+        "shortDescription": "Work with Xcode projects from Claude Code: build, run,…",
+        "longDescription": "Work with Xcode projects from Claude Code: build, run, and test schemes, render SwiftUI previews, drive simulators and devices, read build logs and diagnostics, and search Apple developer documentation.",
+        "category": "开发工具"
       }
     },
     {

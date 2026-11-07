@@ -1,0 +1,14 @@
+{
+  "name": "session-report",
+  "description": "从本地 ~/.claude/projects 记录中生成一份可探索的 HTML 报告，展示 Claude Code 会话使用情况 —— token、缓存效率、subagents、skills 以及开销最高的 prompts。",
+  "author": {
+    "name": "Anthropic",
+    "email": "support@anthropic.com"
+  },
+  "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/session-report",
+  "interface": {
+    "shortDescription": "从本地 ~/.claude/projects 记录中生成一份可探索的 HTML 报告",
+    "longDescription": "从本地 ~/.claude/projects 记录中生成一份可探索的 HTML 报告，展示 Claude Code 会话使用情况 —— token、缓存效率、subagents、skills 以及开销最高的 prompts。",
+    "category": "效率办公"
+  }
+}

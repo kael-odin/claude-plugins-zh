@@ -1,0 +1,33 @@
+{
+  "name": "clangd-lsp",
+  "description": "用于代码智能的 C/C++ language server（clangd）",
+  "version": "1.0.0",
+  "author": {
+    "name": "Anthropic",
+    "email": "support@anthropic.com"
+  },
+  "lspServers": {
+    "clangd": {
+      "command": "clangd",
+      "args": [
+        "--background-index"
+      ],
+      "extensionToLanguage": {
+        ".c": "c",
+        ".h": "c",
+        ".cpp": "cpp",
+        ".cc": "cpp",
+        ".cxx": "cpp",
+        ".hpp": "cpp",
+        ".hxx": "cpp",
+        ".C": "cpp",
+        ".H": "cpp"
+      }
+    }
+  },
+  "interface": {
+    "shortDescription": "用于代码智能的 C/C++ language server（clangd）",
+    "longDescription": "用于代码智能的 C/C++ language server（clangd）",
+    "category": "开发工具"
+  }
+}

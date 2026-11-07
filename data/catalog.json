@@ -1,20 +1,21 @@
 {
-  "generatedAt": "2026-11-03T21:41:16-05:00",
+  "generatedAt": "2026-11-06T15:51:04-08:00",
   "upstream": {
     "repo": "https://github.com/anthropics/claude-plugins-official",
-    "sha": "fa4eb54397ee2faccb6940512a19c017cb1337f3",
+    "sha": "0412be76f50ab4f4f8abff3753efa9269fbbca5b",
     "license": "Apache-2.0"
   },
   "marketplace": {
     "name": "kael-odin-plugins-zh",
     "description": "Claude Code 官方插件目录 · 中文版 — 自动同步 anthropics/claude-plugins-official，315 个插件的中文介绍与中文分类，插件源码保持逐字不动（Apache-2.0）。"
   },
-  "total": 315,
+  "total": 317,
   "zhDescriptions": 315,
   "byKind": {
     "git-subdir": 99,
-    "in-repo": 53,
-    "url": 163
+    "in-repo": 54,
+    "url": 163,
+    "command": 1
   },
   "plugins": [
     {
@@ -652,6 +653,18 @@
       "kind": "url",
       "repo": null,
       "icon": "appicons/cds-mcp.png"
+    },
+    {
+      "name": "champion-kit",
+      "category": "productivity",
+      "categoryZh": "效率办公",
+      "descriptionZh": "Help Claude Code champions run hackathons and office hours, find patterns worth sharing, help teammates climb the steps of AI adoption, and write a shareable AI maturity report.",
+      "descriptionEn": "Help Claude Code champions run hackathons and office hours, find patterns worth sharing, help teammates climb the steps of AI adoption, and write a shareable AI maturity report.",
+      "author": "Anthropic",
+      "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/champion-kit",
+      "kind": "in-repo",
+      "repo": null,
+      "icon": "appicons/champion-kit.png"
     },
     {
       "name": "chrome-devtools-mcp",
@@ -3628,6 +3641,18 @@
       "kind": "git-subdir",
       "repo": null,
       "icon": "appicons/workos.png"
+    },
+    {
+      "name": "xcode",
+      "category": "development",
+      "categoryZh": "开发工具",
+      "descriptionZh": "Work with Xcode projects from Claude Code: build, run, and test schemes, render SwiftUI previews, drive simulators and devices, read build logs and diagnostics, and search Apple developer documentation.",
+      "descriptionEn": "Work with Xcode projects from Claude Code: build, run, and test schemes, render SwiftUI previews, drive simulators and devices, read build logs and diagnostics, and search Apple developer documentation.",
+      "author": "Apple Inc.",
+      "homepage": "https://developer.apple.com/xcode/",
+      "kind": "command",
+      "repo": null,
+      "icon": "appicons/xcode.png"
     },
     {
       "name": "youdotcom-agent-skills",

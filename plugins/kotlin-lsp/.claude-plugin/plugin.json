@@ -1,0 +1,27 @@
+{
+  "name": "kotlin-lsp",
+  "description": "Kotlin 语言服务器，提供代码智能功能",
+  "version": "1.0.0",
+  "author": {
+    "name": "Anthropic",
+    "email": "support@anthropic.com"
+  },
+  "lspServers": {
+    "kotlin-lsp": {
+      "command": "kotlin-lsp",
+      "args": [
+        "--stdio"
+      ],
+      "extensionToLanguage": {
+        ".kt": "kotlin",
+        ".kts": "kotlin"
+      },
+      "startupTimeout": 120000
+    }
+  },
+  "interface": {
+    "shortDescription": "Kotlin 语言服务器，提供代码智能功能",
+    "longDescription": "Kotlin 语言服务器，提供代码智能功能",
+    "category": "开发工具"
+  }
+}

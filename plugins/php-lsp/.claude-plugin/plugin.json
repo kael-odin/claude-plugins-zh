@@ -1,0 +1,25 @@
+{
+  "name": "php-lsp",
+  "description": "用于代码智能的 PHP 语言服务器（Intelephense）",
+  "version": "1.0.0",
+  "author": {
+    "name": "Anthropic",
+    "email": "support@anthropic.com"
+  },
+  "lspServers": {
+    "intelephense": {
+      "command": "intelephense",
+      "args": [
+        "--stdio"
+      ],
+      "extensionToLanguage": {
+        ".php": "php"
+      }
+    }
+  },
+  "interface": {
+    "shortDescription": "用于代码智能的 PHP 语言服务器（Intelephense）",
+    "longDescription": "用于代码智能的 PHP 语言服务器（Intelephense）",
+    "category": "开发工具"
+  }
+}

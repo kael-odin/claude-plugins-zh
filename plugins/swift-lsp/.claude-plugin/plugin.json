@@ -1,0 +1,22 @@
+{
+  "name": "swift-lsp",
+  "description": "用于代码智能的 Swift 语言服务器（SourceKit-LSP）",
+  "version": "1.0.0",
+  "author": {
+    "name": "Anthropic",
+    "email": "support@anthropic.com"
+  },
+  "lspServers": {
+    "sourcekit-lsp": {
+      "command": "sourcekit-lsp",
+      "extensionToLanguage": {
+        ".swift": "swift"
+      }
+    }
+  },
+  "interface": {
+    "shortDescription": "用于代码智能的 Swift 语言服务器（SourceKit-LSP）",
+    "longDescription": "用于代码智能的 Swift 语言服务器（SourceKit-LSP）",
+    "category": "开发工具"
+  }
+}
