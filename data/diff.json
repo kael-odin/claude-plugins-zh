@@ -1,14 +1,12 @@
 {
-  "from": "0412be76f50ab4f4f8abff3753efa9269fbbca5b",
-  "to": "dceb15d50832e6adf380bedc26dde03d251324b9",
-  "generatedAt": "2026-11-09T17:27:09-08:00",
+  "from": "dceb15d50832e6adf380bedc26dde03d251324b9",
+  "to": "43fd1f9db0941b2b83cb62268e35970d4a67c202",
+  "generatedAt": "2026-11-10T14:01:16-08:00",
   "firstSync": false,
   "plugins": {
-    "added": [
-      "security-guidance"
-    ],
+    "added": [],
     "modified": [
-      "security-guidance"
+      "plugin-dev"
     ],
     "removed": []
   },
