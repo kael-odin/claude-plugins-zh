@@ -68,7 +68,7 @@ codex plugin marketplace add https://github.com/kael-odin/claude-plugins-zh.git
 
 ## 「无损」是怎么保证的
 
-`tools/verify.mjs` 每次发布前对账：625 个文件中，除白名单（市场清单的 `name`/`description`/`owner`、各条目的 `description`/`category`、各 plugin.json 的 `description` 与 Codex 展示字段 `interface.shortDescription`/`longDescription`/`category`）外，**569 个文件与上游逐字节一致**（余下 56 个即白名单字段所在文件），CI 全绿才推送。生成的 `.agents/plugins/marketplace.json` 没有上游对应物，单独按「1 个自有文件」核对：条目集合、来源、分类、中文长描述必须与 Claude 清单完全一致，短描述必须是长描述的首个小句——两份清单不许漂移。译文以「源文本哈希」为键存放在 [i18n/zh/](i18n/zh)——上游改词自动失效重翻，绝不张冠李戴。
+`tools/verify.mjs` 每次发布前对账：724 个文件中，除白名单（市场清单的 `name`/`description`/`owner`、各条目的 `description`/`category`、各 plugin.json 的 `description` 与 Codex 展示字段 `interface.shortDescription`/`longDescription`/`category`）外，**667 个文件与上游逐字节一致**（余下 57 个即白名单字段所在文件），CI 全绿才推送。生成的 `.agents/plugins/marketplace.json` 没有上游对应物，单独按「1 个自有文件」核对：条目集合、来源、分类、中文长描述必须与 Claude 清单完全一致，短描述必须是长描述的首个小句——两份清单不许漂移。译文以「源文本哈希」为键存放在 [i18n/zh/](i18n/zh)——上游改词自动失效重翻，绝不张冠李戴。
 
 ## 为什么 Codex 里也有中文
 

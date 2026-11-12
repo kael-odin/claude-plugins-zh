@@ -1,12 +1,15 @@
 {
-  "from": "dceb15d50832e6adf380bedc26dde03d251324b9",
-  "to": "43fd1f9db0941b2b83cb62268e35970d4a67c202",
-  "generatedAt": "2026-11-10T14:01:16-08:00",
+  "from": "43fd1f9db0941b2b83cb62268e35970d4a67c202",
+  "to": "e0ab6e51219eef74e417a0e1d89e5d53e5e763d4",
+  "generatedAt": "2026-11-12T06:06:30Z",
   "firstSync": false,
   "plugins": {
-    "added": [],
+    "added": [
+      "claude-for-manufacturing",
+      "security-guidance"
+    ],
     "modified": [
-      "plugin-dev"
+      "security-guidance"
     ],
     "removed": []
   },
