@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-11-12T06:06:30Z",
+  "generatedAt": "2026-11-12T16:10:35-08:00",
   "upstream": {
     "repo": "https://github.com/anthropics/claude-plugins-official",
-    "sha": "e0ab6e51219eef74e417a0e1d89e5d53e5e763d4",
+    "sha": "f75f5b25ae94f4332be4ff5f18435741d2589bdb",
     "license": "Apache-2.0"
   },
   "marketplace": {
     "name": "kael-odin-plugins-zh",
     "description": "Claude Code 官方插件目录 · 中文版 — 自动同步 anthropics/claude-plugins-official，315 个插件的中文介绍与中文分类，插件源码保持逐字不动（Apache-2.0）。"
   },
-  "total": 317,
-  "zhDescriptions": 315,
+  "total": 316,
+  "zhDescriptions": 314,
   "byKind": {
-    "git-subdir": 99,
+    "git-subdir": 98,
     "in-repo": 54,
     "url": 163,
     "command": 1
@@ -113,18 +113,6 @@
       "kind": "git-subdir",
       "repo": null,
       "icon": "appicons/airwallex-agentos.png"
-    },
-    {
-      "name": "airwallex-dev",
-      "category": "development",
-      "categoryZh": "开发工具",
-      "descriptionZh": "在你自己的代码库中构建 Airwallex 支付集成。为 Airwallex 集成生成结账、卡元素、入驻和订阅计费的代码，并接入你的项目：Hosted Payment Page、Drop-in 与 Split Card 元素、关联账户 KYC 入驻，以及用于订阅和卡保存的 Billing Hosted Checkout。还可为 AI 服务商规划卡存档的商户发起交易流程，例如充值和自动续费。",
-      "descriptionEn": "Build Airwallex payment integrations in your own codebase. Generates the checkout, card-element, onboarding, and subscription-billing code for an Airwallex integration and wires it into your project: Hosted Payment Page, Drop-in and Split Card elements, connected-account KYC onboarding, and Billing Hosted Checkout for subscriptions and card-saving. Also plans card-on-file merchant-initiated flows for AI providers such as top-ups and auto-recharge.",
-      "author": "Airwallex",
-      "homepage": "https://www.airwallex.com/docs",
-      "kind": "git-subdir",
-      "repo": null,
-      "icon": "appicons/airwallex-dev.png"
     },
     {
       "name": "aiven",

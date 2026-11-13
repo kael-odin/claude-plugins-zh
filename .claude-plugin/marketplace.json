@@ -95,7 +95,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/AikidoSec/aikido-claude-plugin.git",
-        "sha": "8fdc995a44102a30ad54164e0bdd249d158c725c"
+        "sha": "75e45f337568bf3e0f5d99bc1b41d8844492df19"
       },
       "homepage": "https://github.com/AikidoSec/aikido-claude-plugin",
       "category": "other",
@@ -135,23 +135,6 @@
       },
       "homepage": "https://www.airwallex.com/docs",
       "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/airwallex-agentos.png"
-    },
-    {
-      "name": "airwallex-dev",
-      "description": "在你自己的代码库中构建 Airwallex 支付集成。为 Airwallex 集成生成结账、卡元素、入驻和订阅计费的代码，并接入你的项目：Hosted Payment Page、Drop-in 与 Split Card 元素、关联账户 KYC 入驻，以及用于订阅和卡保存的 Billing Hosted Checkout。还可为 AI 服务商规划卡存档的商户发起交易流程，例如充值和自动续费。",
-      "author": {
-        "name": "Airwallex"
-      },
-      "category": "developer-tools",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/airwallex/airwallex-marketplace.git",
-        "path": "plugins/airwallex-dev",
-        "ref": "master",
-        "sha": "877551077786664d1cbeb32013443291c66e69e6"
-      },
-      "homepage": "https://www.airwallex.com/docs",
-      "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/airwallex-dev.png"
     },
     {
       "name": "aiven",
@@ -3761,7 +3744,7 @@
     {
       "name": "security-guidance",
       "description": "针对 Claude 生成代码的安全审查。编辑时基于模式的告警，Stop 时由 LLM 驱动的 diff 审查，以及一个 agentic commit 审查器，可捕获注入、XSS、SSRF、硬编码密钥以及其他 25+ 类漏洞。",
-      "version": "2.0.19",
+      "version": "2.0.20",
       "author": {
         "name": "Anthropic",
         "email": "support@anthropic.com"
@@ -4135,7 +4118,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/obra/superpowers.git",
-        "sha": "bb92a77741419a4ab5f06e711a283343f1ada0c3"
+        "sha": "22f0b463e7a5e579904dd6211a520321035526f7"
       },
       "homepage": "https://github.com/obra/superpowers.git",
       "icon": "https://kael-odin.github.io/claude-plugins-zh/appicons/superpowers.png"

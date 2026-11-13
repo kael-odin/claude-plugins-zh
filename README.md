@@ -1,7 +1,7 @@
 # claude-plugins-zh · Claude Code 官方插件中文市场
 
-自动同步 [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official)（**317 个插件**，Apache-2.0）的**中文版市场**：
-插件介绍与分类已汉化（中文介绍 **315/317**，上游改词后暂留英文、本地补译），插件源码逐字不动（机器可证），每日自动跟进上游。
+自动同步 [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official)（**316 个插件**，Apache-2.0）的**中文版市场**：
+插件介绍与分类已汉化（中文介绍 **314/316**，上游改词后暂留英文、本地补译），插件源码逐字不动（机器可证），每日自动跟进上游。
 
 **Claude Code 与 Codex 两个客户端都能装**，插件面板里显示的都是中文介绍与中文分类——两边读的是不同的字段（Claude 读市场清单的 `description`，Codex 读插件的 `interface`），本仓库同时产出两份，见 [为什么 Codex 里也有中文](#为什么-codex-里也有中文)。
 
@@ -27,7 +27,7 @@
 claude plugin marketplace add kael-odin/claude-plugins-zh
 ```
 
-之后 `/plugin` 面板里出现「kael-odin-plugins-zh」，315 个插件的介绍与分类为中文（中文介绍 **315/317**）；更新快照：
+之后 `/plugin` 面板里出现「kael-odin-plugins-zh」，314 个插件的介绍与分类为中文（中文介绍 **314/316**）；更新快照：
 
 ```bash
 claude plugin marketplace update kael-odin-plugins-zh   # 或在 /plugin 面板里点更新
@@ -47,7 +47,7 @@ https://github.com/kael-odin/claude-plugins-zh.git
 codex plugin marketplace add https://github.com/kael-odin/claude-plugins-zh.git
 ```
 
-插件列表里出现「**Claude Code 官方插件 · 中文版**」，315 个条目的副标题与详情页为中文（中文介绍 **315/317**）。
+插件列表里出现「**Claude Code 官方插件 · 中文版**」，314 个条目的副标题与详情页为中文（中文介绍 **314/316**）。
 
 > 官方英文原味市场：`/plugin marketplace add anthropics/claude-plugins-official`。两个市场可并存，中文版只是门面。
 
@@ -57,9 +57,9 @@ codex plugin marketplace add https://github.com/kael-odin/claude-plugins-zh.git
 
 | 项 | 数量 | 说明 |
 | --- | --- | --- |
-| 插件清单 | **317** | 全部条目：中文介绍 + 中文分类；同时产出 Codex 原生清单 `.agents/plugins/marketplace.json` |
+| 插件清单 | **316** | 全部条目：中文介绍 + 中文分类；同时产出 Codex 原生清单 `.agents/plugins/marketplace.json` |
 | 仓内插件 | 54（`plugins/` 40 + `external_plugins/` 14） | 逐字转载；plugin.json 只汉化 `description`，另补 Codex 展示用的 `interface` 字段（Claude Code 明确忽略该键） |
-| 远程引用 | 262（git-subdir 99 · url 163） | 插件体原样保留、指向官方/原仓库；Codex 里的中文介绍随清单条目下发 |
+| 远程引用 | 261（git-subdir 98 · url 163） | 插件体原样保留、指向官方/原仓库；Codex 里的中文介绍随清单条目下发 |
 | 本机命令 | 1（command） | 客户端在本机执行命令来定位插件路径（如 Xcode 的 `xcrun agent plugin path`）；不复制插件体，条目原样保留 |
 
 （上游 `plugins/example-plugin` 是示例目录，不在清单内，同样原样转载。）
@@ -68,7 +68,7 @@ codex plugin marketplace add https://github.com/kael-odin/claude-plugins-zh.git
 
 ## 「无损」是怎么保证的
 
-`tools/verify.mjs` 每次发布前对账：724 个文件中，除白名单（市场清单的 `name`/`description`/`owner`、各条目的 `description`/`category`、各 plugin.json 的 `description` 与 Codex 展示字段 `interface.shortDescription`/`longDescription`/`category`）外，**667 个文件与上游逐字节一致**（余下 57 个即白名单字段所在文件），CI 全绿才推送。生成的 `.agents/plugins/marketplace.json` 没有上游对应物，单独按「1 个自有文件」核对：条目集合、来源、分类、中文长描述必须与 Claude 清单完全一致，短描述必须是长描述的首个小句——两份清单不许漂移。译文以「源文本哈希」为键存放在 [i18n/zh/](i18n/zh)——上游改词自动失效重翻，绝不张冠李戴。
+`tools/verify.mjs` 每次发布前对账：726 个文件中，除白名单（市场清单的 `name`/`description`/`owner`、各条目的 `description`/`category`、各 plugin.json 的 `description` 与 Codex 展示字段 `interface.shortDescription`/`longDescription`/`category`）外，**669 个文件与上游逐字节一致**（余下 57 个即白名单字段所在文件），CI 全绿才推送。生成的 `.agents/plugins/marketplace.json` 没有上游对应物，单独按「1 个自有文件」核对：条目集合、来源、分类、中文长描述必须与 Claude 清单完全一致，短描述必须是长描述的首个小句——两份清单不许漂移。译文以「源文本哈希」为键存放在 [i18n/zh/](i18n/zh)——上游改词自动失效重翻，绝不张冠李戴。
 
 ## 为什么 Codex 里也有中文
 
@@ -78,7 +78,7 @@ codex plugin marketplace add https://github.com/kael-odin/claude-plugins-zh.git
 | --- | --- | --- |
 | 清单文件 | `.claude-plugin/marketplace.json` | `.agents/plugins/marketplace.json`（原生格式） |
 | 描述取自 | **清单条目**的 `description` | **插件 manifest** 的 `interface.shortDescription`/`longDescription`；条目面板读不到 manifest 时回落到清单条目的 `interface` |
-| 汉化落点 | 条目 `description`、`category` | 条目的 `interface`（262 条远程引用）+ 仓内 plugin.json 的 `interface`（54 条仓内插件） |
+| 汉化落点 | 条目 `description`、`category` | 条目的 `interface`（261 条远程引用）+ 仓内 plugin.json 的 `interface`（54 条仓内插件） |
 
 Codex 只把 `.claude-plugin/marketplace.json` 当兼容兜底读取，而它的清单条目结构里**没有 `description` 字段**（它认的是 `name`/`source`/`policy`/`category` 加一个 `interface` 块）。所以只汉化 `description` 的仓库在 Codex 里会显示不出介绍——这正是本仓库补出第二份清单与 `interface` 字段的原因。两边的中文同源：都来自 [i18n/zh/](i18n/zh) 同一份译文账本。
 

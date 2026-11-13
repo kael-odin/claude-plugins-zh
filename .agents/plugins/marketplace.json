@@ -99,7 +99,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/AikidoSec/aikido-claude-plugin.git",
-        "sha": "8fdc995a44102a30ad54164e0bdd249d158c725c"
+        "sha": "75e45f337568bf3e0f5d99bc1b41d8844492df19"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -150,26 +150,6 @@
         "shortDescription": "将 Airwallex 的全球金融基础设施接入 Claude。",
         "longDescription": "将 Airwallex 的全球金融基础设施接入 Claude。用自然语言编排账户中的各类操作，例如根据 PO 生成发票、从发票中完成供应商入驻、查询各币种的当前现金头寸。AgentOS 将预置的财务 Skills 与 MCP 服务器打包在一起。公共 CLI 可将你的 agent 连接到 Airwallex 的各项能力。",
         "category": "效率办公"
-      }
-    },
-    {
-      "name": "airwallex-dev",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/airwallex/airwallex-marketplace.git",
-        "path": "plugins/airwallex-dev",
-        "ref": "master",
-        "sha": "877551077786664d1cbeb32013443291c66e69e6"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "开发工具",
-      "interface": {
-        "shortDescription": "在你自己的代码库中构建 Airwallex 支付集成。",
-        "longDescription": "在你自己的代码库中构建 Airwallex 支付集成。为 Airwallex 集成生成结账、卡元素、入驻和订阅计费的代码，并接入你的项目：Hosted Payment Page、Drop-in 与 Split Card 元素、关联账户 KYC 入驻，以及用于订阅和卡保存的 Billing Hosted Checkout。还可为 AI 服务商规划卡存档的商户发起交易流程，例如充值和自动续费。",
-        "category": "开发工具"
       }
     },
     {
@@ -4941,7 +4921,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/obra/superpowers.git",
-        "sha": "bb92a77741419a4ab5f06e711a283343f1ada0c3"
+        "sha": "22f0b463e7a5e579904dd6211a520321035526f7"
       },
       "policy": {
         "installation": "AVAILABLE",
