@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-11-12T16:10:35-08:00",
+  "generatedAt": "2026-11-14T00:41:08Z",
   "upstream": {
     "repo": "https://github.com/anthropics/claude-plugins-official",
-    "sha": "f75f5b25ae94f4332be4ff5f18435741d2589bdb",
+    "sha": "b5b01ac4f889fec0c4c6bb89f27ca7c8574473f6",
     "license": "Apache-2.0"
   },
   "marketplace": {
     "name": "kael-odin-plugins-zh",
     "description": "Claude Code 官方插件目录 · 中文版 — 自动同步 anthropics/claude-plugins-official，315 个插件的中文介绍与中文分类，插件源码保持逐字不动（Apache-2.0）。"
   },
-  "total": 316,
-  "zhDescriptions": 314,
+  "total": 317,
+  "zhDescriptions": 313,
   "byKind": {
     "git-subdir": 98,
-    "in-repo": 54,
+    "in-repo": 55,
     "url": 163,
     "command": 1
   },
@@ -2935,16 +2935,16 @@
       "icon": "appicons/sap-cds-mcp.png"
     },
     {
-      "name": "sap-fiori-mcp-server",
+      "name": "sap-ux-fiori-tools",
       "category": "development",
       "categoryZh": "开发工具",
-      "descriptionZh": "用于 Claude Code 的 SAP Fiori 开发工具 MCP server。在 AI 辅助下构建和修改 SAP Fiori 应用。",
-      "descriptionEn": "MCP server for SAP Fiori development tools for Claude Code. Build and modify SAP Fiori applications with AI assistance.",
+      "descriptionZh": "MCP server and skills for SAP Fiori development. Build, modify, and test SAP Fiori Elements applications with AI assistance.",
+      "descriptionEn": "MCP server and skills for SAP Fiori development. Build, modify, and test SAP Fiori Elements applications with AI assistance.",
       "author": "SAP SE",
-      "homepage": "https://github.com/SAP/open-ux-tools/tree/main/packages/fiori-mcp-server",
+      "homepage": "https://github.com/SAP/open-ux-tools/tree/main/plugins-coding-agents/fiori",
       "kind": "git-subdir",
       "repo": null,
-      "icon": "appicons/sap-fiori-mcp-server.png"
+      "icon": "appicons/sap-ux-fiori-tools.png"
     },
     {
       "name": "sap-hana-cli",
@@ -3389,6 +3389,18 @@
       "kind": "in-repo",
       "repo": null,
       "icon": "appicons/terraform.png"
+    },
+    {
+      "name": "theme-examples",
+      "category": "design",
+      "categoryZh": "设计创作",
+      "descriptionZh": "An example plugin to read, copy and change: twenty animated backdrops behind the chat in the Claude desktop app, with frosted-glass panels, one per project or per session. Needs a version of Claude Desktop that draws a plugin's backdrop.",
+      "descriptionEn": "An example plugin to read, copy and change: twenty animated backdrops behind the chat in the Claude desktop app, with frosted-glass panels, one per project or per session. Needs a version of Claude Desktop that draws a plugin's backdrop.",
+      "author": "Anthropic",
+      "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/theme-examples",
+      "kind": "in-repo",
+      "repo": null,
+      "icon": "appicons/theme-examples.png"
     },
     {
       "name": "togetherai-skills",

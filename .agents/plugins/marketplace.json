@@ -760,7 +760,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/blackrock/advisor-center-agent-skills.git",
-        "sha": "591c758960c18c26fe8342ddb8ad3ba4dcfac6fe"
+        "sha": "736344f85fd43d5038f35170abd034f8fd0e1684"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -1490,7 +1490,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/CrowdStrike/foundry-skills.git",
-        "sha": "61572f38592d47c747e2595182459781bf0bc679"
+        "sha": "90082f829c6c2c4192b1459a01488863a1e82d1e"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -1508,7 +1508,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/CrowdStrike/fusion-skills.git",
-        "sha": "38527dc5afa970543859c31ca5dbf69352bfaa28"
+        "sha": "d4e2abf93b1f0900fcc67fe040e98d086fa1fb0c"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -3962,7 +3962,7 @@
         "url": "https://github.com/qodo-ai/qodo-skills.git",
         "path": "packages/qodo",
         "ref": "main",
-        "sha": "b8c21854199c538b1c35c981c12a93bab4839ef2"
+        "sha": "588e413a73b466ec4fe9cec79a34051d13f06ab3"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -4352,13 +4352,13 @@
       }
     },
     {
-      "name": "sap-fiori-mcp-server",
+      "name": "sap-ux-fiori-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/SAP/open-ux-tools.git",
-        "path": "packages/fiori-mcp-server",
+        "path": "plugins-coding-agents/fiori",
         "ref": "main",
-        "sha": "69e2c50833f10e6892d7c8f42b98b13133d8fdc3"
+        "sha": "08afc41ddb24c1be3142c4fe609971c7f3501ca1"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -4366,8 +4366,8 @@
       },
       "category": "开发工具",
       "interface": {
-        "shortDescription": "用于 Claude Code 的 SAP Fiori 开发工具 MCP server。",
-        "longDescription": "用于 Claude Code 的 SAP Fiori 开发工具 MCP server。在 AI 辅助下构建和修改 SAP Fiori 应用。",
+        "shortDescription": "MCP server and skills for SAP Fiori development. Build…",
+        "longDescription": "MCP server and skills for SAP Fiori development. Build, modify, and test SAP Fiori Elements applications with AI assistance.",
         "category": "开发工具"
       }
     },
@@ -5030,6 +5030,20 @@
         "shortDescription": "Terraform MCP Server 提供与 Terraform 生态系统的无缝集成",
         "longDescription": "Terraform MCP Server 提供与 Terraform 生态系统的无缝集成，为基础设施即代码（IaC）开发带来高级自动化与交互能力。",
         "category": "开发工具"
+      }
+    },
+    {
+      "name": "theme-examples",
+      "source": "./plugins/theme-examples",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "设计创作",
+      "interface": {
+        "shortDescription": "An example plugin to read, copy and change: twenty ani…",
+        "longDescription": "An example plugin to read, copy and change: twenty animated backdrops behind the chat in the Claude desktop app, with frosted-glass panels, one per project or per session. Needs a version of Claude Desktop that draws a plugin's backdrop.",
+        "category": "设计创作"
       }
     },
     {
