@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-14T00:41:08Z",
+  "generatedAt": "2026-11-16T14:38:13-08:00",
   "upstream": {
     "repo": "https://github.com/anthropics/claude-plugins-official",
-    "sha": "b5b01ac4f889fec0c4c6bb89f27ca7c8574473f6",
+    "sha": "fd30cee3ecd5a8ee772733c5d20c0f2bae2da2f0",
     "license": "Apache-2.0"
   },
   "marketplace": {
