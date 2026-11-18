@@ -1,13 +1,14 @@
 {
-  "from": "b5b01ac4f889fec0c4c6bb89f27ca7c8574473f6",
-  "to": "fd30cee3ecd5a8ee772733c5d20c0f2bae2da2f0",
-  "generatedAt": "2026-11-16T14:38:13-08:00",
+  "from": "fd30cee3ecd5a8ee772733c5d20c0f2bae2da2f0",
+  "to": "e6143c9807a001832badb63e89d58ffe25d542ec",
+  "generatedAt": "2026-11-17T17:59:13-08:00",
   "firstSync": false,
   "plugins": {
     "added": [
       "security-guidance"
     ],
     "modified": [
+      "discord",
       "security-guidance"
     ],
     "removed": []
