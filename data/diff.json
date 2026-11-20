@@ -1,12 +1,15 @@
 {
-  "from": "e6143c9807a001832badb63e89d58ffe25d542ec",
-  "to": "df9699a55c56707e9948a32951ea356638ea8519",
-  "generatedAt": "2026-11-19T01:14:56Z",
+  "from": "df9699a55c56707e9948a32951ea356638ea8519",
+  "to": "d7d32797e7e02708d0bb00ffe8b8f2397dc1aea6",
+  "generatedAt": "2026-11-19T17:20:22-08:00",
   "firstSync": false,
   "plugins": {
-    "added": [],
+    "added": [
+      "code-modernization"
+    ],
     "modified": [
-      "discord"
+      "code-modernization",
+      "theme-examples"
     ],
     "removed": []
   },
