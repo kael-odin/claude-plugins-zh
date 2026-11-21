@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-19T17:20:22-08:00",
+  "generatedAt": "2026-11-20T17:17:51-08:00",
   "upstream": {
     "repo": "https://github.com/anthropics/claude-plugins-official",
-    "sha": "d7d32797e7e02708d0bb00ffe8b8f2397dc1aea6",
+    "sha": "73c8cf3ea7e296057b467990f2f5d61b4c922260",
     "license": "Apache-2.0"
   },
   "marketplace": {
@@ -3394,8 +3394,8 @@
       "name": "theme-examples",
       "category": "design",
       "categoryZh": "设计创作",
-      "descriptionZh": "An example plugin to read, copy and change: twenty animated backdrops behind the chat in the Claude desktop app, with frosted-glass panels, one per project or per session. Needs a version of Claude Desktop that draws a plugin's backdrop.",
-      "descriptionEn": "An example plugin to read, copy and change: twenty animated backdrops behind the chat in the Claude desktop app, with frosted-glass panels, one per project or per session. Needs a version of Claude Desktop that draws a plugin's backdrop.",
+      "descriptionZh": "An example plugin to read, copy and change: thirty-eight animated backdrops behind the chat in the Claude desktop app, with frosted-glass panels, one per project or per session. Needs a version of Claude Desktop that draws a plugin's backdrop.",
+      "descriptionEn": "An example plugin to read, copy and change: thirty-eight animated backdrops behind the chat in the Claude desktop app, with frosted-glass panels, one per project or per session. Needs a version of Claude Desktop that draws a plugin's backdrop.",
       "author": "Anthropic",
       "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/theme-examples",
       "kind": "in-repo",
