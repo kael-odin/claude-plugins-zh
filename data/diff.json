@@ -1,17 +1,11 @@
 {
-  "from": "d7d32797e7e02708d0bb00ffe8b8f2397dc1aea6",
+  "from": "73c8cf3ea7e296057b467990f2f5d61b4c922260",
   "to": "73c8cf3ea7e296057b467990f2f5d61b4c922260",
   "generatedAt": "2026-11-20T17:17:51-08:00",
   "firstSync": false,
   "plugins": {
-    "added": [
-      "security-guidance",
-      "theme-examples"
-    ],
-    "modified": [
-      "security-guidance",
-      "theme-examples"
-    ],
+    "added": [],
+    "modified": [],
     "removed": []
   },
   "files": {
