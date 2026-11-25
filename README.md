@@ -1,7 +1,7 @@
 # claude-plugins-zh · Claude Code 官方插件中文市场
 
 自动同步 [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official)（**317 个插件**，Apache-2.0）的**中文版市场**：
-插件介绍与分类已汉化（中文介绍 **313/317**，上游改词后暂留英文、本地补译），插件源码逐字不动（机器可证），每日自动跟进上游。
+插件介绍与分类已汉化（中文介绍 **312/317**，上游改词后暂留英文、本地补译），插件源码逐字不动（机器可证），每日自动跟进上游。
 
 **Claude Code 与 Codex 两个客户端都能装**，插件面板里显示的都是中文介绍与中文分类——两边读的是不同的字段（Claude 读市场清单的 `description`，Codex 读插件的 `interface`），本仓库同时产出两份，见 [为什么 Codex 里也有中文](#为什么-codex-里也有中文)。
 
@@ -27,7 +27,7 @@
 claude plugin marketplace add kael-odin/claude-plugins-zh
 ```
 
-之后 `/plugin` 面板里出现「kael-odin-plugins-zh」，313 个插件的介绍与分类为中文（中文介绍 **313/317**）；更新快照：
+之后 `/plugin` 面板里出现「kael-odin-plugins-zh」，312 个插件的介绍与分类为中文（中文介绍 **312/317**）；更新快照：
 
 ```bash
 claude plugin marketplace update kael-odin-plugins-zh   # 或在 /plugin 面板里点更新
@@ -47,7 +47,7 @@ https://github.com/kael-odin/claude-plugins-zh.git
 codex plugin marketplace add https://github.com/kael-odin/claude-plugins-zh.git
 ```
 
-插件列表里出现「**Claude Code 官方插件 · 中文版**」，313 个条目的副标题与详情页为中文（中文介绍 **313/317**）。
+插件列表里出现「**Claude Code 官方插件 · 中文版**」，312 个条目的副标题与详情页为中文（中文介绍 **312/317**）。
 
 > 官方英文原味市场：`/plugin marketplace add anthropics/claude-plugins-official`。两个市场可并存，中文版只是门面。
 
@@ -68,7 +68,7 @@ codex plugin marketplace add https://github.com/kael-odin/claude-plugins-zh.git
 
 ## 「无损」是怎么保证的
 
-`tools/verify.mjs` 每次发布前对账：781 个文件中，除白名单（市场清单的 `name`/`description`/`owner`、各条目的 `description`/`category`、各 plugin.json 的 `description` 与 Codex 展示字段 `interface.shortDescription`/`longDescription`/`category`）外，**723 个文件与上游逐字节一致**（余下 58 个即白名单字段所在文件），CI 全绿才推送。生成的 `.agents/plugins/marketplace.json` 没有上游对应物，单独按「1 个自有文件」核对：条目集合、来源、分类、中文长描述必须与 Claude 清单完全一致，短描述必须是长描述的首个小句——两份清单不许漂移。译文以「源文本哈希」为键存放在 [i18n/zh/](i18n/zh)——上游改词自动失效重翻，绝不张冠李戴。
+`tools/verify.mjs` 每次发布前对账：922 个文件中，除白名单（市场清单的 `name`/`description`/`owner`、各条目的 `description`/`category`、各 plugin.json 的 `description` 与 Codex 展示字段 `interface.shortDescription`/`longDescription`/`category`）外，**864 个文件与上游逐字节一致**（余下 58 个即白名单字段所在文件），CI 全绿才推送。生成的 `.agents/plugins/marketplace.json` 没有上游对应物，单独按「1 个自有文件」核对：条目集合、来源、分类、中文长描述必须与 Claude 清单完全一致，短描述必须是长描述的首个小句——两份清单不许漂移。译文以「源文本哈希」为键存放在 [i18n/zh/](i18n/zh)——上游改词自动失效重翻，绝不张冠李戴。
 
 ## 为什么 Codex 里也有中文
 

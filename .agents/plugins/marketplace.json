@@ -721,8 +721,8 @@
       "name": "bigquery-data-analytics",
       "source": {
         "source": "url",
-        "url": "https://github.com/gemini-cli-extensions/bigquery-data-analytics.git",
-        "sha": "6f9b35627d208b03e840271f6522a28f76e7f8df"
+        "url": "https://github.com/GoogleCloudPlatform/bigquery-data-analytics-plugin.git",
+        "sha": "93e87e9c8145a4c728d44c2959d4eba596f81e92"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -1156,8 +1156,8 @@
       },
       "category": "安全",
       "interface": {
-        "shortDescription": "对自有代码进行深度漏洞扫描，完全在 Claude Code 会话内运行，可自选投入档位",
-        "longDescription": "对自有代码进行深度漏洞扫描，完全在 Claude Code 会话内运行，可自选投入档位；每项发现都会在报告前接受质询，验证结果以代码统计。将存留的发现转化为针对性补丁，每个补丁均由一组 agents 验证，由你自行决定何时应用。",
+        "shortDescription": "Find and fix vulnerabilities before attackers exploit …",
+        "longDescription": "Find and fix vulnerabilities before attackers exploit them. A team of agents maps your code, hunts for exploitable flaws and challenges every finding, so you spend your time on real bugs. Get patches analyzed by a panel of agents, and apply them when you choose. Triage other scanners' results, build a threat model, review pull requests with a GitHub Action, and see your hosted Claude Security findings.",
         "category": "安全"
       }
     },

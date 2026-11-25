@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-23T15:53:40-08:00",
+  "generatedAt": "2026-11-24T13:14:45-08:00",
   "upstream": {
     "repo": "https://github.com/anthropics/claude-plugins-official",
-    "sha": "5cec6716767283f4675a05f5f8855b5b49c81783",
+    "sha": "6985b2d88dc08b4a0d202f5f0301f02e360b9cb1",
     "license": "Apache-2.0"
   },
   "marketplace": {
@@ -10,7 +10,7 @@
     "description": "Claude Code 官方插件目录 · 中文版 — 自动同步 anthropics/claude-plugins-official，315 个插件的中文介绍与中文分类，插件源码保持逐字不动（Apache-2.0）。"
   },
   "total": 317,
-  "zhDescriptions": 313,
+  "zhDescriptions": 312,
   "byKind": {
     "git-subdir": 98,
     "in-repo": 55,
@@ -481,7 +481,7 @@
       "descriptionZh": "连接并查询 BigQuery 数据集和数据，生成数据洞察。",
       "descriptionEn": "Connect, query, and generate data insights for BigQuery datasets and data.",
       "author": "Google LLC",
-      "homepage": "https://github.com/gemini-cli-extensions/bigquery-data-analytics",
+      "homepage": "https://github.com/GoogleCloudPlatform/bigquery-data-analytics-plugin",
       "kind": "url",
       "repo": null,
       "icon": "appicons/bigquery-data-analytics.png"
@@ -766,8 +766,8 @@
       "name": "claude-security",
       "category": "security",
       "categoryZh": "安全",
-      "descriptionZh": "对自有代码进行深度漏洞扫描，完全在 Claude Code 会话内运行，可自选投入档位；每项发现都会在报告前接受质询，验证结果以代码统计。将存留的发现转化为针对性补丁，每个补丁均由一组 agents 验证，由你自行决定何时应用。",
-      "descriptionEn": "Deep vulnerability scanning of your own code, run entirely inside your Claude Code session at a chosen effort tier, with every finding challenged before it is reported and the verification tally computed in code. Turns surviving findings into targeted patches, each verified by a panel of agents, that you apply when you choose.",
+      "descriptionZh": "Find and fix vulnerabilities before attackers exploit them. A team of agents maps your code, hunts for exploitable flaws and challenges every finding, so you spend your time on real bugs. Get patches analyzed by a panel of agents, and apply them when you choose. Triage other scanners' results, build a threat model, review pull requests with a GitHub Action, and see your hosted Claude Security findings.",
+      "descriptionEn": "Find and fix vulnerabilities before attackers exploit them. A team of agents maps your code, hunts for exploitable flaws and challenges every finding, so you spend your time on real bugs. Get patches analyzed by a panel of agents, and apply them when you choose. Triage other scanners' results, build a threat model, review pull requests with a GitHub Action, and see your hosted Claude Security findings.",
       "author": "Anthropic",
       "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/claude-security",
       "kind": "in-repo",
