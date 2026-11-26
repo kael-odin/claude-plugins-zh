@@ -1,12 +1,10 @@
 {
-  "from": "5cec6716767283f4675a05f5f8855b5b49c81783",
-  "to": "6985b2d88dc08b4a0d202f5f0301f02e360b9cb1",
-  "generatedAt": "2026-11-24T13:14:45-08:00",
+  "from": "6985b2d88dc08b4a0d202f5f0301f02e360b9cb1",
+  "to": "0fbfda5a91f4adc311daca25acc99132f40f0b6e",
+  "generatedAt": "2026-11-25T14:51:26-08:00",
   "firstSync": false,
   "plugins": {
-    "added": [
-      "claude-security"
-    ],
+    "added": [],
     "modified": [
       "claude-security"
     ],
