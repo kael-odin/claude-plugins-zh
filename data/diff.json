@@ -1,13 +1,11 @@
 {
-  "from": "6985b2d88dc08b4a0d202f5f0301f02e360b9cb1",
+  "from": "0fbfda5a91f4adc311daca25acc99132f40f0b6e",
   "to": "0fbfda5a91f4adc311daca25acc99132f40f0b6e",
   "generatedAt": "2026-11-25T14:51:26-08:00",
   "firstSync": false,
   "plugins": {
     "added": [],
-    "modified": [
-      "claude-security"
-    ],
+    "modified": [],
     "removed": []
   },
   "files": {
